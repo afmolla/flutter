@@ -1,427 +1,11 @@
 {
   "urunler": [
     {
-      "id": "u0001",
-      "slug": "sekerleme-urunleri-ambalajlari",
-      "baslik": "Şekerleme Ürünleri Ambalajları",
-      "ozet": "Şekerleme ürünleriniz için özel olarak tasarladığımız esnek ambalaj çözümlerimiz, tazeliği, aromayı ve görselliği en üst düzeyde korur. Soğuk yapıştırma (cold-seal), yüksek çözünürlüklü baskı ve optimize edilmiş film kombinasyonları sayesinde raf ömrünü maksimize ederiz. Parlak, mat, metalize, şeffaf veya doğal kağıt görünümlü yüzey seçenekleriyle marka kimliğinizi güçlendiririz.",
-      "aciklama": "Şekerleme ürünleriniz için özel olarak tasarladığımız esnek ambalaj çözümlerimiz, tazeliği, aromayı ve görselliği en üst düzeyde korur. Soğuk yapıştırma (cold-seal), yüksek çözünürlüklü baskı ve optimize edilmiş film kombinasyonları sayesinde raf ömrünü maksimize ederiz. Parlak, mat, metalize, şeffaf veya doğal kağıt görünümlü yüzey seçenekleriyle marka kimliğinizi güçlendiririz. Şekerleme, draje, lokum, çikolata ve benzeri tatlı ürünler için idealdir. Oksijen, ışık ve neme karşı üst düzey koruma sağlayarak tazelik ve aroma kaybını önler. Soğuk yapıştırma (cold-seal) teknolojisi ile üretim hatlarında yüksek verimlilik sunar. Parlak ve metalize baskı seçenekleriyle raflarda etkileyici bir görsel kalite vaat eder. Film Yapıları: OPP/PE, OPP/MET/OPP, OPP/CPP. Baskı: Yüksek çözünürlük ve bobin boyunca renk tutarlılığı. Bariyer: O₂, nem ve ışık geçirgenliğine karşı optimize edilmiş katmanlar. Mekanik Dayanım: Yırtılma ve zımbalama direnci, güçlü yapıştırma performansı. Yeniden kapatılabilir fermuar, kolay yırtma çentiği (tear-notch). Şeffaf pencere, yumuşak dokunuşlu (soft-touch) yüzey. Mat/parlak kombinasyonları; geri dönüştürülebilir film alternatifleri.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/sekerleme-main_6155c.webp",
-      "imageAlt": "Şekerleme Ürünleri Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 1,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0002",
-      "slug": "kurutulmus-gida-ambalajlari",
-      "baslik": "Kurutulmuş Gıda Ambalajları",
-      "ozet": "Kurutulmuş gıda ambalajlarımız, meyve, sebze ve bakliyat gibi ürünlerinizin aroma, lezzet ve besin değerini korurken uzun raf ömrü sağlar. Tekrar kapatılabilirlik özelliği ve güçlü bariyer yapısıyla ürünlerinizin günlük tazeliğini muhafaza eder.",
-      "aciklama": "Kurutulmuş gıda ambalajlarımız, meyve, sebze ve bakliyat gibi ürünlerinizin aroma, lezzet ve besin değerini korurken uzun raf ömrü sağlar. Tekrar kapatılabilirlik özelliği ve güçlü bariyer yapısıyla ürünlerinizin günlük tazeliğini muhafaza eder. Kurutulmuş meyve, sebze, bakliyat ve atıştırmalıklar için uygundur. Nem, oksijen ve ışığa karşı uzun süreli üstün koruma. Tekrar kapatılabilir (zip) fermuar sayesinde tüketiciye kullanım kolaylığı sunar. Pencere veya şeffaf alan seçeneği ile ürün görünürlüğü sağlar. Film Yapıları: PE, CPP, laminasyonlu OPP/PE. Çok katmanlı bariyer kombinasyonları ile küf ve rutubet riskini minimize eder. Isıya ve sürtünmeye dayanıklı dış katmanlar. Parlak, mat ve metalize yüzey seçenekleri. Zip fermuar, kolay açılır yırtma çizgileri. Pencereli tasarım, özel baskı opsiyonları. Biyobaz içerikli çevre dostu filmler.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/dried-fruit-main_175b9.webp",
-      "imageAlt": "Kurutulmuş Gıda Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 2,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0003",
-      "slug": "icecek-ve-takviye-urunleri-ambalajlari",
-      "baslik": "İçecek ve Takviye Ürünleri Ambalajları",
-      "ozet": "İçecek ve takviye ürünleri için özel olarak geliştirdiğimiz ambalaj çözümlerimiz, toz, granül, tek kullanımlık poşet ve içecek torbalarında mükemmel sızdırmazlık ve stabilite sunar. Çok katmanlı, yüksek bariyerli yapılarıyla dozaj kolaylığı, kapak ve kullanıcı dostu tasarımlara odaklanır.",
-      "aciklama": "İçecek ve takviye ürünleri için özel olarak geliştirdiğimiz ambalaj çözümlerimiz, toz, granül, tek kullanımlık poşet ve içecek torbalarında mükemmel sızdırmazlık ve stabilite sunar. Çok katmanlı, yüksek bariyerli yapılarıyla dozaj kolaylığı, kapak ve kullanıcı dostu tasarımlara odaklanır. Toz içecekler, protein tozları, içecek torbaları ve takviye edici gıdalar. Aroma ve etken madde stabilitesini en üst düzeyde koruma. Üstün sızdırmazlık ve hijyen ile güvenli taşıma ve saklama imkanı. Marka görünürlüğünü artıran yüksek kaliteli baskı çözümleri. Film Yapıları: PET/AL/PE, PET/PE, çok katmanlı laminatlar. İç Kaplamalar: Kayganlık sağlayan, kimyasal dirençli ve gözeneksiz yapı. Sızdırmaz mühürleme ve yüksek yapıştırma gücü. Delinme ve yırtılmaya karşı yüksek mekanik dayanım. Kapanabilir kapak ve dozajlı kapak seçenekleri. Fermuar, kolay yırtılma bandı. Özel iç kaplama (tam uyumlu, gıda sınıfı malzeme).",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/urun-detay-main-image_b2f8b.webp",
-      "imageAlt": "İçecek ve Takviye Ürünleri Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 3,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0004",
-      "slug": "firin-urunleri-ambalajlari",
-      "baslik": "Fırın Ürünleri Ambalajları",
-      "ozet": "Fırın ürünleri için geliştirdiğimiz ambalaj çözümlerimiz, ekmek, poğaça ve çörek gibi taze ürünlerin kıtırlığını, dokusunu ve tazeliğini korur. Bariyerli ancak kontrollü nefes alabilen yapısı, ventilasyon delikleri ve termal dayanımı sayesinde paket içi nem yönetimi sağlar.",
-      "aciklama": "Fırın ürünleri için geliştirdiğimiz ambalaj çözümlerimiz, ekmek, poğaça ve çörek gibi taze ürünlerin kıtırlığını, dokusunu ve tazeliğini korur. Bariyerli ancak kontrollü nefes alabilen yapısı, ventilasyon delikleri ve termal dayanımı sayesinde paket içi nem yönetimi sağlar. Taze fırın ürünleri ve pastane ürünleri için idealdir. Buhar kontrolü sağlayarak kabuk kıtırlığını korur. Yeniden kapatılabilirlik özelliği ile tazelik süresini uzatır. Raf çekiciliğini artıran özel baskı ve pencere seçenekleri sunar. Film Yapıları: PET/PE, OPP/PE, CPP/PE. Mikro-ventilasyon delikleri ve buğu önleyici (anti-fog) kaplamalar. Paketleme ve kısa süreli ısı/soğuk süreçlerine uygun termal dayanım. Güçlü yapıştırma performansı ve mekanik mukavemet. Ventilasyon delikli tasarımlar. Kolay açılır-kapanır sızdırmaz yapılar. Şeffaf pencere, mat/parlak baskı kombinasyonları.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/ekmek-ambalaj-main_2367f.webp",
-      "imageAlt": "Fırın Ürünleri Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 4,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0005",
-      "slug": "tavuk-ve-ekmek-ambalajlari",
-      "baslik": "Tavuk ve Ekmek Ambalajları",
-      "ozet": "Tavuk ve ekmek ambalaj çözümlerimiz, gıda güvenliği ve hijyeni ön planda tutarak, yüksek hızlı dolum hatlarına uygun wicket bag ve çok amaçlı torba formatlarıyla üretim verimliliği ve etkili raf sunumu sağlar.",
-      "aciklama": "Tavuk ve ekmek ambalaj çözümlerimiz, gıda güvenliği ve hijyeni ön planda tutarak, yüksek hızlı dolum hatlarına uygun wicket bag ve çok amaçlı torba formatlarıyla üretim verimliliği ve etkili raf sunumu sağlar. Donuk ve taze tavuk ürünleri, ekmek ve benzeri gıdalar için uygundur. Otomatik ve yarı otomatik hatlarla tam uyumluluk. Çok amaçlı kullanım: gıda, tekstil, sebze/meyve ambalajı. Hava sirkülasyonu ve koruma dengesini sağlayan seçenekler. Malzemeler: OPP, LDPE/HDPE, CPP, çok katmanlı laminatlar. Düz, mikroperfore ve pencereli çeşitler. Yüksek hızlı üretim için optimize besleme uyumlu yapı. Dayanıklı yapıştırma ve kaynak teknolojileri. Wicket bag formatı, taşıma kulpları. Mikroperforasyon, pencere ve baskı opsiyonları. Sızdırmazlık ve kolay ayrılma için özel kesim teknikleri.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/tavuk-ambalaj-main_d16c6.webp",
-      "imageAlt": "Tavuk ve Ekmek Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 5,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0006",
-      "slug": "cay-ve-kahve-ambalajlari",
-      "baslik": "Çay ve Kahve Ambalajları",
-      "ozet": "Çay ve kahve ambalajlarımız, aroma korumasına odaklanan, alüminyum kaplama ve çok katmanlı bariyer yapılarıyla uzun raf ömrü sunan çözümlerdir. Tek yönlü valf ve yeniden kapatılabilir fermuar gibi tüketici odaklı fonksiyonlarla zenginleştirilmiştir.",
-      "aciklama": "Çay ve kahve ambalajlarımız, aroma korumasına odaklanan, alüminyum kaplama ve çok katmanlı bariyer yapılarıyla uzun raf ömrü sunan çözümlerdir. Tek yönlü valf ve yeniden kapatılabilir fermuar gibi tüketici odaklı fonksiyonlarla zenginleştirilmiştir. Çay yaprakları, poşet çay, çekirdek ve öğütülmüş kahve için idealdir. Aroma kaybını önleyen yüksek bariyerli yapılar. Valf uygulaması ile paket içi gaz yönetimi sağlar. Marka değerini öne çıkaran özel baskı ve yüzey işlemleri. Film Yapıları: PET/ALU/PE, PET/MetPET/PE, PET/PE-EVOH-PE. Tek yönlü gaz valfleri, yüksek bariyer katmanlar. Kraft kağıt görünümlü veya metalize yüzey opsiyonları. Yüksek çözünürlüklü baskı, UV dayanımı. Gaz çıkış valfi uygulaması. Fermuar ve yeniden kapatma seçenekleri. Penceresiz opak veya kraft kağıt görünümlü tasarımlar.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/ambalaj-cay-kahve_b907f.webp",
-      "imageAlt": "Çay ve Kahve Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 6,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0007",
-      "slug": "baharat-ambalajlari",
-      "baslik": "Baharat Ambalajları",
-      "ozet": "Baharat ambalajlarımız, UV ışınları, oksijen ve neme karşı üstün bariyer koruması sağlayan çok katmanlı filmlerle aromanın ve rengin korunmasını garantiler. Küçük dozajlı paketleme ihtiyaçlarına uygun, estetik ve fonksiyonel çözümler sunar.",
-      "aciklama": "Baharat ambalajlarımız, UV ışınları, oksijen ve neme karşı üstün bariyer koruması sağlayan çok katmanlı filmlerle aromanın ve rengin korunmasını garantiler. Küçük dozajlı paketleme ihtiyaçlarına uygun, estetik ve fonksiyonel çözümler sunar. Toz ve tane baharatlar ile baharat karışımları için uygundur. Aroma ve renk stabilitesini uzun süre koruma. Küf ve bozulma riskini azaltan bariyer özellikleri. Raf sunumunda çekicilik ve etkili bilgi aktarımı için etiketleme alanı. Film Yapıları: Alüminyum kaplamalı laminatlar, PET/ALU/PE, OPP/CPP kombinasyonları. UV korumalı dış katman, nem bariyeri. Küçük hacimli porsiyonlamaya uygun yapıştırma performansı. Pencereli veya tamamen opak seçenekler. Toz akışını kolaylaştıran özel iç kaplamalar. Çekme bandı (zip) ve dozajlı kapak seçenekleri.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/baharat-ambalaj-main_38420.webp",
-      "imageAlt": "Baharat Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 7,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0008",
-      "slug": "kuru-yemisatistirmalik-ambalajlari",
-      "baslik": "Kuru Yemiş/Atıştırmalık Ambalajları",
-      "ozet": "Kuru yemiş ve atıştırmalık ambalaj çözümlerimiz, çıtırlık, lezzet ve yağ stabilitesini korumak için yüksek bariyerli filmleri ve üstün mekanik dayanımı bir araya getirir. Flowpack, stand-up pouch ve flat-bottom gibi çeşitli format seçenekleri sunar.",
-      "aciklama": "Kuru yemiş ve atıştırmalık ambalaj çözümlerimiz, çıtırlık, lezzet ve yağ stabilitesini korumak için yüksek bariyerli filmleri ve üstün mekanik dayanımı bir araya getirir. Flowpack, stand-up pouch ve flat-bottom gibi çeşitli format seçenekleri sunar. Kuru yemiş, cips, kraker ve atıştırmalık karışımları için idealdir. Yağ oksidasyonunu engelleyen yüksek bariyer koruması. Ürün görünürlüğü sağlayan pencere seçenekleri. Kullanıcı dostu yeniden kapatma ve kolay açma mekanizmaları. Yapılar: Flowpack üst film + torba kombinasyonları, çok katmanlı laminatlar. Delinme ve çentik direnci yüksek dış katman. Parlak, mat, metalize yüzeyler; yüksek çözünürlüklü baskı. Güçlü yapıştırma performansı ve mekanik mukavemet. Fermuar, kolay yırtma çentiği (tear-notch), stand-up pouch veya flat-bottom tasarımlar. Pencere uygulamaları; kraft kağıt görünümlü yüzey seçenekleri. BRC/IFS/FDA uyumlu gıda sınıfı malzemeler.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/kuru-yemis-ambalaj-main_c1179.webp",
-      "imageAlt": "Kuru Yemiş/Atıştırmalık Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 8,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0009",
-      "slug": "retort-ambalajlari",
-      "baslik": "Retort Ambalajları",
-      "ozet": "Retort ambalajlarımız, yüksek sıcaklıktaki sterilizasyon (retort) işlemlerine dayanıklı, çok katmanlı laminat yapısıyla ısıl işlem gören ürünlerin güvenle saklanmasını sağlar. Konserveye alternatif, uzun raf ömrü vaat eden çözümler sunar.",
-      "aciklama": "Retort ambalajlarımız, yüksek sıcaklıktaki sterilizasyon (retort) işlemlerine dayanıklı, çok katmanlı laminat yapısıyla ısıl işlem gören ürünlerin güvenle saklanmasını sağlar. Konserveye alternatif, uzun raf ömrü vaat eden çözümler sunar. Konserve alternatifi retort poşetleri: et, sebze, sos, yarı-sıvı ürünler. Sterilizasyon dayanımı; soğuk zincir gerektirmeden uzun depolama. Tüketiciye pratik servis ve kullanım kolaylığı. Malzeme: PET, PP, EVOH, NY içeren çok katmanlı laminatlar. Isıl Dayanım: 115–135°C aralığındaki sterilizasyon süreçlerine uygunluk. Güçlü katmanlar arası yapışma (adhesion), düşük delaminasyon riski. Yüksek yapıştırma gücü ve penetrasyon dayanımı. Kolay açılır kapak/çekme bandı, servis için özel tepsi varyantları. Farklı boyut ve gramajlarda retort poşet seçenekleri.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/retort-main_bf389.webp",
-      "imageAlt": "Retort Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 9,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0010",
-      "slug": "dondurulmus-gida-ambalajlari",
-      "baslik": "Dondurulmuş Gıda Ambalajları",
-      "ozet": "Dondurulmuş gıda ambalajlarımız, düşük sıcaklıkta esnekliğini ve dayanıklılığını koruyan, çatlamayan filmler ve yüksek bariyer özellikleriyle soğuk zincir boyunca ürünün dokusunu, aromasını ve görünümünü korur.",
-      "aciklama": "Dondurulmuş gıda ambalajlarımız, düşük sıcaklıkta esnekliğini ve dayanıklılığını koruyan, çatlamayan filmler ve yüksek bariyer özellikleriyle soğuk zincir boyunca ürünün dokusunu, aromasını ve görünümünü korur. Dondurulmuş sebze, meyve, hazır yemek ve et ürünleri için uygundur. -18°C ve altı sıcaklıklarda çatlama ve hasar riskine karşı direnç. Donma yanığı (freezer burn) ve koku transferini önleme. Film Yapıları: Düşük sıcaklığa dayanıklı PE, CPP, özel laminatlar. Düşük sıcaklıkta esneklik ve yüksek mukavemet. Nem ve oksijen bariyeri; düşük su buharı geçirgenliği. Kolay açılır şerit, fermuar seçenekleri. Penceresiz opak veya pencereli modeller; kraft kağıt görünümlü yüzey.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/dondurulmus-gida-ambalaj-main_ad4a5.webp",
-      "imageAlt": "Dondurulmuş Gıda Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 10,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0011",
-      "slug": "taze-meyve-ve-sebze-ambalajlari",
-      "baslik": "Taze Meyve ve Sebze Ambalajları",
-      "ozet": "Taze meyve ve sebze ambalajlarımız, ürünlerin doğal solunum ihtiyaçlarını gözeten mikro-perforasyon ve drenaj çözümleriyle tazeliği, görünümü ve raf dayanımını artırmak için tasarlanmıştır.",
-      "aciklama": "Taze meyve ve sebze ambalajlarımız, ürünlerin doğal solunum ihtiyaçlarını gözeten mikro-perforasyon ve drenaj çözümleriyle tazeliği, görünümü ve raf dayanımını artırmak için tasarlanmıştır. Taze meyve, sebze, çilek, nane vb. hassas ürünler için idealdir. Ürünün nefes almasını sağlayan mikro ve makro delikli yapılar. Buğu önleyici (anti-fog) kaplamalar sayesinde net görünüm. Film Tipleri: Mikro gözenekli (mikroporöz) film, kontrollü hava geçirgen yapılar. Drenaj delikleri veya makro-perforasyon opsiyonları. Buğu önleyici (anti-fog) iç yüzey kaplamaları. Mikro-perforasyon veya makro-perforasyon seçenekleri. Pencereli, delikli veya ventilasyonlu torba tasarımları. Biyobozunur malzeme alternatifleri (isteğe bağlı).",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/taze-meyve-sebze-ambalaj-main_d2c66.webp",
-      "imageAlt": "Taze Meyve ve Sebze Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 11,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0012",
-      "slug": "bakliyat-ambalajlari",
-      "baslik": "Bakliyat Ambalajları",
-      "ozet": "Bakliyat ambalajlarımız, mercimek, nohut, fasulye gibi kuru bakliyat ürünlerini nem, böceklenme ve ışığa karşı koruyan, yüksek bariyerli, estetik ve dayanıklı torba çözümleridir.",
-      "aciklama": "Bakliyat ambalajlarımız, mercimek, nohut, fasulye gibi kuru bakliyat ürünlerini nem, böceklenme ve ışığa karşı koruyan, yüksek bariyerli, estetik ve dayanıklı torba çözümleridir. Kuru bakliyatlar ve bakliyat karışımları için uygundur. Böceklenme ve nem riskine karşı etkin koruma. Uzun raf ömrü ile ticari taşımada güven sağlar. Film Yapıları: OPP/OPP, CPP/OPP, OPP/PE laminasyonları. Opak veya baskılı torba seçenekleri, UV ışın koruması. Ağırlık taşıma ve delinmeye karşı yüksek mekanik dayanım. Pencereli veya tamamen opak modeller. Fermuar veya kolay dozaj seçenekleri. Geri dönüştürülebilir veya PCR içerikli malzemeler.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/bakliyat_8c261.webp",
-      "imageAlt": "Bakliyat Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 12,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0013",
-      "slug": "et-sut-ve-deniz-urunleri-ambalajlari",
-      "baslik": "Et, Süt ve Deniz Ürünleri Ambalajları",
-      "ozet": "Et, süt ve deniz ürünleri ambalaj çözümlerimiz, hijyen, tazelik ve görsel sunumu ön planda tutar. MAP (Modifiye Atmosfer Paketleme), vakum, termoform ve tray lidding seçenekleriyle ürünün raf ömrünü ve güvenliğini artırır.",
-      "aciklama": "Et, süt ve deniz ürünleri ambalaj çözümlerimiz, hijyen, tazelik ve görsel sunumu ön planda tutar. MAP (Modifiye Atmosfer Paketleme), vakum, termoform ve tray lidding seçenekleriyle ürünün raf ömrünü ve güvenliğini artırır. Kırmızı et, tavuk, balık, deniz ürünleri, peynir ve süt ürünleri. MAP ve vakum paketleme ile mikrobiyal bozulmayı yavaşlatma. Termoform ve tray lidding ile şık servis ve sunum kolaylığı. Film/Kompozit: Bariyer katmanlı PET/PE, PA, EVOH içeren laminatlar. Termoform ve vakum paketlemeye uygun malzemeler. Soğuk zincirde kullanıma uygun shrink ve lidding filmleri. MAP (Modifiye Atmosfer Paketleme) uyumlu çözümler. Vakum, shrink, tray lidding seçenekleri. Gıda sınıfı iç kaplamalar; geri dönüştürülebilir malzeme opsiyonları.",
-      "kategoriId": "gida",
-      "imageSrc": "/images/urunler/salmon-fish_40d76.webp",
-      "imageAlt": "Et, Süt ve Deniz Ürünleri Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 13,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0014",
-      "slug": "bebek-bezi-ve-yetiskin-bezi-ambalajlari",
-      "baslik": "Bebek Bezi ve Yetişkin Bezi Ambalajları",
-      "ozet": "Bebek bezi ve yetişkin bezi ambalajlarımız, hijyen, konfor ve pratik kullanımı ön planda tutarak, taşıma ve depolamada dayanıklı, tüketiciye kolay açılma/kapama imkanı sunan estetik çözümlerdir.",
-      "aciklama": "Bebek bezi ve yetişkin bezi ambalajlarımız, hijyen, konfor ve pratik kullanımı ön planda tutarak, taşıma ve depolamada dayanıklı, tüketiciye kolay açılma/kapama imkanı sunan estetik çözümlerdir. Bebek bezi ve yetişkin bezi paketleme ve sunumu için idealdir. Hijyenik, sızdırmaz yapı ve taşıma kolaylığı. Raf üzerinde güçlü marka algısı ve görsel çekicilik. Malzemeler: Dayanıklı PE/PP bazlı filmler. Kolay yırtılma ve güçlü yapıştırma performansı. Esnek gramaj ve çeşitli paket boyutları. Taşıma kulpu, yeniden kapatılabilir yapılar. Şeffaf pencere, özel baskılı tasarım seçenekleri.",
-      "kategoriId": "kisisel-bakim",
-      "imageSrc": "/images/urunler/bebek-bezi-main_315f8.webp",
-      "imageAlt": "Bebek Bezi ve Yetişkin Bezi Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 14,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0015",
-      "slug": "islak-mendil-ambalajlari",
-      "baslik": "Islak Mendil Ambalajları",
-      "ozet": "Islak mendil ambalajlarımız, nem ve koku bariyeri sağlayan, sızdırmaz üst kapak veya peel-back yapıya sahip olup mendilin uzun süre tazeliğini ve hijyenini korur.",
-      "aciklama": "Islak mendil ambalajlarımız, nem ve koku bariyeri sağlayan, sızdırmaz üst kapak veya peel-back yapıya sahip olup mendilin uzun süre tazeliğini ve hijyenini korur. Bebek, kozmetik ve temizlik mendilleri gibi ıslak mendil paketleri. Nem bariyeri sayesinde kurumayı önleme. Üstten veya önden açılan hijyenik kapaklarla kullanım kolaylığı. Film: PE/PP bazlı, çok katmanlı nem bariyerli yapılar. Kapak: Kilitli plastik kapak veya yapışkanlı peel-back mekanizması. Sızdırmaz mühürleme ve dayanıklı yapıştırma performansı. Kilitli kapak, yapışkan bantlı peel-back açma. Çoklu dil desteği için etiketleme alanları; özel baskı seçenekleri.",
-      "kategoriId": "kisisel-bakim",
-      "imageSrc": "/images/urunler/islak-mendil-main_34d43.webp",
-      "imageAlt": "Islak Mendil Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 15,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0016",
-      "slug": "deterjan-ambalajlari",
-      "baslik": "Deterjan Ambalajları",
-      "ozet": "Deterjan ambalajlarımız, sıvı, toz ve kapsül deterjanların kimyasal stabilitesini koruyan, neme ve ışığa karşı yüksek bariyerli, dayanıklı çözümler sunar. Pratik açma-kapama ve taşıma kolaylığı sağlar.",
-      "aciklama": "Deterjan ambalajlarımız, sıvı, toz ve kapsül deterjanların kimyasal stabilitesini koruyan, neme ve ışığa karşı yüksek bariyerli, dayanıklı çözümler sunar. Pratik açma-kapama ve taşıma kolaylığı sağlar. Sıvı deterjan, toz deterjan, kapsül ve granül formlar için uygundur. Kimyasal stabilite ve koku kaçışını engelleme. Taşıma ve depolama sırasında yüksek dayanıklılık. Film/Laminat: PE, PET, PA, PP kombinasyonları. Kimyasal dayanımlı iç kaplamalar. Yüksek mukavemetli dış yüzey; sızdırmaz yapıştırma. Kolay döküm için kapak sistemleri. Geri dönüştürülebilir film seçenekleri. Farklı hacim ve ölçüler için çoklu paket formatları.",
-      "kategoriId": "kisisel-bakim",
-      "imageSrc": "/images/urunler/urun-deterjan-main_3a78d.webp",
-      "imageAlt": "Deterjan Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 16,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0017",
-      "slug": "tuvalet-kagidi-ambalajlari",
-      "baslik": "Tuvalet Kağıdı Ambalajları",
-      "ozet": "Tuvalet kağıdı ambalajlarımız, nem ve kirden koruyan, taşıma kolaylığı sağlayan kulplu veya kulpsuz seçeneklerle estetik ve fonksiyonel çözümler sunar.",
-      "aciklama": "Tuvalet kağıdı ambalajlarımız, nem ve kirden koruyan, taşıma kolaylığı sağlayan kulplu veya kulpsuz seçeneklerle estetik ve fonksiyonel çözümler sunar. Tuvalet kağıdı ruloları ve paketleri için idealdir. Nem bariyeri ile depolama sırasında ürünü koruma. Kolay taşıma için farklı boyut ve kulplu opsiyonlar. Malzeme: Hava ve nem geçirmez PE torbalar. Farklı boyut ve kat sayıları için özelleştirilebilir yapı. Yüksek baskı kalitesi ve genel dayanıklılık. Taşıma kulpu seçenekleri. Baskılı marka tasarımları; opak veya yarı şeffaf yüzeyler.",
-      "kategoriId": "kisisel-bakim",
-      "imageSrc": "/images/urunler/tuvalet-kagidi-main_2f174.webp",
-      "imageAlt": "Tuvalet Kağıdı Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 17,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0018",
-      "slug": "hijyenik-ped",
-      "baslik": "Hijyenik Ped",
-      "ozet": "Hijyenik ped ambalajlarımız, ürün hijyenini ve bütünlüğünü koruyan tekli sargı (single-wrap) filmler, sızdırmaz uç bantları ve kullanıcı dostu açma mekanizmalarıyla tüketiciye güven veren çözümlerdir.",
-      "aciklama": "Hijyenik ped ambalajlarımız, ürün hijyenini ve bütünlüğünü koruyan tekli sargı (single-wrap) filmler, sızdırmaz uç bantları ve kullanıcı dostu açma mekanizmalarıyla tüketiciye güven veren çözümlerdir. Kadın hijyen ürünleri (ped, tampon) paketlemesi için uygundur. İçerikle temas etmeyen koruyucu film yapısı. Ürün hijyenini koruyan sızdırmaz mühürler. Malzeme: Tekli sargı (single-wrap) filmler, sıvı geçirmez yüzeyler. Sızdırmaz uç bantları ve güvenli yapıştırma. Kolay açılabilir ve hijyenik paketleme. Yırtma çizgileri, yapışkan bant veya strip sistemleri. Özel baskı ve paket boyutu seçenekleri.",
-      "kategoriId": "kisisel-bakim",
-      "imageSrc": "/images/urunler/hijyenik-ped-main_c4011.webp",
-      "imageAlt": "Hijyenik Ped",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 18,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0019",
-      "slug": "evcil-hayvan-mamasi-ambalajlari",
-      "baslik": "Evcil Hayvan Maması Ambalajları",
-      "ozet": "Evcil hayvan maması ambalajlarımız, yağ oksidasyonunu engelleyen bariyerli laminasyonlar, aç-kapa (zip) özellikleri ve dayanıklı yapılarıyla mamanın tazeliğini ve hijyenini korur. Canlı baskı seçenekleriyle raf çekiciliğini artırır.",
-      "aciklama": "Evcil hayvan maması ambalajlarımız, yağ oksidasyonunu engelleyen bariyerli laminasyonlar, aç-kapa (zip) özellikleri ve dayanıklı yapılarıyla mamanın tazeliğini ve hijyenini korur. Canlı baskı seçenekleriyle raf çekiciliğini artırır. Kuru mama, yaş mama ve ödül mamaları için uygundur. Yağ oksidasyonuna karşı koruma; aroma stabilitesi. Kullanıcı dostu açma ve kapama mekanizmaları. Film Yapıları: PET/PE, OPP/PE, CPET/PE kombinasyonları. Dayanıklı yapıştırma ve delinmeye dirençli dış katman. Fermuar, taşıma kulpu ve diğer fonksiyonel seçenekler. Fermuar + kulplu tasarım, pencereli varyantlar. Mat, parlak veya kraft kağıt görünümlü yüzeyler. Geri dönüştürülebilir veya PCR içerikli malzeme opsiyonları.",
-      "kategoriId": "evcil-hayvan",
-      "imageSrc": "/images/urunler/pet_ceb0c.webp",
-      "imageAlt": "Evcil Hayvan Maması Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 19,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0020",
-      "slug": "kum-litter-ambalajlari",
-      "baslik": "Kum (Litter) Ambalajları",
-      "ozet": "Kedi ve köpek kumu ambalajlarımız, büyük hacimli, dayanıklı torbalar olup taşıma kolaylığı için kulplu tasarım, nem ve koku bariyeri ile hijyen odaklı çözümler sunar.",
-      "aciklama": "Kedi ve köpek kumu ambalajlarımız, büyük hacimli, dayanıklı torbalar olup taşıma kolaylığı için kulplu tasarım, nem ve koku bariyeri ile hijyen odaklı çözümler sunar. Kedi kumu, köpek kumu ve diğer emici ürünler için idealdir. Hijyen ve koku kontrolü; sağlam taşıma imkanı. Perakende ve toptan satışa uygun çeşitli hacimler. Film Yapıları: Yüksek dayanımlı LDPE/HDPE, çok katmanlı laminatlar. Koku bariyeri ve nem sızdırmazlığı. Dayanıklı kulplu bağlantı noktaları. Taşıma kulpu, tekrar kapatma çözümleri. Baskılı kullanım talimatları ve bilgi alanları.",
-      "kategoriId": "evcil-hayvan",
-      "imageSrc": "/images/urunler/kedi-kumu-main_6b397.webp",
-      "imageAlt": "Kum (Litter) Ambalajları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 20,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0021",
-      "slug": "kargo-torbalari",
-      "baslik": "Kargo Torbaları",
-      "ozet": "Kargo torbalarımız, e-ticaret ve lojistik gönderileri için yırtılmaya dayanıklı, opak ve güvenli kapama sağlayan üç katmanlı HDPE/PE çözümlerdir. Geri dönüştürülmüş içerik seçeneğiyle çevresel sürdürülebilirliği destekler.",
-      "aciklama": "Kargo torbalarımız, e-ticaret ve lojistik gönderileri için yırtılmaya dayanıklı, opak ve güvenli kapama sağlayan üç katmanlı HDPE/PE çözümlerdir. Geri dönüştürülmüş içerik seçeneğiyle çevresel sürdürülebilirliği destekler. E-ticaret gönderileri ve iade süreçleri için idealdir. Yırtılma ve delinmeye karşı yüksek dayanım. Gizlilik için opak iç yüzey. Malzeme: Takviyeli HDPE/PE, üç katmanlı yapı (dış beyaz / iç siyah opsiyonlu). Çift yapışkan bantlı kapama; çeşitli boyut ve gramajlar. PCR/PIR içerikli çevre dostu seçenekler. Özelleştirilmiş baskı, çift bantlı kapama, mat/parlak yüzeyler.",
-      "kategoriId": "endustriyel",
-      "imageSrc": "/images/urunler/kargo-posetleri-main_8ddcf.webp",
-      "imageAlt": "Kargo Torbaları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 21,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0022",
-      "slug": "tekstil-ambalaji",
-      "baslik": "Tekstil Ambalajı",
-      "ozet": "Tekstil ambalajlarımız, giysi, ev tekstili ve kumaş ürünlerini toz ve nemden koruyan, estetik sunum sağlayan film torba çözümleridir. Antistatik ve ek aksesuar opsiyonlarıyla teslimat sürecini kolaylaştırır.",
-      "aciklama": "Tekstil ambalajlarımız, giysi, ev tekstili ve kumaş ürünlerini toz ve nemden koruyan, estetik sunum sağlayan film torba çözümleridir. Antistatik ve ek aksesuar opsiyonlarıyla teslimat sürecini kolaylaştırır. Giysi paketleme, ev tekstili, büyük kumaş ruloları. Toz ve nem koruması; üstün görsel sunum. Taşıma kolaylığı ve depolama uyumu. Malzeme: PE, PP; şeffaf veya baskılı. Antistatik ve metalize bant uygulamaları. Farklı boyut ve kalınlık seçenekleri. Bant ekleme. Özel baskılı marka opsiyonları. Taşıma askısı/kulpu.",
-      "kategoriId": "endustriyel",
-      "imageSrc": "/images/urunler/tekstil-ambalaji-main_2e8f7.webp",
-      "imageAlt": "Tekstil Ambalajı",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 22,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0023",
-      "slug": "shrink",
-      "baslik": "Shrink",
-      "ozet": "Shrink (ısı ile daralan film) ambalajlarımız, palet ve paket etrafını sıkıca sararak nakliye sırasında sabitleme ve koruma sağlayan, ısıya duyarlı filmlerden üretilmiştir. Şeffaf veya renkli opsiyonlarla lojistik verimliliği artırır.",
-      "aciklama": "Shrink (ısı ile daralan film) ambalajlarımız, palet ve paket etrafını sıkıca sararak nakliye sırasında sabitleme ve koruma sağlayan, ısıya duyarlı filmlerden üretilmiştir. Şeffaf veya renkli opsiyonlarla lojistik verimliliği artırır. Palet sabitleme, paket koruma, ürün gruplama. Nakliye hasarını azaltma; ürün stabilitesi sağlama. Ekonomik maliyet ve hızlı uygulama. Film Türleri: PVC veya PE shrink filmler (ısı ile daralan). Çeşitli kalınlık ve genişlik seçenekleri; ısı uygulama parametreleri. Yüksek çekme dayanımı. Renkli veya şeffaf; baskılı shrink film seçenekleri.",
-      "kategoriId": "endustriyel",
-      "imageSrc": "/images/urunler/shrink-main_643e5.webp",
-      "imageAlt": "Shrink",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 23,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0024",
-      "slug": "alisveris-cantalari",
-      "baslik": "Alışveriş Çantaları",
-      "ozet": "Alışveriş çantalarımız, perakende ve promosyon kullanımı için dayanıklı LDPE/MDPE torbalardır. Baskılı veya baskısız, kulplu veya kulpsuz seçeneklerle marka görünürlüğünü ve müşteri deneyimini artırır.",
-      "aciklama": "Alışveriş çantalarımız, perakende ve promosyon kullanımı için dayanıklı LDPE/MDPE torbalardır. Baskılı veya baskısız, kulplu veya kulpsuz seçeneklerle marka görünürlüğünü ve müşteri deneyimini artırır. Market, butik, promosyon çantaları için idealdir. Yüksek taşıma kapasitesi ve estetik görünüm. Maliyet etkin çözüm ve kolay stok yönetimi. Malzeme: LDPE, MDPE; takviyeli seçenekler. Baskı: Flexo veya gravür baskı opsiyonları. Farklı boyut ve gramajlar. Baskılı marka tasarımları, kulplu/kulpsuz modeller. Geri dönüştürülebilir malzeme seçenekleri.",
-      "kategoriId": "endustriyel",
-      "imageSrc": "/images/urunler/alisveris-cantalari-main_084f3.webp",
-      "imageAlt": "Alışveriş Çantaları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 24,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0025",
-      "slug": "askili-tekstil-torbalari",
-      "baslik": "Askılı Tekstil Torbaları",
-      "ozet": "Askılı tekstil torbalarımız, tekstil ürünleri için güçlü taşıma ve estetik sunum sağlayan, mevcut veya özel üretim askılarla uyumlu, kaynaklı bağlantılı çözümlerdir.",
-      "aciklama": "Askılı tekstil torbalarımız, tekstil ürünleri için güçlü taşıma ve estetik sunum sağlayan, mevcut veya özel üretim askılarla uyumlu, kaynaklı bağlantılı çözümlerdir. Tekstil mağazaları, sevkiyat ve sergileme amaçlı kullanım. Kolay taşıma, yüksek dayanıklılık ve görsel çekicilik. Malzeme: LDPE, PP; çeşitli askı üretim teknikleri. Kaynaklı askı entegrasyonu; yüksek yırtılma dayanımı. Özel baskı, farklı askı ve kulplu tasarım seçenekleri.",
-      "kategoriId": "endustriyel",
-      "imageSrc": "/images/urunler/askili-tekstil-ambalaji-main_5d167.webp",
-      "imageAlt": "Askılı Tekstil Torbaları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 25,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
-      "id": "u0026",
-      "slug": "kuru-temizleme-torbalari",
-      "baslik": "Kuru Temizleme Torbaları",
-      "ozet": "Kuru temizleme torbalarımız, hafif, hava geçirimsiz ve leke önleyici sızdırmaz yapılarıyla kıyafetleri depolama ve teslim sırasında korur. Gerektiğinde çok katmanlı laminasyonla güçlendirilmiş çözümler sunar.",
-      "aciklama": "Kuru temizleme torbalarımız, hafif, hava geçirimsiz ve leke önleyici sızdırmaz yapılarıyla kıyafetleri depolama ve teslim sırasında korur. Gerektiğinde çok katmanlı laminasyonla güçlendirilmiş çözümler sunar. Kuru temizleme, kıyafet depolama ve teslimi için uygundur. Toz ve nemden koruma; hafif ve şık yapı. Ürün bilgisi için etiketleme alanı. Malzeme: Hafif PE veya çok katmanlı laminatlar. İyi sızdırmazlık ve kaynak performansı. İsteğe bağlı antistatik veya özel kaplamalar. Şeffaf veya baskılı seçenekler; etiket için özel alan. Çeşitli boyut ve kapasite seçenekleri.",
-      "kategoriId": "endustriyel",
-      "imageSrc": "/images/urunler/kuru-temizleme-torbalari-main_e7ac0.webp",
-      "imageAlt": "Kuru Temizleme Torbaları",
-      "varyantlar": [],
-      "yayinda": true,
-      "stokta": true,
-      "sira": 26,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "tr"
-    },
-    {
       "id": "ue0001",
       "slug": "confectionery-packaging",
       "baslik": "Confectionery Packaging",
       "ozet": "Our flexible packaging solutions for confectionery products are specially designed to preserve freshness, aroma, and visual appeal at the highest level. Using cold-seal technology, high-resolution printing, and optimized film combinations, we help maximize shelf life. With a variety of finishes ranging from glossy, matte, metallized, transparent to natural paper-look, we strengthen your brand presence on the shelf.",
-      "aciklama": "Our flexible packaging solutions for confectionery products are specially designed to preserve freshness, aroma, and visual appeal at the highest level. Using cold-seal technology, high-resolution printing, and optimized film combinations, we help maximize shelf life. With a variety of finishes ranging from glossy, matte, metallized, transparent to natural paper-look, we strengthen your brand presence on the shelf. Ideal for candy, dragées, Turkish delight, chocolate, and similar sweet products. High-level protection against oxygen, light, and moisture to prevent loss of freshness and aroma. Cold-seal technology enables high efficiency on production lines. Glossy and metallized print options deliver striking visual impact on the shelf. Film Structures: OPP/PE, OPP/MET/OPP, OPP/CPP. Printing: High-resolution with consistent color across the reel. Barrier: Optimized layers for O₂, moisture, and light transmission. Mechanical Strength: Tear and puncture resistance with strong sealing performance. Resealable zipper, easy-tear notch. Transparent window, soft-touch finish. Matte/glossy combinations; recyclable film alternatives.",
+      "aciklama": "Our flexible packaging solutions for confectionery products are specially designed to preserve freshness, aroma, and visual appeal at the highest level. Using cold-seal technology, high-resolution printing, and optimized film combinations, we help maximize shelf life. With a variety of finishes ranging from glossy, matte, metallized, transparent to natural paper-look, we strengthen your brand presence on the shelf.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/sekerleme-main_6155c.webp",
       "imageAlt": "Confectionery Packaging",
@@ -429,15 +13,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 1,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Cold-Seal Technology",
+        "Easy-Tear Notch",
+        "Soft-Touch Finish"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for candy, dragées, Turkish delight, chocolate, and similar sweet products.<br/>\r\nHigh-level protection against oxygen, light, and moisture to prevent loss of freshness and aroma.<br/>\r\nCold-seal technology enables high efficiency on production lines.<br/>\r\nGlossy and metallized print options deliver striking visual impact on the shelf.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: OPP/PE, OPP/MET/OPP, OPP/CPP.<br/>\r\nPrinting: High-resolution with consistent color across the reel.<br/>\r\nBarrier: Optimized layers for O₂, moisture, and light transmission.<br/>\r\nMechanical Strength: Tear and puncture resistance with strong sealing performance.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Resealable zipper, easy-tear notch.<br/>\r\nTransparent window, soft-touch finish.<br/>\r\nMatte/glossy combinations; recyclable film alternatives.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-02_7cbfa.webp",
+        "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-03_f5c5b.webp",
+        "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-04_f503d.webp"
+      ]
     },
     {
       "id": "ue0002",
       "slug": "dried-food-packaging",
       "baslik": "Dried Food Packaging",
       "ozet": "Our packaging solutions for dried foods are designed to preserve the aroma, flavor, and nutritional value of products like fruits, vegetables, and legumes while offering extended shelf life. Thanks to their resealable structure and strong barrier properties, your products stay fresh day after day.",
-      "aciklama": "Our packaging solutions for dried foods are designed to preserve the aroma, flavor, and nutritional value of products like fruits, vegetables, and legumes while offering extended shelf life. Thanks to their resealable structure and strong barrier properties, your products stay fresh day after day. Suitable for dried fruits, vegetables, legumes, and snacks. Long-term protection against moisture, oxygen, and light. Consumer convenience with resealable (zipper) closure. Optional windows or clear panels for product visibility. Film Structures: PE, CPP, laminated OPP/PE. Multilayer barrier combinations to minimize mold and moisture risk. Heat- and abrasion-resistant outer layers. Available in glossy, matte, or metallized finishes. Zip closure, easy-tear lines. Windowed design, custom print options. Bio-based content eco-friendly films.",
+      "aciklama": "Our packaging solutions for dried foods are designed to preserve the aroma, flavor, and nutritional value of products like fruits, vegetables, and legumes while offering extended shelf life. Thanks to their resealable structure and strong barrier properties, your products stay fresh day after day.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/dried-fruit-main_175b9.webp",
       "imageAlt": "Dried Food Packaging",
@@ -445,15 +53,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 2,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Resealable Zipper",
+        "Windowed Design",
+        "Bio-Based Content"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Suitable for dried fruits, vegetables, legumes, and snacks.<br/>\r\nLong-term protection against moisture, oxygen, and light.<br/>\r\nConsumer convenience with resealable (zipper) closure.<br/>\r\nOptional windows or clear panels for product visibility.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: PE, CPP, laminated OPP/PE.<br/>\r\nMultilayer barrier combinations to minimize mold and moisture risk.<br/>\r\nHeat- and abrasion-resistant outer layers.<br/>\r\nAvailable in glossy, matte, or metallized finishes.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Zip closure, easy-tear lines.<br/>\r\nWindowed design, custom print options.<br/>\r\nBio-based content eco-friendly films.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-02_9022b.webp",
+        "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-03_60ecb.webp",
+        "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-04_34d19.webp"
+      ]
     },
     {
       "id": "ue0003",
       "slug": "beverage-supplement-packaging",
       "baslik": "Beverage & Supplement Packaging",
       "ozet": "Our packaging solutions for beverages and nutritional supplements are specially developed to provide excellent sealing and stability in powders, granules, single-serve sachets, and drink pouches. With multilayer, high-barrier structures, they ensure dosing convenience and feature caps and user-friendly design options.",
-      "aciklama": "Our packaging solutions for beverages and nutritional supplements are specially developed to provide excellent sealing and stability in powders, granules, single-serve sachets, and drink pouches. With multilayer, high-barrier structures, they ensure dosing convenience and feature caps and user-friendly design options. Ideal for powdered drinks, protein powders, drink pouches, and dietary supplements. Maximum preservation of aroma and active ingredient stability. Superior sealing and hygiene for safe transport and storage. High-quality print options to enhance brand visibility. Film Structures: PET/AL/PE, PET/PE, multilayer laminates. Inner Coating: Smooth, chemically resistant, non-porous surface. Strong seal integrity and excellent adhesion. High mechanical resistance against puncture and tearing. Resealable caps and dosing cap options. Zipper closure, easy-tear strips. Specialized food-grade inner coatings for full compatibility.",
+      "aciklama": "Our packaging solutions for beverages and nutritional supplements are specially developed to provide excellent sealing and stability in powders, granules, single-serve sachets, and drink pouches. With multilayer, high-barrier structures, they ensure dosing convenience and feature caps and user-friendly design options.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/urun-detay-main-image_b2f8b.webp",
       "imageAlt": "Beverage & Supplement Packaging",
@@ -461,15 +93,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 3,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "PET/AL/PE, PET/PE, Multilayer Laminates",
+        "Zipper Closure, Easy-Tear Strips",
+        "Resealable Cap"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for powdered drinks, protein powders, drink pouches, and dietary supplements.<br/>\r\nMaximum preservation of aroma and active ingredient stability.<br/>\r\nSuperior sealing and hygiene for safe transport and storage.<br/>\r\nHigh-quality print options to enhance brand visibility.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: PET/AL/PE, PET/PE, multilayer laminates.<br/>\r\nInner Coating: Smooth, chemically resistant, non-porous surface.<br/>\r\nStrong seal integrity and excellent adhesion.<br/>\r\nHigh mechanical resistance against puncture and tearing.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Resealable caps and dosing cap options.<br/>\r\nZipper closure, easy-tear strips.<br/>\r\nSpecialized food-grade inner coatings for full compatibility.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-02_7ec70.webp",
+        "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-03_2ef1d.webp",
+        "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-04_10ef4.webp"
+      ]
     },
     {
       "id": "ue0004",
       "slug": "bakery-packaging",
       "baslik": "Bakery Packaging",
       "ozet": "Our packaging solutions for bakery products are designed to preserve the crispness, texture, and freshness of items like bread, pastries, and buns. With breathable yet protective barrier structures, ventilation holes, and thermal resistance, these packages provide effective internal moisture management.",
-      "aciklama": "Our packaging solutions for bakery products are designed to preserve the crispness, texture, and freshness of items like bread, pastries, and buns. With breathable yet protective barrier structures, ventilation holes, and thermal resistance, these packages provide effective internal moisture management. Ideal for fresh bakery and patisserie products. Steam control maintains crust crispness. Resealable options extend product freshness. Custom prints and window designs enhance shelf appeal. Film Structures: PET/PE, OPP/PE, CPP/PE. Micro-ventilation holes and anti-fog coatings. Thermal resistance for short heating or cooling processes. Strong sealing and mechanical durability. Ventilated packaging designs. Easy-open, resealable formats. Transparent window, matte/glossy combinations.",
+      "aciklama": "Our packaging solutions for bakery products are designed to preserve the crispness, texture, and freshness of items like bread, pastries, and buns. With breathable yet protective barrier structures, ventilation holes, and thermal resistance, these packages provide effective internal moisture management.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/ekmek-ambalaj-main_2367f.webp",
       "imageAlt": "Bakery Packaging",
@@ -477,15 +133,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 4,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "PET/PE, OPP/PE, CPP/PE Film Structures",
+        "Ventilated Packaging Designs",
+        "Transparent Window"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for fresh bakery and patisserie products.<br/>\r\nSteam control maintains crust crispness.<br/>\r\nResealable options extend product freshness.<br/>\r\nCustom prints and window designs enhance shelf appeal.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: PET/PE, OPP/PE, CPP/PE.<br/>\r\nMicro-ventilation holes and anti-fog coatings.<br/>\r\nThermal resistance for short heating or cooling processes.<br/>\r\nStrong sealing and mechanical durability.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ventilated packaging designs.<br/>\r\nEasy-open, resealable formats.<br/>\r\nTransparent window, matte/glossy combinations.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-02_e90d4.webp",
+        "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-03_4ba6e.webp",
+        "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-04_6c091.webp"
+      ]
     },
     {
       "id": "ue0005",
       "slug": "poultry-bread-packaging",
       "baslik": "Poultry & Bread Packaging",
       "ozet": "Our packaging solutions for poultry and bread prioritize food safety and hygiene. Designed for compatibility with high-speed filling lines, these wicket bags and multipurpose pouch formats ensure production efficiency and strong shelf presentation.",
-      "aciklama": "Our packaging solutions for poultry and bread prioritize food safety and hygiene. Designed for compatibility with high-speed filling lines, these wicket bags and multipurpose pouch formats ensure production efficiency and strong shelf presentation. Suitable for frozen and fresh poultry, bread, and similar food items. Fully compatible with automatic and semi-automatic production lines. Multipurpose use: food, textiles, fruit and vegetable packaging. Options that balance air circulation and product protection. Materials: OPP, LDPE/HDPE, CPP, multilayer laminates. Available in plain, micro-perforated, and windowed variants. Optimized for high-speed feeding on production lines. Strong seal integrity and durable bonding technologies. Wicket bag format with carry handles. Micro-perforation, window and print customization. Special cutting techniques for sealing and easy opening.",
+      "aciklama": "Our packaging solutions for poultry and bread prioritize food safety and hygiene. Designed for compatibility with high-speed filling lines, these wicket bags and multipurpose pouch formats ensure production efficiency and strong shelf presentation.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/tavuk-ambalaj-main_d16c6.webp",
       "imageAlt": "Poultry & Bread Packaging",
@@ -493,15 +173,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 5,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "OPP, LDPE/HDPE, CPP, Multilayer Laminates",
+        "Wicket Bag Format with Carry Handles",
+        "Special Cutting Techniques"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Suitable for frozen and fresh poultry, bread, and similar food items.<br/>\r\nFully compatible with automatic and semi-automatic production lines.<br/>\r\nMultipurpose use: food, textiles, fruit and vegetable packaging.<br/>\r\nOptions that balance air circulation and product protection.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Materials: OPP, LDPE/HDPE, CPP, multilayer laminates.<br/>\r\nAvailable in plain, micro-perforated, and windowed variants.<br/>\r\nOptimized for high-speed feeding on production lines.<br/>\r\nStrong seal integrity and durable bonding technologies.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Wicket bag format with carry handles.<br/>\r\nMicro-perforation, window and print customization.<br/>\r\nSpecial cutting techniques for sealing and easy opening.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-02_ffbac.webp",
+        "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-03_23c58.webp",
+        "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-04_d7e0b.webp"
+      ]
     },
     {
       "id": "ue0006",
       "slug": "tea-coffee-packaging",
       "baslik": "Tea & Coffee Packaging",
       "ozet": "Our tea and coffee packaging solutions are designed with aroma preservation in mind, offering extended shelf life through aluminum coatings and multilayer barrier structures. They are enhanced with consumer-friendly features such as one-way degassing valves and resealable zippers.",
-      "aciklama": "Our tea and coffee packaging solutions are designed with aroma preservation in mind, offering extended shelf life through aluminum coatings and multilayer barrier structures. They are enhanced with consumer-friendly features such as one-way degassing valves and resealable zippers. Ideal for loose-leaf tea, tea bags, whole beans, and ground coffee. High-barrier structures prevent aroma loss. One-way valve allows proper gas release inside the package. Premium printing and surface treatments enhance brand value. Film Structures: PET/ALU/PE, PET/MetPET/PE, PET/PE-EVOH-PE. One-way degassing valves and multi-barrier film layers. Kraft paper-look and metallized surface options. High-resolution print with UV resistance. One-way degassing valve application. Zipper and resealable closure options. Opaque or kraft paper-look designs without windows.",
+      "aciklama": "Our tea and coffee packaging solutions are designed with aroma preservation in mind, offering extended shelf life through aluminum coatings and multilayer barrier structures. They are enhanced with consumer-friendly features such as one-way degassing valves and resealable zippers.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/ambalaj-cay-kahve_b907f.webp",
       "imageAlt": "Tea & Coffee Packaging",
@@ -509,15 +213,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 6,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Aluminum Coating",
+        "Multilayer Barrier Structure",
+        "Resealable Zipper"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for loose-leaf tea, tea bags, whole beans, and ground coffee.<br/>\r\nHigh-barrier structures prevent aroma loss.<br/>\r\nOne-way valve allows proper gas release inside the package.<br/>\r\nPremium printing and surface treatments enhance brand value.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: PET/ALU/PE, PET/MetPET/PE, PET/PE-EVOH-PE.<br/>\r\nOne-way degassing valves and multi-barrier film layers.<br/>\r\nKraft paper-look and metallized surface options.<br/>\r\nHigh-resolution print with UV resistance.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>One-way degassing valve application.<br/>\r\nZipper and resealable closure options.<br/>\r\nOpaque or kraft paper-look designs without windows.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-02_77795.webp",
+        "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-03_733a9.webp",
+        "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-04_ba06c.webp"
+      ]
     },
     {
       "id": "ue0007",
       "slug": "spice-packaging",
       "baslik": "Spice Packaging",
       "ozet": "Our spice packaging guarantees the preservation of aroma and color through multilayer films that offer superior barrier protection against UV rays, oxygen, and moisture. Perfectly suited for small-dose packaging, it combines visual appeal with functional performance.",
-      "aciklama": "Our spice packaging guarantees the preservation of aroma and color through multilayer films that offer superior barrier protection against UV rays, oxygen, and moisture. Perfectly suited for small-dose packaging, it combines visual appeal with functional performance. Suitable for ground spices, whole spices, and spice blends. Long-lasting aroma and color stability. Barrier properties that reduce the risk of mold and spoilage. Labeling area designed for strong shelf appeal and clear product information. Film Structures: Aluminum-laminated films, PET/ALU/PE, and OPP/CPP combinations. UV-protected outer layer and moisture barrier. Sealing performance optimized for small-volume portioning. Windowed or fully opaque packaging alternatives. Specialized inner coatings to improve powder flow. Zipper strip and dosing cap options.",
+      "aciklama": "Our spice packaging guarantees the preservation of aroma and color through multilayer films that offer superior barrier protection against UV rays, oxygen, and moisture. Perfectly suited for small-dose packaging, it combines visual appeal with functional performance.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/baharat-ambalaj-main_38420.webp",
       "imageAlt": "Spice Packaging",
@@ -525,15 +253,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 7,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Aluminum-Laminated Films",
+        "PET/ALU/PE, OPP/CPP Combinations",
+        "Zipper Strip and Dosing Cap Options"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Suitable for ground spices, whole spices, and spice blends.<br/>\r\nLong-lasting aroma and color stability.<br/>\r\nBarrier properties that reduce the risk of mold and spoilage.<br/>\r\nLabeling area designed for strong shelf appeal and clear product information.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: Aluminum-laminated films, PET/ALU/PE, and OPP/CPP combinations.<br/>\r\nUV-protected outer layer and moisture barrier.<br/>\r\nSealing performance optimized for small-volume portioning.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Windowed or fully opaque packaging alternatives.<br/>\r\nSpecialized inner coatings to improve powder flow.<br/>\r\nZipper strip and dosing cap options.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-02_3cedc.webp",
+        "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-04_4bbde.webp",
+        "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-03_73628.webp"
+      ]
     },
     {
       "id": "ue0008",
       "slug": "nut-snack-packaging",
       "baslik": "Nut & Snack Packaging",
       "ozet": "Our packaging solutions for nuts and snacks combine high-barrier films with superior mechanical durability to maintain crispness, flavor, and oil stability. We offer a wide range of format options including flowpack, stand-up pouch, and flat-bottom designs.",
-      "aciklama": "Our packaging solutions for nuts and snacks combine high-barrier films with superior mechanical durability to maintain crispness, flavor, and oil stability. We offer a wide range of format options including flowpack, stand-up pouch, and flat-bottom designs. Ideal for nuts, chips, crackers, and snack mixes. High-barrier protection prevents oil oxidation. Window options for enhanced product visibility. User-friendly resealable and easy-open features. Structures: Flowpack top film + pouch combinations, multilayer laminates. High puncture and tear resistance in outer layers. Glossy, matte, or metallized surfaces with high-resolution printing. Strong sealing and mechanical durability. Zipper, tear-notch, stand-up pouch, or flat-bottom pouch designs. Window applications; surface finishes with kraft paper-look. Food-grade materials compliant with BRC/IFS/FDA standards.",
+      "aciklama": "Our packaging solutions for nuts and snacks combine high-barrier films with superior mechanical durability to maintain crispness, flavor, and oil stability. We offer a wide range of format options including flowpack, stand-up pouch, and flat-bottom designs.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/kuru-yemis-ambalaj-main_c1179.webp",
       "imageAlt": "Nut & Snack Packaging",
@@ -541,15 +293,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 8,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "High-Barrier Protection",
+        "Easy-Tear Notch",
+        "Surface Options with Kraft Paper-Look"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for nuts, chips, crackers, and snack mixes.<br/>\r\nHigh-barrier protection prevents oil oxidation.<br/>\r\nWindow options for enhanced product visibility.<br/>\r\nUser-friendly resealable and easy-open features.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Structures: Flowpack top film + pouch combinations, multilayer laminates.<br/>\r\nHigh puncture and tear resistance in outer layers.<br/>\r\nGlossy, matte, or metallized surfaces with high-resolution printing.<br/>\r\nStrong sealing and mechanical durability.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Zipper, tear-notch, stand-up pouch, or flat-bottom pouch designs.<br/>\r\nWindow applications; surface finishes with kraft paper-look.<br/>\r\nFood-grade materials compliant with BRC/IFS/FDA standards.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-02_cd92d.webp",
+        "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-03_981da.webp",
+        "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-04_5d5c7.webp"
+      ]
     },
     {
       "id": "ue0009",
       "slug": "retort-packaging",
       "baslik": "Retort Packaging",
       "ozet": "Our retort packaging solutions are specially designed to withstand high-temperature sterilization processes. With multilayer laminate structures, they ensure the safe storage of heat-treated products. They also offer a shelf-stable alternative to traditional canned goods.",
-      "aciklama": "Our retort packaging solutions are specially designed to withstand high-temperature sterilization processes. With multilayer laminate structures, they ensure the safe storage of heat-treated products. They also offer a shelf-stable alternative to traditional canned goods. Retort pouches as an alternative to cans: suitable for meat, vegetables, sauces, and semi-liquid products. Sterilization resistance enables long-term storage without the need for a cold chain. Convenient and ready-to-serve format for end consumers. Materials: Multilayer laminates containing PET, PP, EVOH, and NY. Thermal Resistance: Compatible with sterilization processes between 115–135°C. Strong interlayer adhesion with low risk of delamination. Excellent seal strength and high puncture resistance. Easy-open lid or pull-tab, tray-style variants for convenient serving. Retort pouches available in various sizes and fill weights.",
+      "aciklama": "Our retort packaging solutions are specially designed to withstand high-temperature sterilization processes. With multilayer laminate structures, they ensure the safe storage of heat-treated products. They also offer a shelf-stable alternative to traditional canned goods.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/retort-main_bf389.webp",
       "imageAlt": "Retort Packaging",
@@ -557,15 +333,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 9,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Sterilization Resistance",
+        "Thermal Stability",
+        "Easy-Open Lid / Pull-Tab"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Retort pouches as an alternative to cans: suitable for meat, vegetables, sauces, and semi-liquid products.<br/>\r\nSterilization resistance enables long-term storage without the need for a cold chain.<br/>\r\nConvenient and ready-to-serve format for end consumers.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Materials: Multilayer laminates containing PET, PP, EVOH, and NY.<br/>\r\nThermal Resistance: Compatible with sterilization processes between 115–135°C.<br/>\r\nStrong interlayer adhesion with low risk of delamination.<br/>\r\nExcellent seal strength and high puncture resistance.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Easy-open lid or pull-tab, tray-style variants for convenient serving.<br/>\r\nRetort pouches available in various sizes and fill weights.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-retort-ambalajlar-02_82441.webp",
+        "/images/urunfotogaleri/ayfleks-retort-ambalajlar-03_52133.webp",
+        "/images/urunfotogaleri/ayfleks-retort-ambalajlar-04_1beb4.webp"
+      ]
     },
     {
       "id": "ue0010",
       "slug": "frozen-food-packaging",
       "baslik": "Frozen Food Packaging",
       "ozet": "Our frozen food packaging is designed with crack-resistant films that retain flexibility and durability even at low temperatures. With high-barrier properties, it protects the product’s texture, aroma, and appearance throughout the cold chain.",
-      "aciklama": "Our frozen food packaging is designed with crack-resistant films that retain flexibility and durability even at low temperatures. With high-barrier properties, it protects the product’s texture, aroma, and appearance throughout the cold chain. Ideal for frozen vegetables, fruits, ready meals, and meat products. Resistant to cracking and physical damage at -18°C and below. Prevents freezer burn and odor transfer during storage. Film Structures: Low-temperature-resistant PE, CPP, and specialty laminates. High flexibility and strength under freezing conditions. Moisture and oxygen barriers with low water vapor transmission rate (WVTR). Easy-open strip and zipper closure options. Fully opaque models without windows or models with windows; surfaces with kraft paper-look available.",
+      "aciklama": "Our frozen food packaging is designed with crack-resistant films that retain flexibility and durability even at low temperatures. With high-barrier properties, it protects the product’s texture, aroma, and appearance throughout the cold chain.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/dondurulmus-gida-ambalaj-main_ad4a5.webp",
       "imageAlt": "Frozen Food Packaging",
@@ -573,15 +373,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 10,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Low-Temp-Resistant PE, CPP, Special Laminates",
+        "Moisture & Oxygen Barrier",
+        "Surface Options with Kraft Paper-Look"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for frozen vegetables, fruits, ready meals, and meat products.<br/>\r\nResistant to cracking and physical damage at -18°C and below.<br/>\r\nPrevents freezer burn and odor transfer during storage.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: Low-temperature-resistant PE, CPP, and specialty laminates.<br/>\r\nHigh flexibility and strength under freezing conditions.<br/>\r\nMoisture and oxygen barriers with low water vapor transmission rate (WVTR).</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Easy-open strip and zipper closure options.<br/>\r\nFully opaque models without windows or models with windows; surfaces with kraft paper-look available.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-02_3ce35.webp",
+        "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-03_7ceaf.webp",
+        "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-04_8c95c.webp"
+      ]
     },
     {
       "id": "ue0011",
       "slug": "fresh-fruit-vegetable-packaging",
       "baslik": "Fresh Fruit & Vegetable Packaging",
       "ozet": "Our packaging solutions for fresh fruits and vegetables are designed to enhance freshness, appearance, and shelf life through micro-perforation and drainage systems that support the product’s natural respiration process.",
-      "aciklama": "Our packaging solutions for fresh fruits and vegetables are designed to enhance freshness, appearance, and shelf life through micro-perforation and drainage systems that support the product’s natural respiration process. Ideal for fresh produce such as fruits, vegetables, strawberries, mint, and other delicate items. Micro- and macro-perforated structures allow the product to breathe. Anti-fog coatings ensure a clear view of the contents. Film Types: Microporous films and controlled atmosphere-permeable structures. Drainage holes and macro-perforation options available. Anti-fog inner surface coatings for moisture control and visual clarity. Micro-perforation or macro-perforation customization. Bag designs with windows, perforations, or ventilation features. Optional biodegradable material alternatives.",
+      "aciklama": "Our packaging solutions for fresh fruits and vegetables are designed to enhance freshness, appearance, and shelf life through micro-perforation and drainage systems that support the product’s natural respiration process.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/taze-meyve-sebze-ambalaj-main_d2c66.webp",
       "imageAlt": "Fresh Fruit & Vegetable Packaging",
@@ -589,15 +413,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 11,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Controlled Atmosphere-Permeable Structures",
+        "Anti-Fog Coatings",
+        "Biodegradable Material Options"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for fresh produce such as fruits, vegetables, strawberries, mint, and other delicate items.<br/>\r\nMicro- and macro-perforated structures allow the product to breathe.<br/>\r\nAnti-fog coatings ensure a clear view of the contents.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Types: Microporous films and controlled atmosphere-permeable structures.<br/>\r\nDrainage holes and macro-perforation options available.<br/>\r\nAnti-fog inner surface coatings for moisture control and visual clarity.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Micro-perforation or macro-perforation customization.<br/>\r\nBag designs with windows, perforations, or ventilation features.<br/>\r\nOptional biodegradable material alternatives.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-02_67d4c.webp",
+        "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-03_7052a.webp",
+        "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-04_14c07.webp"
+      ]
     },
     {
       "id": "ue0012",
       "slug": "legume-packaging",
       "baslik": "Legume Packaging",
       "ozet": "Our legume packaging solutions are high-barrier, durable, and visually appealing pouches designed to protect dry products like lentils, chickpeas, and beans from moisture, insect infestation, and light exposure.",
-      "aciklama": "Our legume packaging solutions are high-barrier, durable, and visually appealing pouches designed to protect dry products like lentils, chickpeas, and beans from moisture, insect infestation, and light exposure. Suitable for dry legumes and legume blends. Effective protection against moisture and insect infestation. Long shelf life ensures safety and reliability in commercial transport. Film Structures: OPP/OPP, CPP/OPP, and OPP/PE laminations. UV-resistant opaque or printed pouch options. High mechanical strength for puncture resistance and load-bearing performance. Available in windowed or fully opaque designs. Zipper closure or convenient dosing formats. Recyclable or PCR-based material alternatives.",
+      "aciklama": "Our legume packaging solutions are high-barrier, durable, and visually appealing pouches designed to protect dry products like lentils, chickpeas, and beans from moisture, insect infestation, and light exposure.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/bakliyat_8c261.webp",
       "imageAlt": "Legume Packaging",
@@ -605,15 +453,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 12,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "OPP/OPP, CPP/OPP, OPP/PE Laminations",
+        "UV Protection",
+        "Zipper or Convenient Dosing Options"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Suitable for dry legumes and legume blends.<br/>\r\nEffective protection against moisture and insect infestation.<br/>\r\nLong shelf life ensures safety and reliability in commercial transport.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: OPP/OPP, CPP/OPP, and OPP/PE laminations.<br/>\r\nUV-resistant opaque or printed pouch options.<br/>\r\nHigh mechanical strength for puncture resistance and load-bearing performance.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Available in windowed or fully opaque designs.<br/>\r\nZipper closure or convenient dosing formats.<br/>\r\nRecyclable or PCR-based material alternatives.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-02_2db17.webp",
+        "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-03_70ccc.webp",
+        "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-04_b636b.webp"
+      ]
     },
     {
       "id": "ue0013",
       "slug": "meat-dairy-seafood-packaging",
       "baslik": "Meat, Dairy & Seafood Packaging",
       "ozet": "Our packaging solutions for meat, dairy, and seafood prioritize hygiene, freshness, and visual appeal. With options including MAP (Modified Atmosphere Packaging), vacuum, thermoforming, and tray lidding, we help extend shelf life and maintain product safety throughout the cold chain.",
-      "aciklama": "Our packaging solutions for meat, dairy, and seafood prioritize hygiene, freshness, and visual appeal. With options including MAP (Modified Atmosphere Packaging), vacuum, thermoforming, and tray lidding, we help extend shelf life and maintain product safety throughout the cold chain. Suitable for red meat, poultry, fish, seafood, cheese, and dairy products. MAP and vacuum sealing slow down microbial spoilage. Thermoforming and tray lidding provide elegant presentation and serving convenience. Film/Composite: PET/PE, PA, and EVOH laminates with barrier layer. Materials compatible with thermoforming and vacuum processes. Shrink and lidding films suitable for cold chain logistics. MAP-compatible packaging formats. Vacuum, shrink, and tray lidding options. Food-grade inner coatings and recyclable material alternatives.",
+      "aciklama": "Our packaging solutions for meat, dairy, and seafood prioritize hygiene, freshness, and visual appeal. With options including MAP (Modified Atmosphere Packaging), vacuum, thermoforming, and tray lidding, we help extend shelf life and maintain product safety throughout the cold chain.",
       "kategoriId": "gida",
       "imageSrc": "/images/urunler/salmon-fish_40d76.webp",
       "imageAlt": "Meat, Dairy & Seafood Packaging",
@@ -621,15 +493,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 13,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Barrier Laminates with PET/PE, PA, EVOH",
+        "MAP-Compatible Solutions",
+        "Vacuum, Shrink & Tray Lidding Options"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Suitable for red meat, poultry, fish, seafood, cheese, and dairy products.<br/>\r\nMAP and vacuum sealing slow down microbial spoilage.<br/>\r\nThermoforming and tray lidding provide elegant presentation and serving convenience.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film/Composite: PET/PE, PA, and EVOH laminates with barrier layer.<br/>\r\nMaterials compatible with thermoforming and vacuum processes.<br/>\r\nShrink and lidding films suitable for cold chain logistics.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>MAP-compatible packaging formats.<br/>\r\nVacuum, shrink, and tray lidding options.<br/>\r\nFood-grade inner coatings and recyclable material alternatives.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-02_00f5c.webp",
+        "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-03_4ec28.webp",
+        "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-04_bd164.webp"
+      ]
     },
     {
       "id": "ue0014",
       "slug": "baby-adult-diaper-packaging",
       "baslik": "Baby & Adult Diaper Packaging",
       "ozet": "Our baby and adult diaper packaging solutions prioritize hygiene, comfort, and ease of use. Designed for durability during transport and storage, these packages feature consumer-friendly opening and closing systems with strong visual appeal.",
-      "aciklama": "Our baby and adult diaper packaging solutions prioritize hygiene, comfort, and ease of use. Designed for durability during transport and storage, these packages feature consumer-friendly opening and closing systems with strong visual appeal. Ideal for packaging and presenting baby and adult diapers. Hygienic and leak-proof structure with easy handling. Strong shelf presence and brand visibility through customized design. Materials: Durable PE/PP-based films. Tear-friendly structure with high bonding strength. Flexible grammage and a range of pack sizes available. Carry handles and resealable closures. Transparent window and custom-printed design options.",
+      "aciklama": "Our baby and adult diaper packaging solutions prioritize hygiene, comfort, and ease of use. Designed for durability during transport and storage, these packages feature consumer-friendly opening and closing systems with strong visual appeal.",
       "kategoriId": "kisisel-bakim",
       "imageSrc": "/images/urunler/bebek-bezi-main_315f8.webp",
       "imageAlt": "Baby & Adult Diaper Packaging",
@@ -637,15 +533,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 14,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Durable PE/PP-Based Films",
+        "Leak-Proof Design",
+        "Resealable Closures"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for packaging and presenting baby and adult diapers.<br/>\r\nHygienic and leak-proof structure with easy handling.<br/>\r\nStrong shelf presence and brand visibility through customized design.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Materials: Durable PE/PP-based films.<br/>\r\nTear-friendly structure with high bonding strength.<br/>\r\nFlexible grammage and a range of pack sizes available.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Carry handles and resealable closures.<br/>\r\nTransparent window and custom-printed design options.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-02_4feba.webp",
+        "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-03_5a537.webp",
+        "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-04_efa83.webp"
+      ]
     },
     {
       "id": "ue0015",
       "slug": "wet-wipe-packaging",
       "baslik": "Wet Wipe Packaging",
       "ozet": "Our wet wipe packaging is designed to maintain moisture and hygiene over time, featuring secure sealing systems such as leak-proof flip-top lids or adhesive peel-back closures.",
-      "aciklama": "Our wet wipe packaging is designed to maintain moisture and hygiene over time, featuring secure sealing systems such as leak-proof flip-top lids or adhesive peel-back closures. Wet wipe packaging such as baby wipes, cosmetic wipes, and cleaning wipes. Prevents drying out thanks to its moisture barrier. Easy to use with hygienic lids that open from the top or front. Films: Multilayer moisture-barrier structures based on PE/PP. Closures: Lockable plastic lids or adhesive peel-back mechanisms. Leak-proof sealing and high bonding strength for lasting performance. Flip-top lid or adhesive peel-back opening. Labeling areas for multilingual use; specialty printing options.",
+      "aciklama": "Our wet wipe packaging is designed to maintain moisture and hygiene over time, featuring secure sealing systems such as leak-proof flip-top lids or adhesive peel-back closures.",
       "kategoriId": "kisisel-bakim",
       "imageSrc": "/images/urunler/islak-mendil-main_34d43.webp",
       "imageAlt": "Wet Wipe Packaging",
@@ -653,15 +573,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 15,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "PE/PP-Based Multilayer Moisture Barrier Films",
+        "Lockable Plastic Lid",
+        "Adhesive Peel-Back Mechanism"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Wet wipe packaging such as baby wipes, cosmetic wipes, and cleaning wipes.<br/>\r\nPrevents drying out thanks to its moisture barrier.<br/>\r\nEasy to use with hygienic lids that open from the top or front.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Films: Multilayer moisture-barrier structures based on PE/PP.<br/>\r\nClosures: Lockable plastic lids or adhesive peel-back mechanisms.<br/>\r\nLeak-proof sealing and high bonding strength for lasting performance.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Flip-top lid or adhesive peel-back opening.<br/>\r\nLabeling areas for multilingual use; specialty printing options.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-02_9169d.webp",
+        "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-03_06e30.webp",
+        "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-04_df295.webp"
+      ]
     },
     {
       "id": "ue0016",
       "slug": "detergent-packaging",
       "baslik": "Detergent Packaging",
       "ozet": "Our detergent packaging solutions provide durable, high-barrier protection against moisture and light, preserving the chemical stability of liquid, powder, and capsule detergents. They offer practical opening and closing features, along with easy handling.",
-      "aciklama": "Our detergent packaging solutions provide durable, high-barrier protection against moisture and light, preserving the chemical stability of liquid, powder, and capsule detergents. They offer practical opening and closing features, along with easy handling. Suitable for liquid, powder, capsule, and granulated detergent formats. Prevents chemical degradation and fragrance loss. High durability during transport and storage. Films/Laminates: Combinations of PE, PET, PA, and PP. Chemically resistant inner layers. High-strength outer surface with leak-proof sealing. Pour-friendly cap systems for convenient dispensing. Recyclable film options. Multiple pack formats for different sizes and volumes.",
+      "aciklama": "Our detergent packaging solutions provide durable, high-barrier protection against moisture and light, preserving the chemical stability of liquid, powder, and capsule detergents. They offer practical opening and closing features, along with easy handling.",
       "kategoriId": "kisisel-bakim",
       "imageSrc": "/images/urunler/urun-deterjan-main_3a78d.webp",
       "imageAlt": "Detergent Packaging",
@@ -669,15 +613,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 16,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "PE, PET, PA, PP Combinations",
+        "Pour-Friendly Cap Systems",
+        "Chemically Resistant Inner Layers"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Suitable for liquid, powder, capsule, and granulated detergent formats.<br/>\r\nPrevents chemical degradation and fragrance loss.<br/>\r\nHigh durability during transport and storage.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Films/Laminates: Combinations of PE, PET, PA, and PP.<br/>\r\nChemically resistant inner layers.<br/>\r\nHigh-strength outer surface with leak-proof sealing.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Pour-friendly cap systems for convenient dispensing.<br/>\r\nRecyclable film options.<br/>\r\nMultiple pack formats for different sizes and volumes.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-02_64c8a.webp",
+        "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-03_b93dc.webp",
+        "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-04_a24ac.webp"
+      ]
     },
     {
       "id": "ue0017",
       "slug": "toilet-paper-packaging",
       "baslik": "Toilet Paper Packaging",
       "ozet": "Our toilet paper packaging offers aesthetic and functional solutions, protecting the product from moisture and dirt, and is available in both handled and handle-free options for easy carrying.",
-      "aciklama": "Our toilet paper packaging offers aesthetic and functional solutions, protecting the product from moisture and dirt, and is available in both handled and handle-free options for easy carrying. Ideal for packaging toilet paper rolls and bulk packs. Moisture barrier protects the product during storage. Multiple size and handle options for easy carrying. Material: Airtight and moisture-resistant PE bags. Customizable structure for various sizes and ply counts. High-quality print surfaces and overall durability. Carry handle options. Custom-printed brand designs; opaque or semi-transparent finishes.",
+      "aciklama": "Our toilet paper packaging offers aesthetic and functional solutions, protecting the product from moisture and dirt, and is available in both handled and handle-free options for easy carrying.",
       "kategoriId": "kisisel-bakim",
       "imageSrc": "/images/urunler/tuvalet-kagidi-main_2f174.webp",
       "imageAlt": "Toilet Paper Packaging",
@@ -685,15 +653,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 17,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Airtight & Moisture-Resistant PE Bags",
+        "Carry Handle Options",
+        "Opaque or Semi-Transparent Finishes"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for packaging toilet paper rolls and bulk packs.<br/>\r\nMoisture barrier protects the product during storage.<br/>\r\nMultiple size and handle options for easy carrying.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Material: Airtight and moisture-resistant PE bags.<br/>\r\nCustomizable structure for various sizes and ply counts.<br/>\r\nHigh-quality print surfaces and overall durability.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Carry handle options.<br/>\r\nCustom-printed brand designs; opaque or semi-transparent finishes.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-02_11de4.webp",
+        "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-03_2581b.webp",
+        "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-04_bc6e3.webp"
+      ]
     },
     {
       "id": "ue0018",
       "slug": "sanitary-pad-packaging",
       "baslik": "Sanitary Pad Packaging",
       "ozet": "Our sanitary pad packaging solutions are designed to ensure product hygiene and integrity. With single-wrap films, leak-proof end seals, and user-friendly opening mechanisms, they offer reliable protection and a sense of confidence to the end user.",
-      "aciklama": "Our sanitary pad packaging solutions are designed to ensure product hygiene and integrity. With single-wrap films, leak-proof end seals, and user-friendly opening mechanisms, they offer reliable protection and a sense of confidence to the end user. Suitable for packaging feminine hygiene products such as pads and tampons. Protective film structure prevents direct contact with the product. Leak-proof seals maintain hygiene and safety. Materials: Single-wrap films with liquid-resistant surfaces. Leak-proof end seals and secure bonding. Easy-to-open and hygienic packaging designs. Tear lines, adhesive tapes, or strip sealing systems. Custom printing and various pack size options.",
+      "aciklama": "Our sanitary pad packaging solutions are designed to ensure product hygiene and integrity. With single-wrap films, leak-proof end seals, and user-friendly opening mechanisms, they offer reliable protection and a sense of confidence to the end user.",
       "kategoriId": "kisisel-bakim",
       "imageSrc": "/images/urunler/hijyenik-ped-main_c4011.webp",
       "imageAlt": "Sanitary Pad Packaging",
@@ -701,15 +693,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 18,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Single-Wrap Films",
+        "Liquid-Resistant Surfaces",
+        "Leak-Proof End Seals"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Suitable for packaging feminine hygiene products such as pads and tampons.<br/>\r\nProtective film structure prevents direct contact with the product.<br/>\r\nLeak-proof seals maintain hygiene and safety.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Materials: Single-wrap films with liquid-resistant surfaces.<br/>\r\nLeak-proof end seals and secure bonding.<br/>\r\nEasy-to-open and hygienic packaging designs.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Tear lines, adhesive tapes, or strip sealing systems.<br/>\r\nCustom printing and various pack size options.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-02_bde7b.webp",
+        "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-03_59fa3.webp",
+        "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-04_e5f6e.webp"
+      ]
     },
     {
       "id": "ue0019",
       "slug": "pet-food-packaging",
       "baslik": "Pet Food Packaging",
       "ozet": "Our pet food packaging is engineered to preserve freshness and hygiene through barrier laminates that prevent fat oxidation, resealable zipper systems, and durable film structures. High-quality printing options enhance shelf appeal.",
-      "aciklama": "Our pet food packaging is engineered to preserve freshness and hygiene through barrier laminates that prevent fat oxidation, resealable zipper systems, and durable film structures. High-quality printing options enhance shelf appeal. Suitable for dry food, wet food, and pet treats. Protection against fat oxidation and preservation of aroma. User-friendly opening and closing mechanisms. Film Structures: PET/PE, OPP/PE, CPET/PE combinations. Strong seal strength and puncture-resistant outer layers. Functional features such as zippers and carry handles. Zipper + handle designs, windowed variants. Matte, glossy, or kraft paper-look finishes. Recyclable or PCR material options.",
+      "aciklama": "Our pet food packaging is engineered to preserve freshness and hygiene through barrier laminates that prevent fat oxidation, resealable zipper systems, and durable film structures. High-quality printing options enhance shelf appeal.",
       "kategoriId": "evcil-hayvan",
       "imageSrc": "/images/urunler/pet_ceb0c.webp",
       "imageAlt": "Pet Food Packaging",
@@ -717,15 +733,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 19,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "PET/PE, OPP/PE, CPET/PE Combinations",
+        "Aroma Stability",
+        "Zipper + Handle Designs"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Suitable for dry food, wet food, and pet treats.<br/>\r\nProtection against fat oxidation and preservation of aroma.<br/>\r\nUser-friendly opening and closing mechanisms.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: PET/PE, OPP/PE, CPET/PE combinations.<br/>\r\nStrong seal strength and puncture-resistant outer layers.<br/>\r\nFunctional features such as zippers and carry handles.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Zipper + handle designs, windowed variants.<br/>\r\nMatte, glossy, or kraft paper-look finishes.<br/>\r\nRecyclable or PCR material options.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-02_e29d8.webp",
+        "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-03_90ddc.webp",
+        "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-04_ca04a.webp"
+      ]
     },
     {
       "id": "ue0020",
       "slug": "litter-packaging",
       "baslik": "Litter Packaging",
       "ozet": "Our cat and dog litter packaging consists of large-volume, durable bags that offer hygiene-focused solutions with carry handle designs, moisture and odor barriers, and ease of transport.",
-      "aciklama": "Our cat and dog litter packaging consists of large-volume, durable bags that offer hygiene-focused solutions with carry handle designs, moisture and odor barriers, and ease of transport. Ideal for cat litter, dog litter, and other absorbent products. Hygienic design with odor control and strong portability. Available in various volumes, suitable for both retail and wholesale. Film Structures: High-strength LDPE/HDPE and multilayer laminates. Odor barrier and moisture resistance. Reinforced carry handle connection points. Carry handles and resealable closure systems. Printed usage instructions and information areas.",
+      "aciklama": "Our cat and dog litter packaging consists of large-volume, durable bags that offer hygiene-focused solutions with carry handle designs, moisture and odor barriers, and ease of transport.",
       "kategoriId": "evcil-hayvan",
       "imageSrc": "/images/urunler/kedi-kumu-main_6b397.webp",
       "imageAlt": "Litter Packaging",
@@ -733,15 +773,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 20,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "High-Strength LDPE/HDPE & Multilayer Laminates",
+        "Odor Barrier & Moisture Resistance",
+        "Reinforced Handle Attachments"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for cat litter, dog litter, and other absorbent products.<br/>\r\nHygienic design with odor control and strong portability.<br/>\r\nAvailable in various volumes, suitable for both retail and wholesale.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Structures: High-strength LDPE/HDPE and multilayer laminates.<br/>\r\nOdor barrier and moisture resistance.<br/>\r\nReinforced carry handle connection points.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Carry handles and resealable closure systems.<br/>\r\nPrinted usage instructions and information areas.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kum-ambalajlari-02_72366.webp",
+        "/images/urunfotogaleri/ayfleks-kum-ambalajlari-03_c77c3.webp",
+        "/images/urunfotogaleri/ayfleks-kum-ambalajlari-04_75289.webp"
+      ]
     },
     {
       "id": "ue0021",
       "slug": "courier-bags",
       "baslik": "Courier Bags",
       "ozet": "Our courier bags are engineered for e-commerce and logistics shipments, featuring tear-resistant, opaque, and secure three-layer HDPE/PE constructions. They also support environmental sustainability through options with recycled content.",
-      "aciklama": "Our courier bags are engineered for e-commerce and logistics shipments, featuring tear-resistant, opaque, and secure three-layer HDPE/PE constructions. They also support environmental sustainability through options with recycled content. Ideal for e-commerce shipping and returns. High resistance to tearing and punctures. Opaque interior layer for privacy. Material: Reinforced HDPE/PE, three-layer structure (white outer/optional black inner). Dual adhesive strip closure; available in various sizes and thicknesses. Eco-friendly options with PCR/PIR content. Custom printing, dual adhesive sealing, matte or glossy finishes.",
+      "aciklama": "Our courier bags are engineered for e-commerce and logistics shipments, featuring tear-resistant, opaque, and secure three-layer HDPE/PE constructions. They also support environmental sustainability through options with recycled content.",
       "kategoriId": "endustriyel",
       "imageSrc": "/images/urunler/kargo-posetleri-main_8ddcf.webp",
       "imageAlt": "Courier Bags",
@@ -749,15 +813,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 21,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Reinforced HDPE/PE, Triple-Layer Structure",
+        "Opaque Inner Layer for Privacy",
+        "Dual-Strip Closure System"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for e-commerce shipping and returns.<br/>\r\nHigh resistance to tearing and punctures.<br/>\r\nOpaque interior layer for privacy.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Material: Reinforced HDPE/PE, three-layer structure (white outer/optional black inner).<br/>\r\nDual adhesive strip closure; available in various sizes and thicknesses.<br/>\r\nEco-friendly options with PCR/PIR content.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Custom printing, dual adhesive sealing, matte or glossy finishes.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kargo-torbalari-02_97b59.webp",
+        "/images/urunfotogaleri/ayfleks-kargo-torbalari-03_d0f58.webp",
+        "/images/urunfotogaleri/ayfleks-kargo-torbalari-04_028b3.webp"
+      ]
     },
     {
       "id": "ue0022",
       "slug": "textile-packaging",
       "baslik": "Textile Packaging",
       "ozet": "Our textile packaging solutions are film-based bags that protect garments, home textiles, and fabric products from dust and moisture, while offering an attractive presentation. Anti-static properties and optional accessories help streamline the delivery process.",
-      "aciklama": "Our textile packaging solutions are film-based bags that protect garments, home textiles, and fabric products from dust and moisture, while offering an attractive presentation. Anti-static properties and optional accessories help streamline the delivery process. Ideal for clothing, home textiles, and large fabric rolls. Dust and moisture protection with premium visual appeal. Easy to handle and storage-friendly. Materials: PE or PP; available in transparent or printed options. Anti-static features and metallized tape applications. Customizable in various sizes and thicknesses. Tape applications, custom-printed branding, carry handles or hanging loops.",
+      "aciklama": "Our textile packaging solutions are film-based bags that protect garments, home textiles, and fabric products from dust and moisture, while offering an attractive presentation. Anti-static properties and optional accessories help streamline the delivery process.",
       "kategoriId": "endustriyel",
       "imageSrc": "/images/urunler/tekstil-ambalaji-main_2e8f7.webp",
       "imageAlt": "Textile Packaging",
@@ -765,15 +853,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 22,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "PE & PP – Transparent or Printed",
+        "Anti-static & Metallized Tape Options",
+        "Carry Handle or Hanging Loop"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for clothing, home textiles, and large fabric rolls.<br/>\r\nDust and moisture protection with premium visual appeal.<br/>\r\nEasy to handle and storage-friendly.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Materials: PE or PP; available in transparent or printed options.<br/>\r\nAnti-static features and metallized tape applications.<br/>\r\nCustomizable in various sizes and thicknesses.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Tape applications, custom-printed branding, carry handles or hanging loops.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-03_22d61.webp",
+        "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-04_42874.webp",
+        "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-02_57be3.webp"
+      ]
     },
     {
       "id": "ue0023",
       "slug": "shrink",
       "baslik": "Shrink",
       "ozet": "Our shrink packaging films are heat-sensitive materials designed to tightly wrap around pallets and packages, providing stability and protection during transportation. Available in transparent or colored options, they help increase logistics efficiency.",
-      "aciklama": "Our shrink packaging films are heat-sensitive materials designed to tightly wrap around pallets and packages, providing stability and protection during transportation. Available in transparent or colored options, they help increase logistics efficiency. Ideal for pallet wrapping, package protection, and product bundling. Reduces transport damage and ensures product stability. Cost-effective and quick to apply. Film Types: PVC or PE shrink films (heat-shrinkable). Available in various thicknesses and widths; adaptable to different heat settings. High tensile strength. Transparent or colored shrink films; printable versions available.",
+      "aciklama": "Our shrink packaging films are heat-sensitive materials designed to tightly wrap around pallets and packages, providing stability and protection during transportation. Available in transparent or colored options, they help increase logistics efficiency.",
       "kategoriId": "endustriyel",
       "imageSrc": "/images/urunler/shrink-main_643e5.webp",
       "imageAlt": "Shrink",
@@ -781,15 +893,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 23,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "PVC or PE Shrink Films",
+        "Package Protection",
+        "High Tensile Strength"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for pallet wrapping, package protection, and product bundling.<br/>\r\nReduces transport damage and ensures product stability.<br/>\r\nCost-effective and quick to apply.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Types: PVC or PE shrink films (heat-shrinkable).<br/>\r\nAvailable in various thicknesses and widths; adaptable to different heat settings.<br/>\r\nHigh tensile strength.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Transparent or colored shrink films; printable versions available.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-shrink-02_a4367.webp",
+        "/images/urunfotogaleri/ayfleks-shrink-03_1959e.webp",
+        "/images/urunfotogaleri/ayfleks-shrink-04_bf50a.webp"
+      ]
     },
     {
       "id": "ue0024",
       "slug": "shopping-bags",
       "baslik": "Shopping Bags",
       "ozet": "Our shopping bags are made from durable LDPE or MDPE and are ideal for retail and promotional use. Available in printed or unprinted, with or without handles, they help enhance brand visibility and improve customer experience.",
-      "aciklama": "Our shopping bags are made from durable LDPE or MDPE and are ideal for retail and promotional use. Available in printed or unprinted, with or without handles, they help enhance brand visibility and improve customer experience. Perfect for supermarkets, boutiques, and promotional packaging. High carrying capacity with an aesthetic look. Cost-effective and easy to manage in inventory. Materials: LDPE, MDPE with reinforced options. Printing: Flexographic or gravure printing available. Various sizes and weights available. Custom-printed brand designs, handle or handle-free formats. Recyclable material alternatives.",
+      "aciklama": "Our shopping bags are made from durable LDPE or MDPE and are ideal for retail and promotional use. Available in printed or unprinted, with or without handles, they help enhance brand visibility and improve customer experience.",
       "kategoriId": "endustriyel",
       "imageSrc": "/images/urunler/alisveris-cantalari-main_084f3.webp",
       "imageAlt": "Shopping Bags",
@@ -797,15 +933,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 24,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "LDPE & MDPE with Reinforced Options",
+        "Flexo or Gravure Printing Options",
+        "Models With or Without Handles"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Perfect for supermarkets, boutiques, and promotional packaging.<br/>\r\nHigh carrying capacity with an aesthetic look.<br/>\r\nCost-effective and easy to manage in inventory.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Materials: LDPE, MDPE with reinforced options.<br/>\r\nPrinting: Flexographic or gravure printing available.<br/>\r\nVarious sizes and weights available.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Custom-printed brand designs, handle or handle-free formats.<br/>\r\nRecyclable material alternatives.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-alisveris-cantalari-02_fe349.webp",
+        "/images/urunfotogaleri/ayfleks-alisveris-cantalari-03_6961c.webp",
+        "/images/urunfotogaleri/ayfleks-alisveris-cantalari-04_99232.webp"
+      ]
     },
     {
       "id": "ue0025",
       "slug": "hanging-garment-bags",
       "baslik": "Hanging Garment Bags",
       "ozet": "Our hanging garment bags are durable, visually appealing solutions designed for textile products, featuring welded connections and compatibility with both standard and custom-made hangers.",
-      "aciklama": "Our hanging garment bags are durable, visually appealing solutions designed for textile products, featuring welded connections and compatibility with both standard and custom-made hangers. Ideal for use in textile retail, shipping, and product display. Easy to carry, highly durable, and visually appealing. Materials: LDPE, PP; compatible with various hanger production methods. Welded hanger integration; high tear resistance. Custom printing, various hanger and handle configurations.",
+      "aciklama": "Our hanging garment bags are durable, visually appealing solutions designed for textile products, featuring welded connections and compatibility with both standard and custom-made hangers.",
       "kategoriId": "endustriyel",
       "imageSrc": "/images/urunler/askili-tekstil-ambalaji-main_5d167.webp",
       "imageAlt": "Hanging Garment Bags",
@@ -813,15 +973,39 @@
       "yayinda": true,
       "stokta": true,
       "sira": 25,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "LDPE, PP; Multiple Hanger Production Methods",
+        "Welded Hanger Integration",
+        "High Tear Resistance"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for use in textile retail, shipping, and product display.<br/>\r\nEasy to carry, highly durable, and visually appealing.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Materials: LDPE, PP; compatible with various hanger production methods.<br/>\r\nWelded hanger integration; high tear resistance.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Custom printing, various hanger and handle configurations.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-02_7605d.webp",
+        "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-03_db3f2.webp",
+        "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-04_31fee.webp"
+      ]
     },
     {
       "id": "ue0026",
       "slug": "dry-cleaning-bags",
       "baslik": "Dry Cleaning Bags",
       "ozet": "Our dry-cleaning bags protect garments during storage and delivery with their lightweight, airtight, and stain-resistant sealed structure. When needed, we offer reinforced solutions with multilayer lamination.",
-      "aciklama": "Our dry-cleaning bags protect garments during storage and delivery with their lightweight, airtight, and stain-resistant sealed structure. When needed, we offer reinforced solutions with multilayer lamination. Ideal for dry cleaning, garment storage, and delivery. Protects against dust and moisture; sleek and lightweight design. Dedicated labeling area for product information. Materials: Lightweight PE or multilayer laminates. Excellent sealing and weld strength. Optional anti-static or specialty coatings available. Transparent or printed versions; designated label areas. Available in various sizes and capacities.",
+      "aciklama": "Our dry-cleaning bags protect garments during storage and delivery with their lightweight, airtight, and stain-resistant sealed structure. When needed, we offer reinforced solutions with multilayer lamination.",
       "kategoriId": "endustriyel",
       "imageSrc": "/images/urunler/kuru-temizleme-torbalari-main_e7ac0.webp",
       "imageAlt": "Dry Cleaning Bags",
@@ -829,8 +1013,1072 @@
       "yayinda": true,
       "stokta": true,
       "sira": 26,
-      "guncellenme": "2026-08-31T12:00:00.000Z",
-      "locale": "en"
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "en",
+      "ozellikler": [
+        "Lightweight PE or Multilayer Laminates",
+        "Transparent or Printed Options",
+        "Dust & Moisture Protection"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Areas of Use & Advantages",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ideal for dry cleaning, garment storage, and delivery.<br/>\r\nProtects against dust and moisture; sleek and lightweight design.<br/>\r\nDedicated labeling area for product information.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Technical Specifications",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Materials: Lightweight PE or multilayer laminates.<br/>\r\nExcellent sealing and weld strength.<br/>\r\nOptional anti-static or specialty coatings available.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Options",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Transparent or printed versions; designated label areas.<br/>\r\nAvailable in various sizes and capacities.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-02_5eda2.webp",
+        "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-03_064c8.webp",
+        "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-04_e9809.webp"
+      ]
+    },
+    {
+      "id": "u0001",
+      "slug": "sekerleme-urunleri-ambalajlari",
+      "baslik": "Şekerleme Ürünleri Ambalajları",
+      "ozet": "Şekerleme ürünleriniz için özel olarak tasarladığımız esnek ambalaj çözümlerimiz, tazeliği, aromayı ve görselliği en üst düzeyde korur. Soğuk yapıştırma (cold-seal), yüksek çözünürlüklü baskı ve optimize edilmiş film kombinasyonları sayesinde raf ömrünü maksimize ederiz. Parlak, mat, metalize, şeffaf veya doğal kağıt görünümlü yüzey seçenekleriyle marka kimliğinizi güçlendiririz.",
+      "aciklama": "Şekerleme ürünleriniz için özel olarak tasarladığımız esnek ambalaj çözümlerimiz, tazeliği, aromayı ve görselliği en üst düzeyde korur. Soğuk yapıştırma (cold-seal), yüksek çözünürlüklü baskı ve optimize edilmiş film kombinasyonları sayesinde raf ömrünü maksimize ederiz. Parlak, mat, metalize, şeffaf veya doğal kağıt görünümlü yüzey seçenekleriyle marka kimliğinizi güçlendiririz.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/sekerleme-main_6155c.webp",
+      "imageAlt": "Şekerleme Ürünleri Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 1,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Soğuk Yapıştırma",
+        "Kolay Yırtma Çentiği",
+        "Yumuşak Dokunuşlu Yüzey"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Şekerleme, draje, lokum, çikolata ve benzeri tatlı ürünler için idealdir.<br/>\r\nOksijen, ışık ve neme karşı üst düzey koruma sağlayarak tazelik ve aroma kaybını önler.<br/>\r\nSoğuk yapıştırma (cold-seal) teknolojisi ile üretim hatlarında yüksek verimlilik sunar.<br/>\r\nParlak ve metalize baskı seçenekleriyle raflarda etkileyici bir görsel kalite vaat eder.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: OPP/PE, OPP/MET/OPP, OPP/CPP.<br/>\r\nBaskı: Yüksek çözünürlük ve bobin boyunca renk tutarlılığı.<br/>\r\nBariyer: O₂, nem ve ışık geçirgenliğine karşı optimize edilmiş katmanlar.<br/>\r\nMekanik Dayanım: Yırtılma ve zımbalama direnci, güçlü yapıştırma performansı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Yeniden kapatılabilir fermuar, kolay yırtma çentiği (tear-notch).<br/>\r\nŞeffaf pencere, yumuşak dokunuşlu (soft-touch) yüzey.<br/>\r\nMat/parlak kombinasyonları; geri dönüştürülebilir film alternatifleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-02_7cbfa.webp",
+        "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-03_f5c5b.webp",
+        "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-04_f503d.webp"
+      ]
+    },
+    {
+      "id": "u0002",
+      "slug": "kurutulmus-gida-ambalajlari",
+      "baslik": "Kurutulmuş Gıda Ambalajları",
+      "ozet": "Kurutulmuş gıda ambalajlarımız, meyve, sebze ve bakliyat gibi ürünlerinizin aroma, lezzet ve besin değerini korurken uzun raf ömrü sağlar. Tekrar kapatılabilirlik özelliği ve güçlü bariyer yapısıyla ürünlerinizin günlük tazeliğini muhafaza eder.",
+      "aciklama": "Kurutulmuş gıda ambalajlarımız, meyve, sebze ve bakliyat gibi ürünlerinizin aroma, lezzet ve besin değerini korurken uzun raf ömrü sağlar. Tekrar kapatılabilirlik özelliği ve güçlü bariyer yapısıyla ürünlerinizin günlük tazeliğini muhafaza eder.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/dried-fruit-main_175b9.webp",
+      "imageAlt": "Kurutulmuş Gıda Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 2,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Zip Fermuar",
+        "Pencereli Tasarım",
+        "Biyobaz İçerik"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kurutulmuş meyve, sebze, bakliyat ve atıştırmalıklar için uygundur.<br/>\r\nNem, oksijen ve ışığa karşı uzun süreli üstün koruma.<br/>\r\nTekrar kapatılabilir (zip) fermuar sayesinde tüketiciye kullanım kolaylığı sunar.<br/>\r\nPencere veya şeffaf alan seçeneği ile ürün görünürlüğü sağlar.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: PE, CPP, laminasyonlu OPP/PE.<br/>\r\nÇok katmanlı bariyer kombinasyonları ile küf ve rutubet riskini minimize eder.<br/>\r\nIsıya ve sürtünmeye dayanıklı dış katmanlar.<br/>\r\nParlak, mat ve metalize yüzey seçenekleri.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Zip fermuar, kolay açılır yırtma çizgileri.<br/>\r\nPencereli tasarım, özel baskı opsiyonları.<br/>\r\nBiyobaz içerikli çevre dostu filmler.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-02_9022b.webp",
+        "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-03_60ecb.webp",
+        "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-04_34d19.webp"
+      ]
+    },
+    {
+      "id": "u0003",
+      "slug": "icecek-ve-takviye-urunleri-ambalajlari",
+      "baslik": "İçecek ve Takviye Ürünleri Ambalajları",
+      "ozet": "İçecek ve takviye ürünleri için özel olarak geliştirdiğimiz ambalaj çözümlerimiz, toz, granül, tek kullanımlık poşet ve içecek torbalarında mükemmel sızdırmazlık ve stabilite sunar. Çok katmanlı, yüksek bariyerli yapılarıyla dozaj kolaylığı, kapak ve kullanıcı dostu tasarımlara odaklanır.",
+      "aciklama": "İçecek ve takviye ürünleri için özel olarak geliştirdiğimiz ambalaj çözümlerimiz, toz, granül, tek kullanımlık poşet ve içecek torbalarında mükemmel sızdırmazlık ve stabilite sunar. Çok katmanlı, yüksek bariyerli yapılarıyla dozaj kolaylığı, kapak ve kullanıcı dostu tasarımlara odaklanır.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/urun-detay-main-image_b2f8b.webp",
+      "imageAlt": "İçecek ve Takviye Ürünleri Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 3,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "PET/AL/PE, PET/PE, Çok Katmanlı Laminatlar",
+        "Fermuar, Kolay Yırtılma Bandı",
+        "Kapanabilir Kapak"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Toz içecekler, protein tozları, içecek torbaları ve takviye edici gıdalar.<br/>\r\nAroma ve etken madde stabilitesini en üst düzeyde koruma.<br/>\r\nÜstün sızdırmazlık ve hijyen ile güvenli taşıma ve saklama imkanı.<br/>\r\nMarka görünürlüğünü artıran yüksek kaliteli baskı çözümleri.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: PET/AL/PE, PET/PE, çok katmanlı laminatlar.<br/>\r\nİç Kaplamalar: Kayganlık sağlayan, kimyasal dirençli ve gözeneksiz yapı.<br/>\r\nSızdırmaz mühürleme ve yüksek yapıştırma gücü.<br/>\r\nDelinme ve yırtılmaya karşı yüksek mekanik dayanım.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kapanabilir kapak ve dozajlı kapak seçenekleri.<br/>\r\nFermuar, kolay yırtılma bandı.<br/>\r\nÖzel iç kaplama (tam uyumlu, gıda sınıfı malzeme).</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-02_7ec70.webp",
+        "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-03_2ef1d.webp",
+        "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-04_10ef4.webp"
+      ]
+    },
+    {
+      "id": "u0004",
+      "slug": "firin-urunleri-ambalajlari",
+      "baslik": "Fırın Ürünleri Ambalajları",
+      "ozet": "Fırın ürünleri için geliştirdiğimiz ambalaj çözümlerimiz, ekmek, poğaça ve çörek gibi taze ürünlerin kıtırlığını, dokusunu ve tazeliğini korur. Bariyerli ancak kontrollü nefes alabilen yapısı, ventilasyon delikleri ve termal dayanımı sayesinde paket içi nem yönetimi sağlar.",
+      "aciklama": "Fırın ürünleri için geliştirdiğimiz ambalaj çözümlerimiz, ekmek, poğaça ve çörek gibi taze ürünlerin kıtırlığını, dokusunu ve tazeliğini korur. Bariyerli ancak kontrollü nefes alabilen yapısı, ventilasyon delikleri ve termal dayanımı sayesinde paket içi nem yönetimi sağlar.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/ekmek-ambalaj-main_2367f.webp",
+      "imageAlt": "Fırın Ürünleri Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 4,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "PET/PE, OPP/PE, CPP/PE Film Yapıları",
+        "Ventilasyon Delikli Tasarımlar",
+        "Şeffaf Pencere"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Taze fırın ürünleri ve pastane ürünleri için idealdir.<br/>\r\nBuhar kontrolü sağlayarak kabuk kıtırlığını korur.<br/>\r\nYeniden kapatılabilirlik özelliği ile tazelik süresini uzatır.<br/>\r\nRaf çekiciliğini artıran özel baskı ve pencere seçenekleri sunar.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: PET/PE, OPP/PE, CPP/PE.<br/>\r\nMikro-ventilasyon delikleri ve buğu önleyici (anti-fog) kaplamalar.<br/>\r\nPaketleme ve kısa süreli ısı/soğuk süreçlerine uygun termal dayanım.<br/>\r\nGüçlü yapıştırma performansı ve mekanik mukavemet.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Ventilasyon delikli tasarımlar.<br/>\r\nKolay açılır-kapanır sızdırmaz yapılar.<br/>\r\nŞeffaf pencere, mat/parlak baskı kombinasyonları.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-02_e90d4.webp",
+        "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-03_4ba6e.webp",
+        "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-04_6c091.webp"
+      ]
+    },
+    {
+      "id": "u0005",
+      "slug": "tavuk-ve-ekmek-ambalajlari",
+      "baslik": "Tavuk ve Ekmek Ambalajları",
+      "ozet": "Tavuk ve ekmek ambalaj çözümlerimiz, gıda güvenliği ve hijyeni ön planda tutarak, yüksek hızlı dolum hatlarına uygun wicket bag ve çok amaçlı torba formatlarıyla üretim verimliliği ve etkili raf sunumu sağlar.",
+      "aciklama": "Tavuk ve ekmek ambalaj çözümlerimiz, gıda güvenliği ve hijyeni ön planda tutarak, yüksek hızlı dolum hatlarına uygun wicket bag ve çok amaçlı torba formatlarıyla üretim verimliliği ve etkili raf sunumu sağlar.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/tavuk-ambalaj-main_d16c6.webp",
+      "imageAlt": "Tavuk ve Ekmek Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 5,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "OPP, LDPE/HDPE, CPP, Çok Katmanlı Laminatlar",
+        "Wicket Bag Formatı Taşıma Kulpları",
+        "Özel Kesim Teknikleri"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Donuk ve taze tavuk ürünleri, ekmek ve benzeri gıdalar için uygundur.<br/>\r\nOtomatik ve yarı otomatik hatlarla tam uyumluluk.<br/>\r\nÇok amaçlı kullanım: gıda, tekstil, sebze/meyve ambalajı.<br/>\r\nHava sirkülasyonu ve koruma dengesini sağlayan seçenekler.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzemeler: OPP, LDPE/HDPE, CPP, çok katmanlı laminatlar.<br/>\r\nDüz, mikroperfore ve pencereli çeşitler.<br/>\r\nYüksek hızlı üretim için optimize besleme uyumlu yapı.<br/>\r\nDayanıklı yapıştırma ve kaynak teknolojileri.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Wicket bag formatı, taşıma kulpları.<br/>\r\nMikroperforasyon, pencere ve baskı opsiyonları.<br/>\r\nSızdırmazlık ve kolay ayrılma için özel kesim teknikleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-02_ffbac.webp",
+        "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-03_23c58.webp",
+        "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-04_d7e0b.webp"
+      ]
+    },
+    {
+      "id": "u0006",
+      "slug": "cay-ve-kahve-ambalajlari",
+      "baslik": "Çay ve Kahve Ambalajları",
+      "ozet": "Çay ve kahve ambalajlarımız, aroma korumasına odaklanan, alüminyum kaplama ve çok katmanlı bariyer yapılarıyla uzun raf ömrü sunan çözümlerdir. Tek yönlü valf ve yeniden kapatılabilir fermuar gibi tüketici odaklı fonksiyonlarla zenginleştirilmiştir.",
+      "aciklama": "Çay ve kahve ambalajlarımız, aroma korumasına odaklanan, alüminyum kaplama ve çok katmanlı bariyer yapılarıyla uzun raf ömrü sunan çözümlerdir. Tek yönlü valf ve yeniden kapatılabilir fermuar gibi tüketici odaklı fonksiyonlarla zenginleştirilmiştir.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/ambalaj-cay-kahve_b907f.webp",
+      "imageAlt": "Çay ve Kahve Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 6,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Alüminyum Kaplama",
+        "Çok Katmanlı Bariyer Yapısı",
+        "Yeniden Kapatılabilir Fermuar"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Çay yaprakları, poşet çay, çekirdek ve öğütülmüş kahve için idealdir.<br/>\r\nAroma kaybını önleyen yüksek bariyerli yapılar.<br/>\r\nValf uygulaması ile paket içi gaz yönetimi sağlar.<br/>\r\nMarka değerini öne çıkaran özel baskı ve yüzey işlemleri.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: PET/ALU/PE, PET/MetPET/PE, PET/PE-EVOH-PE.<br/>\r\nTek yönlü gaz valfleri, yüksek bariyer katmanlar.<br/>\r\nKraft kağıt görünümlü veya metalize yüzey opsiyonları.<br/>\r\nYüksek çözünürlüklü baskı, UV dayanımı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Gaz çıkış valfi uygulaması.<br/>\r\nFermuar ve yeniden kapatma seçenekleri.<br/>\r\nPenceresiz opak veya kraft kağıt görünümlü tasarımlar.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-02_77795.webp",
+        "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-03_733a9.webp",
+        "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-04_ba06c.webp"
+      ]
+    },
+    {
+      "id": "u0007",
+      "slug": "baharat-ambalajlari",
+      "baslik": "Baharat Ambalajları",
+      "ozet": "Baharat ambalajlarımız, UV ışınları, oksijen ve neme karşı üstün bariyer koruması sağlayan çok katmanlı filmlerle aromanın ve rengin korunmasını garantiler. Küçük dozajlı paketleme ihtiyaçlarına uygun, estetik ve fonksiyonel çözümler sunar.",
+      "aciklama": "Baharat ambalajlarımız, UV ışınları, oksijen ve neme karşı üstün bariyer koruması sağlayan çok katmanlı filmlerle aromanın ve rengin korunmasını garantiler. Küçük dozajlı paketleme ihtiyaçlarına uygun, estetik ve fonksiyonel çözümler sunar.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/baharat-ambalaj-main_38420.webp",
+      "imageAlt": "Baharat Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 7,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Alüminyum Kaplamalı Laminatlar",
+        "PET/ALU/PE, OPP/CPP Kombinasyonları",
+        "Çekme Bandı (zip) ve Dozajlı Kapak Seçenekleri"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Toz ve tane baharatlar ile baharat karışımları için uygundur.<br/>\r\nAroma ve renk stabilitesini uzun süre koruma.<br/>\r\nKüf ve bozulma riskini azaltan bariyer özellikleri.<br/>\r\nRaf sunumunda çekicilik ve etkili bilgi aktarımı için etiketleme alanı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: Alüminyum kaplamalı laminatlar, PET/ALU/PE, OPP/CPP kombinasyonları.<br/>\r\nUV korumalı dış katman, nem bariyeri.<br/>\r\nKüçük hacimli porsiyonlamaya uygun yapıştırma performansı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Pencereli veya tamamen opak seçenekler.<br/>\r\nToz akışını kolaylaştıran özel iç kaplamalar.<br/>\r\nÇekme bandı (zip) ve dozajlı kapak seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-02_3cedc.webp",
+        "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-04_4bbde.webp",
+        "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-03_73628.webp"
+      ]
+    },
+    {
+      "id": "u0008",
+      "slug": "kuru-yemisatistirmalik-ambalajlari",
+      "baslik": "Kuru Yemiş/Atıştırmalık Ambalajları",
+      "ozet": "Kuru yemiş ve atıştırmalık ambalaj çözümlerimiz, çıtırlık, lezzet ve yağ stabilitesini korumak için yüksek bariyerli filmleri ve üstün mekanik dayanımı bir araya getirir. Flowpack, stand-up pouch ve flat-bottom gibi çeşitli format seçenekleri sunar.",
+      "aciklama": "Kuru yemiş ve atıştırmalık ambalaj çözümlerimiz, çıtırlık, lezzet ve yağ stabilitesini korumak için yüksek bariyerli filmleri ve üstün mekanik dayanımı bir araya getirir. Flowpack, stand-up pouch ve flat-bottom gibi çeşitli format seçenekleri sunar.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/kuru-yemis-ambalaj-main_c1179.webp",
+      "imageAlt": "Kuru Yemiş/Atıştırmalık Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 8,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Yüksek Bariyer Koruması",
+        "Kolay Yırtma Çentiği",
+        "Kraft Kağıt Görünümlü Yüzey Seçenekleri"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kuru yemiş, cips, kraker ve atıştırmalık karışımları için idealdir.<br/>\r\nYağ oksidasyonunu engelleyen yüksek bariyer koruması.<br/>\r\nÜrün görünürlüğü sağlayan pencere seçenekleri.<br/>\r\nKullanıcı dostu yeniden kapatma ve kolay açma mekanizmaları.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Yapılar: Flowpack üst film + torba kombinasyonları, çok katmanlı laminatlar.<br/>\r\nDelinme ve çentik direnci yüksek dış katman.<br/>\r\nParlak, mat, metalize yüzeyler; yüksek çözünürlüklü baskı.<br/>\r\nGüçlü yapıştırma performansı ve mekanik mukavemet.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Fermuar, kolay yırtma çentiği (tear-notch), stand-up pouch veya flat-bottom tasarımlar.<br/>\r\nPencere uygulamaları; kraft kağıt görünümlü yüzey seçenekleri.<br/>\r\nBRC/IFS/FDA uyumlu gıda sınıfı malzemeler.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-02_cd92d.webp",
+        "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-03_981da.webp",
+        "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-04_5d5c7.webp"
+      ]
+    },
+    {
+      "id": "u0009",
+      "slug": "retort-ambalajlari",
+      "baslik": "Retort Ambalajları",
+      "ozet": "Retort ambalajlarımız, yüksek sıcaklıktaki sterilizasyon (retort) işlemlerine dayanıklı, çok katmanlı laminat yapısıyla ısıl işlem gören ürünlerin güvenle saklanmasını sağlar. Konserveye alternatif, uzun raf ömrü vaat eden çözümler sunar.",
+      "aciklama": "Retort ambalajlarımız, yüksek sıcaklıktaki sterilizasyon (retort) işlemlerine dayanıklı, çok katmanlı laminat yapısıyla ısıl işlem gören ürünlerin güvenle saklanmasını sağlar. Konserveye alternatif, uzun raf ömrü vaat eden çözümler sunar.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/retort-main_bf389.webp",
+      "imageAlt": "Retort Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 9,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Sterilizasyon Dayanımı",
+        "Isıl Dayanım",
+        "Kolay Açılır Kapak/Çekme Bandı"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Konserve alternatifi retort poşetleri: et, sebze, sos, yarı-sıvı ürünler.<br/>\r\nSterilizasyon dayanımı; soğuk zincir gerektirmeden uzun depolama.<br/>\r\nTüketiciye pratik servis ve kullanım kolaylığı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzeme: PET, PP, EVOH, NY içeren çok katmanlı laminatlar.<br/>\r\nIsıl Dayanım: 115–135°C aralığındaki sterilizasyon süreçlerine uygunluk.<br/>\r\nGüçlü katmanlar arası yapışma (adhesion), düşük delaminasyon riski.<br/>\r\nYüksek yapıştırma gücü ve penetrasyon dayanımı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kolay açılır kapak/çekme bandı, servis için özel tepsi varyantları.<br/>\r\nFarklı boyut ve gramajlarda retort poşet seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-retort-ambalajlar-02_82441.webp",
+        "/images/urunfotogaleri/ayfleks-retort-ambalajlar-03_52133.webp",
+        "/images/urunfotogaleri/ayfleks-retort-ambalajlar-04_1beb4.webp"
+      ]
+    },
+    {
+      "id": "u0010",
+      "slug": "dondurulmus-gida-ambalajlari",
+      "baslik": "Dondurulmuş Gıda Ambalajları",
+      "ozet": "Dondurulmuş gıda ambalajlarımız, düşük sıcaklıkta esnekliğini ve dayanıklılığını koruyan, çatlamayan filmler ve yüksek bariyer özellikleriyle soğuk zincir boyunca ürünün dokusunu, aromasını ve görünümünü korur.",
+      "aciklama": "Dondurulmuş gıda ambalajlarımız, düşük sıcaklıkta esnekliğini ve dayanıklılığını koruyan, çatlamayan filmler ve yüksek bariyer özellikleriyle soğuk zincir boyunca ürünün dokusunu, aromasını ve görünümünü korur.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/dondurulmus-gida-ambalaj-main_ad4a5.webp",
+      "imageAlt": "Dondurulmuş Gıda Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 10,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Düşük Sıcaklığa Dayanıklı PE, CPP, Özel Laminatlar",
+        "Nem ve Oksijen Bariyeri",
+        "Kraft Kağıt Görünümlü Yüzey Seçenekleri"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Dondurulmuş sebze, meyve, hazır yemek ve et ürünleri için uygundur.<br/>\r\n-18°C ve altı sıcaklıklarda çatlama ve hasar riskine karşı direnç.<br/>\r\nDonma yanığı (freezer burn) ve koku transferini önleme.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: Düşük sıcaklığa dayanıklı PE, CPP, özel laminatlar.<br/>\r\nDüşük sıcaklıkta esneklik ve yüksek mukavemet.<br/>\r\nNem ve oksijen bariyeri; düşük su buharı geçirgenliği.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kolay açılır şerit, fermuar seçenekleri.<br/>\r\nPenceresiz opak veya pencereli modeller; kraft kağıt görünümlü yüzey.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-02_3ce35.webp",
+        "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-03_7ceaf.webp",
+        "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-04_8c95c.webp"
+      ]
+    },
+    {
+      "id": "u0011",
+      "slug": "taze-meyve-ve-sebze-ambalajlari",
+      "baslik": "Taze Meyve ve Sebze Ambalajları",
+      "ozet": "Taze meyve ve sebze ambalajlarımız, ürünlerin doğal solunum ihtiyaçlarını gözeten mikro-perforasyon ve drenaj çözümleriyle tazeliği, görünümü ve raf dayanımını artırmak için tasarlanmıştır.",
+      "aciklama": "Taze meyve ve sebze ambalajlarımız, ürünlerin doğal solunum ihtiyaçlarını gözeten mikro-perforasyon ve drenaj çözümleriyle tazeliği, görünümü ve raf dayanımını artırmak için tasarlanmıştır.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/taze-meyve-sebze-ambalaj-main_d2c66.webp",
+      "imageAlt": "Taze Meyve ve Sebze Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 11,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Kontrollü Hava Geçirgen Yapılar",
+        "Buğu Önleyici (Anti-fog) Kaplamalar",
+        "Biyobozunur Malzeme Alternatifleri"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Taze meyve, sebze, çilek, nane vb. hassas ürünler için idealdir.<br/>\r\nÜrünün nefes almasını sağlayan mikro ve makro delikli yapılar.<br/>\r\nBuğu önleyici (anti-fog) kaplamalar sayesinde net görünüm.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Tipleri: Mikro gözenekli (mikroporöz) film, kontrollü hava geçirgen yapılar.<br/>\r\nDrenaj delikleri veya makro-perforasyon opsiyonları.<br/>\r\nBuğu önleyici (anti-fog) iç yüzey kaplamaları.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Mikro-perforasyon veya makro-perforasyon seçenekleri.<br/>\r\nPencereli, delikli veya ventilasyonlu torba tasarımları.<br/>\r\nBiyobozunur malzeme alternatifleri (isteğe bağlı).</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-02_67d4c.webp",
+        "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-03_7052a.webp",
+        "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-04_14c07.webp"
+      ]
+    },
+    {
+      "id": "u0012",
+      "slug": "bakliyat-ambalajlari",
+      "baslik": "Bakliyat Ambalajları",
+      "ozet": "Bakliyat ambalajlarımız, mercimek, nohut, fasulye gibi kuru bakliyat ürünlerini nem, böceklenme ve ışığa karşı koruyan, yüksek bariyerli, estetik ve dayanıklı torba çözümleridir.",
+      "aciklama": "Bakliyat ambalajlarımız, mercimek, nohut, fasulye gibi kuru bakliyat ürünlerini nem, böceklenme ve ışığa karşı koruyan, yüksek bariyerli, estetik ve dayanıklı torba çözümleridir.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/bakliyat_8c261.webp",
+      "imageAlt": "Bakliyat Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 12,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "OPP/OPP, CPP/OPP, OPP/PE Laminasyonları",
+        "UV Işın Koruması",
+        "Fermuar veya Kolay Dozaj Seçenekleri"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kuru bakliyatlar ve bakliyat karışımları için uygundur.<br/>\r\nBöceklenme ve nem riskine karşı etkin koruma.<br/>\r\nUzun raf ömrü ile ticari taşımada güven sağlar.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: OPP/OPP, CPP/OPP, OPP/PE laminasyonları.<br/>\r\nOpak veya baskılı torba seçenekleri, UV ışın koruması.<br/>\r\nAğırlık taşıma ve delinmeye karşı yüksek mekanik dayanım.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Pencereli veya tamamen opak modeller.<br/>\r\nFermuar veya kolay dozaj seçenekleri.<br/>\r\nGeri dönüştürülebilir veya PCR içerikli malzemeler.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-02_2db17.webp",
+        "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-03_70ccc.webp",
+        "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-04_b636b.webp"
+      ]
+    },
+    {
+      "id": "u0013",
+      "slug": "et-sut-ve-deniz-urunleri-ambalajlari",
+      "baslik": "Et, Süt ve Deniz Ürünleri Ambalajları",
+      "ozet": "Et, süt ve deniz ürünleri ambalaj çözümlerimiz, hijyen, tazelik ve görsel sunumu ön planda tutar. MAP (Modifiye Atmosfer Paketleme), vakum, termoform ve tray lidding seçenekleriyle ürünün raf ömrünü ve güvenliğini artırır.",
+      "aciklama": "Et, süt ve deniz ürünleri ambalaj çözümlerimiz, hijyen, tazelik ve görsel sunumu ön planda tutar. MAP (Modifiye Atmosfer Paketleme), vakum, termoform ve tray lidding seçenekleriyle ürünün raf ömrünü ve güvenliğini artırır.",
+      "kategoriId": "gida",
+      "imageSrc": "/images/urunler/salmon-fish_40d76.webp",
+      "imageAlt": "Et, Süt ve Deniz Ürünleri Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 13,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Bariyer Katmanlı PET/PE, PA, EVOH İçeren Laminatlar",
+        "MAP Uyumlu Çözümler",
+        "Vakum, Shrink, Tray Lidding Seçenekleri"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kırmızı et, tavuk, balık, deniz ürünleri, peynir ve süt ürünleri.<br/>\r\nMAP ve vakum paketleme ile mikrobiyal bozulmayı yavaşlatma.<br/>\r\nTermoform ve tray lidding ile şık servis ve sunum kolaylığı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film/Kompozit: Bariyer katmanlı PET/PE, PA, EVOH içeren laminatlar.<br/>\r\nTermoform ve vakum paketlemeye uygun malzemeler.<br/>\r\nSoğuk zincirde kullanıma uygun shrink ve lidding filmleri.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>MAP (Modifiye Atmosfer Paketleme) uyumlu çözümler.<br/>\r\nVakum, shrink, tray lidding seçenekleri.<br/>\r\nGıda sınıfı iç kaplamalar; geri dönüştürülebilir malzeme opsiyonları.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-02_00f5c.webp",
+        "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-03_4ec28.webp",
+        "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-04_bd164.webp"
+      ]
+    },
+    {
+      "id": "u0014",
+      "slug": "bebek-bezi-ve-yetiskin-bezi-ambalajlari",
+      "baslik": "Bebek Bezi ve Yetişkin Bezi Ambalajları",
+      "ozet": "Bebek bezi ve yetişkin bezi ambalajlarımız, hijyen, konfor ve pratik kullanımı ön planda tutarak, taşıma ve depolamada dayanıklı, tüketiciye kolay açılma/kapama imkanı sunan estetik çözümlerdir.",
+      "aciklama": "Bebek bezi ve yetişkin bezi ambalajlarımız, hijyen, konfor ve pratik kullanımı ön planda tutarak, taşıma ve depolamada dayanıklı, tüketiciye kolay açılma/kapama imkanı sunan estetik çözümlerdir.",
+      "kategoriId": "kisisel-bakim",
+      "imageSrc": "/images/urunler/bebek-bezi-main_315f8.webp",
+      "imageAlt": "Bebek Bezi ve Yetişkin Bezi Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 14,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Dayanıklı PE/PP Bazlı Filmler",
+        "Sızdırmaz Yapı",
+        "Yeniden Kapatılabilir Yapılar"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Bebek bezi ve yetişkin bezi paketleme ve sunumu için idealdir.<br/>\r\nHijyenik, sızdırmaz yapı ve taşıma kolaylığı.<br/>\r\nRaf üzerinde güçlü marka algısı ve görsel çekicilik.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzemeler: Dayanıklı PE/PP bazlı filmler.<br/>\r\nKolay yırtılma ve güçlü yapıştırma performansı.<br/>\r\nEsnek gramaj ve çeşitli paket boyutları.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Taşıma kulpu, yeniden kapatılabilir yapılar.<br/>\r\nŞeffaf pencere, özel baskılı tasarım seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-02_4feba.webp",
+        "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-03_5a537.webp",
+        "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-04_efa83.webp"
+      ]
+    },
+    {
+      "id": "u0015",
+      "slug": "islak-mendil-ambalajlari",
+      "baslik": "Islak Mendil Ambalajları",
+      "ozet": "Islak mendil ambalajlarımız, nem ve koku bariyeri sağlayan, sızdırmaz üst kapak veya peel-back yapıya sahip olup mendilin uzun süre tazeliğini ve hijyenini korur.",
+      "aciklama": "Islak mendil ambalajlarımız, nem ve koku bariyeri sağlayan, sızdırmaz üst kapak veya peel-back yapıya sahip olup mendilin uzun süre tazeliğini ve hijyenini korur.",
+      "kategoriId": "kisisel-bakim",
+      "imageSrc": "/images/urunler/islak-mendil-main_34d43.webp",
+      "imageAlt": "Islak Mendil Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 15,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "PE/PP Bazlı, Çok Katmanlı Nem Bariyerli Yapılar",
+        "Kilitli Plastik Kapak",
+        "Yapışkanlı Peel-back Mekanizması"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Bebek, kozmetik ve temizlik mendilleri gibi ıslak mendil paketleri.<br/>\r\nNem bariyeri sayesinde kurumayı önleme.<br/>\r\nÜstten veya önden açılan hijyenik kapaklarla kullanım kolaylığı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film: PE/PP bazlı, çok katmanlı nem bariyerli yapılar.<br/>\r\nKapak: Kilitli plastik kapak veya yapışkanlı peel-back mekanizması.<br/>\r\nSızdırmaz mühürleme ve dayanıklı yapıştırma performansı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kilitli kapak, yapışkan bantlı peel-back açma.<br/>\r\nÇoklu dil desteği için etiketleme alanları; özel baskı seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-02_9169d.webp",
+        "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-03_06e30.webp",
+        "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-04_df295.webp"
+      ]
+    },
+    {
+      "id": "u0016",
+      "slug": "deterjan-ambalajlari",
+      "baslik": "Deterjan Ambalajları",
+      "ozet": "Deterjan ambalajlarımız, sıvı, toz ve kapsül deterjanların kimyasal stabilitesini koruyan, neme ve ışığa karşı yüksek bariyerli, dayanıklı çözümler sunar. Pratik açma-kapama ve taşıma kolaylığı sağlar.",
+      "aciklama": "Deterjan ambalajlarımız, sıvı, toz ve kapsül deterjanların kimyasal stabilitesini koruyan, neme ve ışığa karşı yüksek bariyerli, dayanıklı çözümler sunar. Pratik açma-kapama ve taşıma kolaylığı sağlar.",
+      "kategoriId": "kisisel-bakim",
+      "imageSrc": "/images/urunler/urun-deterjan-main_3a78d.webp",
+      "imageAlt": "Deterjan Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 16,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "PE, PET, PA, PP Kombinasyonları",
+        "Kolay Döküm için Kapak Sistemleri",
+        "Kimyasal Dayanımlı İç Kaplamalar"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Sıvı deterjan, toz deterjan, kapsül ve granül formlar için uygundur.<br/>\r\nKimyasal stabilite ve koku kaçışını engelleme.<br/>\r\nTaşıma ve depolama sırasında yüksek dayanıklılık.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film/Laminat: PE, PET, PA, PP kombinasyonları.<br/>\r\nKimyasal dayanımlı iç kaplamalar.<br/>\r\nYüksek mukavemetli dış yüzey; sızdırmaz yapıştırma.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kolay döküm için kapak sistemleri.<br/>\r\nGeri dönüştürülebilir film seçenekleri.<br/>\r\nFarklı hacim ve ölçüler için çoklu paket formatları.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-02_64c8a.webp",
+        "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-03_b93dc.webp",
+        "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-04_a24ac.webp"
+      ]
+    },
+    {
+      "id": "u0017",
+      "slug": "tuvalet-kagidi-ambalajlari",
+      "baslik": "Tuvalet Kağıdı Ambalajları",
+      "ozet": "Tuvalet kağıdı ambalajlarımız, nem ve kirden koruyan, taşıma kolaylığı sağlayan kulplu veya kulpsuz seçeneklerle estetik ve fonksiyonel çözümler sunar.",
+      "aciklama": "Tuvalet kağıdı ambalajlarımız, nem ve kirden koruyan, taşıma kolaylığı sağlayan kulplu veya kulpsuz seçeneklerle estetik ve fonksiyonel çözümler sunar.",
+      "kategoriId": "kisisel-bakim",
+      "imageSrc": "/images/urunler/tuvalet-kagidi-main_2f174.webp",
+      "imageAlt": "Tuvalet Kağıdı Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 17,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Hava ve Nem Geçirmez PE Torbalar",
+        "Taşıma Kulpu Seçenekleri",
+        "Opak veya Yarı Şeffaf Yüzeyler"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Tuvalet kağıdı ruloları ve paketleri için idealdir.<br/>\r\nNem bariyeri ile depolama sırasında ürünü koruma.<br/>\r\nKolay taşıma için farklı boyut ve kulplu opsiyonlar.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzeme: Hava ve nem geçirmez PE torbalar.<br/>\r\nFarklı boyut ve kat sayıları için özelleştirilebilir yapı.<br/>\r\nYüksek baskı kalitesi ve genel dayanıklılık.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Taşıma kulpu seçenekleri.<br/>\r\nBaskılı marka tasarımları; opak veya yarı şeffaf yüzeyler.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-02_11de4.webp",
+        "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-03_2581b.webp",
+        "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-04_bc6e3.webp"
+      ]
+    },
+    {
+      "id": "u0018",
+      "slug": "hijyenik-ped",
+      "baslik": "Hijyenik Ped",
+      "ozet": "Hijyenik ped ambalajlarımız, ürün hijyenini ve bütünlüğünü koruyan tekli sargı (single-wrap) filmler, sızdırmaz uç bantları ve kullanıcı dostu açma mekanizmalarıyla tüketiciye güven veren çözümlerdir.",
+      "aciklama": "Hijyenik ped ambalajlarımız, ürün hijyenini ve bütünlüğünü koruyan tekli sargı (single-wrap) filmler, sızdırmaz uç bantları ve kullanıcı dostu açma mekanizmalarıyla tüketiciye güven veren çözümlerdir.",
+      "kategoriId": "kisisel-bakim",
+      "imageSrc": "/images/urunler/hijyenik-ped-main_c4011.webp",
+      "imageAlt": "Hijyenik Ped",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 18,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Tekli Sargı (Single-wrap) Filmler",
+        "Sıvı Geçirmez Yüzeyler",
+        "Sızdırmaz Uç Bantları"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kadın hijyen ürünleri (ped, tampon) paketlemesi için uygundur.<br/>\r\nİçerikle temas etmeyen koruyucu film yapısı.<br/>\r\nÜrün hijyenini koruyan sızdırmaz mühürler.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzeme: Tekli sargı (single-wrap) filmler, sıvı geçirmez yüzeyler.<br/>\r\nSızdırmaz uç bantları ve güvenli yapıştırma.<br/>\r\nKolay açılabilir ve hijyenik paketleme.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Yırtma çizgileri, yapışkan bant veya strip sistemleri.<br/>\r\nÖzel baskı ve paket boyutu seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-02_bde7b.webp",
+        "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-03_59fa3.webp",
+        "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-04_e5f6e.webp"
+      ]
+    },
+    {
+      "id": "u0019",
+      "slug": "evcil-hayvan-mamasi-ambalajlari",
+      "baslik": "Evcil Hayvan Maması Ambalajları",
+      "ozet": "Evcil hayvan maması ambalajlarımız, yağ oksidasyonunu engelleyen bariyerli laminasyonlar, aç-kapa (zip) özellikleri ve dayanıklı yapılarıyla mamanın tazeliğini ve hijyenini korur. Canlı baskı seçenekleriyle raf çekiciliğini artırır.",
+      "aciklama": "Evcil hayvan maması ambalajlarımız, yağ oksidasyonunu engelleyen bariyerli laminasyonlar, aç-kapa (zip) özellikleri ve dayanıklı yapılarıyla mamanın tazeliğini ve hijyenini korur. Canlı baskı seçenekleriyle raf çekiciliğini artırır.",
+      "kategoriId": "evcil-hayvan",
+      "imageSrc": "/images/urunler/pet_ceb0c.webp",
+      "imageAlt": "Evcil Hayvan Maması Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 19,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "PET/PE, OPP/PE, CPET/PE Kombinasyonları",
+        "Aroma Stabilitesi",
+        "Fermuar + Kulplu Tasarım"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kuru mama, yaş mama ve ödül mamaları için uygundur.<br/>\r\nYağ oksidasyonuna karşı koruma; aroma stabilitesi.<br/>\r\nKullanıcı dostu açma ve kapama mekanizmaları.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: PET/PE, OPP/PE, CPET/PE kombinasyonları.<br/>\r\nDayanıklı yapıştırma ve delinmeye dirençli dış katman.<br/>\r\nFermuar, taşıma kulpu ve diğer fonksiyonel seçenekler.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Fermuar + kulplu tasarım, pencereli varyantlar.<br/>\r\nMat, parlak veya kraft kağıt görünümlü yüzeyler.<br/>\r\nGeri dönüştürülebilir veya PCR içerikli malzeme opsiyonları.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-02_e29d8.webp",
+        "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-03_90ddc.webp",
+        "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-04_ca04a.webp"
+      ]
+    },
+    {
+      "id": "u0020",
+      "slug": "kum-litter-ambalajlari",
+      "baslik": "Kum (Litter) Ambalajları",
+      "ozet": "Kedi ve köpek kumu ambalajlarımız, büyük hacimli, dayanıklı torbalar olup taşıma kolaylığı için kulplu tasarım, nem ve koku bariyeri ile hijyen odaklı çözümler sunar.",
+      "aciklama": "Kedi ve köpek kumu ambalajlarımız, büyük hacimli, dayanıklı torbalar olup taşıma kolaylığı için kulplu tasarım, nem ve koku bariyeri ile hijyen odaklı çözümler sunar.",
+      "kategoriId": "evcil-hayvan",
+      "imageSrc": "/images/urunler/kedi-kumu-main_6b397.webp",
+      "imageAlt": "Kum (Litter) Ambalajları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 20,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Yüksek Dayanımlı LDPE/HDPE, Çok Katmanlı Laminatlar",
+        "Koku Bariyeri ve Nem Sızdırmazlığı",
+        "Dayanıklı Kulplu Bağlantı Noktaları"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kedi kumu, köpek kumu ve diğer emici ürünler için idealdir.<br/>\r\nHijyen ve koku kontrolü; sağlam taşıma imkanı.<br/>\r\nPerakende ve toptan satışa uygun çeşitli hacimler.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Yapıları: Yüksek dayanımlı LDPE/HDPE, çok katmanlı laminatlar.<br/>\r\nKoku bariyeri ve nem sızdırmazlığı.<br/>\r\nDayanıklı kulplu bağlantı noktaları.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Taşıma kulpu, tekrar kapatma çözümleri.<br/>\r\nBaskılı kullanım talimatları ve bilgi alanları.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kum-ambalajlari-02_72366.webp",
+        "/images/urunfotogaleri/ayfleks-kum-ambalajlari-03_c77c3.webp",
+        "/images/urunfotogaleri/ayfleks-kum-ambalajlari-04_75289.webp"
+      ]
+    },
+    {
+      "id": "u0021",
+      "slug": "kargo-torbalari",
+      "baslik": "Kargo Torbaları",
+      "ozet": "Kargo torbalarımız, e-ticaret ve lojistik gönderileri için yırtılmaya dayanıklı, opak ve güvenli kapama sağlayan üç katmanlı HDPE/PE çözümlerdir. Geri dönüştürülmüş içerik seçeneğiyle çevresel sürdürülebilirliği destekler.",
+      "aciklama": "Kargo torbalarımız, e-ticaret ve lojistik gönderileri için yırtılmaya dayanıklı, opak ve güvenli kapama sağlayan üç katmanlı HDPE/PE çözümlerdir. Geri dönüştürülmüş içerik seçeneğiyle çevresel sürdürülebilirliği destekler.",
+      "kategoriId": "endustriyel",
+      "imageSrc": "/images/urunler/kargo-posetleri-main_8ddcf.webp",
+      "imageAlt": "Kargo Torbaları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 21,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Takviyeli HDPE/PE, Üç Katmanlı Yapı",
+        "Gizlilik için Opak İç Yüzey",
+        "Çift Bantlı Kapama"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>E-ticaret gönderileri ve iade süreçleri için idealdir.<br/>\r\nYırtılma ve delinmeye karşı yüksek dayanım.<br/>\r\nGizlilik için opak iç yüzey.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzeme: Takviyeli HDPE/PE, üç katmanlı yapı (dış beyaz / iç siyah opsiyonlu).<br/>\r\nÇift yapışkan bantlı kapama; çeşitli boyut ve gramajlar.<br/>\r\nPCR/PIR içerikli çevre dostu seçenekler.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Özelleştirilmiş baskı, çift bantlı kapama, mat/parlak yüzeyler.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kargo-torbalari-02_97b59.webp",
+        "/images/urunfotogaleri/ayfleks-kargo-torbalari-03_d0f58.webp",
+        "/images/urunfotogaleri/ayfleks-kargo-torbalari-04_028b3.webp"
+      ]
+    },
+    {
+      "id": "u0022",
+      "slug": "tekstil-ambalaji",
+      "baslik": "Tekstil Ambalajı",
+      "ozet": "Tekstil ambalajlarımız, giysi, ev tekstili ve kumaş ürünlerini toz ve nemden koruyan, estetik sunum sağlayan film torba çözümleridir. Antistatik ve ek aksesuar opsiyonlarıyla teslimat sürecini kolaylaştırır.",
+      "aciklama": "Tekstil ambalajlarımız, giysi, ev tekstili ve kumaş ürünlerini toz ve nemden koruyan, estetik sunum sağlayan film torba çözümleridir. Antistatik ve ek aksesuar opsiyonlarıyla teslimat sürecini kolaylaştırır.",
+      "kategoriId": "endustriyel",
+      "imageSrc": "/images/urunler/tekstil-ambalaji-main_2e8f7.webp",
+      "imageAlt": "Tekstil Ambalajı",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 22,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "PE, PP; Şeffaf veya Baskılı",
+        "Antistatik ve Metalize Bant Uygulamaları",
+        "Taşıma Askısı/Kulpu"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Giysi paketleme, ev tekstili, büyük kumaş ruloları.<br/>\r\nToz ve nem koruması; üstün görsel sunum.<br/>\r\nTaşıma kolaylığı ve depolama uyumu.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzeme: PE, PP; şeffaf veya baskılı.<br/>\r\nAntistatik ve metalize bant uygulamaları.<br/>\r\nFarklı boyut ve kalınlık seçenekleri.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Bant ekleme.<br/>\r\nÖzel baskılı marka opsiyonları.<br/>\r\nTaşıma askısı/kulpu.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-03_22d61.webp",
+        "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-04_42874.webp",
+        "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-02_57be3.webp"
+      ]
+    },
+    {
+      "id": "u0023",
+      "slug": "shrink",
+      "baslik": "Shrink",
+      "ozet": "Shrink (ısı ile daralan film) ambalajlarımız, palet ve paket etrafını sıkıca sararak nakliye sırasında sabitleme ve koruma sağlayan, ısıya duyarlı filmlerden üretilmiştir. Şeffaf veya renkli opsiyonlarla lojistik verimliliği artırır.",
+      "aciklama": "Shrink (ısı ile daralan film) ambalajlarımız, palet ve paket etrafını sıkıca sararak nakliye sırasında sabitleme ve koruma sağlayan, ısıya duyarlı filmlerden üretilmiştir. Şeffaf veya renkli opsiyonlarla lojistik verimliliği artırır.",
+      "kategoriId": "endustriyel",
+      "imageSrc": "/images/urunler/shrink-main_643e5.webp",
+      "imageAlt": "Shrink",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 23,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "PVC veya PE Shrink Filmler",
+        "Paket Koruma",
+        "Yüksek Çekme Dayanımı"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Palet sabitleme, paket koruma, ürün gruplama.<br/>\r\nNakliye hasarını azaltma; ürün stabilitesi sağlama.<br/>\r\nEkonomik maliyet ve hızlı uygulama.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Film Türleri: PVC veya PE shrink filmler (ısı ile daralan).<br/>\r\nÇeşitli kalınlık ve genişlik seçenekleri; ısı uygulama parametreleri.<br/>\r\nYüksek çekme dayanımı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Renkli veya şeffaf; baskılı shrink film seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-shrink-02_a4367.webp",
+        "/images/urunfotogaleri/ayfleks-shrink-03_1959e.webp",
+        "/images/urunfotogaleri/ayfleks-shrink-04_bf50a.webp"
+      ]
+    },
+    {
+      "id": "u0024",
+      "slug": "alisveris-cantalari",
+      "baslik": "Alışveriş Çantaları",
+      "ozet": "Alışveriş çantalarımız, perakende ve promosyon kullanımı için dayanıklı LDPE/MDPE torbalardır. Baskılı veya baskısız, kulplu veya kulpsuz seçeneklerle marka görünürlüğünü ve müşteri deneyimini artırır.",
+      "aciklama": "Alışveriş çantalarımız, perakende ve promosyon kullanımı için dayanıklı LDPE/MDPE torbalardır. Baskılı veya baskısız, kulplu veya kulpsuz seçeneklerle marka görünürlüğünü ve müşteri deneyimini artırır.",
+      "kategoriId": "endustriyel",
+      "imageSrc": "/images/urunler/alisveris-cantalari-main_084f3.webp",
+      "imageAlt": "Alışveriş Çantaları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 24,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "LDPE, MDPE; Takviyeli Seçenekler",
+        "Flexo veya Gravür Baskı Opsiyonları",
+        "Kulplu/Kulpsuz Modeller"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Market, butik, promosyon çantaları için idealdir.<br/>\r\nYüksek taşıma kapasitesi ve estetik görünüm.<br/>\r\nMaliyet etkin çözüm ve kolay stok yönetimi.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzeme: LDPE, MDPE; takviyeli seçenekler.<br/>\r\nBaskı: Flexo veya gravür baskı opsiyonları.<br/>\r\nFarklı boyut ve gramajlar.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Baskılı marka tasarımları, kulplu/kulpsuz modeller.<br/>\r\nGeri dönüştürülebilir malzeme seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-alisveris-cantalari-02_fe349.webp",
+        "/images/urunfotogaleri/ayfleks-alisveris-cantalari-03_6961c.webp",
+        "/images/urunfotogaleri/ayfleks-alisveris-cantalari-04_99232.webp"
+      ]
+    },
+    {
+      "id": "u0025",
+      "slug": "askili-tekstil-torbalari",
+      "baslik": "Askılı Tekstil Torbaları",
+      "ozet": "Askılı tekstil torbalarımız, tekstil ürünleri için güçlü taşıma ve estetik sunum sağlayan, mevcut veya özel üretim askılarla uyumlu, kaynaklı bağlantılı çözümlerdir.",
+      "aciklama": "Askılı tekstil torbalarımız, tekstil ürünleri için güçlü taşıma ve estetik sunum sağlayan, mevcut veya özel üretim askılarla uyumlu, kaynaklı bağlantılı çözümlerdir.",
+      "kategoriId": "endustriyel",
+      "imageSrc": "/images/urunler/askili-tekstil-ambalaji-main_5d167.webp",
+      "imageAlt": "Askılı Tekstil Torbaları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 25,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "LDPE, PP; Çeşitli Askı Üretim Teknikleri",
+        "Kaynaklı Askı Entegrasyonu",
+        "Yüksek Yırtılma Dayanımı"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Tekstil mağazaları, sevkiyat ve sergileme amaçlı kullanım.<br/>\r\nKolay taşıma, yüksek dayanıklılık ve görsel çekicilik.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzeme: LDPE, PP; çeşitli askı üretim teknikleri.<br/>\r\nKaynaklı askı entegrasyonu; yüksek yırtılma dayanımı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Özel baskı, farklı askı ve kulplu tasarım seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-02_7605d.webp",
+        "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-03_db3f2.webp",
+        "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-04_31fee.webp"
+      ]
+    },
+    {
+      "id": "u0026",
+      "slug": "kuru-temizleme-torbalari",
+      "baslik": "Kuru Temizleme Torbaları",
+      "ozet": "Kuru temizleme torbalarımız, hafif, hava geçirimsiz ve leke önleyici sızdırmaz yapılarıyla kıyafetleri depolama ve teslim sırasında korur. Gerektiğinde çok katmanlı laminasyonla güçlendirilmiş çözümler sunar.",
+      "aciklama": "Kuru temizleme torbalarımız, hafif, hava geçirimsiz ve leke önleyici sızdırmaz yapılarıyla kıyafetleri depolama ve teslim sırasında korur. Gerektiğinde çok katmanlı laminasyonla güçlendirilmiş çözümler sunar.",
+      "kategoriId": "endustriyel",
+      "imageSrc": "/images/urunler/kuru-temizleme-torbalari-main_e7ac0.webp",
+      "imageAlt": "Kuru Temizleme Torbaları",
+      "varyantlar": [],
+      "yayinda": true,
+      "stokta": true,
+      "sira": 26,
+      "guncellenme": "2026-08-31T15:00:00.000Z",
+      "locale": "tr",
+      "ozellikler": [
+        "Hafif PE veya Çok Katmanlı Laminatlar",
+        "Şeffaf veya Baskılı Seçenekler",
+        "Toz ve Nemden Koruma"
+      ],
+      "sekmeler": [
+        {
+          "baslik": "Kullanım Alanları & Avantajlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-kullanim-tab\" class=\"tab-pane fade show active\" id=\"nav-kullanim\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Kuru temizleme, kıyafet depolama ve teslimi için uygundur.<br/>\r\nToz ve nemden koruma; hafif ve şık yapı.<br/>\r\nÜrün bilgisi için etiketleme alanı.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Teknik Özellikleri",
+          "icerikHtml": "<div aria-labelledby=\"nav-teknik-tab\" class=\"tab-pane fade\" id=\"nav-teknik\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Malzeme: Hafif PE veya çok katmanlı laminatlar.<br/>\r\nİyi sızdırmazlık ve kaynak performansı.<br/>\r\nİsteğe bağlı antistatik veya özel kaplamalar.</p>\n</div>\n</div>"
+        },
+        {
+          "baslik": "Opsiyonlar",
+          "icerikHtml": "<div aria-labelledby=\"nav-opsiyon-tab\" class=\"tab-pane fade\" id=\"nav-opsiyon\" role=\"tabpanel\">\n<div class=\"row tabrow\">\n<p>Şeffaf veya baskılı seçenekler; etiket için özel alan.<br/>\r\nÇeşitli boyut ve kapasite seçenekleri.</p>\n</div>\n</div>"
+        }
+      ],
+      "galeri": [
+        "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-02_5eda2.webp",
+        "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-03_064c8.webp",
+        "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-04_e9809.webp"
+      ]
     }
   ]
 }

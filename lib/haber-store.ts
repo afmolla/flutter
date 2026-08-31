@@ -47,8 +47,14 @@ export async function yayinHaberler(locale: "tr" | "en" = "tr"): Promise<Haber[]
   return (await tumHaberler(locale)).filter((h) => h.yayin);
 }
 
-export async function haberBySlug(slug: string): Promise<Haber | undefined> {
-  return (await oku()).haberler.find((h) => h.slug === slug);
+export async function haberBySlug(slug: string, locale?: "tr" | "en"): Promise<Haber | undefined> {
+  const matches = (await oku()).haberler.filter((h) => h.slug === slug);
+  if (!matches.length) return undefined;
+  if (locale) {
+    const locMatch = matches.find((h) => (h.locale || "tr") === locale);
+    if (locMatch) return locMatch;
+  }
+  return matches.find((h) => (h.locale || "tr") === "tr") ?? matches[0];
 }
 
 export async function haberKaydet(input: Partial<Haber> & { slug: string; baslik: string }): Promise<Haber> {

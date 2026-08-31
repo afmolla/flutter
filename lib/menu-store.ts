@@ -110,8 +110,13 @@ function normalizeDbPaths(db: Db): Db {
   };
 }
 
-export async function menuGetir(): Promise<Db> {
-  const FILE = await menusFile();
+async function menusFileForLocale(locale: "tr" | "en"): Promise<string> {
+  const dir = await getDataDir();
+  return path.join(dir, locale === "en" ? "menus-en.json" : "menus.json");
+}
+
+async function readMenuDb(locale: "tr" | "en"): Promise<Db> {
+  const FILE = await menusFileForLocale(locale);
   try {
     const raw = await fs.readFile(FILE, "utf8");
     const db = JSON.parse(raw) as Partial<Db>;
@@ -123,8 +128,26 @@ export async function menuGetir(): Promise<Db> {
     };
     return normalizeDbPaths(merged);
   } catch {
+    if (locale === "en") {
+      try {
+        const fallback = path.join(process.cwd(), "data", "ayfleks", "menus-en.json");
+        const raw = await fs.readFile(fallback, "utf8");
+        const db = JSON.parse(raw) as Partial<Db>;
+        const header = Array.isArray(db.header) ? db.header.map(cleanMenuItem).filter((x): x is MenuItem => x !== null) : [];
+        const footer = Array.isArray(db.footer) ? db.footer.map(cleanMenuItem).filter((x): x is MenuItem => x !== null) : [];
+        if (header.length || footer.length) {
+          return normalizeDbPaths({ header, footer });
+        }
+      } catch {
+        /* fall through */
+      }
+    }
     return normalizeDbPaths(varsayilan());
   }
+}
+
+export async function menuGetir(locale: "tr" | "en" = "tr"): Promise<Db> {
+  return readMenuDb(locale);
 }
 
 export async function menuKaydet(loc: MenuLocation, items: MenuItem[]): Promise<Db> {

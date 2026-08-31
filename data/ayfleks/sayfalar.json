@@ -527,6 +527,17 @@
       "seoIndex": true,
       "guncellenme": "2026-08-31T12:00:00.000Z",
       "locale": "en"
+    },
+    {
+      "slug": "en-business-ethics-form",
+      "baslik": "Business Ethics Form",
+      "aciklama": "Welcome to the Ayfleks Business Ethics Board page. All submissions and identity information are kept confidential.",
+      "icerikHtml": "<div><section class=\"contanct-us-form container\"><div class=\"row contact-us-form-info\"><div class=\"col-12 mb-4\"><h3>AYFLEKS BUSINESS ETHICS BOARD</h3><p>Welcome to the Ayfleks Business Ethics Board page. All submissions and identity information are kept confidential.</p></div><div class=\"col-12 mb-3\"><label class=\"form-label font-weight-bold\">Please describe the issue in detail: *</label><textarea class=\"form-control\" placeholder=\"Please explain the situation in detail...\" rows=\"5\" style=\"height: 120px;\"></textarea></div></div><p style=\"margin-top: 24px;\">To submit a report, please contact us at <a href=\"mailto:info@ayfleks.com\">info@ayfleks.com</a> or use our <a href=\"/en/contact\">contact form</a>.</p></section></div>",
+      "bloklar": [],
+      "yayin": true,
+      "seoIndex": false,
+      "guncellenme": "2026-08-31T12:00:00.000Z",
+      "locale": "en"
     }
   ]
 }

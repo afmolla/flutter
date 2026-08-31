@@ -10,7 +10,7 @@ type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const s = await sayfaBySlug(slug);
+  const s = await sayfaBySlug(slug, "en");
   if (!s || !s.yayin) return {};
   const base = await siteUrl();
   return {
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function EnCmsPage({ params }: Props) {
   const { slug } = await params;
-  const s = await sayfaBySlug(slug);
+  const s = await sayfaBySlug(slug, "en");
   if (!s || !s.yayin) notFound();
   return (
     <AyfleksShell inside locale="en">

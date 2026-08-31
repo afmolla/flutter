@@ -67,10 +67,15 @@ export async function yayinSayfalar(): Promise<Sayfa[]> {
   return all.filter((s) => s.yayin);
 }
 
-export async function sayfaBySlug(slug: string): Promise<Sayfa | undefined> {
+export async function sayfaBySlug(slug: string, locale?: "tr" | "en"): Promise<Sayfa | undefined> {
   const s = slugify(slug);
-  const all = await tumSayfalar();
-  return all.find((x) => x.slug === s);
+  const matches = (await tumSayfalar()).filter((x) => x.slug === s);
+  if (!matches.length) return undefined;
+  if (locale) {
+    const locMatch = matches.find((x) => (x.locale || "tr") === locale);
+    if (locMatch) return locMatch;
+  }
+  return matches.find((x) => (x.locale || "tr") === "tr") ?? matches[0];
 }
 
 export async function sayfaUpsert(input: {

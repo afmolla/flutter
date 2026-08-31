@@ -31,7 +31,7 @@ export default async function EnContactPage() {
             <p>{ayar.adresDetay || "Istanbul"}</p>
           </div>
         </div>
-        <AyfleksContactForm />
+        <AyfleksContactForm locale="en" />
       </div>
     </AyfleksShell>
   );

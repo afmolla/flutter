@@ -30,12 +30,55 @@ export type UrunKayit = {
   locale?: "tr" | "en";
 };
 
-export const URUN_KATEGORILER: { id: UrunKategoriId; baslik: string; baslikEn: string; aciklama: string; href: string }[] = [
-  { id: "gida", baslik: "Gıda", baslikEn: "Food", aciklama: "Güvenilir ambalaj çözümleri", href: "/urun-gruplarimiz/gida" },
-  { id: "kisisel-bakim", baslik: "Kişisel Bakım & Hijyen", baslikEn: "Personal Care & Hygiene", aciklama: "Hijyenik & estetik ambalaj", href: "/urun-gruplarimiz/kisisel-bakim-hijyen" },
-  { id: "evcil-hayvan", baslik: "Evcil Hayvan Bakımı", baslikEn: "Pet Care", aciklama: "Kaliteli & güvenilir ambalaj", href: "/urun-gruplarimiz/evcil-hayvan-bakimi" },
-  { id: "endustriyel", baslik: "Endüstriyel", baslikEn: "Industrial", aciklama: "Dayanıklı & fonksiyonel tasarımlar", href: "/urun-gruplarimiz/endustriyel" },
+export const URUN_KATEGORILER: {
+  id: UrunKategoriId;
+  baslik: string;
+  baslikEn: string;
+  aciklama: string;
+  aciklamaEn: string;
+  href: string;
+}[] = [
+  {
+    id: "gida",
+    baslik: "Gıda",
+    baslikEn: "Food",
+    aciklama: "Güvenilir ambalaj çözümleri",
+    aciklamaEn: "Reliable packaging solutions",
+    href: "/urun-gruplarimiz/gida",
+  },
+  {
+    id: "kisisel-bakim",
+    baslik: "Kişisel Bakım & Hijyen",
+    baslikEn: "Personal Care & Hygiene",
+    aciklama: "Hijyenik & estetik ambalaj",
+    aciklamaEn: "Hygienic & aesthetic packaging",
+    href: "/urun-gruplarimiz/kisisel-bakim-hijyen",
+  },
+  {
+    id: "evcil-hayvan",
+    baslik: "Evcil Hayvan Bakımı",
+    baslikEn: "Pet Care",
+    aciklama: "Kaliteli & güvenilir ambalaj",
+    aciklamaEn: "Quality & reliable packaging",
+    href: "/urun-gruplarimiz/evcil-hayvan-bakimi",
+  },
+  {
+    id: "endustriyel",
+    baslik: "Endüstriyel",
+    baslikEn: "Industrial",
+    aciklama: "Dayanıklı & fonksiyonel tasarımlar",
+    aciklamaEn: "Durable & functional designs",
+    href: "/urun-gruplarimiz/endustriyel",
+  },
 ];
+
+export function kategoriLabel(kat: (typeof URUN_KATEGORILER)[number], locale: "tr" | "en" = "tr"): string {
+  return locale === "en" ? kat.baslikEn : kat.baslik;
+}
+
+export function kategoriAciklama(kat: (typeof URUN_KATEGORILER)[number], locale: "tr" | "en" = "tr"): string {
+  return locale === "en" ? kat.aciklamaEn : kat.aciklama;
+}
 
 export function urunVaryantFiyat(v: UrunVaryant): number {
   return typeof v.indirimliFiyat === "number" && v.indirimliFiyat > 0 ? v.indirimliFiyat : v.fiyat;

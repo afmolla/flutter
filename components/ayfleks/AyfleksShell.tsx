@@ -15,7 +15,7 @@ type Props = {
 };
 
 export async function AyfleksShell({ children, inside = false, locale = "tr" }: Props) {
-  const [ayar, menus] = await Promise.all([ayarlarGetir(), menuGetir()]);
+  const [ayar, menus] = await Promise.all([ayarlarGetir(), menuGetir(locale)]);
   return (
     <>
       <AyfleksStyles />
@@ -23,7 +23,7 @@ export async function AyfleksShell({ children, inside = false, locale = "tr" }: 
       <AyfleksHeader menu={menus.header} ayar={ayar} locale={locale} logoWhite={!inside} />
       <main>{children}</main>
       <AyfleksFooter footerMenu={menus.footer} ayar={ayar} locale={locale} />
-      <AyfleksCookieBanner />
+      <AyfleksCookieBanner locale={locale} />
     </>
   );
 }

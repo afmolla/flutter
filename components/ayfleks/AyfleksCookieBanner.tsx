@@ -5,8 +5,34 @@ import { useEffect, useState } from "react";
 
 const KEY = "ayfleks_cookie_ok";
 
-export function AyfleksCookieBanner() {
+const COPY = {
+  tr: {
+    title: "Cookie Kullanım Onayı",
+    body: "Ayfleks web sitesi, sizlere daha iyi bir deneyim sunabilmek için, Google Analytics verilerini izlemek amacıyla temel cookie öğelerini kullanır.",
+    privacy: "KVKK Aydınlatma Metni",
+    policy: "Çerez Politikası",
+    privacyHref: "/p/kvkk",
+    policyHref: "/cerez-politikasi",
+    accept: "Kabul Et",
+    reject: "Reddet",
+    aria: "Çerez kullanımı",
+  },
+  en: {
+    title: "Cookie Consent",
+    body: "The Ayfleks website uses essential cookies to improve your experience and to track Google Analytics data.",
+    privacy: "GDPR Privacy Notice",
+    policy: "Cookie Policy",
+    privacyHref: "/en/p/en-gdpr",
+    policyHref: "/en/cookie-policy",
+    accept: "Accept",
+    reject: "Reject",
+    aria: "Cookie consent",
+  },
+};
+
+export function AyfleksCookieBanner({ locale = "tr" }: { locale?: "tr" | "en" }) {
   const [show, setShow] = useState(false);
+  const t = COPY[locale];
 
   useEffect(() => {
     try {
@@ -38,20 +64,18 @@ export function AyfleksCookieBanner() {
   if (!show) return null;
 
   return (
-    <div className="ayf-cookie show" role="dialog" aria-label="Çerez kullanımı">
-      <h2>Cookie Kullanım Onayı</h2>
+    <div className="ayf-cookie show" role="dialog" aria-label={t.aria}>
+      <h2>{t.title}</h2>
       <p>
-        Ayfleks web sitesi, sizlere daha iyi bir deneyim sunabilmek için, Google Analytics verilerini izlemek amacıyla
-        temel cookie öğelerini kullanır.{" "}
-        <Link href="/p/kvkk">KVKK Aydınlatma Metni</Link> ve{" "}
-        <Link href="/cerez-politikasi">Çerez Politikası</Link>.
+        {t.body}{" "}
+        <Link href={t.privacyHref}>{t.privacy}</Link> and <Link href={t.policyHref}>{t.policy}</Link>.
       </p>
       <div className="btns">
         <button type="button" className="accept" onClick={accept}>
-          Kabul Et
+          {t.accept}
         </button>
         <button type="button" className="reject" onClick={reject}>
-          Reddet
+          {t.reject}
         </button>
       </div>
     </div>

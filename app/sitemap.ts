@@ -19,7 +19,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       "/en/products",
       "/haberler",
       "/iletisim",
+      "/en/news",
       "/en/contact",
+      "/en/cookie-policy",
       "/cerez-politikasi",
       "/urun-gruplarimiz/gida",
       "/urun-gruplarimiz/kisisel-bakim-hijyen",
@@ -40,8 +42,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const h of await yayinHaberler("tr")) {
       out.push({ url: `${base}/haberler/${h.slug}`, lastModified: new Date(h.guncellenme), changeFrequency: "monthly", priority: 0.65 });
     }
+    for (const h of await yayinHaberler("en")) {
+      out.push({ url: `${base}/en/news/${h.slug}`, lastModified: new Date(h.guncellenme), changeFrequency: "monthly", priority: 0.65 });
+    }
     for (const u of urunYayinda(await urunlerGetir()).filter((x) => (x.locale || "tr") === "tr")) {
       out.push({ url: `${base}/urun/${u.slug}`, lastModified: new Date(u.guncellenme), changeFrequency: "monthly", priority: 0.6 });
+    }
+    for (const u of urunYayinda(await urunlerGetir()).filter((x) => x.locale === "en")) {
+      out.push({ url: `${base}/en/product/${u.slug}`, lastModified: new Date(u.guncellenme), changeFrequency: "monthly", priority: 0.6 });
     }
   });
   return out;

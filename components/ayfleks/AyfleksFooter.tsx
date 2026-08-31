@@ -61,9 +61,19 @@ export function AyfleksFooter({ footerMenu, ayar, locale = "tr" }: Props) {
               </p>
             </div>
             <div className="col-md-9 ayf-kvkk-line">
-              <Link href={locale === "en" ? "/en/p/is-etigi-formu" : "/p/is-etigi-formu"}>İş Etiği Formu</Link>
-              {" | "}
-              <Link href={locale === "en" ? "/en/p/kvkk" : "/p/kvkk"}>KVKK Aydınlatma Metni</Link>
+              {locale === "en" ? (
+                <>
+                  <Link href="/en/p/en-business-ethics-form">Business Ethics Form</Link>
+                  {" | "}
+                  <Link href="/en/p/en-gdpr">GDPR Privacy Notice</Link>
+                </>
+              ) : (
+                <>
+                  <Link href="/p/is-etigi-formu">İş Etiği Formu</Link>
+                  {" | "}
+                  <Link href="/p/kvkk">KVKK Aydınlatma Metni</Link>
+                </>
+              )}
             </div>
           </div>
         </div>
@@ -79,8 +89,8 @@ export function AyfleksFooter({ footerMenu, ayar, locale = "tr" }: Props) {
             <div className="col-md-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/images/icon-phone-green.svg" alt="" />
-              {ayar.iletisimTelefon ? <p>Telefon: {ayar.iletisimTelefon}</p> : null}
-              {ayar.iletisimFax ? <p>Fax: {ayar.iletisimFax}</p> : null}
+              {ayar.iletisimTelefon ? <p>{locale === "en" ? "Phone" : "Telefon"}: {ayar.iletisimTelefon}</p> : null}
+              {ayar.iletisimFax ? <p>{locale === "en" ? "Fax" : "Fax"}: {ayar.iletisimFax}</p> : null}
             </div>
             <div className="col-md-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}

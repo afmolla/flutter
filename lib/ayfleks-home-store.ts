@@ -53,18 +53,23 @@ export type AyfleksHome = {
 };
 
 const FILE = "ayfleks-home.json";
+const FILE_EN = "ayfleks-home-en.json";
 
-export async function ayfleksHomeGetir(): Promise<AyfleksHome> {
+async function readHomeFile(name: string): Promise<AyfleksHome> {
   const dir = await getDataDir();
-  const fp = path.join(dir, FILE);
+  const fp = path.join(dir, name);
   try {
     const raw = await fs.readFile(fp, "utf8");
     return JSON.parse(raw) as AyfleksHome;
   } catch {
-    const fallback = path.join(process.cwd(), "data", "ayfleks", FILE);
+    const fallback = path.join(process.cwd(), "data", "ayfleks", name);
     const raw = await fs.readFile(fallback, "utf8");
     return JSON.parse(raw) as AyfleksHome;
   }
+}
+
+export async function ayfleksHomeGetir(locale: "tr" | "en" = "tr"): Promise<AyfleksHome> {
+  return readHomeFile(locale === "en" ? FILE_EN : FILE);
 }
 
 export async function ayfleksHomeKaydet(data: AyfleksHome): Promise<void> {

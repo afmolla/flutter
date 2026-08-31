@@ -5,14 +5,34 @@ import { useEffect, useState } from "react";
 import type { AyfleksHome } from "@/lib/ayfleks-home-store";
 import { AyfleksVideoLightbox } from "@/components/ayfleks/AyfleksVideoLightbox";
 
-export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
+const COPY = {
+  tr: {
+    slide: (i: number) => `Slayt ${i + 1}`,
+    readMore: "Devamını oku",
+    sustainability: "Sürdürülebilirlik",
+    emailPlaceholder: "E-posta adresiniz",
+    send: "Gönder",
+    thanks: "Teşekkürler, en kısa sürede dönüş yapacağız.",
+  },
+  en: {
+    slide: (i: number) => `Slide ${i + 1}`,
+    readMore: "Read more",
+    sustainability: "Sustainability",
+    emailPlaceholder: "Your email address",
+    send: "Send",
+    thanks: "Thank you. We will get back to you shortly.",
+  },
+};
+
+export function AyfleksHomeSections({ home, locale = "tr" }: { home: AyfleksHome; locale?: "tr" | "en" }) {
   const [idx, setIdx] = useState(0);
   const slides = home.slider;
+  const t = COPY[locale];
 
   useEffect(() => {
     if (slides.length < 2) return;
-    const t = setInterval(() => setIdx((i) => (i + 1) % slides.length), 5500);
-    return () => clearInterval(t);
+    const timer = setInterval(() => setIdx((i) => (i + 1) % slides.length), 5500);
+    return () => clearInterval(timer);
   }, [slides.length]);
 
   return (
@@ -55,7 +75,7 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
           </div>
           <div className="ayf-hero-dots">
             {slides.map((s, i) => (
-              <button key={s.id} type="button" aria-label={`Slayt ${i + 1}`} className={i === idx ? "active" : ""} onClick={() => setIdx(i)} />
+              <button key={s.id} type="button" aria-label={t.slide(i)} className={i === idx ? "active" : ""} onClick={() => setIdx(i)} />
             ))}
           </div>
         </div>
@@ -77,7 +97,7 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
               ))}
               <Link href={home.about.linkHref}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt="Devamını oku" width={32} height={32} />
+                <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt={t.readMore} width={32} height={32} />
               </Link>
             </div>
           </div>
@@ -117,7 +137,7 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
               <p>{home.sustainability.text}</p>
               <Link href={home.sustainability.linkHref}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt="Sürdürülebilirlik" width={32} height={32} />
+                <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt={t.sustainability} width={32} height={32} />
               </Link>
             </div>
           </div>
@@ -159,16 +179,16 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
                 await fetch("/api/lead", {
                   method: "POST",
                   headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ email: fd.get("email"), kaynak: "anasayfa-cta" }),
+                  body: JSON.stringify({ email: fd.get("email"), kaynak: locale === "en" ? "en-home-cta" : "anasayfa-cta" }),
                 });
                 e.currentTarget.reset();
-                alert("Teşekkürler, en kısa sürede dönüş yapacağız.");
+                alert(t.thanks);
               }}
             >
-              <input type="email" name="email" required placeholder="E-posta adresiniz" className="main-email-box-input" />
-              <button className="main-email-box-button" type="submit">
+              <input type="email" name="email" required placeholder={t.emailPlaceholder} className="main-email-box-input" />
+              <button className="main-email-box-button" type="submit" aria-label={t.send}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/button-arrow-up-white.svg" alt="Gönder" width={20} height={20} />
+                <img src="/images/button-arrow-up-white.svg" alt={t.send} width={20} height={20} />
               </button>
             </form>
           </div>

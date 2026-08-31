@@ -1,0 +1,107 @@
+{
+  "slider": [
+    {
+      "id": "1",
+      "href": "/en/p/en-our-approach-to-sustainability",
+      "h1": "With biodegradable products",
+      "h2": "toward a sustainable world.",
+      "image": "/images/banner/ayfleks-manset-banner_6f10c.webp",
+      "imageAlt": "Sustainable packaging"
+    },
+    {
+      "id": "2",
+      "href": "",
+      "h1": "",
+      "h2": "",
+      "image": "/images/banner/interpack-banner_f8ebd.webp",
+      "imageAlt": "Interpack trade fair"
+    },
+    {
+      "id": "3",
+      "href": "/en/product-groups/food",
+      "h1": "Food",
+      "h2": "Reliable Packaging Solutions",
+      "image": "/images/banner/ayfleks-manset-banner-02_48220.webp",
+      "imageAlt": "Food packaging"
+    },
+    {
+      "id": "4",
+      "href": "/en/product-groups/personal-care-hygiene",
+      "h1": "Personal Care & Hygiene",
+      "h2": "Hygienic & Aesthetic Packaging Solutions",
+      "image": "/images/banner/ayfleks-manset-banner-03_1ffa4.webp",
+      "imageAlt": "Personal care packaging"
+    },
+    {
+      "id": "5",
+      "href": "/en/product-groups/pet-care",
+      "h1": "Pet Care",
+      "h2": "Quality & Reliable Packaging Solutions",
+      "image": "/images/banner/ayfleks-manset-banner-04_a3bb2.webp",
+      "imageAlt": "Pet care packaging"
+    },
+    {
+      "id": "6",
+      "href": "/en/product-groups/industrial",
+      "h1": "Industrial",
+      "h2": "Durable & Functional Designs",
+      "image": "/images/banner/ayfleks-manset-banner-05_1782d.webp",
+      "imageAlt": "Industrial packaging"
+    }
+  ],
+  "about": {
+    "h1": "Ayfleks",
+    "h2": "About",
+    "videoUrl": "https://www.youtube.com/embed/2Sv8FTkG02I?enablejsapi=1&rel=0",
+    "videoCover": "/images/hakkimizda/ayfleks-tanitim-filmi-cover_c3469.webp",
+    "paragraphs": [
+      "Since 1974, Ayfleks has been delivering standard and customized packaging solutions with a customer-focused approach and a team of over 300 people.",
+      "In addition to Türkiye, Ayfleks continues its international activities and is preparing to expand into the USA–Middle East–Africa markets. Having moved to its new factory with a major investment, Ayfleks takes justified pride in the trust built over decades of experience, solid principles, and a dedicated expert team..."
+    ],
+    "linkHref": "/en/p/en-about-us"
+  },
+  "categories": {
+    "h1": "Products",
+    "h2": "what we offer?",
+    "items": [
+      {
+        "label": "Food",
+        "href": "/en/product-groups/food",
+        "image": "/images/kategoriler/gida_8dd8e.webp.720p.webp"
+      },
+      {
+        "label": "Personal Care & Hygiene",
+        "href": "/en/product-groups/personal-care-hygiene",
+        "image": "/images/kategoriler/kategori-kisisel-bakim_193da.webp.720p.webp"
+      },
+      {
+        "label": "Pet Care",
+        "href": "/en/product-groups/pet-care",
+        "image": "/images/kategoriler/kategori-evcil-hayvan_15dfd.webp.720p.webp"
+      },
+      {
+        "label": "Industrial",
+        "href": "/en/product-groups/industrial",
+        "image": "/images/kategoriler/kategori-endustriyel_06739.webp.720p.webp"
+      }
+    ]
+  },
+  "sustainability": {
+    "h2": "We know our responsibility.",
+    "h1": "Care for nature and the environment is part of our business.",
+    "text": "Our meticulous and ethical approach to nature and the environment is an integral part of what we do.",
+    "linkHref": "/en/p/en-our-approach-to-sustainability",
+    "image": "/images/kutular/ayfleks-main-surdurulebilirlik_b8322.webp"
+  },
+  "export": {
+    "h2": "our export route",
+    "h1": "With exports to nearly 60 countries, we guide packaging on its global journey.",
+    "text": "As Ayfleks Packaging, we are proud to offer the most innovative and sustainable packaging solutions to our business partners worldwide. Thanks to our global network and strong logistics infrastructure, your products reach every corner of the world safely and on time. With our export expertise, we support your brand's growth in international markets.",
+    "image": "/images/kutular/main-ihracat-rota_af25b.webp"
+  },
+  "contactCta": {
+    "h2": "contact us",
+    "h1": "How can we help you?",
+    "text": "Leave your email and our team will get back to you."
+  }
+}

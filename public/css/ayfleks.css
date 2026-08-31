@@ -1,5 +1,11 @@
 /* Ayfleks overrides — orijinal siteye yakın davranış */
 
+html.ayfleks-site,
+html.ayfleks-site body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 /* Header bar: logo | TR EN | hamburger */
 .header-content {
   align-items: center;
@@ -31,151 +37,20 @@
 .site-header-inside .hamburger-nav {
   color: #024B3D;
 }
+.ayf-bars-icon {
+  display: block;
+  color: inherit;
+}
 
-/* Overlay — ayfleks.com yeşili #39b54afc (tam sayfa) */
+/* Overlay — sağdan açılır (main.css .overlay right:0); tam ekran yeşil */
 #myNav.overlay {
   background-color: #39b54afc !important;
   z-index: 120 !important;
   overflow-x: hidden;
-  overflow-y: hidden; /* fixed .menu-adds viewport’ta kalsın */
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 100%;
-  height: 100dvh;
+  overflow-y: hidden;
 }
 #myNav.overlay.ayf-nav-open {
   width: 100% !important;
-  width: 100vw !important;
-}
-#myNav .closebtn {
-  color: #fff !important;
-  text-decoration: none;
-  font-weight: 200;
-  line-height: 1;
-  position: absolute;
-  top: 0;
-  right: 16px;
-  font-size: 72px;
-  z-index: 130;
-}
-#myNav .overlay-content {
-  text-align: left;
-  top: 0;
-  margin-top: 48px;
-  padding-bottom: 180px;
-  max-height: calc(100dvh - 48px);
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-}
-#myNav .navbar,
-#myNav .header-content,
-#myNav .header-menu,
-#myNav .header-menu > ul,
-#myNav .mega-menu {
-  width: 100%;
-  display: block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-#myNav #v-pills-tab {
-  background: transparent;
-  border-radius: 0;
-  min-height: auto;
-  width: auto;
-  max-width: 48%;
-  padding: 8px 12px;
-}
-#myNav .nav-pills .nav-link {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: left;
-  padding: 10px 8px 10px 28px;
-  position: relative;
-  background: transparent !important;
-  border: 0;
-  border-radius: 0;
-}
-#myNav .nav-pills .nav-link.active {
-  background-color: transparent !important;
-}
-#myNav .nav-pills .nav-link.active::before {
-  content: "";
-  background-image: url(/images/button-arrow-up-white.svg);
-  background-repeat: no-repeat;
-  background-size: 18px;
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  left: 0;
-  top: 14px;
-  margin: 0;
-}
-#myNav .tab-content {
-  flex: 1;
-  min-width: 0;
-  padding: 4px 8px 8px 12px;
-}
-#myNav .tab-pane a {
-  display: flex;
-  padding: 10px 8px;
-  color: #ffffffd6;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 300;
-  border-bottom: 0.2px solid #ffffff4f;
-  text-align: left;
-}
-#myNav .tab-pane a:hover {
-  color: #fff;
-}
-
-/* Menü altı iletişim — overlay altında sabit şerit */
-#myNav .ayf-menu-contact {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  max-width: 100%;
-  padding: 0;
-  z-index: 125;
-}
-#myNav .menu-adds {
-  position: static;
-  left: auto;
-  right: auto;
-  bottom: auto;
-  width: 100%;
-  margin: 0;
-  padding: 16px 12px 20px;
-  border-top: 1px solid #ffffff4d;
-  background-color: #39b54afc;
-  display: flex;
-  flex-wrap: nowrap;
-}
-#myNav .menu-adds .col-md-4 {
-  padding: 8px 12px;
-  width: 33.333%;
-  flex: 0 0 33.333%;
-  max-width: 33.333%;
-}
-#myNav .menu-adds img {
-  width: 22px;
-  height: 22px;
-  margin-bottom: 8px;
-  display: block;
-}
-#myNav .menu-adds p {
-  color: #fff !important;
-  font-size: 13px !important;
-  font-weight: 300;
-  line-height: 1.35;
-  margin: 0 0 4px;
-  text-align: left;
 }
 
 /* Video lightbox */
@@ -253,47 +128,201 @@
   text-decoration: none;
 }
 
-.ayf-hero { position: relative; overflow: hidden; background: #0a1f18; min-height: 56vw; max-height: 900px; }
-.ayf-hero-track { position: relative; width: 100%; min-height: inherit; }
-.ayf-hero-link { display: block; color: inherit; text-decoration: none; }
-.ayf-hero-item { position: absolute; inset: 0; opacity: 0; transition: opacity .55s ease; pointer-events: none; }
-.ayf-hero-item.is-active { opacity: 1; position: relative; pointer-events: auto; }
-.ayf-hero-item img { width: 100%; height: auto; display: block; min-height: 420px; object-fit: cover; }
-.ayf-hero-dots { position: absolute; bottom: 18px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 5; }
-.ayf-hero-dots button { width: 38px; height: 6px; border: 0; border-radius: 30px; background: #fff; opacity: .7; padding: 0; cursor: pointer; }
-.ayf-hero-dots button.active { background: #3ab54b; opacity: 1; }
-
-.ayf-cookie {
-  position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 80;
-  max-width: 520px; margin: 0 auto; background: #fff; border-radius: 12px;
-  box-shadow: 0 16px 48px rgba(0,0,0,.18); padding: 20px 22px; display: none;
+/* Hero slider — siyah boşluk yok, owl-manset ile uyumlu */
+.ayf-hero {
+  position: relative;
+  overflow: hidden;
+  background: transparent;
 }
-.ayf-cookie.show { display: block; }
-.ayf-cookie h2 { font-size: 18px; margin: 0 0 8px; color: #024B3D; }
-.ayf-cookie p { font-size: 14px; color: #60666B; margin: 0 0 14px; }
-.ayf-cookie .btns { display: flex; gap: 10px; }
-.ayf-cookie button { border: 0; border-radius: 24px; padding: 10px 18px; font-weight: 600; cursor: pointer; font-size: 14px; }
-.ayf-cookie .accept { background: #39B54A; color: #fff; }
-.ayf-cookie .reject { background: #EAEDF4; color: #024B3D; }
+.ayf-hero .owl-container {
+  position: relative;
+  width: 100%;
+}
+.ayf-hero-track {
+  position: relative;
+  width: 100%;
+  padding-top: 46.875%;
+}
+.ayf-hero-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.ayf-hero-item {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.55s ease;
+  pointer-events: none;
+}
+.ayf-hero-item.is-active {
+  opacity: 1;
+  z-index: 2;
+  pointer-events: auto;
+}
+.ayf-hero-item .shadow {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.ayf-hero-item img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.ayf-hero-item .owl-manset-text {
+  z-index: 3;
+}
+.ayf-hero-dots {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 5;
+}
+.ayf-hero-dots button {
+  width: 38px;
+  height: 6px;
+  border: 0;
+  border-radius: 30px;
+  background: #fff;
+  opacity: 0.7;
+  padding: 0;
+  cursor: pointer;
+}
+.ayf-hero-dots button.active {
+  background: #3ab54b;
+  opacity: 1;
+}
 
-.ayf-product-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); gap: 24px; margin: 40px 0 80px; }
-.ayf-product-card { text-decoration: none; color: inherit; }
-.ayf-product-card img { width: 100%; height: 220px; object-fit: cover; border-radius: 12px; }
-.ayf-product-card h3 { margin-top: 12px; font-size: 18px; color: #024B3D; }
+/* Taşan geniş görseller */
+.main-fleks-s1,
+.main-fleks-s1 img,
+.main-fleks-s3 img {
+  max-width: 100%;
+}
+
+/* Cookie — ayfleks.com wrapper-tkpn (sağ altta küçük panel) */
+.wrapper-tkpn {
+  position: fixed;
+  bottom: 50px;
+  right: -370px;
+  max-width: 345px;
+  width: calc(100% - 40px);
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 80;
+}
+.wrapper-tkpn.show {
+  right: 20px;
+}
+.wrapper-tkpn header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.wrapper-tkpn header .ayf-cookie-icon {
+  flex-shrink: 0;
+  color: #39b54a;
+}
+.wrapper-tkpn header h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+.wrapper-tkpn .data {
+  margin-top: 16px;
+}
+.wrapper-tkpn .data p {
+  color: #333;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.45;
+}
+.wrapper-tkpn .data p a {
+  color: #39b54a;
+  text-decoration: none;
+}
+.wrapper-tkpn .data p a:hover {
+  text-decoration: underline;
+}
+.wrapper-tkpn .buttons {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.wrapper-tkpn .buttons .button {
+  border: none;
+  color: #fff;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: #39b54a;
+  cursor: pointer;
+  width: calc(50% - 6px);
+  transition: all 0.2s ease;
+  font-size: 14px;
+  font-weight: 600;
+}
+.wrapper-tkpn .buttons #acceptBtn:hover {
+  background-color: #000;
+}
+.wrapper-tkpn #declineBtn {
+  background-color: #fff;
+  color: #757575;
+  border: 1px solid #ddd;
+}
+.wrapper-tkpn #declineBtn:hover {
+  background-color: #bababa;
+  color: #fff;
+  border-color: #bababa;
+}
+
+.ayf-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+  margin: 40px 0 80px;
+}
+.ayf-product-card {
+  text-decoration: none;
+  color: inherit;
+}
+.ayf-product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.ayf-product-card h3 {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #024b3d;
+}
 
 @media only screen and (max-width: 767px) {
-  .ayf-hero { min-height: 70vw; }
-  .ayf-hero-item img { min-height: 280px; }
-  .ayf-lightbox { padding: 12px; }
-
-  #myNav .closebtn {
-    top: -8px;
-    right: 8px;
-    font-size: 64px;
+  .ayf-hero-track {
+    padding-top: 70vw;
   }
-  #myNav .overlay-content {
-    margin-top: 36px;
-    padding-bottom: 220px;
+  .ayf-lightbox {
+    padding: 12px;
+  }
+  .wrapper-tkpn {
+    max-width: 320px;
+  }
+  .wrapper-tkpn.show {
+    right: 12px;
   }
   #myNav .d-flex.align-items-start {
     flex-direction: row;
@@ -307,32 +336,9 @@
     font-size: 18px;
     padding: 8px 4px 12px 24px;
   }
-  #myNav .nav-pills .nav-link.active::before {
-    top: 12px;
-    width: 14px;
-    height: 14px;
-    background-size: 14px;
-  }
   #myNav .tab-pane a {
     font-size: 15px;
     padding: 8px 4px;
-  }
-  /* Mobilde iletişim: 3 kolon dar; orijinal gibi altta */
-  #myNav .menu-adds {
-    padding: 12px 6px 16px;
-  }
-  #myNav .menu-adds .col-md-4 {
-    padding: 4px 6px;
-  }
-  #myNav .menu-adds img {
-    width: 18px;
-    height: 18px;
-    margin-bottom: 6px;
-  }
-  #myNav .menu-adds p {
-    font-size: 10px !important;
-    line-height: 1.25;
-    word-break: break-word;
   }
 }
 
@@ -342,8 +348,5 @@
   }
   #myNav .tab-pane a {
     font-size: 14px;
-  }
-  #myNav .menu-adds p {
-    font-size: 9px !important;
   }
 }

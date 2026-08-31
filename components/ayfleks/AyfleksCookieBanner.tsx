@@ -9,10 +9,6 @@ const COPY = {
   tr: {
     title: "Cookie Kullanım Onayı",
     body: "Ayfleks web sitesi, sizlere daha iyi bir deneyim sunabilmek için, Google Analytics verilerini izlemek amacıyla temel cookie öğelerini kullanır.",
-    privacy: "KVKK Aydınlatma Metni",
-    policy: "Çerez Politikası",
-    privacyHref: "/p/kvkk",
-    policyHref: "/cerez-politikasi",
     accept: "Kabul Et",
     reject: "Reddet",
     aria: "Çerez kullanımı",
@@ -20,10 +16,6 @@ const COPY = {
   en: {
     title: "Cookie Consent",
     body: "The Ayfleks website uses essential cookies to improve your experience and to track Google Analytics data.",
-    privacy: "GDPR Privacy Notice",
-    policy: "Cookie Policy",
-    privacyHref: "/en/p/en-gdpr",
-    policyHref: "/en/cookie-policy",
     accept: "Accept",
     reject: "Reject",
     aria: "Cookie consent",
@@ -33,10 +25,13 @@ const COPY = {
 export function AyfleksCookieBanner({ locale = "tr" }: { locale?: "tr" | "en" }) {
   const [show, setShow] = useState(false);
   const t = COPY[locale];
+  const privacyHref = locale === "en" ? "/en/p/en-gdpr" : "/p/kvkk";
+  const policyHref = locale === "en" ? "/en/cookie-policy" : "/cerez-politikasi";
 
   useEffect(() => {
     try {
-      if (!localStorage.getItem(KEY) && !document.cookie.includes("ayfleks_cookie=")) setShow(true);
+      if (localStorage.getItem(KEY) || document.cookie.includes("cookieBy=")) return;
+      requestAnimationFrame(() => setShow(true));
     } catch {
       setShow(true);
     }
@@ -45,7 +40,7 @@ export function AyfleksCookieBanner({ locale = "tr" }: { locale?: "tr" | "en" })
   function accept() {
     try {
       localStorage.setItem(KEY, "1");
-      document.cookie = "ayfleks_cookie=1; max-age=" + 60 * 60 * 24 * 365 + "; path=/";
+      document.cookie = "cookieBy=codinglab; max-age=" + 60 * 60 * 24 * 30 + "; path=/";
     } catch {
       /* ignore */
     }
@@ -61,20 +56,31 @@ export function AyfleksCookieBanner({ locale = "tr" }: { locale?: "tr" | "en" })
     setShow(false);
   }
 
-  if (!show) return null;
-
   return (
-    <div className="ayf-cookie show" role="dialog" aria-label={t.aria}>
-      <h2>{t.title}</h2>
-      <p>
-        {t.body}{" "}
-        <Link href={t.privacyHref}>{t.privacy}</Link> and <Link href={t.policyHref}>{t.policy}</Link>.
-      </p>
-      <div className="btns">
-        <button type="button" className="accept" onClick={accept}>
+    <div className={`wrapper-tkpn${show ? " show" : ""}`} role="dialog" aria-label={t.aria}>
+      <header>
+        <svg className="ayf-cookie-icon" width="32" height="32" viewBox="0 0 24 24" aria-hidden>
+          <circle cx="12" cy="12" r="9" fill="none" stroke="#39B54A" strokeWidth="1.5" />
+          <circle cx="8" cy="10" r="1.2" fill="#39B54A" />
+          <circle cx="14" cy="8" r="1" fill="#39B54A" />
+          <circle cx="15" cy="14" r="1.3" fill="#39B54A" />
+          <circle cx="9" cy="15" r="0.9" fill="#39B54A" />
+        </svg>
+        <h2>{t.title}</h2>
+      </header>
+      <div className="data">
+        <p>
+          {t.body}{" "}
+          <Link href={privacyHref}>{locale === "en" ? "GDPR Privacy Notice" : "KVKK Aydınlatma Metni"}</Link>{" "}
+          {locale === "en" ? "and" : "ve"}{" "}
+          <Link href={policyHref}>{locale === "en" ? "Cookie Policy" : "Çerez Politikası"}</Link>.
+        </p>
+      </div>
+      <div className="buttons">
+        <button type="button" className="button" id="acceptBtn" onClick={accept}>
           {t.accept}
         </button>
-        <button type="button" className="reject" onClick={reject}>
+        <button type="button" className="button" id="declineBtn" onClick={reject}>
           {t.reject}
         </button>
       </div>

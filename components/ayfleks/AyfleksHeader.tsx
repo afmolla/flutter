@@ -24,6 +24,7 @@ export function AyfleksHeader({ menu, ayar, locale = "tr", logoWhite = true }: P
   }, [overlay]);
 
   const homeHref = locale === "en" ? "/en" : "/";
+  const phoneLabel = locale === "en" ? "Telephone:" : "Telefon:";
 
   return (
     <>
@@ -62,13 +63,15 @@ export function AyfleksHeader({ menu, ayar, locale = "tr", logoWhite = true }: P
                 <span
                   role="button"
                   tabIndex={0}
-                  aria-label="Menü"
+                  aria-label={locale === "en" ? "Menu" : "Menü"}
                   onClick={() => setOverlay(true)}
                   onKeyDown={(e) => {
                     if (e.key === "Enter" || e.key === " ") setOverlay(true);
                   }}
                 >
-                  <i className="fa fa-bars" aria-hidden />
+                  <svg className="ayf-bars-icon" width="44" height="44" viewBox="0 0 24 24" aria-hidden>
+                    <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                  </svg>
                 </span>
               </div>
             </div>
@@ -76,11 +79,11 @@ export function AyfleksHeader({ menu, ayar, locale = "tr", logoWhite = true }: P
         </div>
       </header>
 
-      <div id="myNav" className={`overlay${overlay ? " ayf-nav-open" : ""}`} style={{ width: overlay ? "100%" : "0%" }}>
+      <div id="myNav" className={`overlay${overlay ? " ayf-nav-open" : ""}`}>
         <a
           href="#"
           className="closebtn"
-          aria-label="Kapat"
+          aria-label={locale === "en" ? "Close" : "Kapat"}
           onClick={(e) => {
             e.preventDefault();
             setOverlay(false);
@@ -108,14 +111,7 @@ export function AyfleksHeader({ menu, ayar, locale = "tr", logoWhite = true }: P
                                     className={`nav-link${i === tab ? " active" : ""}`}
                                     role="tab"
                                     aria-selected={i === tab}
-                                    onClick={() => {
-                                      if (!item.children?.length && item.href) {
-                                        setOverlay(false);
-                                        window.location.href = item.href;
-                                        return;
-                                      }
-                                      setTab(i);
-                                    }}
+                                    onClick={() => setTab(i)}
                                   >
                                     {item.label}
                                   </button>
@@ -133,11 +129,20 @@ export function AyfleksHeader({ menu, ayar, locale = "tr", logoWhite = true }: P
                                   >
                                     {item.children?.length
                                       ? item.children.map((child) => (
-                                          <Link key={child.href} href={child.href} title={child.label} onClick={() => setOverlay(false)}>
+                                          <Link
+                                            key={child.href}
+                                            href={child.href}
+                                            title={child.label}
+                                            onClick={() => setOverlay(false)}
+                                          >
                                             {child.label}
                                           </Link>
                                         ))
-                                      : null}
+                                      : item.href && item.href !== "#" ? (
+                                          <Link href={item.href} title={item.label} onClick={() => setOverlay(false)}>
+                                            {item.label}
+                                          </Link>
+                                        ) : null}
                                   </div>
                                 ))}
                               </div>
@@ -153,8 +158,7 @@ export function AyfleksHeader({ menu, ayar, locale = "tr", logoWhite = true }: P
           </div>
         </div>
 
-        {/* Orijinal sitede de altta; overflow’dan bağımsız sabit şerit */}
-        <div className="container main-menu-address ayf-menu-contact">
+        <div className="container main-menu-address">
           <div className="row menu-adds">
             <div className="col-md-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -164,7 +168,7 @@ export function AyfleksHeader({ menu, ayar, locale = "tr", logoWhite = true }: P
             <div className="col-md-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/images/icon-phone-white.svg" alt="" />
-              {ayar.iletisimTelefon ? <p>Telefon:&nbsp;{ayar.iletisimTelefon}</p> : null}
+              {ayar.iletisimTelefon ? <p>{phoneLabel}&nbsp;{ayar.iletisimTelefon}</p> : null}
               {ayar.iletisimFax ? <p>Fax:&nbsp;{ayar.iletisimFax}</p> : null}
             </div>
             <div className="col-md-4">

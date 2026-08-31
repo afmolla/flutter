@@ -58,7 +58,11 @@
         { "label": "İş Başvuru Formu", "href": "/p/is-basvuru-formu" }
       ]
     },
-    { "label": "İletişim", "href": "/iletisim" }
+    {
+      "label": "İletişim",
+      "href": "#",
+      "children": [{ "label": "İletişim", "href": "/iletisim" }]
+    }
   ],
   "footer": [
     { "label": "Kurumsal", "href": "/p/hakkimizda" },

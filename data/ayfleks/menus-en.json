@@ -58,7 +58,11 @@
         { "label": "Job Application Form", "href": "/en/p/en-job-application-form" }
       ]
     },
-    { "label": "Contact", "href": "/en/contact" }
+    {
+      "label": "Contact",
+      "href": "#",
+      "children": [{ "label": "Contact", "href": "/en/contact" }]
+    }
   ],
   "footer": [
     { "label": "Corporate", "href": "/en/p/en-about-us" },

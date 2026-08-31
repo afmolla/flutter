@@ -48,8 +48,20 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="tr" className={`${outfit.variable} h-full`} suppressHydrationWarning>
-      <body className="min-h-full" suppressHydrationWarning>
+    <html lang="tr" className={`${outfit.variable} ayfleks-site h-full`} suppressHydrationWarning>
+      <head>
+        <link rel="preload" href="/css/bootstrap.min.css" as="style" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="preload" href="/css/main.css" as="style" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="preload" href="/css/ayfleks.css" as="style" />
+        <link rel="stylesheet" href="/css/ayfleks.css" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Outfit:wght@100..900&display=swap"
+        />
+      </head>
+      <body className="min-h-full ayfleks-body" suppressHydrationWarning>
         {children}
       </body>
     </html>

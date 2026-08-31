@@ -25,7 +25,7 @@ export default async function EnCmsPage({ params }: Props) {
   const s = await sayfaBySlug(slug);
   if (!s || !s.yayin) notFound();
   return (
-    <AyfleksShell inside langHref="/" langLabel="TR">
+    <AyfleksShell inside locale="en">
       <AyfleksPageHero title={s.baslik} crumbs={[{ label: "Home", href: "/en" }, { label: s.baslik }]} />
       <div className="container content-page corporate-about">
         <div className="row">

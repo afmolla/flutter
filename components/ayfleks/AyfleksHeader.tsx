@@ -3,123 +3,159 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { MenuItem } from "@/lib/menu-store";
+import type { SiteAyarlar } from "@/lib/settings-store";
 
 type Props = {
   menu: MenuItem[];
-  langHref?: string;
-  langLabel?: string;
+  ayar: SiteAyarlar;
+  locale?: "tr" | "en";
   logoWhite?: boolean;
 };
 
-export function AyfleksHeader({ menu, langHref = "/en", langLabel = "EN", logoWhite = true }: Props) {
-  const [open, setOpen] = useState(false);
+export function AyfleksHeader({ menu, ayar, locale = "tr", logoWhite = true }: Props) {
+  const [overlay, setOverlay] = useState(false);
+  const [tab, setTab] = useState(0);
 
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
+    document.body.style.overflow = overlay ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
     };
-  }, [open]);
+  }, [overlay]);
 
-  const homeHref = langLabel === "TR" ? "/en" : "/";
+  const homeHref = locale === "en" ? "/en" : "/";
+  const trHref = locale === "en" ? "/" : "/";
+  const enHref = locale === "en" ? "/en" : "/en";
 
   return (
-    <header className="site-header">
-      <div className="header-content">
-        <div className="container main-menu-address">
-          <div className="row align-items-center">
-            <div className="col-6 col-md-3">
-              <Link href={homeHref} className="navbar-brand">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={logoWhite ? "/images/ayfleks-logo-w.svg" : "/images/ayfleks-logo.svg"}
-                  alt="Ayfleks"
-                  className="ayfleks-logo img-fluid"
-                  width={140}
-                  height={48}
-                  decoding="async"
-                />
-              </Link>
-            </div>
-            <div className="col-6 col-md-9 d-flex justify-content-end align-items-center gap-3">
-              <nav className="header-menu d-none d-lg-block">
-                <ul className="d-flex justify-content-end align-items-center list-unstyled mb-0 ayf-nav">
-                  {menu.map((item) => (
-                    <li key={item.label} className={item.children?.length ? "mega-menu" : ""}>
-                      {item.children?.length ? (
-                        <>
-                          <span className="nav-link ayf-nav-link">{item.label}</span>
-                          <div className="mega-menu-content ayf-mega">
-                            <ul className="list-unstyled mb-0">
-                              {item.children.map((child) => (
-                                <li key={child.href}>
-                                  <Link href={child.href}>{child.label}</Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </>
-                      ) : (
-                        <Link href={item.href || "#"} className="nav-link ayf-nav-link">
-                          {item.label}
-                        </Link>
-                      )}
-                    </li>
-                  ))}
-                  <li className="languages-menu">
-                    <Link href={langHref} className="top-lang ayf-nav-link">
-                      {langLabel}
+    <>
+      <header className={logoWhite ? "site-header" : "site-header site-header-inside-plain"}>
+        <div className="container">
+          <div className="row">
+            <div className="header-content ayf-header-bar">
+              <div className="brand-line">
+                <Link href={homeHref} className="navbar-brand">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={logoWhite ? "/images/ayfleks-logo-w.svg" : "/images/ayfleks-logo.svg"}
+                    alt="Ayfleks"
+                    className="ayfleks-logo img-fluid"
+                    width={140}
+                    height={48}
+                    decoding="async"
+                  />
+                </Link>
+              </div>
+              <div className="top-lang">
+                <ul className="languages-menu">
+                  <li>
+                    <Link href={trHref} className={locale === "tr" ? "ayf-lang-active" : undefined} aria-current={locale === "tr" ? "page" : undefined}>
+                      TR
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href={enHref} className={locale === "en" ? "ayf-lang-active" : undefined} aria-current={locale === "en" ? "page" : undefined}>
+                      EN
                     </Link>
                   </li>
                 </ul>
-              </nav>
-              <button type="button" className="hamburger-nav d-lg-none ayf-burger" aria-label="Menü" onClick={() => setOpen((v) => !v)}>
-                <span />
-                <span />
-                <span />
-              </button>
+              </div>
+              <div className="hamburger-nav">
+                <button type="button" className="ayf-burger-btn" aria-label="Menü" onClick={() => setOverlay(true)}>
+                  <i className="fa fa-bars" aria-hidden />
+                </button>
+              </div>
             </div>
           </div>
-          <div className="brand-line" />
+        </div>
+      </header>
+
+      <div id="myNav" className="overlay ayf-overlay" style={{ width: overlay ? "100%" : undefined }}>
+        <button type="button" className="closebtn" aria-label="Kapat" onClick={() => setOverlay(false)}>
+          ×
+        </button>
+        <div className="overlay-content">
+          <div className="navbar">
+            <div className="header-content">
+              <nav className="header-menu">
+                <ul>
+                  <li className="mega-menu">
+                    <div className="container">
+                      <div className="col-md-12">
+                        <div className="row">
+                          <div className="col-md-12">
+                            <div className="d-flex align-items-start ayf-mega-wrap">
+                              <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+                                {menu.map((item, i) => (
+                                  <button
+                                    key={item.label}
+                                    type="button"
+                                    className={`nav-link${i === tab ? " active" : ""}`}
+                                    role="tab"
+                                    aria-selected={i === tab}
+                                    onClick={() => setTab(i)}
+                                  >
+                                    {item.label}
+                                  </button>
+                                ))}
+                              </div>
+                              <div className="tab-content flex-grow-1" id="v-pills-tabContent">
+                                {menu.map((item, i) => (
+                                  <div
+                                    key={item.label}
+                                    className={`tab-pane fade${i === tab ? " show active" : ""}`}
+                                    role="tabpanel"
+                                    hidden={i !== tab}
+                                  >
+                                    {item.children?.length ? (
+                                      item.children.map((child) => (
+                                        <Link key={child.href} href={child.href} onClick={() => setOverlay(false)}>
+                                          {child.label}
+                                        </Link>
+                                      ))
+                                    ) : (
+                                      <Link href={item.href || "#"} onClick={() => setOverlay(false)}>
+                                        {item.label}
+                                      </Link>
+                                    )}
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div className="container main-menu-address">
+                            <div className="row menu-adds">
+                              <div className="col-md-4">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img src="/images/icon-location-white.svg" alt="" />
+                                <p>{ayar.adresDetay || ayar.adresKisa}</p>
+                              </div>
+                              <div className="col-md-4">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img src="/images/icon-phone-white.svg" alt="" />
+                                {ayar.iletisimTelefon ? <p>Telefon: {ayar.iletisimTelefon}</p> : null}
+                                {ayar.iletisimFax ? <p>Fax: {ayar.iletisimFax}</p> : null}
+                              </div>
+                              <div className="col-md-4">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img src="/images/icon-mail-white.svg" alt="" />
+                                {ayar.iletisimEposta ? <p>{ayar.iletisimEposta}</p> : null}
+                                {ayar.iletisimEpostaExport ? <p>{ayar.iletisimEpostaExport}</p> : null}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
-
-      {open ? (
-        <div className="ayf-mobile-nav">
-          <button type="button" className="ayf-mobile-close" onClick={() => setOpen(false)} aria-label="Kapat">
-            ×
-          </button>
-          <ul className="list-unstyled">
-            {menu.map((item) => (
-              <li key={item.label}>
-                {item.children?.length ? (
-                  <>
-                    <strong>{item.label}</strong>
-                    <ul className="list-unstyled ps-3">
-                      {item.children.map((c) => (
-                        <li key={c.href}>
-                          <Link href={c.href} onClick={() => setOpen(false)}>
-                            {c.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </>
-                ) : (
-                  <Link href={item.href || "#"} onClick={() => setOpen(false)}>
-                    {item.label}
-                  </Link>
-                )}
-              </li>
-            ))}
-            <li>
-              <Link href={langHref} onClick={() => setOpen(false)}>
-                {langLabel}
-              </Link>
-            </li>
-          </ul>
-        </div>
-      ) : null}
-    </header>
+    </>
   );
 }

@@ -8,7 +8,9 @@ export type SiteAyarlar = {
   /** Vitrinde/kurumsal iletişim için (panelden düzenlenir) */
   iletisimWhatsapp?: string;
   iletisimTelefon?: string;
+  iletisimFax?: string;
   iletisimEposta?: string;
+  iletisimEpostaExport?: string;
   /** SEO (site geneli) */
   seoTitle?: string;
   seoDescription?: string;
@@ -208,7 +210,9 @@ export async function ayarlarKaydet(patch: Partial<SiteAyarlar>): Promise<SiteAy
     whatsapp: (patch.whatsapp ?? cur.whatsapp).trim(),
     iletisimWhatsapp: (patch.iletisimWhatsapp ?? cur.iletisimWhatsapp ?? "").trim() || undefined,
     iletisimTelefon: (patch.iletisimTelefon ?? cur.iletisimTelefon ?? "").trim() || undefined,
+    iletisimFax: (patch.iletisimFax ?? cur.iletisimFax ?? "").trim() || undefined,
     iletisimEposta: (patch.iletisimEposta ?? cur.iletisimEposta ?? "").trim() || undefined,
+    iletisimEpostaExport: (patch.iletisimEpostaExport ?? cur.iletisimEpostaExport ?? "").trim() || undefined,
     seoTitle: (patch.seoTitle ?? cur.seoTitle ?? "").trim() || undefined,
     seoDescription: (patch.seoDescription ?? cur.seoDescription ?? "").trim() || undefined,
     seoKeywords: (patch.seoKeywords ?? cur.seoKeywords ?? "").trim() || undefined,

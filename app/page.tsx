@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AyfleksClientScripts } from "@/components/ayfleks/AyfleksClientScripts";
 import { AyfleksCookieBanner } from "@/components/ayfleks/AyfleksCookieBanner";
 import { AyfleksFooter } from "@/components/ayfleks/AyfleksFooter";
 import { AyfleksHeader } from "@/components/ayfleks/AyfleksHeader";
@@ -33,12 +34,13 @@ export default async function HomePage() {
   return (
     <>
       <AyfleksStyles />
+      <AyfleksClientScripts />
       <AyfleksJsonLd ayar={ayar} />
-      <AyfleksHeader menu={menus.header} />
+      <AyfleksHeader menu={menus.header} ayar={ayar} locale="tr" />
       <main>
         <AyfleksHomeSections home={home} />
       </main>
-      <AyfleksFooter footerMenu={menus.footer} ayar={ayar} />
+      <AyfleksFooter footerMenu={menus.footer} ayar={ayar} locale="tr" />
       <AyfleksCookieBanner />
     </>
   );

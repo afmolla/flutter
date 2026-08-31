@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AyfleksPageHero, AyfleksShell } from "@/components/ayfleks/AyfleksShell";
+import { AyfleksProductGrupGrid, AyfleksUrunSubnav, URUN_GRUP_HERO } from "@/components/ayfleks/AyfleksProductGrup";
 import { URUN_KATEGORILER, type UrunKategoriId } from "@/lib/urun-types";
 import { urunlerGetir, urunYayinda } from "@/lib/urun-store";
 import { siteUrl } from "@/lib/site";
@@ -13,6 +13,13 @@ const SLUG_TO_ID: Record<string, UrunKategoriId> = {
   "kisisel-bakim-hijyen": "kisisel-bakim",
   "evcil-hayvan-bakimi": "evcil-hayvan",
   endustriyel: "endustriyel",
+};
+
+const INTRO: Partial<Record<UrunKategoriId, string>> = {
+  gida: "Gıda sektörüne yönelik esnek ambalaj çözümlerimiz, ürünlerinizin tazeliğini, aromasını ve raf ömrünü maksimum düzeyde korumayı hedefler.",
+  "kisisel-bakim": "Kişisel bakım ve hijyen ürünleri için estetik, hijyenik ve fonksiyonel ambalaj çözümleri sunuyoruz.",
+  "evcil-hayvan": "Evcil hayvan bakım ürünleri için güvenilir, dayanıklı ve çekici ambalaj çözümleri.",
+  endustriyel: "Endüstriyel uygulamalar için dayanıklı, fonksiyonel ve yüksek performanslı ambalaj çözümleri.",
 };
 
 type Props = { params: Promise<{ slug: string }> };
@@ -42,24 +49,14 @@ export default async function UrunGrupPage({ params }: Props) {
   const list = urunYayinda(await urunlerGetir()).filter((u) => u.kategoriId === id && (u.locale || "tr") === "tr");
 
   return (
-    <AyfleksShell inside>
+    <AyfleksShell inside locale="tr">
       <AyfleksPageHero
         title={kat.baslik}
+        heroImage={URUN_GRUP_HERO[slug]}
         crumbs={[{ label: "Anasayfa", href: "/" }, { label: "Ürünler", href: "/urunler" }, { label: kat.baslik }]}
+        subnav={<AyfleksUrunSubnav activeSlug={slug} />}
       />
-      <div className="container content-page">
-        <p style={{ marginTop: 32, color: "#60666B" }}>{kat.aciklama}</p>
-        <div className="ayf-product-grid">
-          {list.map((u) => (
-            <Link key={u.id} href={`/urun/${u.slug}`} className="ayf-product-card">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={u.imageSrc} alt={u.imageAlt || u.baslik} loading="lazy" width={400} height={220} />
-              <h3>{u.baslik}</h3>
-              <p style={{ color: "#60666B", fontSize: 14 }}>{u.ozet}</p>
-            </Link>
-          ))}
-        </div>
-      </div>
+      <AyfleksProductGrupGrid intro={INTRO[id] || kat.aciklama} products={list} />
     </AyfleksShell>
   );
 }

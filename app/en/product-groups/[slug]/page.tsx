@@ -1,16 +1,25 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AyfleksPageHero, AyfleksShell } from "@/components/ayfleks/AyfleksShell";
+import { AyfleksProductGrupGrid, AyfleksUrunSubnav, URUN_GRUP_HERO } from "@/components/ayfleks/AyfleksProductGrup";
 import { URUN_KATEGORILER, type UrunKategoriId } from "@/lib/urun-types";
 import { urunlerGetir, urunYayinda } from "@/lib/urun-store";
 import { siteUrl } from "@/lib/site";
+
+export const revalidate = 60;
 
 const MAP: Record<string, UrunKategoriId> = {
   food: "gida",
   "personal-care-hygiene": "kisisel-bakim",
   "pet-care": "evcil-hayvan",
   industrial: "endustriyel",
+};
+
+const EN_HERO: Record<string, string> = {
+  food: URUN_GRUP_HERO.gida,
+  "personal-care-hygiene": URUN_GRUP_HERO["kisisel-bakim-hijyen"],
+  "pet-care": URUN_GRUP_HERO["evcil-hayvan-bakimi"],
+  industrial: URUN_GRUP_HERO.endustriyel,
 };
 
 type Props = { params: Promise<{ slug: string }> };
@@ -43,20 +52,14 @@ export default async function EnProductGroupPage({ params }: Props) {
     : urunYayinda(await urunlerGetir()).filter((u) => u.kategoriId === id && (u.locale || "tr") === "tr");
 
   return (
-    <AyfleksShell inside langHref="/" langLabel="TR">
-      <AyfleksPageHero title={kat.baslikEn} crumbs={[{ label: "Home", href: "/en" }, { label: "Products", href: "/en/products" }, { label: kat.baslikEn }]} />
-      <div className="container content-page">
-        <div className="ayf-product-grid">
-          {fallback.map((u) => (
-            <Link key={u.id} href={`/en/product/${u.slug}`} className="ayf-product-card">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={u.imageSrc} alt={u.baslik} loading="lazy" />
-              <h3>{u.baslik}</h3>
-              <p style={{ color: "#60666B", fontSize: 14 }}>{u.ozet}</p>
-            </Link>
-          ))}
-        </div>
-      </div>
+    <AyfleksShell inside locale="en">
+      <AyfleksPageHero
+        title={kat.baslikEn}
+        heroImage={EN_HERO[slug]}
+        crumbs={[{ label: "Home", href: "/en" }, { label: "Products", href: "/en/products" }, { label: kat.baslikEn }]}
+        subnav={<AyfleksUrunSubnav activeSlug={slug} locale="en" />}
+      />
+      <AyfleksProductGrupGrid intro={kat.aciklama} products={fallback} locale="en" />
     </AyfleksShell>
   );
 }

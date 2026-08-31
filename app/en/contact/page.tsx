@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function EnContactPage() {
   const ayar = await ayarlarGetir();
   return (
-    <AyfleksShell inside langHref="/" langLabel="TR">
+    <AyfleksShell inside locale="en">
       <AyfleksPageHero title="Contact" crumbs={[{ label: "Home", href: "/en" }, { label: "Contact" }]} />
       <div className="container content-page contact-page">
         <h1>Contact</h1>

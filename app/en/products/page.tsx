@@ -21,7 +21,7 @@ const HREF: Record<string, string> = {
 
 export default function EnProductsPage() {
   return (
-    <AyfleksShell inside langHref="/" langLabel="TR">
+    <AyfleksShell inside locale="en">
       <AyfleksPageHero title="Products" crumbs={[{ label: "Home", href: "/en" }, { label: "Products" }]} />
       <div className="container content-page">
         <div className="row d-flex justify-content-between" style={{ marginTop: 48, marginBottom: 48 }}>

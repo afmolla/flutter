@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { AyfleksHome } from "@/lib/ayfleks-home-store";
+import { AyfleksVideoLightbox } from "@/components/ayfleks/AyfleksVideoLightbox";
 
 export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
   const [idx, setIdx] = useState(0);
@@ -68,10 +69,7 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
           </div>
           <div className="row">
             <div className="col-md-7">
-              <a href={home.about.videoUrl} data-fancybox data-type="iframe" title="Ayfleks tanıtım videosu">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={home.about.videoCover} alt="Ayfleks tanıtım filmi" className="img-responsive img-thumbnail" width={800} height={450} loading="lazy" />
-              </a>
+              <AyfleksVideoLightbox videoUrl={home.about.videoUrl} coverSrc={home.about.videoCover} />
             </div>
             <div className="col-md-5">
               {home.about.paragraphs.map((p) => (

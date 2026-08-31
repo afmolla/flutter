@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "href": "/urunler?kategori=gida",
+      "href": "/urun-gruplarimiz/gida",
       "h1": "Gıda",
       "h2": "Güvenilir Ambalaj Çözümleri",
       "image": "/images/banner/ayfleks-manset-banner-02_48220.webp",
@@ -26,7 +26,7 @@
     },
     {
       "id": "4",
-      "href": "/urunler?kategori=kisisel-bakim",
+      "href": "/urun-gruplarimiz/kisisel-bakim-hijyen",
       "h1": "Kişisel Bakım & Hijyen",
       "h2": "Hijyenik & Estetik Ambalaj Çözümleri",
       "image": "/images/banner/ayfleks-manset-banner-03_1ffa4.webp",
@@ -34,7 +34,7 @@
     },
     {
       "id": "5",
-      "href": "/urunler?kategori=evcil-hayvan",
+      "href": "/urun-gruplarimiz/evcil-hayvan-bakimi",
       "h1": "Evcil Hayvan Bakımı",
       "h2": "Kaliteli & Güvenilir Ambalaj Çözümleri",
       "image": "/images/banner/ayfleks-manset-banner-04_a3bb2.webp",
@@ -42,7 +42,7 @@
     },
     {
       "id": "6",
-      "href": "/urunler?kategori=endustriyel",
+      "href": "/urun-gruplarimiz/endustriyel",
       "h1": "Endüstriyel",
       "h2": "Dayanıklı & Fonksiyonel Tasarımlar",
       "image": "/images/banner/ayfleks-manset-banner-05_1782d.webp",
@@ -66,22 +66,22 @@
     "items": [
       {
         "label": "Gıda",
-        "href": "/urunler?kategori=gida",
+        "href": "/urun-gruplarimiz/gida",
         "image": "/images/kategoriler/gida_8dd8e.webp.720p.webp"
       },
       {
         "label": "Kişisel Bakım & Hijyen",
-        "href": "/urunler?kategori=kisisel-bakim",
+        "href": "/urun-gruplarimiz/kisisel-bakim-hijyen",
         "image": "/images/kategoriler/kategori-kisisel-bakim_193da.webp.720p.webp"
       },
       {
         "label": "Evcil Hayvan Bakımı",
-        "href": "/urunler?kategori=evcil-hayvan",
+        "href": "/urun-gruplarimiz/evcil-hayvan-bakimi",
         "image": "/images/kategoriler/kategori-evcil-hayvan_15dfd.webp.720p.webp"
       },
       {
         "label": "Endüstriyel",
-        "href": "/urunler?kategori=endustriyel",
+        "href": "/urun-gruplarimiz/endustriyel",
         "image": "/images/kategoriler/kategori-endustriyel_06739.webp.720p.webp"
       }
     ]

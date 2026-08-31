@@ -30,9 +30,10 @@ export function urunYayinda(list: UrunKayit[]): UrunKayit[] {
   return list.filter((x) => x.yayinda && x.stokta);
 }
 
-export async function urunBySlug(slug: string): Promise<UrunKayit | null> {
+export async function urunBySlug(slug: string, locale?: "tr" | "en"): Promise<UrunKayit | null> {
   const list = await urunlerGetir();
-  return list.find((x) => x.slug === slug) ?? null;
+  if (locale) return list.find((x) => x.slug === slug && (x.locale || "tr") === locale) ?? null;
+  return list.find((x) => x.slug === slug && (x.locale || "tr") === "tr") ?? list.find((x) => x.slug === slug) ?? null;
 }
 
 export async function urunById(id: string): Promise<UrunKayit | null> {

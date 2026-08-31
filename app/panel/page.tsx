@@ -6,6 +6,8 @@ import { ayarlarGetir } from "@/lib/settings-store";
 import { getRequestSite } from "@/lib/site-request";
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Yönetim Paneli",
   robots: { index: false, follow: false },

@@ -1,10 +1,8 @@
 "use client";
-import { useSitePrefix, usePanelFetch, useWithBase } from "@/components/SitePrefixProvider";
 
 import { useEffect, useMemo, useState } from "react";
 import type { ReadonlyURLSearchParams } from "next/navigation";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { PanelDashboard } from "@/components/PanelDashboard";
+import { useRouter, useSearchParams } from "next/navigation";
 import { PanelLeads } from "@/components/PanelLeads";
 import { PanelVisitors } from "@/components/PanelVisitors";
 import { PanelSeo } from "@/components/PanelSeo";
@@ -14,21 +12,17 @@ import { PanelSettings } from "@/components/PanelSettings";
 import { PanelUnifiedIcerik } from "@/components/PanelUnifiedIcerik";
 import { PanelBackup } from "@/components/PanelBackup";
 import { PanelSiteVisualEdit } from "@/components/PanelSiteVisualEdit";
-import { PanelPortfoyHub } from "@/components/PanelPortfoyHub";
-import { PanelSiparisler } from "@/components/PanelSiparisler";
-import { PanelMollaLanding } from "@/components/PanelMollaLanding";
-import { PanelEsnekAmbalajAracilik } from "@/components/PanelEsnekAmbalajAracilik";
-import { PanelIlanlar } from "@/components/PanelIlanlar";
 import { PanelUrunler } from "@/components/PanelUrunler";
+import { PanelHaberler } from "@/components/PanelHaberler";
+import { PanelAyfleksHome } from "@/components/PanelAyfleksHome";
+import { useSitePrefix, usePanelFetch, useWithBase } from "@/components/SitePrefixProvider";
 import { isPanelContentTab, type VfIcerikSnapshot } from "@/lib/panel-deeplink";
-import { AMBALAJ_PREFIX, AYFLEKS_SUBDIR, isAyfleksSubdir } from "@/lib/site-config";
 
 type TabId =
-  | "portfoy"
+  | "anasayfa"
   | "randevular"
-  | "ilanlar"
   | "urunler"
-  | "siparisler"
+  | "haberler"
   | "leads"
   | "ziyaretciler"
   | "seo"
@@ -37,68 +31,17 @@ type TabId =
   | "medya"
   | "menuler"
   | "ayarlar"
-  | "tedarik"
   | "yedek";
 
-function tabFromSearchParams(sp: ReadonlyURLSearchParams, isMaster: boolean): TabId {
-  const vfTab = sp.get("vf_tab");
-  const sablon = sp.get("vf_sablon");
-  const slug = sp.get("vf_slug")?.trim();
-  const allowed = new Set<TabId>([
-    "portfoy",
-    "randevular",
-    "ilanlar",
-    "urunler",
-    "siparisler",
-    "leads",
-    "ziyaretciler",
-    "seo",
-    "icerik",
-    "site_duzenle",
-    "medya",
-    "menuler",
-    "ayarlar",
-    "tedarik",
-    "yedek",
-  ]);
-  if (vfTab && allowed.has(vfTab as TabId)) return vfTab as TabId;
-  if (Boolean(slug) || (Boolean(sablon) && isPanelContentTab(sablon ?? ""))) return "icerik";
-  return isMaster ? "portfoy" : "randevular";
-}
-
-const NAV_COLLAPSE_KEY_PREFIX = "panel-nav-collapsed";
-
-type PanelAppProps = {
-  panelSolMenuSabitle?: boolean;
-  panelSolMenuBaslangic?: "acik" | "dar";
-  dataSubdir?: string;
-};
-
-const NAV_URUNLER: { id: TabId; label: string; short: string } = {
-  id: "urunler",
-  label: "Ürünler",
-  short: "Ür",
-};
-
-const NAV_ILAN: { id: TabId; label: string; short: string } = {
-  id: "ilanlar",
-  label: "İlanlar",
-  short: "İl",
-};
-
-const NAV_TEDARIK: { id: TabId; label: string; short: string } = {
-  id: "tedarik",
-  label: "Fiyatlandırma",
-  short: "Fy",
-};
-
-const NAV_BASE: { id: TabId; label: string; short: string }[] = [
-  { id: "randevular", label: "Randevular", short: "Ra" },
-  { id: "siparisler", label: "Siparişler", short: "Si" },
+const NAV: { id: TabId; label: string; short: string }[] = [
+  { id: "anasayfa", label: "Ana sayfa", short: "An" },
+  { id: "urunler", label: "Ürünler", short: "Ür" },
+  { id: "haberler", label: "Haberler", short: "Hb" },
+  { id: "randevular", label: "Teklif talepleri", short: "Te" },
   { id: "leads", label: "Lead’ler", short: "Le" },
   { id: "ziyaretciler", label: "Ziyaretçiler", short: "Zi" },
   { id: "seo", label: "SEO", short: "Seo" },
-  { id: "icerik", label: "İçerik", short: "İç" },
+  { id: "icerik", label: "Sayfalar", short: "Sy" },
   { id: "site_duzenle", label: "Site düzenle", short: "Sd" },
   { id: "medya", label: "Medya", short: "Me" },
   { id: "menuler", label: "Menüler", short: "Mn" },
@@ -106,92 +49,32 @@ const NAV_BASE: { id: TabId; label: string; short: string }[] = [
   { id: "yedek", label: "Yedek", short: "Ye" },
 ];
 
-const NAV_MASTER_FIRST: { id: TabId; label: string; short: string } = {
-  id: "portfoy",
-  label: "Portföy",
-  short: "Po",
-};
-
-function readCollapsedPref(baslangic: "acik" | "dar", storageKey: string): boolean {
-  if (typeof window === "undefined") return baslangic === "dar";
-  try {
-    const v = localStorage.getItem(storageKey);
-    if (v === "1") return true;
-    if (v === "0") return false;
-    return baslangic === "dar";
-  } catch {
-    return baslangic === "dar";
-  }
+function tabFromSearchParams(sp: ReadonlyURLSearchParams): TabId {
+  const vfTab = sp.get("vf_tab");
+  const allowed = new Set(NAV.map((x) => x.id));
+  if (vfTab && allowed.has(vfTab as TabId)) return vfTab as TabId;
+  const sablon = sp.get("vf_sablon");
+  const slug = sp.get("vf_slug")?.trim();
+  if (Boolean(slug) || (Boolean(sablon) && isPanelContentTab(sablon ?? ""))) return "icerik";
+  return "anasayfa";
 }
 
-const NAV_MASTER_TABS = new Set<TabId>([
-  "portfoy",
-  "icerik",
-  "site_duzenle",
-  "ayarlar",
-  "leads",
-  "ziyaretciler",
-  "yedek",
-]);
+type PanelAppProps = {
+  panelSolMenuSabitle?: boolean;
+  panelSolMenuBaslangic?: "acik" | "dar";
+  dataSubdir?: string;
+};
 
 export function PanelApp(props: PanelAppProps) {
   const wb = useWithBase();
   const panelFetch = usePanelFetch();
   const sitePrefix = useSitePrefix();
-  const pathname = usePathname() ?? "";
-  const dataSubdir = props.dataSubdir?.trim() || "ayfleks";
-  const isMasterPanel = dataSubdir === "molla";
-  const isAyfleksPanel = isAyfleksSubdir(dataSubdir);
-  const navStorageKey = `${NAV_COLLAPSE_KEY_PREFIX}:${sitePrefix || "molla"}`;
-  const navItems = useMemo(() => {
-    const pfx = sitePrefix.replace(/\/+$/, "");
-    let core = isMasterPanel
-      ? [NAV_MASTER_FIRST, ...NAV_BASE.filter((x) => NAV_MASTER_TABS.has(x.id))]
-      : NAV_BASE;
-    if (pfx !== "/restaurant" && pfx !== AMBALAJ_PREFIX) {
-      core = core.filter((x) => x.id !== "siparisler");
-    }
-    if (pfx === "/emlak") {
-      const raIdx = core.findIndex((x) => x.id === "randevular");
-      if (raIdx >= 0) {
-        core = [...core.slice(0, raIdx + 1), NAV_ILAN, ...core.slice(raIdx + 1)];
-      }
-    } else {
-      core = core.filter((x) => x.id !== "ilanlar");
-    }
-    if (pfx === "/restaurant") {
-      core = core.map((x) =>
-        x.id === "randevular" ? { ...x, label: "Rezervasyonlar", short: "Re" } : x,
-      );
-    }
-    if (pfx === AMBALAJ_PREFIX || isAyfleksPanel) {
-      core = core.map((x) =>
-        x.id === "randevular" ? { ...x, label: "Teklif talepleri", short: "Te" } : x,
-      );
-      const siIdx = core.findIndex((x) => x.id === "siparisler");
-      if (siIdx >= 0 && pfx === AMBALAJ_PREFIX) {
-        core = [...core.slice(0, siIdx + 1), NAV_URUNLER, ...core.slice(siIdx + 1)];
-      } else if (isAyfleksPanel) {
-        const raIdx = core.findIndex((x) => x.id === "randevular");
-        if (raIdx >= 0) {
-          core = [...core.slice(0, raIdx + 1), NAV_URUNLER, ...core.slice(raIdx + 1)];
-        }
-      }
-      if (pfx === AMBALAJ_PREFIX) {
-        const ayIdx = core.findIndex((x) => x.id === "ayarlar");
-        if (ayIdx >= 0) {
-          core = [...core.slice(0, ayIdx), NAV_TEDARIK, ...core.slice(ayIdx)];
-        }
-      }
-    } else {
-      core = core.filter((x) => x.id !== "urunler");
-    }
-    return core;
-  }, [isMasterPanel, sitePrefix, isAyfleksPanel]);
   const sabitle = props.panelSolMenuSabitle ?? true;
   const baslangic = props.panelSolMenuBaslangic ?? "acik";
   const router = useRouter();
   const searchParams = useSearchParams();
+  const [tab, setTab] = useState<TabId>(() => tabFromSearchParams(searchParams));
+  const [collapsed, setCollapsed] = useState(baslangic === "dar");
 
   const vfSablonRaw = searchParams.get("vf_sablon");
   const vfSlugRaw = searchParams.get("vf_slug")?.trim() ?? "";
@@ -202,178 +85,78 @@ export function PanelApp(props: PanelAppProps) {
     return Object.keys(out).length ? out : null;
   }, [vfSablonRaw, vfSlugRaw]);
 
-  const [tab, setTab] = useState<TabId>(() => tabFromSearchParams(searchParams, isMasterPanel));
-  const [collapsed, setCollapsed] = useState(() => readCollapsedPref(baslangic, navStorageKey));
-
   useEffect(() => {
-    if (!isMasterPanel && tab === "portfoy") queueMicrotask(() => setTab("randevular"));
-  }, [isMasterPanel, tab]);
+    setTab(tabFromSearchParams(searchParams));
+  }, [searchParams]);
 
-  useEffect(() => {
-    const onRestaurant = pathname.includes("/restaurant");
-    const onAmbalaj = pathname.includes(AMBALAJ_PREFIX);
-    if (!onRestaurant && !onAmbalaj && tab === "siparisler") queueMicrotask(() => setTab("randevular"));
-  }, [pathname, tab]);
+  function go(id: TabId) {
+    setTab(id);
+    const q = new URLSearchParams(searchParams.toString());
+    q.set("vf_tab", id);
+    router.replace(`${wb("/panel")}?${q.toString()}`, { scroll: false });
+  }
 
-  useEffect(() => {
-    const onEmlak = pathname.includes("/emlak");
-    if (!onEmlak && tab === "ilanlar") queueMicrotask(() => setTab("randevular"));
-  }, [pathname, tab]);
-
-  useEffect(() => {
-    const onAmbalaj = pathname.includes(AMBALAJ_PREFIX);
-    if (!onAmbalaj && tab === "tedarik") queueMicrotask(() => setTab("randevular"));
-    if (!onAmbalaj && tab === "urunler") queueMicrotask(() => setTab("randevular"));
-  }, [pathname, tab]);
-
-  useEffect(() => {
-    async function touchSession() {
-      if (typeof document !== "undefined" && document.visibilityState === "hidden") return;
-      try {
-        const res = await panelFetch(wb("/api/panel/session"), { cache: "no-store" });
-        const j = (await res.json()) as { ok?: boolean };
-        if (!j.ok) router.refresh();
-      } catch {
-        router.refresh();
-      }
-    }
-    void touchSession();
-    const id = setInterval(() => void touchSession(), 4 * 60 * 1000);
-    const onVis = () => {
-      if (document.visibilityState === "visible") void touchSession();
-    };
-    document.addEventListener("visibilitychange", onVis);
-    return () => {
-      clearInterval(id);
-      document.removeEventListener("visibilitychange", onVis);
-    };
-  }, [wb, router, panelFetch]);
-
-  useEffect(() => {
-    const vfTab = searchParams.get("vf_tab");
-    const sablon = searchParams.get("vf_sablon");
-    const slug = searchParams.get("vf_slug")?.trim();
-    const allowed = new Set(navItems.map((n) => n.id));
-    const wantsContent =
-      Boolean(slug) || (Boolean(sablon) && isPanelContentTab(sablon ?? ""));
-
-    queueMicrotask(() => {
-      if (vfTab === "portfoy" && !isMasterPanel) {
-        setTab("randevular");
-      } else if (vfTab && allowed.has(vfTab as TabId)) setTab(vfTab as TabId);
-      else if (wantsContent) setTab("icerik");
-    });
-  }, [searchParams, navItems, isMasterPanel]);
-
-  const persistCollapsed = (next: boolean) => {
-    setCollapsed(next);
-    try {
-      localStorage.setItem(navStorageKey, next ? "1" : "0");
-    } catch {
-      /* ignore */
-    }
-  };
-
-  const navButtonClass = (active: boolean, narrow: boolean) =>
-    [
-      "flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left text-sm font-medium transition",
-      narrow ? "justify-center px-2" : "",
-      active
-        ? "bg-[var(--brand)] text-[var(--on-brand)] shadow-sm"
-        : "text-[var(--text)] hover:bg-[var(--surface-2)]",
-    ].join(" ");
-
-  const gridCols = useMemo(
-    () =>
-      collapsed
-        ? "4.25rem minmax(0, 1fr)"
-        : "min(13.5rem, calc(100vw - 2rem)) minmax(0, 1fr)",
-    [collapsed]
-  );
-
-  const asideSticky = sabitle ? "sticky top-0 max-h-[calc(100vh-3.5rem)] self-start overflow-y-auto" : "";
+  async function logout() {
+    await panelFetch("/api/auth/logout", { method: "POST" });
+    window.location.href = wb("/panel");
+  }
 
   return (
-    <div
-      className="grid w-full min-h-0 flex-1 items-start"
-      style={{ gridTemplateColumns: gridCols }}
-    >
+    <div className="flex min-h-0 flex-1">
       <aside
-        className={`min-w-0 border-r border-[var(--border)] bg-[var(--surface)] pl-3 pr-2 pt-5 transition-[width] duration-200 ease-out sm:pl-5 sm:pr-3 sm:pt-7 ${asideSticky}`}
-        aria-label="Panel menüsü"
+        className={`shrink-0 border-r border-[var(--border)] bg-[var(--surface)] transition-all ${
+          collapsed ? "w-[64px]" : "w-[220px]"
+        }`}
       >
-        <div
-          className={[
-            "flex items-center border-b border-[var(--border)] px-1 py-2",
-            collapsed ? "justify-center" : "justify-between gap-2",
-          ].join(" ")}
-        >
-          {!collapsed ? (
-            <span className="truncate pl-0.5 text-xs font-semibold uppercase tracking-wide text-[var(--muted)]">
-              Panel
-            </span>
-          ) : null}
-          <button
-            type="button"
-            onClick={() => persistCollapsed(!collapsed)}
-            className="rounded-lg p-2 text-[var(--muted)] hover:bg-[var(--surface-2)] hover:text-[var(--text)]"
-            title={collapsed ? "Menüyü genişlet" : "Menüyü daralt"}
-            aria-expanded={!collapsed}
-            aria-label={collapsed ? "Menüyü genişlet" : "Menüyü daralt"}
-          >
-            {collapsed ? "›" : "‹"}
-          </button>
-        </div>
-        <nav className="flex flex-col gap-0.5 py-3">
-          {navItems.map((n) => (
+        <div className="flex items-center justify-between gap-2 border-b border-[var(--border)] px-3 py-3">
+          {!collapsed ? <span className="text-sm font-semibold">Ayfleks Panel</span> : null}
+          {sabitle ? (
             <button
-              key={n.id}
               type="button"
-              onClick={() => setTab(n.id)}
-              className={navButtonClass(tab === n.id, collapsed)}
-              title={collapsed ? n.label : undefined}
+              className="rounded border border-[var(--border)] px-2 py-1 text-xs"
+              onClick={() => setCollapsed((c) => !c)}
             >
-              <span className={collapsed ? "text-[11px] font-bold leading-tight" : ""}>
-                {collapsed ? n.short : n.label}
-              </span>
+              {collapsed ? "»" : "«"}
+            </button>
+          ) : null}
+        </div>
+        <nav className="flex flex-col gap-0.5 p-2">
+          {NAV.map((item) => (
+            <button
+              key={item.id}
+              type="button"
+              onClick={() => go(item.id)}
+              className={`rounded-lg px-3 py-2 text-left text-sm ${
+                tab === item.id
+                  ? "bg-[var(--brand)] font-semibold text-[var(--on-brand)]"
+                  : "text-[var(--text)] hover:bg-[var(--surface-2)]"
+              }`}
+              title={item.label}
+            >
+              {collapsed ? item.short : item.label}
             </button>
           ))}
+          <button type="button" onClick={logout} className="mt-4 rounded-lg px-3 py-2 text-left text-sm text-red-600 hover:bg-red-50">
+            {collapsed ? "Çk" : "Çıkış"}
+          </button>
         </nav>
       </aside>
-
-      <div className="min-w-0 space-y-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
-        {tab === "portfoy" ? (
-          <PanelPortfoyHub />
-        ) : tab === "randevular" ? (
-          <PanelDashboard />
-        ) : tab === "siparisler" ? (
-          <PanelSiparisler />
-        ) : tab === "ilanlar" ? (
-          <PanelIlanlar />
-        ) : tab === "urunler" ? (
-          <PanelUrunler />
-        ) : tab === "leads" ? (
-          <PanelLeads />
-        ) : tab === "ziyaretciler" ? (
-          <PanelVisitors />
-        ) : tab === "seo" ? (
-          <PanelSeo />
-        ) : tab === "icerik" ? (
-          isMasterPanel ? <PanelMollaLanding /> : <PanelUnifiedIcerik vfSnapshot={vfIcerikSnapshot} />
-        ) : tab === "site_duzenle" ? (
-          <PanelSiteVisualEdit />
-        ) : tab === "medya" ? (
-          <PanelMedia />
-        ) : tab === "menuler" ? (
-          <PanelMenus />
-        ) : tab === "tedarik" ? (
-          <PanelEsnekAmbalajAracilik />
-        ) : tab === "ayarlar" ? (
-          <PanelSettings />
-        ) : (
-          <PanelBackup />
-        )}
-      </div>
+      <main className="min-w-0 flex-1 overflow-auto p-4 sm:p-6">
+        {tab === "anasayfa" ? <PanelAyfleksHome /> : null}
+        {tab === "urunler" ? <PanelUrunler /> : null}
+        {tab === "haberler" ? <PanelHaberler /> : null}
+        {tab === "randevular" ? <PanelLeads /> : null}
+        {tab === "leads" ? <PanelLeads /> : null}
+        {tab === "ziyaretciler" ? <PanelVisitors /> : null}
+        {tab === "seo" ? <PanelSeo /> : null}
+        {tab === "icerik" ? <PanelUnifiedIcerik snapshot={vfIcerikSnapshot} /> : null}
+        {tab === "site_duzenle" ? <PanelSiteVisualEdit /> : null}
+        {tab === "medya" ? <PanelMedia /> : null}
+        {tab === "menuler" ? <PanelMenus /> : null}
+        {tab === "ayarlar" ? <PanelSettings /> : null}
+        {tab === "yedek" ? <PanelBackup /> : null}
+      </main>
+      <span className="sr-only">{sitePrefix}</span>
     </div>
   );
 }

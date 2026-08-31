@@ -1,37 +1,61 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import type { AyfleksHome } from "@/lib/ayfleks-home-store";
 
 export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
+  const [idx, setIdx] = useState(0);
+  const slides = home.slider;
+
+  useEffect(() => {
+    if (slides.length < 2) return;
+    const t = setInterval(() => setIdx((i) => (i + 1) % slides.length), 5500);
+    return () => clearInterval(t);
+  }, [slides.length]);
+
   return (
     <>
-      <section className="owl-manset">
+      <section className="owl-manset ayf-hero">
         <div className="owl-container">
-          <div className="row">
-            <div className="col-md-12">
-              <div id="slider-manset" className="owl-manset-images owl-carousel owl-theme">
-                {home.slider.map((slide) => {
-                  const inner = (
-                    <div className="item">
-                      <div className="shadow" />
-                      {slide.h1 ? (
-                        <div className="owl-manset-text">
-                          <h1>{slide.h1}</h1>
-                          {slide.h2 ? <h2>{slide.h2}</h2> : null}
-                        </div>
-                      ) : null}
-                      <img src={slide.image} alt={slide.imageAlt || slide.h1 || "Ayfleks banner"} />
+          <div className="ayf-hero-track">
+            {slides.map((slide, i) => {
+              const active = i === idx;
+              const inner = (
+                <div className={`item ayf-hero-item ${active ? "is-active" : ""}`} aria-hidden={!active}>
+                  <div className="shadow" />
+                  {slide.h1 ? (
+                    <div className="owl-manset-text">
+                      <h1>{slide.h1}</h1>
+                      {slide.h2 ? <h2>{slide.h2}</h2> : null}
                     </div>
-                  );
-                  return slide.href ? (
-                    <Link key={slide.id} href={slide.href}>
-                      {inner}
-                    </Link>
-                  ) : (
-                    <div key={slide.id}>{inner}</div>
-                  );
-                })}
-              </div>
-            </div>
+                  ) : null}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={slide.image}
+                    alt={slide.imageAlt || slide.h1 || "Ayfleks"}
+                    width={1920}
+                    height={900}
+                    decoding={i === 0 ? "sync" : "async"}
+                    fetchPriority={i === 0 ? "high" : "low"}
+                  />
+                </div>
+              );
+              return slide.href ? (
+                <Link key={slide.id} href={slide.href} className="ayf-hero-link" tabIndex={active ? 0 : -1}>
+                  {inner}
+                </Link>
+              ) : (
+                <div key={slide.id} className="ayf-hero-link">
+                  {inner}
+                </div>
+              );
+            })}
+          </div>
+          <div className="ayf-hero-dots">
+            {slides.map((s, i) => (
+              <button key={s.id} type="button" aria-label={`Slayt ${i + 1}`} className={i === idx ? "active" : ""} onClick={() => setIdx(i)} />
+            ))}
           </div>
         </div>
       </section>
@@ -44,25 +68,18 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
           </div>
           <div className="row">
             <div className="col-md-7">
-              <a
-                href={home.about.videoUrl}
-                data-fancybox
-                data-type="iframe"
-                title="Ayfleks tanıtım videosu"
-              >
-                <img
-                  src={home.about.videoCover}
-                  alt="Ayfleks tanıtım filmi"
-                  className="img-responsive img-thumbnail"
-                />
+              <a href={home.about.videoUrl} data-fancybox data-type="iframe" title="Ayfleks tanıtım videosu">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={home.about.videoCover} alt="Ayfleks tanıtım filmi" className="img-responsive img-thumbnail" width={800} height={450} loading="lazy" />
               </a>
             </div>
             <div className="col-md-5">
               {home.about.paragraphs.map((p) => (
-                <p key={p.slice(0, 24)}>{p}</p>
+                <p key={p.slice(0, 32)}>{p}</p>
               ))}
               <Link href={home.about.linkHref}>
-                <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt="Devamını oku" />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt="Devamını oku" width={32} height={32} />
               </Link>
             </div>
           </div>
@@ -81,9 +98,11 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
             {home.categories.items.map((cat) => (
               <div key={cat.href} className="col-md-3 nh-col">
                 <Link href={cat.href}>
-                  <img src={cat.image} alt={cat.label} />
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={cat.image} alt={cat.label} width={400} height={300} loading="lazy" />
                   <h3>{cat.label}</h3>
-                  <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt="" />
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt="" width={24} height={24} />
                 </Link>
               </div>
             ))}
@@ -99,17 +118,15 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
               <h1>{home.sustainability.h1}</h1>
               <p>{home.sustainability.text}</p>
               <Link href={home.sustainability.linkHref}>
-                <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt="Sürdürülebilirlik" />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/icon-arrow-up-green.svg" className="arrow-g" alt="Sürdürülebilirlik" width={32} height={32} />
               </Link>
             </div>
           </div>
         </div>
         <div className="row main-fleks-s1">
-          <img
-            src={home.sustainability.image}
-            alt={home.sustainability.h1}
-            className="img-fluid"
-          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={home.sustainability.image} alt={home.sustainability.h1} className="img-fluid" width={1200} height={700} loading="lazy" />
         </div>
         <div className="main-fleks-t2">
           <div className="container">
@@ -122,7 +139,8 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
                 <p>{home.export.text}</p>
               </div>
               <div className="col-md-8">
-                <img src={home.export.image} alt={home.export.h1} className="img-fluid" />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={home.export.image} alt={home.export.h1} className="img-fluid" width={900} height={600} loading="lazy" />
               </div>
             </div>
           </div>
@@ -135,10 +153,24 @@ export function AyfleksHomeSections({ home }: { home: AyfleksHome }) {
             <h2>{home.contactCta.h2}</h2>
             <h1>{home.contactCta.h1}</h1>
             <p>{home.contactCta.text}</p>
-            <form action="/api/lead" method="post" className="main-email-box">
+            <form
+              className="main-email-box"
+              onSubmit={async (e) => {
+                e.preventDefault();
+                const fd = new FormData(e.currentTarget);
+                await fetch("/api/lead", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ email: fd.get("email"), kaynak: "anasayfa-cta" }),
+                });
+                e.currentTarget.reset();
+                alert("Teşekkürler, en kısa sürede dönüş yapacağız.");
+              }}
+            >
               <input type="email" name="email" required placeholder="E-posta adresiniz" className="main-email-box-input" />
               <button className="main-email-box-button" type="submit">
-                <img src="/images/button-arrow-up-white.svg" alt="Gönder" />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/button-arrow-up-white.svg" alt="Gönder" width={20} height={20} />
               </button>
             </form>
           </div>

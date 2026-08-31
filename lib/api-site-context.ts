@@ -1,5 +1,5 @@
 import { runWithSiteContext, type SiteRequestContext } from "@/lib/site-context";
-import { dataSubdirForPrefix, portfolioPrefixes } from "@/lib/site-config";
+import { AYFLEKS_SUBDIR, dataSubdirForPrefix, portfolioPrefixes } from "@/lib/site-config";
 import { detectSiteFromRequestParts } from "@/lib/detect-request-site";
 import { siteFromProxyHeaders, VITRIN_URL_PATH_HEADER } from "@/lib/site-proxy-headers";
 

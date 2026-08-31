@@ -6,9 +6,9 @@ const configDir = path.dirname(fileURLToPath(import.meta.url));
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
-  /** Rewrite + proxy birlikte bazı barındırıcılarda URL normalize yüzünden rota kayması */
   skipProxyUrlNormalize: true,
-  /** @/ alias — proxy.ts ve webpack icin tsconfig paths yedegi */
+  /** DevTools "N" göstergesini kapat */
+  devIndicators: false,
   webpack: (config) => {
     config.resolve ??= {};
     config.resolve.alias = {
@@ -17,19 +17,12 @@ const nextConfig: NextConfig = {
     };
     return config;
   },
-  /** Üst klasörde başka lockfile varken Turbopack kökünü sabitle */
-  turbopack: {
-    root: configDir,
-  },
+  turbopack: { root: configDir },
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-        pathname: "/**",
-      },
-    ],
+    formats: ["image/webp", "image/avif"],
+    remotePatterns: [],
   },
+  compress: true,
 };
 
 export default nextConfig;

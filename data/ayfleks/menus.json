@@ -2,41 +2,48 @@
   "header": [
     {
       "label": "Kurumsal",
-      "href": "#",
+      "href": "/p/hakkimizda",
       "children": [
         { "label": "Hakkımızda", "href": "/p/hakkimizda" },
         { "label": "Vizyon – Misyon", "href": "/p/vizyon-misyon" },
         { "label": "Değerlerimiz", "href": "/p/degerlerimiz" },
         { "label": "Politikalarımız", "href": "/p/politikalarimiz" },
-        { "label": "Haberler", "href": "/p/haberler" }
+        { "label": "Haberler", "href": "/haberler" },
+        { "label": "İş Etiği Formu", "href": "/p/is-etigi-formu" }
       ]
     },
     {
       "label": "Ürünler",
-      "href": "#",
+      "href": "/urunler",
       "children": [
-        { "label": "Gıda", "href": "/urunler?kategori=gida" },
-        { "label": "Kişisel Bakım & Hijyen", "href": "/urunler?kategori=kisisel-bakim" },
-        { "label": "Evcil Hayvan Bakımı", "href": "/urunler?kategori=evcil-hayvan" },
-        { "label": "Endüstriyel", "href": "/urunler?kategori=endustriyel" }
+        { "label": "Gıda", "href": "/urun-gruplarimiz/gida" },
+        { "label": "Kişisel Bakım & Hijyen", "href": "/urun-gruplarimiz/kisisel-bakim-hijyen" },
+        { "label": "Evcil Hayvan Bakımı", "href": "/urun-gruplarimiz/evcil-hayvan-bakimi" },
+        { "label": "Endüstriyel", "href": "/urun-gruplarimiz/endustriyel" }
       ]
     },
     {
       "label": "Sürdürülebilirlik",
-      "href": "#",
+      "href": "/p/surdurulebilirlik-yaklasimi",
       "children": [
         { "label": "Sürdürülebilirlik Yaklaşımı", "href": "/p/surdurulebilirlik-yaklasimi" },
-        { "label": "Sürdürülebilirlik Hedefleri", "href": "/p/surdurulebilirlik-hedefleri" }
+        { "label": "Sürdürülebilirlik Hedefleri", "href": "/p/surdurulebilirlik-hedefleri" },
+        { "label": "Faaliyetler", "href": "/p/faaliyetler" }
       ]
     },
     {
       "label": "Üretim",
-      "href": "#",
+      "href": "/p/teknoloji",
       "children": [
-        { "label": "Faaliyetler", "href": "/p/faaliyetler" },
         { "label": "Teknoloji", "href": "/p/teknoloji" },
         { "label": "Üretim Süreçleri", "href": "/p/uretim-surecleri" },
-        { "label": "Paketleme", "href": "/p/paketleme" },
+        { "label": "Paketleme", "href": "/p/paketleme" }
+      ]
+    },
+    {
+      "label": "Kalite",
+      "href": "/p/kalite-kontrol",
+      "children": [
         { "label": "Kalite Kontrol", "href": "/p/kalite-kontrol" },
         { "label": "Test Laboratuvarı", "href": "/p/test-laboratuvari" },
         { "label": "Sertifikalar", "href": "/p/sertifikalar" }
@@ -44,7 +51,7 @@
     },
     {
       "label": "İnsan Kaynakları",
-      "href": "#",
+      "href": "/p/insan-kaynaklari-politikasi",
       "children": [
         { "label": "İK Politikası", "href": "/p/insan-kaynaklari-politikasi" },
         { "label": "Açık Pozisyonlar", "href": "/p/acik-pozisyonlar" },
@@ -60,7 +67,6 @@
     { "label": "Üretim", "href": "/p/teknoloji" },
     { "label": "Kalite", "href": "/p/sertifikalar" },
     { "label": "İnsan Kaynakları", "href": "/p/insan-kaynaklari-politikasi" },
-    { "label": "İletişim", "href": "/iletisim" },
-    { "label": "Yönetim Paneli", "href": "/panel" }
+    { "label": "İletişim", "href": "/iletisim" }
   ]
 }

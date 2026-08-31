@@ -16,6 +16,7 @@ export type Sayfa = {
   seoIndex?: boolean;
   yayin: boolean;
   guncellenme: string;
+  locale?: "tr" | "en";
 };
 
 type SayfaDb = { sayfalar: Sayfa[] };

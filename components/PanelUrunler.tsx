@@ -115,7 +115,7 @@ export function PanelUrunler() {
       </div>
 
       <p className="text-xs text-[var(--muted)]">
-        Kategori ID: doypack, quadro, flat, torba, baski. Yeni ürün eklemek için urunler.json düzenleyin veya API POST
+        Kategori ID: gida, kisisel-bakim, evcil-hayvan, endustriyel. Yeni ürün eklemek için urunler.json düzenleyin veya API POST
         /api/panel/urunler kullanın.
       </p>
     </div>

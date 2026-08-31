@@ -20,13 +20,7 @@ export async function AyfleksShell({ children, inside = false, locale = "tr" }: 
     <>
       <AyfleksStyles />
       <AyfleksClientScripts />
-      {inside ? (
-        <div className="site-header-inside">
-          <AyfleksHeader menu={menus.header} ayar={ayar} locale={locale} logoWhite={false} />
-        </div>
-      ) : (
-        <AyfleksHeader menu={menus.header} ayar={ayar} locale={locale} logoWhite />
-      )}
+      <AyfleksHeader menu={menus.header} ayar={ayar} locale={locale} logoWhite={!inside} />
       <main>{children}</main>
       <AyfleksFooter footerMenu={menus.footer} ayar={ayar} locale={locale} />
       <AyfleksCookieBanner />

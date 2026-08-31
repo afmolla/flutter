@@ -1,61 +1,184 @@
 /* Ayfleks overrides — orijinal siteye yakın davranış */
 
-/* Header: TR | EN sağ üst */
-.ayf-header-bar {
+/* Header bar: logo | TR EN | hamburger */
+.header-content {
   align-items: center;
 }
-.ayf-header-bar .brand-line {
-  flex: 1;
+.top-lang {
+  width: auto !important;
+  margin-top: 0 !important;
+  margin-left: auto;
 }
-.ayf-header-bar .top-lang {
-  width: auto;
-  margin-top: 0;
-  flex-shrink: 0;
-}
-.ayf-header-bar .hamburger-nav {
-  width: auto;
-  flex-shrink: 0;
-  margin-left: 8px;
-}
-.ayf-burger-btn {
-  background: none;
-  border: 0;
-  color: inherit;
-  font-size: 44px;
-  line-height: 1;
-  cursor: pointer;
+.languages-menu {
+  list-style: none;
+  margin: 0;
   padding: 0;
+  display: flex;
 }
-.site-header .ayf-burger-btn { color: #fff; }
-.site-header-inside .ayf-burger-btn { color: #024B3D; }
 .languages-menu li a.ayf-lang-active {
   color: #fff !important;
-  opacity: 1;
 }
 .site-header-inside .languages-menu li a {
   color: #656868 !important;
+  border-color: #65686854;
+}
+.site-header-inside .languages-menu li {
+  border-right-color: #65686854;
 }
 .site-header-inside .languages-menu li a.ayf-lang-active {
   color: #024B3D !important;
 }
+.site-header-inside .hamburger-nav {
+  color: #024B3D;
+}
 
-/* Overlay menü */
-.ayf-overlay { width: 0; }
-.ayf-mega-wrap { gap: 24px; min-height: 420px; }
-.ayf-mega-wrap .tab-pane a {
+/* Overlay — ayfleks.com yeşili #39b54afc (tam sayfa) */
+#myNav.overlay {
+  background-color: #39b54afc !important;
+  z-index: 120 !important;
+  overflow-x: hidden;
+  overflow-y: hidden; /* fixed .menu-adds viewport’ta kalsın */
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  height: 100dvh;
+}
+#myNav.overlay.ayf-nav-open {
+  width: 100% !important;
+  width: 100vw !important;
+}
+#myNav .closebtn {
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 200;
+  line-height: 1;
+  position: absolute;
+  top: 0;
+  right: 16px;
+  font-size: 72px;
+  z-index: 130;
+}
+#myNav .overlay-content {
+  text-align: left;
+  top: 0;
+  margin-top: 48px;
+  padding-bottom: 180px;
+  max-height: calc(100dvh - 48px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+#myNav .navbar,
+#myNav .header-content,
+#myNav .header-menu,
+#myNav .header-menu > ul,
+#myNav .mega-menu {
+  width: 100%;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#myNav #v-pills-tab {
+  background: transparent;
+  border-radius: 0;
+  min-height: auto;
+  width: auto;
+  max-width: 48%;
+  padding: 8px 12px;
+}
+#myNav .nav-pills .nav-link {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  padding: 10px 8px 10px 28px;
+  position: relative;
+  background: transparent !important;
+  border: 0;
+  border-radius: 0;
+}
+#myNav .nav-pills .nav-link.active {
+  background-color: transparent !important;
+}
+#myNav .nav-pills .nav-link.active::before {
+  content: "";
+  background-image: url(/images/button-arrow-up-white.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 14px;
+  margin: 0;
+}
+#myNav .tab-content {
+  flex: 1;
+  min-width: 0;
+  padding: 4px 8px 8px 12px;
+}
+#myNav .tab-pane a {
   display: flex;
-  padding: 8px;
+  padding: 10px 8px;
   color: #ffffffd6;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
   border-bottom: 0.2px solid #ffffff4f;
+  text-align: left;
 }
-.ayf-mega-wrap .tab-pane a:hover {
+#myNav .tab-pane a:hover {
   color: #fff;
 }
 
-/* Video lightbox — tam ekran değil, çerçeve içi */
+/* Menü altı iletişim — overlay altında sabit şerit */
+#myNav .ayf-menu-contact {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  z-index: 125;
+}
+#myNav .menu-adds {
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  margin: 0;
+  padding: 16px 12px 20px;
+  border-top: 1px solid #ffffff4d;
+  background-color: #39b54afc;
+  display: flex;
+  flex-wrap: nowrap;
+}
+#myNav .menu-adds .col-md-4 {
+  padding: 8px 12px;
+  width: 33.333%;
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+}
+#myNav .menu-adds img {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 8px;
+  display: block;
+}
+#myNav .menu-adds p {
+  color: #fff !important;
+  font-size: 13px !important;
+  font-weight: 300;
+  line-height: 1.35;
+  margin: 0 0 4px;
+  text-align: left;
+}
+
+/* Video lightbox */
 .ayf-video-trigger {
   display: block;
   width: 100%;
@@ -114,14 +237,12 @@
   cursor: pointer;
 }
 
-/* Ürün grid hover */
 .ayf-prod-row {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
 }
 
-/* Footer KVKK satırı */
 .ayf-kvkk-line {
   text-align: end;
   padding-top: 28px;
@@ -132,7 +253,6 @@
   text-decoration: none;
 }
 
-/* Hero slider */
 .ayf-hero { position: relative; overflow: hidden; background: #0a1f18; min-height: 56vw; max-height: 900px; }
 .ayf-hero-track { position: relative; width: 100%; min-height: inherit; }
 .ayf-hero-link { display: block; color: inherit; text-decoration: none; }
@@ -161,8 +281,69 @@
 .ayf-product-card img { width: 100%; height: 220px; object-fit: cover; border-radius: 12px; }
 .ayf-product-card h3 { margin-top: 12px; font-size: 18px; color: #024B3D; }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .ayf-hero { min-height: 70vw; }
   .ayf-hero-item img { min-height: 280px; }
   .ayf-lightbox { padding: 12px; }
+
+  #myNav .closebtn {
+    top: -8px;
+    right: 8px;
+    font-size: 64px;
+  }
+  #myNav .overlay-content {
+    margin-top: 36px;
+    padding-bottom: 220px;
+  }
+  #myNav .d-flex.align-items-start {
+    flex-direction: row;
+    align-items: flex-start !important;
+  }
+  #myNav #v-pills-tab {
+    max-width: 46%;
+    padding: 4px 4px 4px 8px;
+  }
+  #myNav .nav-pills .nav-link {
+    font-size: 18px;
+    padding: 8px 4px 12px 24px;
+  }
+  #myNav .nav-pills .nav-link.active::before {
+    top: 12px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px;
+  }
+  #myNav .tab-pane a {
+    font-size: 15px;
+    padding: 8px 4px;
+  }
+  /* Mobilde iletişim: 3 kolon dar; orijinal gibi altta */
+  #myNav .menu-adds {
+    padding: 12px 6px 16px;
+  }
+  #myNav .menu-adds .col-md-4 {
+    padding: 4px 6px;
+  }
+  #myNav .menu-adds img {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 6px;
+  }
+  #myNav .menu-adds p {
+    font-size: 10px !important;
+    line-height: 1.25;
+    word-break: break-word;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #myNav .nav-pills .nav-link {
+    font-size: 16px;
+  }
+  #myNav .tab-pane a {
+    font-size: 14px;
+  }
+  #myNav .menu-adds p {
+    font-size: 9px !important;
+  }
 }

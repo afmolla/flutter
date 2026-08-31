@@ -2,15 +2,25 @@
 
 Next.js 16 kurumsal site + yönetim paneli. Görünüm ayfleks.com ile uyumlu; içerik `data/ayfleks/` JSON dosyalarından panel ile yönetilir.
 
+## Git branch
+
+Tüm Ayfleks kodu **`cursor/ayfleks-site-build-62ed`** branch'inde. `main` branch'te site yok.
+
+```bash
+git fetch origin
+git checkout cursor/ayfleks-site-build-62ed
+```
+
 ## Çalıştırma (local)
 
 ```bash
-npm install
-npm run build
-npm run start
-# veya geliştirme:
-npm run dev
+npm run setup          # .env.local + npm install (ilk sefer)
+npm run dev            # geliştirme → http://localhost:3000
+# veya daha hızlı önizleme:
+npm run build && npm run start
 ```
+
+`.env.local` Git'e girmez — yoksa `cp .env.example .env.local` yapın.
 
 - Site: http://localhost:3000
 - Panel: http://localhost:3000/panel — şifre `.env.local` → `PANEL_PASSWORD` (varsayılan `demo123`)

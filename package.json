@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "setup": "node scripts/setup-local.mjs",
     "clean": "node scripts/clean-next.cjs",
     "dev": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --webpack -p 3000",
     "dev:gateway": "node scripts/dev-gateway.mjs",

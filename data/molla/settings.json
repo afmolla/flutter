@@ -1,0 +1,29 @@
+{
+  "ayarlar": {
+    "salonAd": "Molla Yazılım",
+    "whatsapp": "905551234567",
+    "iletisimWhatsapp": "905551234567",
+    "iletisimTelefon": "+90 555 123 45 67",
+    "iletisimEposta": "info@mollayazilim.com",
+    "seoTitle": "Molla CRM | Tekirdağ Kapaklı Müşteri Takip & Satış Yönetimi Yazılımı",
+    "seoDescription": "Tekirdağ, Kapaklı ve çevresi için Türkçe CRM programı: müşteri takibi, satış pipeline, teklif yönetimi, görev ve ekip koordinasyonu. Ücretsiz demo — ardından kurumsal web sitesi ve admin panel hizmetleri.",
+    "seoKeywords": "CRM programı, müşteri takip programı, satış takip yazılımı, müşteri ilişkileri yönetimi, CRM yazılımı, KOBİ CRM, teklif takip programı, pipeline yönetimi, saha satış takip, Tekirdağ CRM, Kapaklı yazılım, Çerkezköy CRM, Çorlu yazılım, Saray Tekirdağ yazılım, Türkçe CRM, web sitesi Tekirdağ, kurumsal web sitesi Kapaklı, admin panel, özel yazılım Tekirdağ",
+    "seoIndex": true,
+    "adresKisa": "Kapaklı · Tekirdağ",
+    "adresDetay": "Kapaklı, Tekirdağ, Türkiye",
+    "calismaSaatleri": "Hafta içi 09:00 — 18:00",
+    "sehir": "Tekirdağ",
+    "menuDavranis": "hover",
+    "panelSolMenuSabitle": true,
+    "panelSolMenuBaslangic": "acik",
+    "footerSosyalGoster": true,
+    "demoKuaforGoster": true,
+    "demoKuaforKadinGoster": true,
+    "demoRestaurantGoster": true,
+    "demoEmlakGoster": true,
+    "demoAvukatGoster": true,
+    "demoOtoyikamaGoster": true,
+    "demoCrmGoster": true,
+    "demoEsnekAmbalajGoster": true
+  }
+}

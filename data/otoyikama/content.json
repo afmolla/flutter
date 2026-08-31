@@ -1,0 +1,108 @@
+{
+  "icerik": {
+    "home": {
+      "badge": "Detailing · Seramik · Kapaklı",
+      "baslik": "PARLAKLIK. KORUMA. MÜKEMMEL DETAY.",
+      "aciklama": "— pH nötr köpükten 9H seramik kaplamaya kadar aracınızı showroom parlaklığına taşıyan premium oto bakım merkezi (demo vitrin).",
+      "ctaPrimaryLabel": "Randevu al",
+      "ctaPrimaryHref": "/randevu",
+      "ctaSecondaryLabel": "Paket & fiyatlar",
+      "ctaSecondaryHref": "/hizmetler",
+      "heroImageSrc": "/vitrin/otoyikama/hero.jpg",
+      "heroImageAlt": "Köpüklü oto yıkama — profesyonel el yıkama istasyonu",
+      "heroAltBloklar": [
+        {
+          "id": "trust-strip",
+          "tur": "metin",
+          "metin": "★ 4,9 · El yıkama · Mikrofiber kurulama · Seramik garanti belgesi · Randevulu slot sistemi",
+          "hiza": "orta"
+        }
+      ],
+      "bolumBaslik": "NEDEN CRYSTAL AUTO SPA?",
+      "bolumAciklama": "Yıkama tüneli değil — her araç için ayrı prosedür, ölçülebilir süreler ve panel üzerinden onaylı randevu akışı. Pasta cila ve seramik işlemlerde ön muayene zorunlu.",
+      "features": [
+        {
+          "id": "wash",
+          "baslik": "El yıkama & köpük",
+          "aciklama": "pH nötr şampuan, iki kova yöntemi ve basınçlı su ile boya dostu dış yıkama.",
+          "kolon": 1,
+          "imageSrc": "/vitrin/otoyikama/wash-1.jpg"
+        },
+        {
+          "id": "polish",
+          "baslik": "Pasta cila",
+          "aciklama": "Çizik giderme, hare giderici ve çok aşamalı parlatma — cam gibi yansıma.",
+          "kolon": 1,
+          "imageSrc": "/vitrin/otoyikama/polish-1.jpg"
+        },
+        {
+          "id": "ceramic",
+          "baslik": "Seramik kaplama",
+          "aciklama": "9H sertlik, hidrofobik yüzey ve 24 ay koruma — uygulama sonrası teslim raporu.",
+          "kolon": 1,
+          "imageSrc": "/vitrin/otoyikama/ceramic-1.jpg"
+        },
+        {
+          "id": "interior",
+          "baslik": "İç mekan detailing",
+          "aciklama": "Buharlı temizlik, deri bakımı, ozon dezenfeksiyon ve koltuk koruma.",
+          "kolon": 1,
+          "imageSrc": "/vitrin/otoyikama/interior-1.jpg"
+        }
+      ]
+    },
+    "hizmetler": {
+      "sayfaAciklama": "Araç boyutu ve kirlilik derecesine göre süreler değişebilir. Seramik ve pasta cila için ücretsiz ön muayene randevusu alın — fiyatlar demo vitrin içindir.",
+      "rows": [
+        { "ad": "Standart dış yıkama (el)", "sure": "25–35 dk", "fiyat": "450 ₺" },
+        { "ad": "İç + dış komple paket", "sure": "90–120 dk", "fiyat": "1.850 ₺" },
+        { "ad": "Motor yıkama + koruma", "sure": "45 dk", "fiyat": "680 ₺" },
+        { "ad": "Tek aşama pasta cila", "sure": "3–4 saat", "fiyat": "4.500 ₺+" },
+        { "ad": "Çift aşama parlatma + wax", "sure": "1 gün", "fiyat": "7.200 ₺+" },
+        { "ad": "Seramik kaplama (9H) — sedan", "sure": "1–2 gün", "fiyat": "18.500 ₺+" },
+        { "ad": "Seramik kaplama — SUV / pickup", "sure": "2 gün", "fiyat": "24.000 ₺+" },
+        { "ad": "Cam filmi / PPF bilgi", "sure": "Teklif", "fiyat": "WhatsApp" }
+      ]
+    },
+    "galeri": {
+      "sayfaAciklama": "Yıkama, parlatma ve seramik uygulama anları — yüksek çözünürlüklü vitrin görselleri; kendi çekimlerinizle panelden değiştirin.",
+      "images": [
+        { "src": "/vitrin/otoyikama/hero.jpg", "alt": "Köpüklü el yıkama — kaput üzerinde yoğun köpük" },
+        { "src": "/vitrin/otoyikama/wash-1.jpg", "alt": "El yıkama — pH nötr köpük" },
+        { "src": "/vitrin/otoyikama/polish-1.jpg", "alt": "Parlak yüzey — pasta cila sonrası yansıma" },
+        { "src": "/vitrin/otoyikama/ceramic-1.jpg", "alt": "Seramik kaplama — mikrofiber ile son kat" },
+        { "src": "/vitrin/otoyikama/luxury-1.jpg", "alt": "Lüks araç — seramik koruma sonrası" },
+        { "src": "/vitrin/otoyikama/interior-1.jpg", "alt": "İç mekan detailing — deri koltuk bakımı" },
+        { "src": "/vitrin/otoyikama/shine-1.jpg", "alt": "Su damlaları — hidrofobik seramik yüzey" },
+        { "src": "/vitrin/otoyikama/detail-1.jpg", "alt": "Detaylı kaput parlatma" },
+        { "src": "/vitrin/otoyikama/foam-1.jpg", "alt": "Köpüklü dış yıkama istasyonu" },
+        { "src": "/vitrin/otoyikama/garage-1.jpg", "alt": "Profesyonel detailing alanı" },
+        { "src": "/vitrin/otoyikama/wide-1.jpg", "alt": "Showroom parlaklığı — genel görünüm" },
+        { "src": "/vitrin/otoyikama/wide-2.jpg", "alt": "Seramik sonrası derin parlaklık" }
+      ]
+    },
+    "iletisim": {
+      "sayfaAciklama": "Kapaklı OSB girişinde, geniş bekleme alanı ve ücretsiz Wi‑Fi. WhatsApp ile plaka ve araç tipi yazarak hızlı fiyat alabilirsiniz.",
+      "whatsappMesaj": "Merhaba Crystal Auto Spa, araç tipim için yıkama / seramik kaplama fiyatı ve uygun randevu saati rica ediyorum."
+    },
+    "randevuForm": {
+      "pageTitle": "Online randevu",
+      "pageDescription": "Talebiniz panele düşer; onay sonrası randevu listenizde görünür — demo vitrin akışı.",
+      "intro": "Seramik ve pasta cila işlemlerinde ön muayene slotu ayırıyoruz. Form gönderildiğinde talep beklemede kaydedilir; ekibimiz dönüş yapar.",
+      "approvedListTitle": "Onaylı randevular",
+      "approvedListIntro": "Bu sayfa yalnızca onaylanmış randevuları gösterir — panel akışıyla uyumlu demo.",
+      "selectLabel": "Hizmet paketi",
+      "submitButtonLabel": "Randevu talebi gönder",
+      "options": [
+        "Standart dış yıkama",
+        "İç + dış komple paket",
+        "Motor yıkama",
+        "Tek aşama pasta cila",
+        "Çift aşama parlatma",
+        "Seramik kaplama (9H)",
+        "Seramik ön muayene",
+        "Cam filmi / PPF bilgi"
+      ]
+    }
+  }
+}

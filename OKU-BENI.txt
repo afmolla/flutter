@@ -1,0 +1,29 @@
+Molla Yazilim — 3 KOMUT
+=======================
+
+  KUR.cmd              Ilk kurulum: IIS + npm + build + HTTPS + site ac (Yonetici)
+  BASLAT.cmd           Siteyi calistir (PM2 + IIS)
+  YENIDEN-BASLAT.cmd   GitHub'dan cek + build + PM2 restart (canli sunucuda)
+  HTTPS-SADECE.cmd     = SERTIFIKA-YUKLE.cmd (ayni)
+  SERTIFIKA-YUKLE.cmd  Sertifika al + IIS yukle (VPS'te bunu calistir)
+  VPS-DUZELT.cmd       Tam tamir: SSL + IIS + build
+  CANLI-DUZELT.cmd     VPS-DUZELT ile ayni
+
+SUNUCUDA TARAYICI:
+  Site acik mi? -> http://localhost/  (domain degil!)
+  HTTPS duzelt  -> HTTPS-SADECE.cmd (Yonetici)
+  Sonra         -> https://mollayazilim.com/
+
+ONEMLI:
+  git push tek basina sunucuyu guncellemez.
+  Push sonrasi canli sunucuda (85.95.251.204) YENIDEN-BASLAT.cmd calistirin.
+
+Tarayici:
+  http://localhost/
+  https://mollayazilim.com/
+
+Zorla git esitleme:
+  YENIDEN-BASLAT.cmd --hard
+
+Sadece restart (build yok):
+  YENIDEN-BASLAT.cmd --no-git --no-build

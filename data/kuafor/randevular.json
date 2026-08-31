@@ -1,0 +1,56 @@
+{
+  "randevular": [
+    {
+      "id": "kf-demo-1",
+      "ad": "Ahmet Y.",
+      "telefon": "905551112233",
+      "hizmet": "Saç + sakal paket",
+      "tarih": "2026-05-10",
+      "saat": "10:00",
+      "durum": "onaylandi",
+      "notlar": "VIP köşe tercih",
+      "olusturulma": "2026-05-08T10:00:00.000Z"
+    },
+    {
+      "id": "kf-demo-2",
+      "ad": "Elif K.",
+      "telefon": "905559998877",
+      "hizmet": "Fön & şekillendirme",
+      "tarih": "2026-05-10",
+      "saat": "14:30",
+      "durum": "onaylandi",
+      "olusturulma": "2026-05-08T11:00:00.000Z"
+    },
+    {
+      "id": "kf-demo-3",
+      "ad": "Murat D.",
+      "telefon": "905554445566",
+      "hizmet": "Sakal şekillendirme",
+      "tarih": "2026-05-11",
+      "saat": "11:15",
+      "durum": "beklemede",
+      "olusturulma": "2026-05-09T09:00:00.000Z"
+    },
+    {
+      "id": "kf-demo-4",
+      "ad": "Zeynep A.",
+      "telefon": "905557776655",
+      "hizmet": "Keratin / bakım",
+      "tarih": "2026-05-11",
+      "saat": "16:00",
+      "durum": "beklemede",
+      "notlar": "İlk keratin — ön görüşme",
+      "olusturulma": "2026-05-09T10:30:00.000Z"
+    },
+    {
+      "id": "kf-demo-5",
+      "ad": "Can Ö.",
+      "telefon": "905553334455",
+      "hizmet": "Erkek saç kesimi",
+      "tarih": "2026-05-12",
+      "saat": "18:00",
+      "durum": "onaylandi",
+      "olusturulma": "2026-05-09T14:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+/**
+ * Aynı deploy’da birden fazla vitrin kökü: `/kuafor`, `/restaurant`, …
+ * `NEXT_PUBLIC_PORTFOLIO_PREFIXES=/kuafor,/restaurant` (varsayılan bu ikisi).
+ * Her önek için veri: `data/{slug}/` (slug = önekten `/` kaldırılmış).
+ */
+function normalizeList(raw: string | undefined): string[] {
+  const s = (raw ?? "")
+    .split(",")
+    .map((x) => x.trim())
+    .filter(Boolean);
+  const out: string[] = [];
+  for (const seg of s) {
+    const p = seg.startsWith("/") ? seg : `/${seg}`;
+    const clean = p.replace(/\/+$/, "") || "";
+    if (clean && !out.includes(clean)) out.push(clean);
+  }
+  return out;
+}
+
+/** Ortam değişkeni boş/bozuksa vitrin yolları kaybolmasın */
+const DEFAULT_PORTFOLIO_PREFIXES = [
+  "/kuafor",
+  "/kuafor-kadin",
+  "/restaurant",
+  "/emlak",
+  "/avukat",
+  "/otoyikama",
+  "/ambalaj",
+] as const;
+
+/** Ambalaj vitrin kökü — demo kartları ve panel yönlendirmesi için */
+export const AMBALAJ_PREFIX = "/ambalaj";
+export const AMBALAJ_SUBDIR = "ambalaj";
+
+/** Ayfleks kurumsal site — kök `/` ve panel `/panel` */
+export const AYFLEKS_SUBDIR = "ayfleks";
+
+export function isAyfleksSubdir(subdir: string): boolean {
+  return subdir === AYFLEKS_SUBDIR;
+}
+
+export function isAmbalajSubdir(subdir: string): boolean {
+  return subdir === AMBALAJ_SUBDIR;
+}
+
+export function isAmbalajPath(pathname: string): boolean {
+  const p = (pathname.split("?")[0] || "/").replace(/\/+$/, "") || "/";
+  if (p === AMBALAJ_PREFIX || p.startsWith(`${AMBALAJ_PREFIX}/`)) return true;
+  if (p === "/esnek-ambalaj" || p.startsWith("/esnek-ambalaj/")) return true;
+  return false;
+}
+
+export function portfolioPrefixes(): string[] {
+  const fromEnv = process.env.NEXT_PUBLIC_PORTFOLIO_PREFIXES;
+  if (fromEnv !== undefined && fromEnv.trim() !== "") {
+    const list = normalizeList(fromEnv);
+    if (list.length > 0) return list;
+  }
+  return [...DEFAULT_PORTFOLIO_PREFIXES];
+}
+
+export function slugFromPrefix(prefix: string): string {
+  const p = prefix.startsWith("/") ? prefix.slice(1) : prefix;
+  return p.replace(/\/+$/, "") || "default";
+}
+
+export function dataSubdirForPrefix(prefix: string): string {
+  return slugFromPrefix(prefix);
+}
+
+export function isPortfolioPath(pathname: string): string | null {
+  const p = pathname.split("?")[0] || "/";
+  for (const base of portfolioPrefixes()) {
+    if (p === base || p === `${base}/`) return base;
+    if (p.startsWith(`${base}/`)) return base;
+  }
+  return null;
+}
+
+/** Portföy vitrininin iç rotaları — yalnız `/kuafor/...` altında erişilebilir; kök `/anasayfa` kurumsal site değildir. */
+const PORTFOLIO_INTERNAL_ROUTES = [
+  "/anasayfa",
+  "/hizmetler",
+  "/galeri",
+  "/iletisim",
+  "/randevu",
+  "/randevular",
+  "/qr-menu",
+  "/ilanlar",
+  "/fiyat-hesaplama",
+  "/urunler",
+  "/sepet",
+  "/odeme",
+] as const;
+
+export function isPortfolioInternalRoute(pathname: string): boolean {
+  const p = (pathname.split("?")[0] || "/").replace(/\/+$/, "") || "/";
+  if ((PORTFOLIO_INTERNAL_ROUTES as readonly string[]).includes(p)) return true;
+  if (p.startsWith("/p/")) return true;
+  if (p.startsWith("/ilan/")) return true;
+  if (p.startsWith("/urun/")) return true;
+  if (p.startsWith("/siparis-onay/")) return true;
+  return false;
+}

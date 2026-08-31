@@ -1,0 +1,13 @@
+{
+  "ayarlar": {
+    "salonAd": "Merkez Restoran",
+    "whatsapp": "905551234567",
+    "adresKisa": "Kapaklı · Tekirdağ",
+    "adresDetay": "Merkez Mah. Restoran Cad. No:12, Kapaklı / Tekirdağ",
+    "calismaSaatleri": "Her gün 11:00 — 23:00",
+    "sehir": "Tekirdağ",
+    "menuDavranis": "hover",
+    "footerSosyalGoster": true,
+    "mobilSiparisAcik": true
+  }
+}

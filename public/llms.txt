@@ -1,0 +1,33 @@
+# Molla Yazılım
+
+> Tekirdağ Kapaklı merkezli yazılım firması. Birincil ürün: Molla CRM — Türkçe müşteri takip ve satış yönetimi yazılımı. İkincil hizmet: kurumsal web sitesi, admin panel ve sektörel vitrin demoları.
+
+## Birincil ürün — Molla CRM
+
+- Müşteri ve firma kayıtları, satış pipeline, teklif takibi
+- Görev, hatırlatıcı, ekip yönetimi ve raporlar
+- Mobil uyumlu, KOBİ odaklı Türkçe arayüz
+- Hedef bölge: Tekirdağ, Kapaklı, Çerkezköy, Çorlu, Saray ve çevresi
+- Canlı demo: https://crm.mollayazilim.com/login
+
+## İkincil hizmetler — Web & Panel
+
+- Kurumsal web sitesi ve mobil uyumlu vitrin
+- Admin / yönetim paneli (içerik, menü, medya, SEO, lead)
+- Kuaför, restoran, emlak, avukat bürosu, oto yıkama demoları
+- SEO: meta, canonical, sitemap, yapılandırılmış veri, yerel anahtar kelimeler
+
+## Önemli sayfalar
+
+- Ana sayfa (CRM + web): https://mollayazilim.com/
+- Molla CRM: https://crm.mollayazilim.com
+- CRM giriş: https://crm.mollayazilim.com/login
+- Kuaför demo: https://mollayazilim.com/kuafor
+- Restoran demo: https://mollayazilim.com/restaurant
+- İletişim: https://mollayazilim.com/#iletisim
+
+## İletişim
+
+- Konum: Kapaklı, Tekirdağ, Türkiye
+- Site: https://mollayazilim.com
+- E-posta: info@mollayazilim.com

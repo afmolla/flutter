@@ -1,0 +1,44 @@
+{
+  "sayfalar": [
+    {
+      "slug": "hakkimizda",
+      "baslik": "Hakkımızda",
+      "aciklama": "Ayfleks Ambalaj — 1974'ten beri sürdürülebilir ambalaj çözümleri.",
+      "icerikHtml": "<p>Ayfleks, 1974 yılında beri 300'ü aşkın çalışanıyla müşteri odaklı çalışma prensibiyle hareket ederek gerek standart gerek özelleştirilmiş ambalaj çözümleriyle hizmet vermektedir.</p><p>Türkiye'nin yanı sıra yurtdışında da faaliyetlerine devam eden Ayfleks, kısa süre içerisinde ABD-Ortadoğu-Afrika pazarına açılmak için çalışmalarını sürdürmektedir.</p>",
+      "bloklar": [],
+      "yayin": true,
+      "seoIndex": true,
+      "guncellenme": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "slug": "vizyon-misyon",
+      "baslik": "Vizyon – Misyon",
+      "aciklama": "Ayfleks vizyon ve misyon beyanı.",
+      "icerikHtml": "<p>Vizyon ve misyon içeriği panelden düzenlenebilir.</p>",
+      "bloklar": [],
+      "yayin": true,
+      "seoIndex": true,
+      "guncellenme": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "slug": "haberler",
+      "baslik": "Haberler",
+      "aciklama": "Ayfleks haberleri ve duyurular.",
+      "icerikHtml": "<p>Fuar ve kurumsal haberler panelden eklenebilir.</p>",
+      "bloklar": [],
+      "yayin": true,
+      "seoIndex": true,
+      "guncellenme": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "slug": "kvkk",
+      "baslik": "KVKK Aydınlatma Metni",
+      "aciklama": "Kişisel verilerin korunması aydınlatma metni.",
+      "icerikHtml": "<p>KVKK metni panelden düzenlenebilir.</p>",
+      "bloklar": [],
+      "yayin": true,
+      "seoIndex": false,
+      "guncellenme": "2026-08-31T00:00:00.000Z"
+    }
+  ]
+}

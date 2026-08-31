@@ -1,0 +1,31 @@
+# VPS deploy — push main veya Actions -> Run workflow
+# Secrets: SSH_HOST, SSH_USER, SSH_KEY, DEPLOY_PATH = C:/inetpub/wwwroot/mollayazilim
+
+name: Deploy mollayazilim.com
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Secrets eksik (deploy atlandi)
+        if: ${{ secrets.SSH_HOST == '' || secrets.SSH_USER == '' || secrets.SSH_KEY == '' || secrets.DEPLOY_PATH == '' }}
+        run: |
+          echo "::notice::Deploy atlandi — SSH secrets tanimli degil."
+          echo "Repo Settings -> Secrets -> Actions: SSH_HOST, SSH_USER, SSH_KEY, DEPLOY_PATH"
+          echo "Elle guncelleme: canli sunucuda YENIDEN-BASLAT.cmd"
+
+      - name: SSH deploy (Windows VPS)
+        if: ${{ secrets.SSH_HOST != '' && secrets.SSH_USER != '' && secrets.SSH_KEY != '' && secrets.DEPLOY_PATH != '' }}
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script_stop: true
+          script: |
+            powershell.exe -NoProfile -ExecutionPolicy Bypass -File "${{ secrets.DEPLOY_PATH }}/deploy/site-yeniden-baslat.ps1"

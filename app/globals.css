@@ -1,0 +1,447 @@
+@import "tailwindcss";
+
+/* Görseller taşmasın (CSS yükü eksik kalsa bile) — yükseklik Tailwind utility ile gelir */
+@layer base {
+  img,
+  picture,
+  video {
+    max-width: 100%;
+  }
+}
+
+/* --- Tema değişkenleri (4 tema) --- */
+:root,
+[data-theme="classic"] {
+  --brand: #b91c1c;
+  --on-brand: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --surface: #ffffff;
+  --surface-2: #f8fafc;
+  --surface-3: #f1f5f9;
+  --border: #e2e8f0;
+}
+
+[data-theme="luxe"] {
+  --brand: #c9a227;
+  --on-brand: #0a0a0a;
+  --text: #f5f5f5;
+  --muted: #a3a3a3;
+  --surface: #141414;
+  --surface-2: #0f0f0f;
+  --surface-3: #1f1f1f;
+  --border: #2a2a2a;
+}
+
+[data-theme="minimal"] {
+  --brand: #0f766e;
+  --on-brand: #ffffff;
+  --text: #171717;
+  --muted: #737373;
+  --surface: #fafafa;
+  --surface-2: #f5f5f5;
+  --surface-3: #e5e5e5;
+  --border: #e5e5e5;
+}
+
+[data-theme="nature"] {
+  --brand: #4a6741;
+  --on-brand: #fafaf8;
+  --text: #1c2e1a;
+  --muted: #5c6d56;
+  --surface: #f5f0e6;
+  --surface-2: #ebe4d6;
+  --surface-3: #e0d8c8;
+  --border: #d4cbb8;
+}
+
+/* Portföy vitrinleri — tema seçiciden bağımsız marka hissi (demo) */
+/*
+ * Restoran: fine dining / modern bistro — koyu zemin, sıcak altın vurgu
+ * (yüksek puanlı restoran sitelerinde yaygın karanlık hero + serif başlık düzeni)
+ */
+[data-vitrin="restaurant"] {
+  color-scheme: dark;
+  --brand: #e8b84a;
+  --on-brand: #1a1510;
+  --text: #f7f2ea;
+  --muted: #b8aea3;
+  /* Saf siyah yerine sıcak kömür / espresso tonları */
+  --surface: #1a1614;
+  --surface-2: #242019;
+  --surface-3: #2e2824;
+  --border: rgba(245, 240, 232, 0.14);
+}
+
+[data-vitrin="restaurant"] h1,
+[data-vitrin="restaurant"] h2,
+[data-vitrin="restaurant"] h3 {
+  font-family: var(--font-restaurant), ui-serif, Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+[data-vitrin="restaurant"] header[data-fixed-header] {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(12, 10, 8, 0.72) !important;
+  backdrop-filter: blur(14px);
+}
+
+[data-vitrin="restaurant"] footer {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, #1e1916 0%, #141110 100%) !important;
+}
+
+[data-vitrin="restaurant"] footer .border-t {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-vitrin="restaurant"] .site-header-nav a {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+[data-vitrin="restaurant"] .site-header-nav a:hover {
+  color: var(--brand);
+}
+
+[data-vitrin="restaurant"] .site-header-nav a[aria-current="page"] {
+  color: var(--brand);
+}
+
+/* QR menü — restoran kartları */
+[data-vitrin="restaurant"] .restaurant-menu-root section h2 {
+  font-family: var(--font-restaurant), ui-serif, Georgia, serif;
+  letter-spacing: 0.04em;
+}
+
+/* Erkek kuaförü — karanlık yüzey, bakır-turuncu vurgu, güçlü kontrast */
+[data-vitrin="kuafor"] {
+  color-scheme: dark;
+  --brand: #ea580c;
+  --on-brand: #0c0a09;
+  --text: #fafafa;
+  --muted: #a1a1aa;
+  --surface: #09090b;
+  --surface-2: #18181b;
+  --surface-3: #27272a;
+  --border: rgba(250, 250, 250, 0.1);
+}
+
+[data-vitrin="kuafor"] header[data-fixed-header] {
+  border-color: rgba(250, 250, 250, 0.08);
+  background: rgba(9, 9, 11, 0.88) !important;
+  backdrop-filter: blur(14px);
+}
+
+[data-vitrin="kuafor"] footer {
+  border-color: rgba(250, 250, 250, 0.08);
+  background: linear-gradient(180deg, #09090b 0%, #020203 100%) !important;
+}
+
+[data-vitrin="kuafor"] .site-header-nav a {
+  color: rgba(250, 250, 250, 0.72);
+}
+
+[data-vitrin="kuafor"] .site-header-nav a:hover {
+  color: var(--brand);
+}
+
+[data-vitrin="kuafor"] .site-header-nav a[aria-current="page"] {
+  color: var(--brand);
+}
+
+/* Kadın kuaförü — koyu şık zemin, rose altın vurgu (beyaz blok yok) */
+[data-vitrin="kuafor-kadin"] {
+  color-scheme: dark;
+  --brand: #f472b6;
+  --on-brand: #1a0510;
+  --text: #fdf2f8;
+  --muted: #c4b5bd;
+  --surface: #140810;
+  --surface-2: #1f1220;
+  --surface-3: #2a1828;
+  --border: rgba(244, 114, 182, 0.18);
+}
+
+[data-vitrin="kuafor-kadin"] header[data-fixed-header] {
+  border-color: rgba(244, 114, 182, 0.22);
+  background: rgba(20, 8, 16, 0.92) !important;
+  backdrop-filter: blur(14px);
+}
+
+[data-vitrin="kuafor-kadin"] footer {
+  border-color: rgba(244, 114, 182, 0.12);
+  background: linear-gradient(180deg, #140810 0%, #0a0408 100%) !important;
+}
+
+[data-vitrin="kuafor-kadin"] .site-header-nav a {
+  color: rgba(253, 242, 248, 0.72);
+}
+
+[data-vitrin="kuafor-kadin"] .site-header-nav a:hover {
+  color: var(--brand);
+}
+
+[data-vitrin="emlak"] {
+  color-scheme: dark;
+  --brand: #38bdf8;
+  --on-brand: #0c1525;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --surface: #0f172a;
+  --surface-2: #172554;
+  --surface-3: #1e3a5f;
+  --border: rgba(56, 189, 248, 0.15);
+  --emlak-shadow: 0 14px 36px rgba(0, 0, 0, 0.35);
+  --emlak-classified-yellow: #ffd800;
+}
+
+[data-vitrin="emlak"] .font-display {
+  font-family: var(--font-emlak-display), var(--font-sans);
+}
+
+[data-vitrin="emlak"] .emlak-portal-root {
+  font-family: var(--font-sans);
+  background: var(--surface);
+  color: var(--text);
+}
+
+[data-vitrin="emlak"] .site-header-nav a {
+  color: rgba(241, 245, 249, 0.78);
+}
+
+[data-vitrin="emlak"] .site-header-nav a:hover {
+  color: var(--brand);
+}
+
+[data-vitrin="avukat"] {
+  color-scheme: dark;
+  --brand: #d4a853;
+  --on-brand: #0f172a;
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --surface: #0c1525;
+  --surface-2: #152238;
+  --surface-3: #1e3a5f;
+  --border: rgba(212, 168, 83, 0.2);
+}
+
+[data-vitrin="avukat"] header[data-fixed-header] {
+  border-color: rgba(212, 168, 83, 0.22);
+  background: rgba(12, 21, 37, 0.94) !important;
+  backdrop-filter: blur(14px);
+}
+
+[data-vitrin="avukat"] footer {
+  border-color: rgba(212, 168, 83, 0.12);
+  background: linear-gradient(180deg, #0c1525 0%, #070d16 100%) !important;
+}
+
+[data-vitrin="avukat"] .site-header-nav a {
+  color: rgba(248, 250, 252, 0.78);
+}
+
+[data-vitrin="avukat"] .site-header-nav a:hover {
+  color: var(--brand);
+}
+
+/* Oto yıkama & detailing — koyu zemin, cyan su + altın premium vurgu */
+[data-vitrin="otoyikama"] {
+  color-scheme: dark;
+  --brand: #22d3ee;
+  --on-brand: #042f2e;
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --surface: #040608;
+  --surface-2: #0a1018;
+  --surface-3: #111827;
+  --border: rgba(34, 211, 238, 0.18);
+}
+
+[data-vitrin="otoyikama"] header[data-fixed-header] {
+  border-color: rgba(34, 211, 238, 0.22);
+  background: rgba(4, 6, 8, 0.92) !important;
+  backdrop-filter: blur(14px);
+}
+
+[data-vitrin="otoyikama"] footer {
+  border-color: rgba(34, 211, 238, 0.12);
+  background: linear-gradient(180deg, #060a10 0%, #020304 100%) !important;
+}
+
+[data-vitrin="otoyikama"] .site-header-nav a {
+  color: rgba(248, 250, 252, 0.78);
+}
+
+[data-vitrin="otoyikama"] .site-header-nav a:hover {
+  color: var(--brand);
+}
+
+[data-vitrin="otoyikama"] .site-header-nav a[aria-current="page"] {
+  color: var(--brand);
+}
+
+[data-vitrin="ambalaj"] {
+  color-scheme: dark;
+  --brand: #22c55e;
+  --on-brand: #052e16;
+  --text: #f0fdf4;
+  --muted: #86efac;
+  --surface: #061510;
+  --surface-2: #0a1f14;
+  --surface-3: #0f2a1a;
+  --border: rgba(34, 197, 94, 0.2);
+}
+
+[data-vitrin="ambalaj"] header[data-fixed-header] {
+  border-color: rgba(34, 197, 94, 0.22);
+  background: rgba(6, 21, 16, 0.92) !important;
+  backdrop-filter: blur(14px);
+}
+
+[data-vitrin="ambalaj"] footer {
+  border-color: rgba(34, 197, 94, 0.12);
+  background: linear-gradient(180deg, #081810 0%, #041008 100%) !important;
+}
+
+[data-vitrin="ambalaj"] .site-header-nav a {
+  color: rgba(240, 253, 244, 0.78);
+}
+
+[data-vitrin="ambalaj"] .site-header-nav a:hover {
+  color: var(--brand);
+}
+
+[data-vitrin="ambalaj"] .site-header-nav a[aria-current="page"] {
+  color: var(--brand);
+}
+
+/* Avukat vitrin panel — hukuk bürosu hissi */
+[data-panel-vitrin="avukat"] {
+  --brand: #c9a227;
+  --on-brand: #0f172a;
+}
+
+[data-panel-vitrin="avukat"] header.panel-top-bar {
+  border-color: rgba(201, 162, 39, 0.35);
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%) !important;
+}
+
+[data-panel-vitrin="avukat"] header.panel-top-bar a {
+  color: #e2e8f0 !important;
+}
+
+[data-panel-vitrin="avukat"] header.panel-top-bar a:hover {
+  color: #fde68a !important;
+}
+
+@theme inline {
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Yükseklik zinciri + tema yokken bile okunabilir sayfa (gizli sekme / CSS gecikmesi) */
+@layer base {
+  :root {
+    /* Header yüksekliği sabit (h-16) */
+    --header-h: 64px;
+  }
+  html {
+    height: 100%;
+    color-scheme: light;
+    /*
+      Global scroll-padding bazı tarayıcılarda fixed header + scroll restoration ile
+      “yukarı/aşağı oynayınca yazı banner altına giriyor” hissi yaratabiliyor.
+      Anchor offset için sayfa içindeki scroll-margin kullanıyoruz.
+    */
+    scroll-padding-top: 0px;
+    /* Tarayıcı scroll anchoring bazen hash/geri kaydırmada üst boşluğu “yerinden oynatır” */
+    overflow-anchor: none;
+  }
+  body {
+    min-height: 100%;
+    min-height: 100dvh;
+    font-family: var(--font-sans);
+    background-color: var(--surface, #ffffff);
+    color: var(--text, #0f172a);
+  }
+}
+
+html[data-theme="luxe"] {
+  color-scheme: dark;
+}
+
+/* Üst menü: satır + sığdırma (Tailwind ile çakışmayacak şekilde min düzen) */
+@layer components {
+  /* Kök Molla `/` — fixed navbar akış dışı; içerik üstten boşluklu başlasın */
+  main.molla-root-main {
+    padding-top: calc(var(--header-h, 64px) + 2rem);
+  }
+  .site-header-nav > ul {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .site-header-nav > ul > li {
+    list-style: none;
+    flex: 0 0 auto;
+  }
+}
+
+/* Oto yıkama vitrin — hafif animasyonlar (GPU-friendly) */
+@keyframes otoyikama-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+@keyframes otoyikama-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes otoyikama-glow {
+  0%,
+  100% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.otoyikama-shimmer {
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(34, 211, 238, 0.14) 50%,
+    transparent 60%
+  );
+  background-size: 200% 100%;
+  animation: otoyikama-shimmer 8s ease-in-out infinite;
+}
+.otoyikama-marquee {
+  animation: otoyikama-marquee 45s linear infinite;
+}
+.otoyikama-glow-pulse {
+  animation: otoyikama-glow 6s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .otoyikama-shimmer,
+  .otoyikama-marquee,
+  .otoyikama-glow-pulse {
+    animation: none;
+  }
+}

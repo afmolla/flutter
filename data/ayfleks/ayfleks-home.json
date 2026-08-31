@@ -1,0 +1,107 @@
+{
+  "slider": [
+    {
+      "id": "1",
+      "href": "/p/surdurulebilirlik-yaklasimi",
+      "h1": "Doğada çözünebilir ürünlerle",
+      "h2": "sürdürülebilir bir dünya.",
+      "image": "/images/banner/ayfleks-manset-banner_6f10c.webp",
+      "imageAlt": "Sürdürülebilir ambalaj"
+    },
+    {
+      "id": "2",
+      "href": "",
+      "h1": "",
+      "h2": "",
+      "image": "/images/banner/interpack-banner_f8ebd.webp",
+      "imageAlt": "Interpack fuar"
+    },
+    {
+      "id": "3",
+      "href": "/urunler?kategori=gida",
+      "h1": "Gıda",
+      "h2": "Güvenilir Ambalaj Çözümleri",
+      "image": "/images/banner/ayfleks-manset-banner-02_48220.webp",
+      "imageAlt": "Gıda ambalajları"
+    },
+    {
+      "id": "4",
+      "href": "/urunler?kategori=kisisel-bakim",
+      "h1": "Kişisel Bakım & Hijyen",
+      "h2": "Hijyenik & Estetik Ambalaj Çözümleri",
+      "image": "/images/banner/ayfleks-manset-banner-03_1ffa4.webp",
+      "imageAlt": "Kişisel bakım ambalajları"
+    },
+    {
+      "id": "5",
+      "href": "/urunler?kategori=evcil-hayvan",
+      "h1": "Evcil Hayvan Bakımı",
+      "h2": "Kaliteli & Güvenilir Ambalaj Çözümleri",
+      "image": "/images/banner/ayfleks-manset-banner-04_a3bb2.webp",
+      "imageAlt": "Evcil hayvan ambalajları"
+    },
+    {
+      "id": "6",
+      "href": "/urunler?kategori=endustriyel",
+      "h1": "Endüstriyel",
+      "h2": "Dayanıklı & Fonksiyonel Tasarımlar",
+      "image": "/images/banner/ayfleks-manset-banner-05_1782d.webp",
+      "imageAlt": "Endüstriyel ambalaj"
+    }
+  ],
+  "about": {
+    "h1": "Ayfleks",
+    "h2": "Hakkında",
+    "videoUrl": "https://www.youtube.com/embed/2Sv8FTkG02I?enablejsapi=1&rel=0",
+    "videoCover": "/images/hakkimizda/ayfleks-tanitim-filmi-cover_c3469.webp",
+    "paragraphs": [
+      "Ayfleks, 1974 yılında beri 300'ü aşkın çalışanıyla müşteri odaklı çalışma prensibiyle hareket ederek gerek standart gerek özelleştirilmiş ambalaj çözümleriyle hizmet vermektedir.",
+      "Türkiye'nin yanı sıra yurtdışında da faaliyetlerine devam eden Ayfleks, kısa süre içerisinde ABD-Ortadoğu-Afrika pazarına açılmak için çalışmalarını sürdürmektedir. Büyük yatırımla yeni fabrikasına taşınan Ayfleks, işini severek yapan ve alanında uzman olan kadrosuyla, temeli sağlam ilkeleriyle, yılların tecrübesiyle oluşturduğu güvenin haklı gururunu yaşamaktadır..."
+    ],
+    "linkHref": "/p/hakkimizda"
+  },
+  "categories": {
+    "h1": "Ürünler",
+    "h2": "neler sunuyoruz?",
+    "items": [
+      {
+        "label": "Gıda",
+        "href": "/urunler?kategori=gida",
+        "image": "/images/kategoriler/gida_8dd8e.webp.720p.webp"
+      },
+      {
+        "label": "Kişisel Bakım & Hijyen",
+        "href": "/urunler?kategori=kisisel-bakim",
+        "image": "/images/kategoriler/kategori-kisisel-bakim_193da.webp.720p.webp"
+      },
+      {
+        "label": "Evcil Hayvan Bakımı",
+        "href": "/urunler?kategori=evcil-hayvan",
+        "image": "/images/kategoriler/kategori-evcil-hayvan_15dfd.webp.720p.webp"
+      },
+      {
+        "label": "Endüstriyel",
+        "href": "/urunler?kategori=endustriyel",
+        "image": "/images/kategoriler/kategori-endustriyel_06739.webp.720p.webp"
+      }
+    ]
+  },
+  "sustainability": {
+    "h2": "Sorumluluğumuzun farkındayız.",
+    "h1": "Doğa ve çevre hassasiyetimiz işimizin bir parçası.",
+    "text": "Doğa ve çevre hassasiyeti konusunda gösterdiğimiz incelik ve etik tutum bizim işimizin bir parçası.",
+    "linkHref": "/p/surdurulebilirlik-yaklasimi",
+    "image": "/images/kutular/ayfleks-main-surdurulebilirlik_b8322.webp"
+  },
+  "export": {
+    "h2": "ihracat rotamız",
+    "h1": "60'a yakın ülkeye yaptığımız ihracatla, ambalajın küresel yolculuğuna yön veriyoruz.",
+    "text": "Ayfleks Packaging olarak, dünya genelindeki iş ortaklarımıza en yenilikçi ve sürdürülebilir ambalaj çözümlerini sunmaktan gurur duyuyoruz. Global ağımız ve güçlü lojistik altyapımız sayesinde, ürünleriniz dünyanın dört bir yanına güvenle ve zamanında ulaşır. İhracattaki uzmanlığımızla, markanızın uluslararası pazarlarda büyümesine destek oluyoruz.",
+    "image": "/images/kutular/main-ihracat-rota_af25b.webp"
+  },
+  "contactCta": {
+    "h2": "bize ulaşın",
+    "h1": "Size nasıl yardımcı olabiliriz?",
+    "text": "Mail adresinizi yazın, yetkili personellerimiz size ulaşacaktır."
+  }
+}

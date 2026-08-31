@@ -1,0 +1,14 @@
+{
+  "ayarlar": {
+    "salonAd": "Atlas Emlak",
+    "whatsapp": "905551234567",
+    "seoTitle": "Tekirdağ Kapaklı Emlak | Konut & Yatırım — Demo",
+    "seoDescription": "Kapaklı ve Tekirdağ bölgesinde konut, kiralık ve satılık ilan vitrini — demo.",
+    "adresKisa": "Kapaklı · Tekirdağ",
+    "adresDetay": "Merkez Mah. Emlak Cad. No:88 Kat:3, Kapaklı / Tekirdağ",
+    "calismaSaatleri": "Hafta içi 09:00 — 19:00",
+    "sehir": "Tekirdağ",
+    "menuDavranis": "hover",
+    "footerSosyalGoster": true
+  }
+}

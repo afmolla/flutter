@@ -1,0 +1,300 @@
+{
+  "icerik": {
+    "home": {
+      "badge": "OPP · CPP · PET · LDPE",
+      "baslik": "Esnek ambalajda kalite ve hızlı teslim.",
+      "aciklama": "Torba ve rulo siparişlerinizde mikron, baskı ve adet detayına göre uygun maliyetle üretim ve sevkiyat sunuyoruz.",
+      "ctaPrimaryLabel": "Mağazaya git",
+      "ctaPrimaryHref": "/urunler",
+      "ctaSecondaryLabel": "Fiyat hesapla",
+      "ctaSecondaryHref": "/fiyat-hesaplama",
+      "heroImageSrc": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=1920&q=88&auto=format&fit=crop",
+      "heroImageAlt": "Valfli kilitli doypack ambalaj",
+      "etiketler": ["Doypack · Quadro", "Flat bottom", "Torba & rulo", "Flexo baskı"],
+      "heroKart": {
+        "imageSrc": "https://images.unsplash.com/photo-1706881811952-31148fe91adc?w=1200&q=88&auto=format&fit=crop",
+        "imageAlt": "Stand-up pouch ambalaj örnekleri",
+        "baslik": "Online fiyat tahmini",
+        "aciklama": "Mikron, en-boy, baskı ve adet — anında ön teklif aralığı."
+      },
+      "heroAltBloklar": [
+        {
+          "id": "trust",
+          "tur": "metin",
+          "metin": "48 saat yazılı teklif · Numune desteği · Baskılı ambalaj · Marmara geneli sevkiyat",
+          "hiza": "orta"
+        }
+      ],
+      "bolumBaslik": "Neden ProPack?",
+      "bolumAciklama": "Geniş ürün yelpazesi, esnek minimum sipariş ve hızlı numune süreci. Online hesaplayıcı ile ön tahmin alın; kesin teklif numune ve baskı onayı sonrası netleşir.",
+      "features": [
+        {
+          "id": "doypack",
+          "baslik": "Doypack & kilitli",
+          "aciklama": "Metalize, şeffaf, valfli içecek ve gıda bariyerli kilitli torba formatları.",
+          "kolon": 1,
+          "imageSrc": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=800&q=88&auto=format&fit=crop"
+        },
+        {
+          "id": "quadro",
+          "baslik": "Quadro & flat bottom",
+          "aciklama": "Yan ve alttan körüklü raf duruşu — kahve, kuruyemiş, granül ürünler.",
+          "kolon": 1,
+          "imageSrc": "https://images.unsplash.com/photo-1703564202740-e9805c4a14ea?w=800&q=88&auto=format&fit=crop"
+        },
+        {
+          "id": "torba",
+          "baslik": "Torba & rulo",
+          "aciklama": "OPP, CPP, PET laminasyon ve LDPE — otomatik dolum hatlarına uygun.",
+          "kolon": 1,
+          "imageSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=88&auto=format&fit=crop"
+        },
+        {
+          "id": "baski",
+          "baslik": "Flexo baskı",
+          "aciklama": "Klise hazırlığı, renk provası ve yüksek adet baskılı ambalaj üretimi.",
+          "kolon": 1,
+          "imageSrc": "https://images.unsplash.com/photo-1758183961426-88d64eb5f787?w=800&q=88&auto=format&fit=crop"
+        }
+      ]
+    },
+    "hizmetler": {
+      "sayfaBaslik": "Ürünler",
+      "kolonAd": "Ürün",
+      "kolonSure": "Min. sipariş",
+      "kolonFiyat": "Fiyat",
+      "sayfaAciklama": "Doypack, quadro, flat bottom, torba ve rulo üretim grupları. Fiyatlar malzeme, mikron ve adede göre değişir — online hesaplayıcı ile ön tahmin alın.",
+      "rows": [
+        { "ad": "Kilitli poşet & Doypack", "sure": "Şeffaf · metalize · valfli · renkli", "fiyat": "", "anchorId": "doypack" },
+        { "ad": "Metalize kilitli torba", "sure": "Min. 5.000 ad", "fiyat": "Teklif" },
+        { "ad": "Şeffaf / renkli doypack", "sure": "Min. 8.000 ad", "fiyat": "Teklif" },
+        { "ad": "İçecek doypack (valfli)", "sure": "Min. 3.000 ad", "fiyat": "Teklif" },
+        { "ad": "Quadro ambalaj", "sure": "Yan körüklü · raf duruşu", "fiyat": "", "anchorId": "quadro" },
+        { "ad": "Quadro 250–500 g metalize", "sure": "Min. 2.000 ad", "fiyat": "Teklif" },
+        { "ad": "Quadro 1000 g format", "sure": "Min. 1.500 ad", "fiyat": "Teklif" },
+        { "ad": "Flat bottom", "sure": "Alttan körüklü · mat / metalize", "fiyat": "", "anchorId": "flat" },
+        { "ad": "Flat bottom önden kilitli", "sure": "Min. 2.500 ad", "fiyat": "Teklif" },
+        { "ad": "Valfli flat bottom", "sure": "Min. 2.000 ad", "fiyat": "Teklif" },
+        { "ad": "Torba & rulo", "sure": "OPP · CPP · PET · LDPE", "fiyat": "", "anchorId": "torba" },
+        { "ad": "OPP / CPP torba", "sure": "Min. sipariş kg/adet", "fiyat": "Teklif" },
+        { "ad": "OPP+CPP laminasyon rulo", "sure": "Bobin / kg", "fiyat": "Teklif" },
+        { "ad": "PET+PE gıda laminasyonu", "sure": "Min. 250 kg", "fiyat": "Teklif" },
+        { "ad": "LDPE market & endüstriyel", "sure": "Min. 500 kg", "fiyat": "Teklif" },
+        { "ad": "Baskılı ambalaj", "sure": "Flexo · klise · renk provası", "fiyat": "", "anchorId": "baski" },
+        { "ad": "Flexo baskılı torba / rulo", "sure": "Klise + kg", "fiyat": "Teklif" },
+        { "ad": "Numune & renk provası", "sure": "3–5 iş günü", "fiyat": "Ücretsiz keşif*" }
+      ]
+    },
+    "galeri": {
+      "sayfaBaslik": "Galeri",
+      "sayfaAciklama": "Referans görseller — panelden kendi fotoğraflarınızı yükleyebilirsiniz.",
+      "images": [
+        { "src": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=1000&q=88&auto=format&fit=crop", "alt": "Valfli doypack ambalaj" },
+        { "src": "https://images.unsplash.com/photo-1706881811952-31148fe91adc?w=1000&q=88&auto=format&fit=crop", "alt": "Stand-up pouch formatları" },
+        { "src": "https://images.unsplash.com/photo-1703564202740-e9805c4a14ea?w=1000&q=88&auto=format&fit=crop", "alt": "Quadro yan körüklü ambalaj" },
+        { "src": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1000&q=88&auto=format&fit=crop", "alt": "Esnek ambalaj üretim hattı" },
+        { "src": "https://images.unsplash.com/photo-1773525912464-d2640e7aff9c?w=1000&q=88&auto=format&fit=crop", "alt": "Etiket ve ambalaj hattı" },
+        { "src": "https://images.unsplash.com/photo-1758183961426-88d64eb5f787?w=1000&q=88&auto=format&fit=crop", "alt": "Endüstriyel baskı makinesi" }
+      ]
+    },
+    "iletisim": {
+      "sayfaBaslik": "İletişim",
+      "sayfaAciklama": "Teklif ve numune talepleri için satış hattımız hafta içi 08:30–18:30 arası yanıt verir.",
+      "whatsappMesaj": "Merhaba ProPack, esnek ambalaj teklifi almak istiyorum."
+    },
+    "site": {
+      "footerEkMetin": ""
+    },
+    "fiyatHesap": {
+      "seoTitle": "Fiyat Hesaplama",
+      "seoDescription": "OPP, CPP, PET, LDPE torba ve rulo için online teklif tahmini.",
+      "rozet": "Online teklif",
+      "baslik": "Esnek ambalaj fiyat hesaplama",
+      "aciklama": "OPP, CPP, PET, LDPE torba ve rulo için tahmini teklif aralığı. Kesin fiyat numune ve baskı onayı sonrası 48 saat içinde yazılır.",
+      "sonucBaslik": "Tahmini teklif aralığı (KDV hariç)",
+      "waButon": "WhatsApp ile teklif iste",
+      "randevuButon": "Numune / keşif talebi",
+      "sonucAgirlik": "Tahmini ağırlık",
+      "sonucBirim": "Satış birim (kg)",
+      "sonucTeslim": "Tahmini teslim",
+      "sonucBaski": "Baskı işçilik",
+      "sonucKlise": "Klise / setup",
+      "sonucEk": "Ek özellikler"
+    },
+    "randevuForm": {
+      "pageTitle": "Teklif & numune talebi",
+      "pageDescription": "Talebiniz satış ekibimize iletilir; en kısa sürede yazılı teklif gönderilir.",
+      "intro": "Ölçü tablosu, baskı PDF veya numune fotoğrafı paylaşabilirsiniz.",
+      "approvedListTitle": "Onaylı teklif talepleri",
+      "approvedListIntro": "Onaylanmış talepler.",
+      "selectLabel": "Ürün grubu",
+      "submitButtonLabel": "Teklif talebi gönder",
+      "options": [
+        "OPP torba / poşet",
+        "CPP torba / ekmek",
+        "OPP & CPP rulo",
+        "PET laminasyon",
+        "LDPE torba",
+        "Doypack / kilitli",
+        "Quadro ambalaj",
+        "Flat bottom",
+        "Torba & rulo (OPP/CPP/PET/LDPE)",
+        "Baskılı ambalaj (flexo)",
+        "Acil stok rulo",
+        "Diğer / özel proje"
+      ]
+    },
+    "ambalajHome": {
+      "promoBar": "500 kg ve üzeri siparişlerde Marmara bölgesi sevkiyat avantajı · Numune desteği",
+      "kategoriBaslik": "Ürün grupları",
+      "kategoriAciklama": "Doypack, quadro, flat bottom, torba ve rulo — gıda temasına uygun esnek ambalaj çözümleri. Karton bardak ve kraft çanta grubu bu vitrinde yoktur.",
+      "kategoriler": [
+        {
+          "id": "doypack",
+          "baslik": "Kilitli poşet & Doypack",
+          "altBaslik": "Şeffaf, metalize, renkli, içecek valfli",
+          "href": "/urunler?kategori=doypack",
+          "imageSrc": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=1200&q=88&auto=format&fit=crop",
+          "imageAlt": "Valfli kilitli doypack ambalaj",
+          "vurgu": "Popüler"
+        },
+        {
+          "id": "quadro",
+          "baslik": "Quadro ambalaj",
+          "altBaslik": "Yan körüklü, raf duruşu güçlü",
+          "href": "/urunler?kategori=quadro",
+          "imageSrc": "https://images.unsplash.com/photo-1706881811952-31148fe91adc?w=1200&q=88&auto=format&fit=crop",
+          "imageAlt": "Çoklu stand-up pouch ambalaj"
+        },
+        {
+          "id": "flat",
+          "baslik": "Flat bottom",
+          "altBaslik": "Alttan körüklü, valfli seçenekler",
+          "href": "/urunler?kategori=flat",
+          "imageSrc": "https://images.unsplash.com/photo-1703564202740-e9805c4a14ea?w=1200&q=88&auto=format&fit=crop",
+          "imageAlt": "Alttan körüklü flat bottom ambalaj"
+        },
+        {
+          "id": "torba",
+          "baslik": "Torba & rulo",
+          "altBaslik": "OPP · CPP · PET · LDPE",
+          "href": "/urunler?kategori=torba",
+          "imageSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=88&auto=format&fit=crop",
+          "imageAlt": "Esnek ambalaj üretim tesisi"
+        },
+        {
+          "id": "baski",
+          "baslik": "Baskılı ambalaj",
+          "altBaslik": "Flexo baskı · klise · renk provası",
+          "href": "/urunler?kategori=baski",
+          "imageSrc": "https://images.unsplash.com/photo-1758183961426-88d64eb5f787?w=1200&q=88&auto=format&fit=crop",
+          "imageAlt": "Flexo baskı makinesi"
+        }
+      ],
+      "oneCikanBaslik": "Sık talep edilen formatlar",
+      "oneCikanAciklama": "Aşağıdaki ölçüler örnek referanslardır; kesin fiyat mikron, baskı ve adede göre hesaplanır. Online hesaplayıcı ile ön tahmin alın.",
+      "oneCikan": [
+        {
+          "id": "1",
+          "baslik": "Metalize kilitli torba 12×18 cm",
+          "ozellik": "Gıda bariyer · önden zip",
+          "minSiparis": "Min. 5.000 ad",
+          "etiket": "Doypack",
+          "href": "/urun/metalize-kilitli-torba-12x18",
+          "imageSrc": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=800&q=88&auto=format&fit=crop",
+          "imageAlt": "Metalize kilitli torba"
+        },
+        {
+          "id": "2",
+          "baslik": "İçecek doypack 250 ml valfli",
+          "ozellik": "13×22 cm · sıvı dolum uyumlu",
+          "minSiparis": "Min. 3.000 ad",
+          "etiket": "Valfli",
+          "href": "/urun/icecek-doypack-250ml-valfli",
+          "imageSrc": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=800&q=88&auto=format&fit=crop",
+          "imageAlt": "Valfli içecek doypack"
+        },
+        {
+          "id": "3",
+          "baslik": "Quadro 500 g metalize",
+          "ozellik": "12,5×27 cm · yan körük",
+          "minSiparis": "Min. 2.000 ad",
+          "etiket": "Quadro",
+          "href": "/urun/quadro-500g-metalize",
+          "imageSrc": "https://images.unsplash.com/photo-1703564202740-e9805c4a14ea?w=800&q=88&auto=format&fit=crop",
+          "imageAlt": "Quadro metalize ambalaj"
+        },
+        {
+          "id": "4",
+          "baslik": "Flat bottom 250 g mat",
+          "ozellik": "11,5×21 cm · düz taban",
+          "minSiparis": "Min. 2.500 ad",
+          "etiket": "Flat",
+          "href": "/urun/flat-bottom-250g-mat",
+          "imageSrc": "https://images.unsplash.com/photo-1706881811952-31148fe91adc?w=800&q=88&auto=format&fit=crop",
+          "imageAlt": "Flat bottom mat ambalaj"
+        },
+        {
+          "id": "5",
+          "baslik": "OPP+CPP laminasyon rulo",
+          "ozellik": "Bobin · otomatik hat",
+          "minSiparis": "Min. 300 kg",
+          "etiket": "Rulo",
+          "href": "/urun/opp-cpp-laminasyon-rulo",
+          "imageSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=88&auto=format&fit=crop",
+          "imageAlt": "Laminasyon rulo üretim hattı"
+        },
+        {
+          "id": "6",
+          "baslik": "Flexo baskılı LDPE torba",
+          "ozellik": "6 renk · klise dahil teklif",
+          "minSiparis": "Min. 500 kg",
+          "etiket": "Baskı",
+          "href": "/urun/flexo-baskili-ldpe-torba",
+          "imageSrc": "https://images.unsplash.com/photo-1758183961426-88d64eb5f787?w=800&q=88&auto=format&fit=crop",
+          "imageAlt": "Flexo baskı makinesi"
+        }
+      ],
+      "guvenBaslik": "Neden ProPack?",
+      "guven": [
+        { "baslik": "48 saat teklif", "aciklama": "Ölçü tablosu sonrası yazılı fiyat aralığı" },
+        { "baslik": "Numune & prova", "aciklama": "Baskı öncesi renk ve malzeme onayı" },
+        { "baslik": "Online hesap", "aciklama": "Kg/adet bazlı anlık tahmin motoru" },
+        { "baslik": "Esnek MOQ", "aciklama": "Stoklu rulo ve projeye özel üretim" }
+      ],
+      "sektorBaslik": "Sektöre göre çözümler",
+      "sektorAciklama": "Kahve, atıştırmalık, sos ve endüstriyel dolum hatları için format önerisi sunuyoruz.",
+      "sektorler": [
+        {
+          "baslik": "Gıda & atıştırmalık",
+          "aciklama": "Barrier doypack ve quadro — kuruyemiş, çikolata, granül.",
+          "href": "/randevu",
+          "imageSrc": "https://images.unsplash.com/photo-1706881811952-31148fe91adc?w=1200&q=88&auto=format&fit=crop",
+          "imageAlt": "Gıda ambalaj formatları"
+        },
+        {
+          "baslik": "Kahve & içecek",
+          "aciklama": "Valfli doypack, aroma koruma, sıvı dolum uyumu.",
+          "href": "/fiyat-hesaplama",
+          "imageSrc": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=1200&q=88&auto=format&fit=crop",
+          "imageAlt": "İçecek doypack ambalajı"
+        },
+        {
+          "baslik": "Endüstriyel & otomatik hat",
+          "aciklama": "OPP/CPP rulo, LDPE torba, yüksek hacim siparişler.",
+          "href": "/hizmetler",
+          "imageSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=88&auto=format&fit=crop",
+          "imageAlt": "Endüstriyel ambalaj üretimi"
+        }
+      ],
+      "ctaBand": {
+        "baslik": "Ölçünüz hazır mı?",
+        "aciklama": "Online mağazadan sipariş verin veya fiyat hesaplayıcı ile ön tahmin alın.",
+        "primaryLabel": "Mağazaya git",
+        "primaryHref": "/urunler",
+        "secondaryLabel": "Fiyat hesapla",
+        "secondaryHref": "/fiyat-hesaplama"
+      }
+    }
+  }
+}

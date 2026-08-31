@@ -1,0 +1,27 @@
+{
+  "ayarlar": {
+    "salonAd": "Ayfleks Ambalaj",
+    "whatsapp": "",
+    "iletisimWhatsapp": "",
+    "iletisimTelefon": "",
+    "iletisimEposta": "info@ayfleks.com",
+    "adresKisa": "İstanbul, Türkiye",
+    "adresDetay": "Ayfleks Packaging — İstanbul",
+    "calismaSaatleri": "Hafta içi 08:30 — 18:30",
+    "sehir": "İstanbul",
+    "menuDavranis": "hover",
+    "footerSosyalGoster": true,
+    "seoTitle": "Ayfleks Ambalaj | Gıda, Kişisel Bakım, Evcil Hayvan ve Endüstriyel Ambalaj",
+    "seoDescription": "Ayfleks Ambalaj — 1974'ten beri gıda, kişisel bakım & hijyen, evcil hayvan bakımı ve endüstriyel ambalaj çözümleri. Sürdürülebilir, doğada çözünebilir ambalajlar.",
+    "seoKeywords": "Ayfleks, ambalaj, gıda ambalajı, kişisel bakım ambalajı, evcil hayvan ambalajı, endüstriyel ambalaj, sürdürülebilir ambalaj, esnek ambalaj",
+    "seoOgImage": "/images/banner/ayfleks-manset-banner_6f10c.webp",
+    "seoIndex": true,
+    "googleMaps": "",
+    "instagram": "https://www.instagram.com/ayfleks/",
+    "linkedin": "https://www.linkedin.com/company/ayflekspackaging/",
+    "facebook": "https://www.facebook.com/profile.php?id=61588071230724",
+    "youtube": "https://www.youtube.com/@AyfleksPackaging",
+    "panelSolMenuSabitle": true,
+    "panelSolMenuBaslangic": "acik"
+  }
+}

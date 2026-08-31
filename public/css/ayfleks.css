@@ -123,9 +123,50 @@ html.ayfleks-site body {
   padding-top: 28px;
 }
 .ayf-kvkk-line a {
-  font-size: 18px;
+  font-size: 14px;
   color: #818181;
   text-decoration: none;
+}
+
+/* Footer üst blok — ayfleks.com boyutları (link + sosyal daha kompakt) */
+.footer-alt .footer-logo {
+  width: 128px;
+  max-width: 128px;
+  height: auto;
+}
+.footer-alt .footer-mul li {
+  padding-left: 32px;
+}
+.footer-alt .footer-mul a,
+.footer-alt .f-line2 a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #818181;
+  text-decoration: none;
+}
+.footer-alt .copyright-text {
+  font-size: 14px;
+  color: #818181;
+}
+.footer-alt .f-social {
+  margin-top: 20px;
+}
+.footer-alt .f-social .col-md-4 {
+  width: auto;
+  max-width: none;
+  flex: 0 0 auto;
+}
+.footer-alt .f-social .col {
+  flex: 0 0 auto;
+  width: auto;
+  padding: 0 10px;
+}
+.footer-alt .f-social .fa-brands {
+  font-size: 22px;
+  color: #024b3d;
+}
+.footer-alt .f-line2 {
+  margin-top: 96px;
 }
 
 /* Hero slider — siyah boşluk yok, owl-manset ile uyumlu */
@@ -323,6 +364,12 @@ html.ayfleks-site body {
   }
   .wrapper-tkpn.show {
     right: 12px;
+  }
+  .footer-alt .footer-mul li {
+    padding-left: 0;
+  }
+  .footer-alt .f-line2 {
+    margin-top: 48px;
   }
   #myNav .d-flex.align-items-start {
     flex-direction: row;

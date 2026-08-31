@@ -179,11 +179,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-02_7cbfa.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-03_f5c5b.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-04_f503d.webp"
+          "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-02_7cbfa.webp",
+          "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-03_f5c5b.webp",
+          "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-04_f503d.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/sekerleme-main_6155c.webp",
+        "imageSrc": "/images/urunler/sekerleme-main_6155c.webp",
         "locale": "tr"
       },
       {
@@ -212,11 +212,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-02_9022b.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-03_60ecb.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-04_34d19.webp"
+          "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-02_9022b.webp",
+          "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-03_60ecb.webp",
+          "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-04_34d19.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/dried-fruit-main_175b9.webp",
+        "imageSrc": "/images/urunler/dried-fruit-main_175b9.webp",
         "locale": "tr"
       },
       {
@@ -245,11 +245,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-02_7ec70.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-03_2ef1d.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-04_10ef4.webp"
+          "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-02_7ec70.webp",
+          "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-03_2ef1d.webp",
+          "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-04_10ef4.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/urun-detay-main-image_b2f8b.webp",
+        "imageSrc": "/images/urunler/urun-detay-main-image_b2f8b.webp",
         "locale": "tr"
       },
       {
@@ -278,11 +278,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-02_e90d4.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-03_4ba6e.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-04_6c091.webp"
+          "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-02_e90d4.webp",
+          "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-03_4ba6e.webp",
+          "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-04_6c091.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/ekmek-ambalaj-main_2367f.webp",
+        "imageSrc": "/images/urunler/ekmek-ambalaj-main_2367f.webp",
         "locale": "tr"
       },
       {
@@ -311,11 +311,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-02_ffbac.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-03_23c58.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-04_d7e0b.webp"
+          "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-02_ffbac.webp",
+          "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-03_23c58.webp",
+          "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-04_d7e0b.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/tavuk-ambalaj-main_d16c6.webp",
+        "imageSrc": "/images/urunler/tavuk-ambalaj-main_d16c6.webp",
         "locale": "tr"
       },
       {
@@ -344,11 +344,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-02_77795.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-03_733a9.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-04_ba06c.webp"
+          "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-02_77795.webp",
+          "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-03_733a9.webp",
+          "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-04_ba06c.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/ambalaj-cay-kahve_b907f.webp",
+        "imageSrc": "/images/urunler/ambalaj-cay-kahve_b907f.webp",
         "locale": "tr"
       },
       {
@@ -377,11 +377,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-baharat-ambalajlari-02_3cedc.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-baharat-ambalajlari-04_4bbde.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-baharat-ambalajlari-03_73628.webp"
+          "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-02_3cedc.webp",
+          "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-04_4bbde.webp",
+          "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-03_73628.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/baharat-ambalaj-main_38420.webp",
+        "imageSrc": "/images/urunler/baharat-ambalaj-main_38420.webp",
         "locale": "tr"
       },
       {
@@ -410,11 +410,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-02_cd92d.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-03_981da.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-04_5d5c7.webp"
+          "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-02_cd92d.webp",
+          "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-03_981da.webp",
+          "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-04_5d5c7.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/kuru-yemis-ambalaj-main_c1179.webp",
+        "imageSrc": "/images/urunler/kuru-yemis-ambalaj-main_c1179.webp",
         "locale": "tr"
       },
       {
@@ -443,11 +443,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-retort-ambalajlar-02_82441.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-retort-ambalajlar-03_52133.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-retort-ambalajlar-04_1beb4.webp"
+          "/images/urunfotogaleri/ayfleks-retort-ambalajlar-02_82441.webp",
+          "/images/urunfotogaleri/ayfleks-retort-ambalajlar-03_52133.webp",
+          "/images/urunfotogaleri/ayfleks-retort-ambalajlar-04_1beb4.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/retort-main_bf389.webp",
+        "imageSrc": "/images/urunler/retort-main_bf389.webp",
         "locale": "tr"
       },
       {
@@ -476,11 +476,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-02_3ce35.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-03_7ceaf.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-04_8c95c.webp"
+          "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-02_3ce35.webp",
+          "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-03_7ceaf.webp",
+          "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-04_8c95c.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/dondurulmus-gida-ambalaj-main_ad4a5.webp",
+        "imageSrc": "/images/urunler/dondurulmus-gida-ambalaj-main_ad4a5.webp",
         "locale": "tr"
       },
       {
@@ -509,11 +509,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-02_67d4c.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-03_7052a.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-04_14c07.webp"
+          "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-02_67d4c.webp",
+          "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-03_7052a.webp",
+          "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-04_14c07.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/taze-meyve-sebze-ambalaj-main_d2c66.webp",
+        "imageSrc": "/images/urunler/taze-meyve-sebze-ambalaj-main_d2c66.webp",
         "locale": "tr"
       },
       {
@@ -542,11 +542,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-02_2db17.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-03_70ccc.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-04_b636b.webp"
+          "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-02_2db17.webp",
+          "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-03_70ccc.webp",
+          "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-04_b636b.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/bakliyat_8c261.webp",
+        "imageSrc": "/images/urunler/bakliyat_8c261.webp",
         "locale": "tr"
       },
       {
@@ -575,11 +575,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-02_00f5c.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-03_4ec28.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-04_bd164.webp"
+          "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-02_00f5c.webp",
+          "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-03_4ec28.webp",
+          "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-04_bd164.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/salmon-fish_40d76.webp",
+        "imageSrc": "/images/urunler/salmon-fish_40d76.webp",
         "locale": "tr"
       },
       {
@@ -608,11 +608,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-02_4feba.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-03_5a537.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-04_efa83.webp"
+          "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-02_4feba.webp",
+          "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-03_5a537.webp",
+          "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-04_efa83.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/bebek-bezi-main_315f8.webp",
+        "imageSrc": "/images/urunler/bebek-bezi-main_315f8.webp",
         "locale": "tr"
       },
       {
@@ -641,11 +641,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-02_9169d.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-03_06e30.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-04_df295.webp"
+          "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-02_9169d.webp",
+          "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-03_06e30.webp",
+          "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-04_df295.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/islak-mendil-main_34d43.webp",
+        "imageSrc": "/images/urunler/islak-mendil-main_34d43.webp",
         "locale": "tr"
       },
       {
@@ -674,11 +674,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-02_64c8a.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-03_b93dc.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-04_a24ac.webp"
+          "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-02_64c8a.webp",
+          "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-03_b93dc.webp",
+          "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-04_a24ac.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/urun-deterjan-main_3a78d.webp",
+        "imageSrc": "/images/urunler/urun-deterjan-main_3a78d.webp",
         "locale": "tr"
       },
       {
@@ -707,11 +707,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-02_11de4.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-03_2581b.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-04_bc6e3.webp"
+          "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-02_11de4.webp",
+          "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-03_2581b.webp",
+          "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-04_bc6e3.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/tuvalet-kagidi-main_2f174.webp",
+        "imageSrc": "/images/urunler/tuvalet-kagidi-main_2f174.webp",
         "locale": "tr"
       },
       {
@@ -740,11 +740,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-02_bde7b.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-03_59fa3.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-04_e5f6e.webp"
+          "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-02_bde7b.webp",
+          "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-03_59fa3.webp",
+          "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-04_e5f6e.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/hijyenik-ped-main_c4011.webp",
+        "imageSrc": "/images/urunler/hijyenik-ped-main_c4011.webp",
         "locale": "tr"
       },
       {
@@ -773,11 +773,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-02_e29d8.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-03_90ddc.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-04_ca04a.webp"
+          "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-02_e29d8.webp",
+          "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-03_90ddc.webp",
+          "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-04_ca04a.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/pet_ceb0c.webp",
+        "imageSrc": "/images/urunler/pet_ceb0c.webp",
         "locale": "tr"
       },
       {
@@ -806,11 +806,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kum-ambalajlari-02_72366.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kum-ambalajlari-03_c77c3.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kum-ambalajlari-04_75289.webp"
+          "/images/urunfotogaleri/ayfleks-kum-ambalajlari-02_72366.webp",
+          "/images/urunfotogaleri/ayfleks-kum-ambalajlari-03_c77c3.webp",
+          "/images/urunfotogaleri/ayfleks-kum-ambalajlari-04_75289.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/kedi-kumu-main_6b397.webp",
+        "imageSrc": "/images/urunler/kedi-kumu-main_6b397.webp",
         "locale": "tr"
       },
       {
@@ -839,11 +839,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kargo-torbalari-02_97b59.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kargo-torbalari-03_d0f58.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kargo-torbalari-04_028b3.webp"
+          "/images/urunfotogaleri/ayfleks-kargo-torbalari-02_97b59.webp",
+          "/images/urunfotogaleri/ayfleks-kargo-torbalari-03_d0f58.webp",
+          "/images/urunfotogaleri/ayfleks-kargo-torbalari-04_028b3.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/kargo-posetleri-main_8ddcf.webp",
+        "imageSrc": "/images/urunler/kargo-posetleri-main_8ddcf.webp",
         "locale": "tr"
       },
       {
@@ -872,11 +872,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tekstil-ambalaji-03_22d61.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tekstil-ambalaji-04_42874.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tekstil-ambalaji-02_57be3.webp"
+          "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-03_22d61.webp",
+          "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-04_42874.webp",
+          "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-02_57be3.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/tekstil-ambalaji-main_2e8f7.webp",
+        "imageSrc": "/images/urunler/tekstil-ambalaji-main_2e8f7.webp",
         "locale": "tr"
       },
       {
@@ -905,11 +905,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-shrink-02_a4367.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-shrink-03_1959e.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-shrink-04_bf50a.webp"
+          "/images/urunfotogaleri/ayfleks-shrink-02_a4367.webp",
+          "/images/urunfotogaleri/ayfleks-shrink-03_1959e.webp",
+          "/images/urunfotogaleri/ayfleks-shrink-04_bf50a.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/shrink-main_643e5.webp",
+        "imageSrc": "/images/urunler/shrink-main_643e5.webp",
         "locale": "tr"
       },
       {
@@ -938,11 +938,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-alisveris-cantalari-02_fe349.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-alisveris-cantalari-03_6961c.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-alisveris-cantalari-04_99232.webp"
+          "/images/urunfotogaleri/ayfleks-alisveris-cantalari-02_fe349.webp",
+          "/images/urunfotogaleri/ayfleks-alisveris-cantalari-03_6961c.webp",
+          "/images/urunfotogaleri/ayfleks-alisveris-cantalari-04_99232.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/alisveris-cantalari-main_084f3.webp",
+        "imageSrc": "/images/urunler/alisveris-cantalari-main_084f3.webp",
         "locale": "tr"
       },
       {
@@ -971,11 +971,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-02_7605d.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-03_db3f2.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-04_31fee.webp"
+          "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-02_7605d.webp",
+          "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-03_db3f2.webp",
+          "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-04_31fee.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/askili-tekstil-ambalaji-main_5d167.webp",
+        "imageSrc": "/images/urunler/askili-tekstil-ambalaji-main_5d167.webp",
         "locale": "tr"
       },
       {
@@ -1004,11 +1004,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-02_5eda2.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-03_064c8.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-04_e9809.webp"
+          "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-02_5eda2.webp",
+          "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-03_064c8.webp",
+          "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-04_e9809.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/kuru-temizleme-torbalari-main_e7ac0.webp",
+        "imageSrc": "/images/urunler/kuru-temizleme-torbalari-main_e7ac0.webp",
         "locale": "tr"
       }
     ],
@@ -1018,28 +1018,28 @@
         "baslik": "Packaging Innovations & Empack Fuarı'ndayız.",
         "aciklama": "Packaging Innovations & Empack Fuarı'ndayız.",
         "icerikHtml": "<p>7 Ocak 2026 Çarşamba</p>\n<p><p>Ambalaj dünyasının önde gelen fuarlarından biri olan Packaging Innovations &amp; Empack Fuarı'nda yerimizi alacağız. 11-12 Şubat 2026'da NEC Birmingham G144 numaralı standımıza bekleriz.</p>\n</p>",
-        "imageSrc": "https://ayfleks.com/images/haberler/ayfleks-haberler-03_59e31.webp"
+        "imageSrc": "/images/haberler/ayfleks-haberler-03_59e31.webp"
       },
       {
         "slug": "interpack-2026-fuarindayiz",
         "baslik": "Interpack 2026 Fuarı'ndayız.",
         "aciklama": "Interpack 2026 Fuarı'ndayız.",
         "icerikHtml": "<p>7 Ocak 2026 Çarşamba</p>\n<p><p>Ambalaj dünyasının önde gelen fuarlarından Interpack 2026 Fuarı'nda sektör profesyonelleriyle buluşacağız. 7-13 Mayıs 2026 tarihlerinde Düsseldorf'ta Hall 7, Level 1 / E40-2 numaralı standımızda görüşmek üzere...</p>\n</p>",
-        "imageSrc": "https://ayfleks.com/images/haberler/ayfleks-haberler-04_16a54.webp"
+        "imageSrc": "/images/haberler/ayfleks-haberler-04_16a54.webp"
       },
       {
         "slug": "tema-vakfina-bagis-yaptik",
         "baslik": "TEMA Vakfı'na bağış yaptık.",
         "aciklama": "TEMA Vakfı'na bağış yaptık.",
         "icerikHtml": "<p>18 Aralık 2025 Perşembe</p>\n<p><p>Ayfleks olarak, İzmir’deki orman yangınlarının ardından, ağaçlandırma çalışmalarına destek olduk. Bağışımız TEMA Vakfı sertifikası ile taçlandırıldı.</p>\n<p>Diktiğimiz her fidan, yanmış topraklarda yeniden filizlenen bir umut, gelecek nesillere bırakılan bir mirastır. Doğaya verdiğimiz her nefes, geleceğe verilmiş bir sözdür.</p>\n<p>TEMA ile birlikte yaraları sarıyoruz, yeşili geri getiriyoruz.</p>\n</p>",
-        "imageSrc": "https://ayfleks.com/images/haberler/ayfleks-haberler-01_313fd.webp"
+        "imageSrc": "/images/haberler/ayfleks-haberler-01_313fd.webp"
       },
       {
         "slug": "fachpack-2025te-yerimizi-aldik",
         "baslik": "FachPack 2025'te yerimizi aldık.",
         "aciklama": "FachPack 2025'te yerimizi aldık.",
         "icerikHtml": "<p>18 Aralık 2025 Perşembe</p>\n<p><p>Ambalaj, proses ve teknoloji dünyasının önde gelen fuarlarından FachPack 2025’te yerimizi aldık. Esnek ambalaj çözümlerimizi keşfetmek ve markasına özel çözümlerimizi konuşmak isteyen sektör profesyonelleriyle buluştuk.</p>\n<p>Standımızı ziyaret eden tüm misafirlerimize teşekkür ederiz. </p>\n</p>",
-        "imageSrc": "https://ayfleks.com/images/haberler/ayfleks-haberler-03_8e7f0.webp"
+        "imageSrc": "/images/haberler/ayfleks-haberler-03_8e7f0.webp"
       }
     ]
   },
@@ -1211,11 +1211,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-02_7cbfa.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-03_f5c5b.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-04_f503d.webp"
+          "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-02_7cbfa.webp",
+          "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-03_f5c5b.webp",
+          "/images/urunfotogaleri/ayfleks-sekerleme-ambalajlari-04_f503d.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/sekerleme-main_6155c.webp",
+        "imageSrc": "/images/urunler/sekerleme-main_6155c.webp",
         "locale": "en"
       },
       {
@@ -1244,11 +1244,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-02_9022b.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-03_60ecb.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-04_34d19.webp"
+          "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-02_9022b.webp",
+          "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-03_60ecb.webp",
+          "/images/urunfotogaleri/ayfleks-kurutulmus-gidalar-ambalajlari-04_34d19.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/dried-fruit-main_175b9.webp",
+        "imageSrc": "/images/urunler/dried-fruit-main_175b9.webp",
         "locale": "en"
       },
       {
@@ -1277,11 +1277,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-02_7ec70.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-03_2ef1d.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-04_10ef4.webp"
+          "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-02_7ec70.webp",
+          "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-03_2ef1d.webp",
+          "/images/urunfotogaleri/ayfleks-icecek-takviye-urunleri-ambalajlari-04_10ef4.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/urun-detay-main-image_b2f8b.webp",
+        "imageSrc": "/images/urunler/urun-detay-main-image_b2f8b.webp",
         "locale": "en"
       },
       {
@@ -1310,11 +1310,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-02_e90d4.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-03_4ba6e.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-04_6c091.webp"
+          "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-02_e90d4.webp",
+          "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-03_4ba6e.webp",
+          "/images/urunfotogaleri/ayfleks-firin-urunleri-ambalajlari-04_6c091.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/ekmek-ambalaj-main_2367f.webp",
+        "imageSrc": "/images/urunler/ekmek-ambalaj-main_2367f.webp",
         "locale": "en"
       },
       {
@@ -1343,11 +1343,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-02_ffbac.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-03_23c58.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-04_d7e0b.webp"
+          "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-02_ffbac.webp",
+          "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-03_23c58.webp",
+          "/images/urunfotogaleri/ayfleks-tavuk-ekmek-ambalajlari-04_d7e0b.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/tavuk-ambalaj-main_d16c6.webp",
+        "imageSrc": "/images/urunler/tavuk-ambalaj-main_d16c6.webp",
         "locale": "en"
       },
       {
@@ -1376,11 +1376,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-02_77795.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-03_733a9.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-04_ba06c.webp"
+          "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-02_77795.webp",
+          "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-03_733a9.webp",
+          "/images/urunfotogaleri/ayfleks-cay-kahve-ambalajlari-04_ba06c.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/ambalaj-cay-kahve_b907f.webp",
+        "imageSrc": "/images/urunler/ambalaj-cay-kahve_b907f.webp",
         "locale": "en"
       },
       {
@@ -1409,11 +1409,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-baharat-ambalajlari-02_3cedc.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-baharat-ambalajlari-04_4bbde.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-baharat-ambalajlari-03_73628.webp"
+          "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-02_3cedc.webp",
+          "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-04_4bbde.webp",
+          "/images/urunfotogaleri/ayfleks-baharat-ambalajlari-03_73628.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/baharat-ambalaj-main_38420.webp",
+        "imageSrc": "/images/urunler/baharat-ambalaj-main_38420.webp",
         "locale": "en"
       },
       {
@@ -1442,11 +1442,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-02_cd92d.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-03_981da.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-04_5d5c7.webp"
+          "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-02_cd92d.webp",
+          "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-03_981da.webp",
+          "/images/urunfotogaleri/ayfleks-kuru-yemis-ambalajlari-04_5d5c7.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/kuru-yemis-ambalaj-main_c1179.webp",
+        "imageSrc": "/images/urunler/kuru-yemis-ambalaj-main_c1179.webp",
         "locale": "en"
       },
       {
@@ -1475,11 +1475,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-retort-ambalajlar-02_82441.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-retort-ambalajlar-03_52133.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-retort-ambalajlar-04_1beb4.webp"
+          "/images/urunfotogaleri/ayfleks-retort-ambalajlar-02_82441.webp",
+          "/images/urunfotogaleri/ayfleks-retort-ambalajlar-03_52133.webp",
+          "/images/urunfotogaleri/ayfleks-retort-ambalajlar-04_1beb4.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/retort-main_bf389.webp",
+        "imageSrc": "/images/urunler/retort-main_bf389.webp",
         "locale": "en"
       },
       {
@@ -1508,11 +1508,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-02_3ce35.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-03_7ceaf.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-04_8c95c.webp"
+          "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-02_3ce35.webp",
+          "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-03_7ceaf.webp",
+          "/images/urunfotogaleri/ayfleks-dondurulmus-gida-ambalajlari-04_8c95c.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/dondurulmus-gida-ambalaj-main_ad4a5.webp",
+        "imageSrc": "/images/urunler/dondurulmus-gida-ambalaj-main_ad4a5.webp",
         "locale": "en"
       },
       {
@@ -1541,11 +1541,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-02_67d4c.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-03_7052a.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-04_14c07.webp"
+          "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-02_67d4c.webp",
+          "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-03_7052a.webp",
+          "/images/urunfotogaleri/ayfleks-taze-meyve-sebze-ambalajlari-04_14c07.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/taze-meyve-sebze-ambalaj-main_d2c66.webp",
+        "imageSrc": "/images/urunler/taze-meyve-sebze-ambalaj-main_d2c66.webp",
         "locale": "en"
       },
       {
@@ -1574,11 +1574,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-02_2db17.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-03_70ccc.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-04_b636b.webp"
+          "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-02_2db17.webp",
+          "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-03_70ccc.webp",
+          "/images/urunfotogaleri/ayfleks-bakliyat-ambalajlari-04_b636b.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/bakliyat_8c261.webp",
+        "imageSrc": "/images/urunler/bakliyat_8c261.webp",
         "locale": "en"
       },
       {
@@ -1607,11 +1607,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-02_00f5c.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-03_4ec28.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-04_bd164.webp"
+          "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-02_00f5c.webp",
+          "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-03_4ec28.webp",
+          "/images/urunfotogaleri/ayfleks-et-sut-deniz-urunleri-ambalajlari-04_bd164.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/salmon-fish_40d76.webp",
+        "imageSrc": "/images/urunler/salmon-fish_40d76.webp",
         "locale": "en"
       },
       {
@@ -1640,11 +1640,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-02_4feba.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-03_5a537.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-04_efa83.webp"
+          "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-02_4feba.webp",
+          "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-03_5a537.webp",
+          "/images/urunfotogaleri/ayfleks-bebek-bezi-ambalajlari-04_efa83.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/bebek-bezi-main_315f8.webp",
+        "imageSrc": "/images/urunler/bebek-bezi-main_315f8.webp",
         "locale": "en"
       },
       {
@@ -1673,11 +1673,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-02_9169d.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-03_06e30.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-04_df295.webp"
+          "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-02_9169d.webp",
+          "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-03_06e30.webp",
+          "/images/urunfotogaleri/ayfleks-islak-mendil-ambalajlari-04_df295.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/islak-mendil-main_34d43.webp",
+        "imageSrc": "/images/urunler/islak-mendil-main_34d43.webp",
         "locale": "en"
       },
       {
@@ -1706,11 +1706,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-02_64c8a.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-03_b93dc.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-04_a24ac.webp"
+          "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-02_64c8a.webp",
+          "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-03_b93dc.webp",
+          "/images/urunfotogaleri/ayfleks-deterjan-ambalajlari-04_a24ac.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/urun-deterjan-main_3a78d.webp",
+        "imageSrc": "/images/urunler/urun-deterjan-main_3a78d.webp",
         "locale": "en"
       },
       {
@@ -1739,11 +1739,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-02_11de4.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-03_2581b.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-04_bc6e3.webp"
+          "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-02_11de4.webp",
+          "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-03_2581b.webp",
+          "/images/urunfotogaleri/ayfleks-tuvalet-kagidi-ambalajlari-04_bc6e3.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/tuvalet-kagidi-main_2f174.webp",
+        "imageSrc": "/images/urunler/tuvalet-kagidi-main_2f174.webp",
         "locale": "en"
       },
       {
@@ -1772,11 +1772,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-02_bde7b.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-03_59fa3.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-04_e5f6e.webp"
+          "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-02_bde7b.webp",
+          "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-03_59fa3.webp",
+          "/images/urunfotogaleri/ayfleks-hijyenik-ped-ambalajlari-04_e5f6e.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/hijyenik-ped-main_c4011.webp",
+        "imageSrc": "/images/urunler/hijyenik-ped-main_c4011.webp",
         "locale": "en"
       },
       {
@@ -1805,11 +1805,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-02_e29d8.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-03_90ddc.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-04_ca04a.webp"
+          "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-02_e29d8.webp",
+          "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-03_90ddc.webp",
+          "/images/urunfotogaleri/ayfleks-evcil-hayvan-mamasi-ambalaji-04_ca04a.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/pet_ceb0c.webp",
+        "imageSrc": "/images/urunler/pet_ceb0c.webp",
         "locale": "en"
       },
       {
@@ -1838,11 +1838,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kum-ambalajlari-02_72366.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kum-ambalajlari-03_c77c3.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kum-ambalajlari-04_75289.webp"
+          "/images/urunfotogaleri/ayfleks-kum-ambalajlari-02_72366.webp",
+          "/images/urunfotogaleri/ayfleks-kum-ambalajlari-03_c77c3.webp",
+          "/images/urunfotogaleri/ayfleks-kum-ambalajlari-04_75289.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/kedi-kumu-main_6b397.webp",
+        "imageSrc": "/images/urunler/kedi-kumu-main_6b397.webp",
         "locale": "en"
       },
       {
@@ -1871,11 +1871,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kargo-torbalari-02_97b59.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kargo-torbalari-03_d0f58.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kargo-torbalari-04_028b3.webp"
+          "/images/urunfotogaleri/ayfleks-kargo-torbalari-02_97b59.webp",
+          "/images/urunfotogaleri/ayfleks-kargo-torbalari-03_d0f58.webp",
+          "/images/urunfotogaleri/ayfleks-kargo-torbalari-04_028b3.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/kargo-posetleri-main_8ddcf.webp",
+        "imageSrc": "/images/urunler/kargo-posetleri-main_8ddcf.webp",
         "locale": "en"
       },
       {
@@ -1904,11 +1904,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tekstil-ambalaji-03_22d61.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tekstil-ambalaji-04_42874.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-tekstil-ambalaji-02_57be3.webp"
+          "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-03_22d61.webp",
+          "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-04_42874.webp",
+          "/images/urunfotogaleri/ayfleks-tekstil-ambalaji-02_57be3.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/tekstil-ambalaji-main_2e8f7.webp",
+        "imageSrc": "/images/urunler/tekstil-ambalaji-main_2e8f7.webp",
         "locale": "en"
       },
       {
@@ -1937,11 +1937,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-shrink-02_a4367.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-shrink-03_1959e.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-shrink-04_bf50a.webp"
+          "/images/urunfotogaleri/ayfleks-shrink-02_a4367.webp",
+          "/images/urunfotogaleri/ayfleks-shrink-03_1959e.webp",
+          "/images/urunfotogaleri/ayfleks-shrink-04_bf50a.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/shrink-main_643e5.webp",
+        "imageSrc": "/images/urunler/shrink-main_643e5.webp",
         "locale": "en"
       },
       {
@@ -1970,11 +1970,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-alisveris-cantalari-02_fe349.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-alisveris-cantalari-03_6961c.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-alisveris-cantalari-04_99232.webp"
+          "/images/urunfotogaleri/ayfleks-alisveris-cantalari-02_fe349.webp",
+          "/images/urunfotogaleri/ayfleks-alisveris-cantalari-03_6961c.webp",
+          "/images/urunfotogaleri/ayfleks-alisveris-cantalari-04_99232.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/alisveris-cantalari-main_084f3.webp",
+        "imageSrc": "/images/urunler/alisveris-cantalari-main_084f3.webp",
         "locale": "en"
       },
       {
@@ -2003,11 +2003,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-02_7605d.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-03_db3f2.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-04_31fee.webp"
+          "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-02_7605d.webp",
+          "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-03_db3f2.webp",
+          "/images/urunfotogaleri/ayfleks-askili-tekstil-torbalari-04_31fee.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/askili-tekstil-ambalaji-main_5d167.webp",
+        "imageSrc": "/images/urunler/askili-tekstil-ambalaji-main_5d167.webp",
         "locale": "en"
       },
       {
@@ -2036,11 +2036,11 @@
           }
         ],
         "galeri": [
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-02_5eda2.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-03_064c8.webp",
-          "https://ayfleks.com/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-04_e9809.webp"
+          "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-02_5eda2.webp",
+          "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-03_064c8.webp",
+          "/images/urunfotogaleri/ayfleks-kuru-temizleme-torbalari-04_e9809.webp"
         ],
-        "imageSrc": "https://ayfleks.com/images/urunler/kuru-temizleme-torbalari-main_e7ac0.webp",
+        "imageSrc": "/images/urunler/kuru-temizleme-torbalari-main_e7ac0.webp",
         "locale": "en"
       }
     ],
@@ -2050,28 +2050,28 @@
         "baslik": "Join us at Packaging Innovations & Empack.",
         "aciklama": "Wednesday, January 7, 2026",
         "icerikHtml": "<p>Wednesday, January 7, 2026</p>\n<p><p>We're excited to be exhibiting at one of the industry’s premier events, Packaging Innovations &amp; Empack. Visit us at stand G144 on February 11–12, 2026, at NEC Birmingham and explore our latest flexible packaging solutions.</p>\n</p>",
-        "imageSrc": "https://ayfleks.com/images/haberler/ayfleks-haberler-03_59e31.webp"
+        "imageSrc": "/images/haberler/ayfleks-haberler-03_59e31.webp"
       },
       {
         "slug": "we-are-at-interpack-2026",
         "baslik": "We are at Interpack 2026.",
         "aciklama": "Wednesday, January 7, 2026",
         "icerikHtml": "<p>Wednesday, January 7, 2026</p>\n<p><p>We're looking forward to connecting with industry professionals at Interpack 2026, one of the world’s leading trade fairs for the packaging sector. Come visit us in Düsseldorf from May 7–13, 2026, at Hall 7, Level 1 / Stand E40-2.</p>\n</p>",
-        "imageSrc": "https://ayfleks.com/images/haberler/ayfleks-haberler-04_16a54.webp"
+        "imageSrc": "/images/haberler/ayfleks-haberler-04_16a54.webp"
       },
       {
         "slug": "weve-donated-to-the-tema-foundation",
         "baslik": "We've Donated to the TEMA Foundation.",
         "aciklama": "Thursday, December 18, 2025",
         "icerikHtml": "<p>Thursday, December 18, 2025</p>\n<p><p>Following the forest fires in İzmir, Ayfleks supported reforestation efforts by making a donation to the TEMA Foundation. Our contribution was honored with a certificate from the foundation.</p>\n<p>Every tree we plant is a symbol of hope sprouting from scorched earth and a living legacy for future generations. Every breath we give to nature is a promise we make to tomorrow.</p>\n<p>Together with TEMA, we're helping nature heal and bringing green back to life.</p>\n</p>",
-        "imageSrc": "https://ayfleks.com/images/haberler/ayfleks-haberler-01_313fd.webp"
+        "imageSrc": "/images/haberler/ayfleks-haberler-01_313fd.webp"
       },
       {
         "slug": "we-were-at-fachpack-2025",
         "baslik": "We were at FachPack 2025.",
         "aciklama": "Thursday, December 18, 2025",
         "icerikHtml": "<p>Thursday, December 18, 2025</p>\n<p><p>We proudly took part in FachPack 2025, one of the leading trade fairs for packaging, processing, and technology. It was a pleasure to connect with industry professionals, showcase our flexible packaging solutions, and discuss tailored options for their brands.</p>\n<p>Thank you to everyone who visited our stand.</p>\n</p>",
-        "imageSrc": "https://ayfleks.com/images/haberler/ayfleks-haberler-03_8e7f0.webp"
+        "imageSrc": "/images/haberler/ayfleks-haberler-03_8e7f0.webp"
       }
     ]
   }

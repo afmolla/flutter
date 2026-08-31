@@ -10,7 +10,12 @@
       "ctaSecondaryHref": "/fiyat-hesaplama",
       "heroImageSrc": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=1920&q=88&auto=format&fit=crop",
       "heroImageAlt": "Valfli kilitli doypack ambalaj",
-      "etiketler": ["Doypack · Quadro", "Flat bottom", "Torba & rulo", "Flexo baskı"],
+      "etiketler": [
+        "Doypack · Quadro",
+        "Flat bottom",
+        "Torba & rulo",
+        "Flexo baskı"
+      ],
       "heroKart": {
         "imageSrc": "https://images.unsplash.com/photo-1706881811952-31148fe91adc?w=1200&q=88&auto=format&fit=crop",
         "imageAlt": "Stand-up pouch ambalaj örnekleri",
@@ -65,36 +70,131 @@
       "kolonFiyat": "Fiyat",
       "sayfaAciklama": "Doypack, quadro, flat bottom, torba ve rulo üretim grupları. Fiyatlar malzeme, mikron ve adede göre değişir — online hesaplayıcı ile ön tahmin alın.",
       "rows": [
-        { "ad": "Kilitli poşet & Doypack", "sure": "Şeffaf · metalize · valfli · renkli", "fiyat": "", "anchorId": "doypack" },
-        { "ad": "Metalize kilitli torba", "sure": "Min. 5.000 ad", "fiyat": "Teklif" },
-        { "ad": "Şeffaf / renkli doypack", "sure": "Min. 8.000 ad", "fiyat": "Teklif" },
-        { "ad": "İçecek doypack (valfli)", "sure": "Min. 3.000 ad", "fiyat": "Teklif" },
-        { "ad": "Quadro ambalaj", "sure": "Yan körüklü · raf duruşu", "fiyat": "", "anchorId": "quadro" },
-        { "ad": "Quadro 250–500 g metalize", "sure": "Min. 2.000 ad", "fiyat": "Teklif" },
-        { "ad": "Quadro 1000 g format", "sure": "Min. 1.500 ad", "fiyat": "Teklif" },
-        { "ad": "Flat bottom", "sure": "Alttan körüklü · mat / metalize", "fiyat": "", "anchorId": "flat" },
-        { "ad": "Flat bottom önden kilitli", "sure": "Min. 2.500 ad", "fiyat": "Teklif" },
-        { "ad": "Valfli flat bottom", "sure": "Min. 2.000 ad", "fiyat": "Teklif" },
-        { "ad": "Torba & rulo", "sure": "OPP · CPP · PET · LDPE", "fiyat": "", "anchorId": "torba" },
-        { "ad": "OPP / CPP torba", "sure": "Min. sipariş kg/adet", "fiyat": "Teklif" },
-        { "ad": "OPP+CPP laminasyon rulo", "sure": "Bobin / kg", "fiyat": "Teklif" },
-        { "ad": "PET+PE gıda laminasyonu", "sure": "Min. 250 kg", "fiyat": "Teklif" },
-        { "ad": "LDPE market & endüstriyel", "sure": "Min. 500 kg", "fiyat": "Teklif" },
-        { "ad": "Baskılı ambalaj", "sure": "Flexo · klise · renk provası", "fiyat": "", "anchorId": "baski" },
-        { "ad": "Flexo baskılı torba / rulo", "sure": "Klise + kg", "fiyat": "Teklif" },
-        { "ad": "Numune & renk provası", "sure": "3–5 iş günü", "fiyat": "Ücretsiz keşif*" }
+        {
+          "ad": "Kilitli poşet & Doypack",
+          "sure": "Şeffaf · metalize · valfli · renkli",
+          "fiyat": "",
+          "anchorId": "doypack"
+        },
+        {
+          "ad": "Metalize kilitli torba",
+          "sure": "Min. 5.000 ad",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "Şeffaf / renkli doypack",
+          "sure": "Min. 8.000 ad",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "İçecek doypack (valfli)",
+          "sure": "Min. 3.000 ad",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "Quadro ambalaj",
+          "sure": "Yan körüklü · raf duruşu",
+          "fiyat": "",
+          "anchorId": "quadro"
+        },
+        {
+          "ad": "Quadro 250–500 g metalize",
+          "sure": "Min. 2.000 ad",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "Quadro 1000 g format",
+          "sure": "Min. 1.500 ad",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "Flat bottom",
+          "sure": "Alttan körüklü · mat / metalize",
+          "fiyat": "",
+          "anchorId": "flat"
+        },
+        {
+          "ad": "Flat bottom önden kilitli",
+          "sure": "Min. 2.500 ad",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "Valfli flat bottom",
+          "sure": "Min. 2.000 ad",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "Torba & rulo",
+          "sure": "OPP · CPP · PET · LDPE",
+          "fiyat": "",
+          "anchorId": "torba"
+        },
+        {
+          "ad": "OPP / CPP torba",
+          "sure": "Min. sipariş kg/adet",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "OPP+CPP laminasyon rulo",
+          "sure": "Bobin / kg",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "PET+PE gıda laminasyonu",
+          "sure": "Min. 250 kg",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "LDPE market & endüstriyel",
+          "sure": "Min. 500 kg",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "Baskılı ambalaj",
+          "sure": "Flexo · klise · renk provası",
+          "fiyat": "",
+          "anchorId": "baski"
+        },
+        {
+          "ad": "Flexo baskılı torba / rulo",
+          "sure": "Klise + kg",
+          "fiyat": "Teklif"
+        },
+        {
+          "ad": "Numune & renk provası",
+          "sure": "3–5 iş günü",
+          "fiyat": "Ücretsiz keşif*"
+        }
       ]
     },
     "galeri": {
       "sayfaBaslik": "Galeri",
       "sayfaAciklama": "Referans görseller — panelden kendi fotoğraflarınızı yükleyebilirsiniz.",
       "images": [
-        { "src": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=1000&q=88&auto=format&fit=crop", "alt": "Valfli doypack ambalaj" },
-        { "src": "https://images.unsplash.com/photo-1706881811952-31148fe91adc?w=1000&q=88&auto=format&fit=crop", "alt": "Stand-up pouch formatları" },
-        { "src": "https://images.unsplash.com/photo-1703564202740-e9805c4a14ea?w=1000&q=88&auto=format&fit=crop", "alt": "Quadro yan körüklü ambalaj" },
-        { "src": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1000&q=88&auto=format&fit=crop", "alt": "Esnek ambalaj üretim hattı" },
-        { "src": "https://images.unsplash.com/photo-1773525912464-d2640e7aff9c?w=1000&q=88&auto=format&fit=crop", "alt": "Etiket ve ambalaj hattı" },
-        { "src": "https://images.unsplash.com/photo-1758183961426-88d64eb5f787?w=1000&q=88&auto=format&fit=crop", "alt": "Endüstriyel baskı makinesi" }
+        {
+          "src": "https://images.unsplash.com/photo-1706881811917-6590b1054050?w=1000&q=88&auto=format&fit=crop",
+          "alt": "Valfli doypack ambalaj"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1706881811952-31148fe91adc?w=1000&q=88&auto=format&fit=crop",
+          "alt": "Stand-up pouch formatları"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1703564202740-e9805c4a14ea?w=1000&q=88&auto=format&fit=crop",
+          "alt": "Quadro yan körüklü ambalaj"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1000&q=88&auto=format&fit=crop",
+          "alt": "Esnek ambalaj üretim hattı"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1773525912464-d2640e7aff9c?w=1000&q=88&auto=format&fit=crop",
+          "alt": "Etiket ve ambalaj hattı"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1758183961426-88d64eb5f787?w=1000&q=88&auto=format&fit=crop",
+          "alt": "Endüstriyel baskı makinesi"
+        }
       ]
     },
     "iletisim": {
@@ -257,10 +357,22 @@
       ],
       "guvenBaslik": "Neden ProPack?",
       "guven": [
-        { "baslik": "48 saat teklif", "aciklama": "Ölçü tablosu sonrası yazılı fiyat aralığı" },
-        { "baslik": "Numune & prova", "aciklama": "Baskı öncesi renk ve malzeme onayı" },
-        { "baslik": "Online hesap", "aciklama": "Kg/adet bazlı anlık tahmin motoru" },
-        { "baslik": "Esnek MOQ", "aciklama": "Stoklu rulo ve projeye özel üretim" }
+        {
+          "baslik": "48 saat teklif",
+          "aciklama": "Ölçü tablosu sonrası yazılı fiyat aralığı"
+        },
+        {
+          "baslik": "Numune & prova",
+          "aciklama": "Baskı öncesi renk ve malzeme onayı"
+        },
+        {
+          "baslik": "Online hesap",
+          "aciklama": "Kg/adet bazlı anlık tahmin motoru"
+        },
+        {
+          "baslik": "Esnek MOQ",
+          "aciklama": "Stoklu rulo ve projeye özel üretim"
+        }
       ],
       "sektorBaslik": "Sektöre göre çözümler",
       "sektorAciklama": "Kahve, atıştırmalık, sos ve endüstriyel dolum hatları için format önerisi sunuyoruz.",

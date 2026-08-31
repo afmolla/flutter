@@ -4,73 +4,165 @@
       "label": "Corporate",
       "href": "/en/p/en-about-us",
       "children": [
-        { "label": "About Us", "href": "/en/p/en-about-us" },
-        { "label": "Vision – Mission", "href": "/en/p/en-vision-mission" },
-        { "label": "Our Values", "href": "/en/p/en-our-values" },
-        { "label": "Our Policies", "href": "/en/p/en-our-policies" },
-        { "label": "News", "href": "/en/news" },
-        { "label": "Business Ethics Form", "href": "/en/p/en-business-ethics-form" }
+        {
+          "label": "About Us",
+          "href": "/en/p/en-about-us"
+        },
+        {
+          "label": "Vision – Mission",
+          "href": "/en/p/en-vision-mission"
+        },
+        {
+          "label": "Our Values",
+          "href": "/en/p/en-our-values"
+        },
+        {
+          "label": "Our Policies",
+          "href": "/en/p/en-our-policies"
+        },
+        {
+          "label": "News",
+          "href": "/en/news"
+        },
+        {
+          "label": "Business Ethics Form",
+          "href": "/en/p/en-business-ethics-form"
+        }
       ]
     },
     {
       "label": "Products",
       "href": "/en/products",
       "children": [
-        { "label": "Food", "href": "/en/product-groups/food" },
-        { "label": "Personal Care & Hygiene", "href": "/en/product-groups/personal-care-hygiene" },
-        { "label": "Pet Care", "href": "/en/product-groups/pet-care" },
-        { "label": "Industrial", "href": "/en/product-groups/industrial" }
+        {
+          "label": "Food",
+          "href": "/en/product-groups/food"
+        },
+        {
+          "label": "Personal Care & Hygiene",
+          "href": "/en/product-groups/personal-care-hygiene"
+        },
+        {
+          "label": "Pet Care",
+          "href": "/en/product-groups/pet-care"
+        },
+        {
+          "label": "Industrial",
+          "href": "/en/product-groups/industrial"
+        }
       ]
     },
     {
       "label": "Sustainability",
       "href": "/en/p/en-our-approach-to-sustainability",
       "children": [
-        { "label": "Our Approach to Sustainability", "href": "/en/p/en-our-approach-to-sustainability" },
-        { "label": "Sustainability Goals", "href": "/en/p/en-sustainability-goals" },
-        { "label": "Activities", "href": "/en/p/en-activities" }
+        {
+          "label": "Our Approach to Sustainability",
+          "href": "/en/p/en-our-approach-to-sustainability"
+        },
+        {
+          "label": "Sustainability Goals",
+          "href": "/en/p/en-sustainability-goals"
+        },
+        {
+          "label": "Activities",
+          "href": "/en/p/en-activities"
+        }
       ]
     },
     {
       "label": "Production",
       "href": "/en/p/en-technology",
       "children": [
-        { "label": "Technology", "href": "/en/p/en-technology" },
-        { "label": "Production Processes", "href": "/en/p/en-production-processes" },
-        { "label": "Packaging", "href": "/en/p/en-packaging" }
+        {
+          "label": "Technology",
+          "href": "/en/p/en-technology"
+        },
+        {
+          "label": "Production Processes",
+          "href": "/en/p/en-production-processes"
+        },
+        {
+          "label": "Packaging",
+          "href": "/en/p/en-packaging"
+        }
       ]
     },
     {
       "label": "Quality",
       "href": "/en/p/en-quality-control",
       "children": [
-        { "label": "Quality Control", "href": "/en/p/en-quality-control" },
-        { "label": "Test Laboratory", "href": "/en/p/en-test-laboratory" },
-        { "label": "Certificates", "href": "/en/p/en-certificates" }
+        {
+          "label": "Quality Control",
+          "href": "/en/p/en-quality-control"
+        },
+        {
+          "label": "Test Laboratory",
+          "href": "/en/p/en-test-laboratory"
+        },
+        {
+          "label": "Certificates",
+          "href": "/en/p/en-certificates"
+        }
       ]
     },
     {
       "label": "Human Resources",
       "href": "/en/p/en-human-resources-policy",
       "children": [
-        { "label": "HR Policy", "href": "/en/p/en-human-resources-policy" },
-        { "label": "Open Positions", "href": "/en/p/en-open-positions" },
-        { "label": "Job Application Form", "href": "/en/p/en-job-application-form" }
+        {
+          "label": "HR Policy",
+          "href": "/en/p/en-human-resources-policy"
+        },
+        {
+          "label": "Open Positions",
+          "href": "/en/p/en-open-positions"
+        },
+        {
+          "label": "Job Application Form",
+          "href": "/en/p/en-job-application-form"
+        }
       ]
     },
     {
       "label": "Contact",
       "href": "#",
-      "children": [{ "label": "Contact", "href": "/en/contact" }]
+      "children": [
+        {
+          "label": "Contact",
+          "href": "/en/contact"
+        }
+      ]
     }
   ],
   "footer": [
-    { "label": "Corporate", "href": "/en/p/en-about-us" },
-    { "label": "Products", "href": "/en/products" },
-    { "label": "Sustainability", "href": "/en/p/en-our-approach-to-sustainability" },
-    { "label": "Production", "href": "/en/p/en-technology" },
-    { "label": "Quality", "href": "/en/p/en-certificates" },
-    { "label": "Human Resources", "href": "/en/p/en-human-resources-policy" },
-    { "label": "Contact", "href": "/en/contact" }
+    {
+      "label": "Corporate",
+      "href": "/en/p/en-about-us"
+    },
+    {
+      "label": "Products",
+      "href": "/en/products"
+    },
+    {
+      "label": "Sustainability",
+      "href": "/en/p/en-our-approach-to-sustainability"
+    },
+    {
+      "label": "Production",
+      "href": "/en/p/en-technology"
+    },
+    {
+      "label": "Quality",
+      "href": "/en/p/en-certificates"
+    },
+    {
+      "label": "Human Resources",
+      "href": "/en/p/en-human-resources-policy"
+    },
+    {
+      "label": "Contact",
+      "href": "/en/contact"
+    }
   ]
 }

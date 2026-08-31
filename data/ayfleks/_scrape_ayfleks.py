@@ -310,24 +310,64 @@ def product_links_from_category(html: str, lang: str) -> list[str]:
     return links
 
 
-def parse_product(path: str, html: str, kategori_id: str) -> dict:
+def parse_product(path: str, html: str, kategori_id: str, lang: str = "tr") -> dict:
     soup = BeautifulSoup(html, "html.parser")
     section = soup.select_one("section.product-details")
     baslik = ""
     ozet = ""
     aciklama = ""
     image_src = ""
+    ozellikler: list[str] = []
+    sekmeler: list[dict] = []
+    galeri: list[str] = []
 
     if section:
         h1 = section.find("h1")
         baslik = clean_text(h1.get_text()) if h1 else ""
-        paras = section.find_all("p")
+        paras = section.find_all("p", recursive=False)
+        if not paras:
+            first_row = section.select_one(".container > .row")
+            if first_row:
+                paras = first_row.find_all("p")
         texts = [clean_text(p.get_text()) for p in paras if clean_text(p.get_text())]
         if texts:
             ozet = texts[0]
             aciklama = "\n\n".join(texts)
+
+        for sel in [".prd-dt-aciklama1", ".prd-dt-aciklama2", ".prd-dt-aciklama3"]:
+            el = section.select_one(sel)
+            if el:
+                t = clean_text(el.get_text())
+                if t:
+                    ozellikler.append(t)
+
+        for btn in section.select(".nav-tabs .nav-link"):
+            target = btn.get("data-bs-target") or btn.get("href") or ""
+            target = target.strip()
+            pane = None
+            if target:
+                pane = section.select_one(target) or soup.select_one(target)
+            if pane:
+                sekmeler.append(
+                    {
+                        "baslik": clean_text(btn.get_text()),
+                        "icerikHtml": serialize_content(pane),
+                    }
+                )
+
+        gallery = section.select_one(".urun-gallery-f") or soup.select_one(".urun-gallery-f")
+        if gallery:
+            for a in gallery.find_all("a", href=True):
+                href = a["href"].strip()
+                if "/images/" in href and "loader" not in href:
+                    galeri.append(abs_img(href))
+            for im in gallery.find_all("img"):
+                thumb = im.get("data-thumb-src") or im.get("src") or ""
+                if thumb and "loader" not in thumb and "/images/" in thumb:
+                    galeri.append(abs_img(thumb))
+        galeri = list(dict.fromkeys(galeri))
+
         img = section.select_one("img.pdt-main-img") or section.select_one(".pdt-prod img") or section.select_one("img.img-fluid")
-        # Prefer urunler images
         for im in section.find_all("img"):
             src = im.get("src") or ""
             if "/images/urunler/" in src or "/images/products/" in src:
@@ -338,8 +378,6 @@ def parse_product(path: str, html: str, kategori_id: str) -> dict:
     if not baslik:
         baslik = banner_h1(soup) or page_title_tag(soup)
 
-    # slug from product URL segment before id
-    # e.g. /urunler/1001/sekerleme-urunleri-ambalajlari/1003/gida.aspx
     parts = path.strip("/").split("/")
     slug = ""
     for i, part in enumerate(parts):
@@ -355,7 +393,11 @@ def parse_product(path: str, html: str, kategori_id: str) -> dict:
         "baslik": baslik,
         "ozet": ozet,
         "aciklama": aciklama,
+        "ozellikler": ozellikler,
+        "sekmeler": sekmeler,
+        "galeri": galeri,
         "imageSrc": image_src,
+        "locale": lang,
         "_sourcePath": path,
     }
 
@@ -506,7 +548,7 @@ def scrape_locale(lang: str) -> dict:
             print(f"    product {link}")
             try:
                 ph = fetch(link)
-                products.append(parse_product(link, ph, kat_id))
+                products.append(parse_product(link, ph, kat_id, lang))
             except Exception as e:  # noqa: BLE001
                 print(f"      ERROR: {e}")
             time.sleep(0.2)

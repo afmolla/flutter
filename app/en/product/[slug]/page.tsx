@@ -1,13 +1,20 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AyfleksPageHero, AyfleksShell } from "@/components/ayfleks/AyfleksShell";
+import { AyfleksProductDetail } from "@/components/ayfleks/AyfleksProductDetail";
 import { kategoriLabel, URUN_KATEGORILER } from "@/lib/urun-types";
 import { urunBySlug } from "@/lib/urun-store";
 import { siteUrl } from "@/lib/site";
 
 export const revalidate = 60;
 type Props = { params: Promise<{ slug: string }> };
+
+function enGrupHref(kategoriId: string): string {
+  if (kategoriId === "gida") return "/en/product-groups/food";
+  if (kategoriId === "kisisel-bakim") return "/en/product-groups/personal-care-hygiene";
+  if (kategoriId === "evcil-hayvan") return "/en/product-groups/pet-care";
+  return "/en/product-groups/industrial";
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -46,28 +53,17 @@ export default async function EnUrunDetayPage({ params }: Props) {
         crumbs={[
           { label: "Home", href: "/en" },
           { label: "Products", href: "/en/products" },
-          ...(kat ? [{ label: kategoriLabel(kat, "en"), href: `/en/product-groups/${kat.id === "gida" ? "food" : kat.id === "kisisel-bakim" ? "personal-care-hygiene" : kat.id === "evcil-hayvan" ? "pet-care" : "industrial"}` }] : []),
+          ...(kat ? [{ label: kategoriLabel(kat, "en"), href: enGrupHref(kat.id) }] : []),
           { label: u.baslik },
         ]}
       />
-      <div className="container content-page corporate-about">
-        <div className="row" style={{ marginTop: 48, marginBottom: 80 }}>
-          <div className="col-md-6">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={u.imageSrc} alt={u.imageAlt || u.baslik} className="img-fluid" style={{ borderRadius: 12 }} />
-          </div>
-          <div className="col-md-6">
-            <h1 style={{ fontSize: 36, fontWeight: 500 }}>{u.baslik}</h1>
-            <p style={{ color: "#60666B" }}>{u.ozet}</p>
-            {u.aciklama ? <div dangerouslySetInnerHTML={{ __html: u.aciklama.includes("<") ? u.aciklama : `<p>${u.aciklama}</p>` }} /> : null}
-            <p style={{ marginTop: 24 }}>
-              <Link href="/en/contact" className="btn-green" style={{ display: "inline-block", textAlign: "center" }}>
-                Request a Quote
-              </Link>
-            </p>
-          </div>
-        </div>
-      </div>
+      <AyfleksProductDetail
+        urun={u}
+        locale="en"
+        teklifHref="/en/contact"
+        teklifLabel="Request a Quote"
+        galeriBaslik="Product Photos"
+      />
     </AyfleksShell>
   );
 }

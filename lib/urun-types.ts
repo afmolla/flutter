@@ -11,12 +11,23 @@ export type UrunVaryant = {
 
 export type UrunKategoriId = "gida" | "kisisel-bakim" | "evcil-hayvan" | "endustriyel";
 
+export type UrunSekme = {
+  baslik: string;
+  icerikHtml: string;
+};
+
 export type UrunKayit = {
   id: string;
   slug: string;
   baslik: string;
   ozet: string;
   aciklama?: string;
+  /** Ürün detay sayfasındaki özellik kutuları (Soğuk Yapıştırma vb.) */
+  ozellikler?: string[];
+  /** Kullanım / Teknik / Opsiyon sekmeleri */
+  sekmeler?: UrunSekme[];
+  /** Ürün fotoğrafları galerisi */
+  galeri?: string[];
   kategoriId: UrunKategoriId;
   imageSrc: string;
   imageAlt?: string;

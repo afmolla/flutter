@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AyfleksPageHero, AyfleksShell } from "@/components/ayfleks/AyfleksShell";
+import { AyfleksProductDetail } from "@/components/ayfleks/AyfleksProductDetail";
 import { URUN_KATEGORILER } from "@/lib/urun-types";
 import { urunBySlug } from "@/lib/urun-store";
 import { siteUrl } from "@/lib/site";
@@ -50,24 +50,7 @@ export default async function UrunDetayPage({ params }: Props) {
           { label: u.baslik },
         ]}
       />
-      <div className="container content-page corporate-about">
-        <div className="row" style={{ marginTop: 48, marginBottom: 80 }}>
-          <div className="col-md-6">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={u.imageSrc} alt={u.imageAlt || u.baslik} className="img-fluid" style={{ borderRadius: 12 }} />
-          </div>
-          <div className="col-md-6">
-            <h1 style={{ fontSize: 36, fontWeight: 500 }}>{u.baslik}</h1>
-            <p style={{ color: "#60666B" }}>{u.ozet}</p>
-            {u.aciklama ? <div dangerouslySetInnerHTML={{ __html: u.aciklama.includes("<") ? u.aciklama : `<p>${u.aciklama}</p>` }} /> : null}
-            <p style={{ marginTop: 24 }}>
-              <Link href="/iletisim" className="btn-green" style={{ display: "inline-block", textAlign: "center" }}>
-                Teklif Al
-              </Link>
-            </p>
-          </div>
-        </div>
-      </div>
+      <AyfleksProductDetail urun={u} teklifHref="/iletisim" teklifLabel="Teklif Al" galeriBaslik="Ürün Fotoğrafları" />
     </AyfleksShell>
   );
 }

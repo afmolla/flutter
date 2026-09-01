@@ -1,0 +1,168 @@
+{
+  "header": [
+    {
+      "label": "Kurumsal",
+      "href": "/p/hakkimizda",
+      "children": [
+        {
+          "label": "Hakkımızda",
+          "href": "/p/hakkimizda"
+        },
+        {
+          "label": "Vizyon – Misyon",
+          "href": "/p/vizyon-misyon"
+        },
+        {
+          "label": "Değerlerimiz",
+          "href": "/p/degerlerimiz"
+        },
+        {
+          "label": "Politikalarımız",
+          "href": "/p/politikalarimiz"
+        },
+        {
+          "label": "Haberler",
+          "href": "/haberler"
+        },
+        {
+          "label": "İş Etiği Formu",
+          "href": "/p/is-etigi-formu"
+        }
+      ]
+    },
+    {
+      "label": "Ürünler",
+      "href": "/urunler",
+      "children": [
+        {
+          "label": "Gıda",
+          "href": "/urun-gruplarimiz/gida"
+        },
+        {
+          "label": "Kişisel Bakım & Hijyen",
+          "href": "/urun-gruplarimiz/kisisel-bakim-hijyen"
+        },
+        {
+          "label": "Evcil Hayvan Bakımı",
+          "href": "/urun-gruplarimiz/evcil-hayvan-bakimi"
+        },
+        {
+          "label": "Endüstriyel",
+          "href": "/urun-gruplarimiz/endustriyel"
+        }
+      ]
+    },
+    {
+      "label": "Sürdürülebilirlik",
+      "href": "/p/surdurulebilirlik-yaklasimi",
+      "children": [
+        {
+          "label": "Sürdürülebilirlik Yaklaşımı",
+          "href": "/p/surdurulebilirlik-yaklasimi"
+        },
+        {
+          "label": "Sürdürülebilirlik Hedefleri",
+          "href": "/p/surdurulebilirlik-hedefleri"
+        },
+        {
+          "label": "Faaliyetler",
+          "href": "/p/faaliyetler"
+        }
+      ]
+    },
+    {
+      "label": "Üretim",
+      "href": "/p/teknoloji",
+      "children": [
+        {
+          "label": "Teknoloji",
+          "href": "/p/teknoloji"
+        },
+        {
+          "label": "Üretim Süreçleri",
+          "href": "/p/uretim-surecleri"
+        },
+        {
+          "label": "Paketleme",
+          "href": "/p/paketleme"
+        }
+      ]
+    },
+    {
+      "label": "Kalite",
+      "href": "/p/kalite-kontrol",
+      "children": [
+        {
+          "label": "Kalite Kontrol",
+          "href": "/p/kalite-kontrol"
+        },
+        {
+          "label": "Test Laboratuvarı",
+          "href": "/p/test-laboratuvari"
+        },
+        {
+          "label": "Sertifikalar",
+          "href": "/p/sertifikalar"
+        }
+      ]
+    },
+    {
+      "label": "İnsan Kaynakları",
+      "href": "/p/insan-kaynaklari-politikasi",
+      "children": [
+        {
+          "label": "İK Politikası",
+          "href": "/p/insan-kaynaklari-politikasi"
+        },
+        {
+          "label": "Açık Pozisyonlar",
+          "href": "/p/acik-pozisyonlar"
+        },
+        {
+          "label": "İş Başvuru Formu",
+          "href": "/p/is-basvuru-formu"
+        }
+      ]
+    },
+    {
+      "label": "İletişim",
+      "href": "#",
+      "children": [
+        {
+          "label": "İletişim",
+          "href": "/iletisim"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "label": "Kurumsal",
+      "href": "/p/hakkimizda"
+    },
+    {
+      "label": "Ürünler",
+      "href": "/urunler"
+    },
+    {
+      "label": "Sürdürülebilirlik",
+      "href": "/p/surdurulebilirlik-yaklasimi"
+    },
+    {
+      "label": "Üretim",
+      "href": "/p/teknoloji"
+    },
+    {
+      "label": "Kalite",
+      "href": "/p/sertifikalar"
+    },
+    {
+      "label": "İnsan Kaynakları",
+      "href": "/p/insan-kaynaklari-politikasi"
+    },
+    {
+      "label": "İletişim",
+      "href": "/iletisim"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "ayarlar": {
+    "salonAd": "Ayfleks Ambalaj",
+    "whatsapp": "",
+    "iletisimWhatsapp": "",
+    "iletisimTelefon": "+90 282 255 53 30 (pbx)",
+    "iletisimFax": "+90 212 858 20 60-61",
+    "iletisimEposta": "info@ayfleks.com",
+    "iletisimEpostaExport": "export@ayfleks.com",
+    "adresKisa": "Kapaklı · Tekirdağ",
+    "adresDetay": "Çerkezköy Organize Sanayi Bölgesi Karaağaç Mahallesi 13.Sokak No:2A 59510 Kapaklı / TEKİRDAĞ",
+    "calismaSaatleri": "Hafta içi 08:30 — 18:30",
+    "sehir": "İstanbul",
+    "menuDavranis": "hover",
+    "footerSosyalGoster": true,
+    "seoTitle": "Ayfleks Ambalaj | Gıda, Kişisel Bakım, Evcil Hayvan ve Endüstriyel Ambalaj",
+    "seoDescription": "Ayfleks Ambalaj — 1974'ten beri gıda, kişisel bakım & hijyen, evcil hayvan bakımı ve endüstriyel ambalaj çözümleri. Sürdürülebilir, doğada çözünebilir ambalajlar.",
+    "seoKeywords": "Ayfleks, ambalaj, gıda ambalajı, kişisel bakım ambalajı, evcil hayvan ambalajı, endüstriyel ambalaj, sürdürülebilir ambalaj, esnek ambalaj",
+    "seoOgImage": "/images/banner/ayfleks-manset-banner_6f10c.webp",
+    "seoIndex": true,
+    "googleMaps": "",
+    "instagram": "https://www.instagram.com/ayfleks/",
+    "linkedin": "https://www.linkedin.com/company/ayflekspackaging/",
+    "facebook": "https://www.facebook.com/profile.php?id=61588071230724",
+    "youtube": "https://www.youtube.com/@AyfleksPackaging",
+    "panelSolMenuSabitle": true,
+    "panelSolMenuBaslangic": "acik"
+  }
+}

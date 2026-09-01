@@ -1,0 +1,47 @@
+import type { Metadata } from "next";
+import { AyfleksClientScripts } from "@/components/ayfleks/AyfleksClientScripts";
+import { AyfleksCookieBanner } from "@/components/ayfleks/AyfleksCookieBanner";
+import { AyfleksFooter } from "@/components/ayfleks/AyfleksFooter";
+import { AyfleksHeader } from "@/components/ayfleks/AyfleksHeader";
+import { AyfleksHomeSections } from "@/components/ayfleks/AyfleksHomeSections";
+import { AyfleksJsonLd } from "@/components/ayfleks/AyfleksJsonLd";
+import { AyfleksStyles } from "@/components/ayfleks/AyfleksStyles";
+import { ayfleksHomeGetir } from "@/lib/ayfleks-home-store";
+import { menuGetir } from "@/lib/menu-store";
+import { ayarlarGetir } from "@/lib/settings-store";
+import { siteUrl } from "@/lib/site";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const ayar = await ayarlarGetir();
+  const base = await siteUrl();
+  const title = ayar.seoTitle?.trim() || "Ayfleks Ambalaj";
+  const description = ayar.seoDescription?.trim() || "Ayfleks Ambalaj";
+  const ogImage = ayar.seoOgImage?.trim() || "/images/banner/ayfleks-manset-banner_6f10c.webp";
+  const ogAbs = ogImage.startsWith("http") ? ogImage : `${base.replace(/\/$/, "")}${ogImage}`;
+  return {
+    title,
+    description,
+    keywords: ayar.seoKeywords?.split(",").map((x) => x.trim()).filter(Boolean),
+    alternates: { canonical: base, languages: { tr: base, en: `${base.replace(/\/$/, "")}/en` } },
+    robots: ayar.seoIndex === false ? { index: false, follow: true } : { index: true, follow: true },
+    openGraph: { title, description, url: base, siteName: ayar.salonAd || "Ayfleks", locale: "tr_TR", type: "website", images: [{ url: ogAbs }] },
+    twitter: { card: "summary_large_image", title, description, images: [ogAbs] },
+  };
+}
+
+export default async function HomePage() {
+  const [ayar, menus, home] = await Promise.all([ayarlarGetir(), menuGetir(), ayfleksHomeGetir()]);
+  return (
+    <>
+      <AyfleksStyles />
+      <AyfleksClientScripts />
+      <AyfleksJsonLd ayar={ayar} />
+      <AyfleksHeader menu={menus.header} ayar={ayar} locale="tr" />
+      <main>
+        <AyfleksHomeSections home={home} />
+      </main>
+      <AyfleksFooter footerMenu={menus.footer} ayar={ayar} locale="tr" />
+      <AyfleksCookieBanner />
+    </>
+  );
+}

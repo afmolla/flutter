@@ -1,0 +1,402 @@
+/* Ayfleks overrides — orijinal siteye yakın davranış */
+
+html.ayfleks-site,
+html.ayfleks-site body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Header bar: logo | TR EN | hamburger */
+.header-content {
+  align-items: center;
+}
+.top-lang {
+  width: auto !important;
+  margin-top: 0 !important;
+  margin-left: auto;
+}
+.languages-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.languages-menu li a.ayf-lang-active {
+  color: #fff !important;
+}
+.site-header-inside .languages-menu li a {
+  color: #656868 !important;
+  border-color: #65686854;
+}
+.site-header-inside .languages-menu li {
+  border-right-color: #65686854;
+}
+.site-header-inside .languages-menu li a.ayf-lang-active {
+  color: #024B3D !important;
+}
+.site-header-inside .hamburger-nav {
+  color: #024B3D;
+}
+.ayf-bars-icon {
+  display: block;
+  color: inherit;
+}
+
+/* Overlay — sağdan açılır (main.css .overlay right:0); tam ekran yeşil */
+#myNav.overlay {
+  background-color: #39b54afc !important;
+  z-index: 120 !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#myNav.overlay.ayf-nav-open {
+  width: 100% !important;
+}
+
+/* Video lightbox */
+.ayf-video-trigger {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+}
+.ayf-video-trigger img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.25s ease;
+}
+.ayf-video-trigger:hover img {
+  filter: none;
+}
+.ayf-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.ayf-lightbox-frame {
+  position: relative;
+  width: min(960px, 100%);
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+}
+.ayf-lightbox-frame iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+.ayf-lightbox-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.55);
+  border: 0;
+  color: #fff;
+  font-size: 32px;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ayf-prod-row {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.ayf-kvkk-line {
+  text-align: end;
+  padding-top: 28px;
+}
+.ayf-kvkk-line a {
+  font-size: 14px;
+  color: #818181;
+  text-decoration: none;
+}
+
+/* Footer üst blok — main.css ile aynı (önceki küçültme kaldırıldı) */
+
+/* Hero slider — 1920x720 (37.5%), kaydırma + otomatik geçiş */
+.ayf-hero {
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+}
+.ayf-hero .owl-container {
+  position: relative;
+  width: 100%;
+}
+.ayf-hero-viewport {
+  position: relative;
+  width: 100%;
+  padding-top: 37.5%;
+  overflow: hidden;
+  cursor: grab;
+  user-select: none;
+}
+.ayf-hero-viewport:active {
+  cursor: grabbing;
+}
+.ayf-hero-track {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+.ayf-hero-track.is-animating {
+  transition: transform 0.5s ease;
+}
+.ayf-hero-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.ayf-hero-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.ayf-hero-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.ayf-hero-item .shadow {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.ayf-hero-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.ayf-hero-item .owl-manset-text {
+  z-index: 3;
+}
+.ayf-hero-dots {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 5;
+}
+.ayf-hero-dots button {
+  width: 38px;
+  height: 6px;
+  border: 0;
+  border-radius: 30px;
+  background: #fff;
+  opacity: 0.7;
+  padding: 0;
+  cursor: pointer;
+}
+.ayf-hero-dots button.active {
+  background: #3ab54b;
+  opacity: 1;
+}
+
+/* Mega menü — alt adres satırı menü sütunu ile hizalı */
+#myNav .overlay-content {
+  text-align: left;
+}
+#myNav .mega-menu .container {
+  max-width: 40%;
+  margin-left: 0;
+  margin-right: auto;
+}
+#myNav .main-menu-address.container {
+  max-width: 40%;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+#myNav .menu-adds {
+  width: 100%;
+}
+
+/* Taşan geniş görseller */
+.main-fleks-s1,
+.main-fleks-s1 img,
+.main-fleks-s3 img {
+  max-width: 100%;
+}
+
+/* Cookie — ayfleks.com wrapper-tkpn (sağ altta küçük panel) */
+.wrapper-tkpn {
+  position: fixed;
+  bottom: 50px;
+  right: -370px;
+  max-width: 345px;
+  width: calc(100% - 40px);
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 80;
+}
+.wrapper-tkpn.show {
+  right: 20px;
+}
+.wrapper-tkpn header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.wrapper-tkpn header .ayf-cookie-icon {
+  flex-shrink: 0;
+  color: #39b54a;
+}
+.wrapper-tkpn header h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+.wrapper-tkpn .data {
+  margin-top: 16px;
+}
+.wrapper-tkpn .data p {
+  color: #333;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.45;
+}
+.wrapper-tkpn .data p a {
+  color: #39b54a;
+  text-decoration: none;
+}
+.wrapper-tkpn .data p a:hover {
+  text-decoration: underline;
+}
+.wrapper-tkpn .buttons {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.wrapper-tkpn .buttons .button {
+  border: none;
+  color: #fff;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: #39b54a;
+  cursor: pointer;
+  width: calc(50% - 6px);
+  transition: all 0.2s ease;
+  font-size: 14px;
+  font-weight: 600;
+}
+.wrapper-tkpn .buttons #acceptBtn:hover {
+  background-color: #000;
+}
+.wrapper-tkpn #declineBtn {
+  background-color: #fff;
+  color: #757575;
+  border: 1px solid #ddd;
+}
+.wrapper-tkpn #declineBtn:hover {
+  background-color: #bababa;
+  color: #fff;
+  border-color: #bababa;
+}
+
+.ayf-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+  margin: 40px 0 80px;
+}
+.ayf-product-card {
+  text-decoration: none;
+  color: inherit;
+}
+.ayf-product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.ayf-product-card h3 {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #024b3d;
+}
+
+@media only screen and (max-width: 767px) {
+  .ayf-hero-viewport {
+    padding-top: 56vw;
+  }
+  .ayf-lightbox {
+    padding: 12px;
+  }
+  .wrapper-tkpn {
+    max-width: 320px;
+  }
+  .wrapper-tkpn.show {
+    right: 12px;
+  }
+  .footer-alt .footer-mul li {
+    padding-left: 0;
+  }
+  .footer-alt .f-line2 {
+    margin-top: 48px;
+  }
+  #myNav .mega-menu .container,
+  #myNav .main-menu-address.container {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  #myNav .d-flex.align-items-start {
+    flex-direction: row;
+    align-items: flex-start !important;
+  }
+  #myNav #v-pills-tab {
+    max-width: 46%;
+    padding: 4px 4px 4px 8px;
+  }
+  #myNav .nav-pills .nav-link {
+    font-size: 18px;
+    padding: 8px 4px 12px 24px;
+  }
+  #myNav .tab-pane a {
+    font-size: 15px;
+    padding: 8px 4px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #myNav .nav-pills .nav-link {
+    font-size: 16px;
+  }
+  #myNav .tab-pane a {
+    font-size: 14px;
+  }
+}

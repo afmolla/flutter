@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CmsSayfaBody } from "@/components/CmsSayfaBody";
+import { AyfleksKurumsalSubnav } from "@/components/ayfleks/AyfleksKurumsalSubnav";
 import { AyfleksPageHero, AyfleksShell } from "@/components/ayfleks/AyfleksShell";
+import { isKurumsalSubnavPage } from "@/lib/kurumsal-nav";
 import { sayfaBySlug } from "@/lib/pages-store";
 import { siteUrl } from "@/lib/site";
 
@@ -26,7 +28,11 @@ export default async function EnCmsPage({ params }: Props) {
   if (!s || !s.yayin) notFound();
   return (
     <AyfleksShell inside locale="en">
-      <AyfleksPageHero title={s.baslik} crumbs={[{ label: "Home", href: "/en" }, { label: s.baslik }]} />
+      <AyfleksPageHero
+        title={s.baslik}
+        crumbs={[{ label: "Home", href: "/en" }, { label: s.baslik }]}
+        subnav={isKurumsalSubnavPage(slug, "en") ? <AyfleksKurumsalSubnav activeSlug={slug} locale="en" /> : undefined}
+      />
       <div className="container content-page corporate-about">
         <div className="row">
           <div className="col-md-10">

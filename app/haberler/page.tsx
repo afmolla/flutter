@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AyfleksKurumsalSubnav } from "@/components/ayfleks/AyfleksKurumsalSubnav";
 import { AyfleksPageHero, AyfleksShell } from "@/components/ayfleks/AyfleksShell";
 import { yayinHaberler } from "@/lib/haber-store";
 import { siteUrl } from "@/lib/site";
@@ -17,7 +18,11 @@ export default async function HaberlerPage() {
   const list = await yayinHaberler("tr");
   return (
     <AyfleksShell inside>
-      <AyfleksPageHero title="Haberler" crumbs={[{ label: "Anasayfa", href: "/" }, { label: "Haberler" }]} />
+      <AyfleksPageHero
+        title="Haberler"
+        crumbs={[{ label: "Anasayfa", href: "/" }, { label: "Haberler" }]}
+        subnav={<AyfleksKurumsalSubnav activeSlug="haberler" />}
+      />
       <div className="container content-page">
         <div className="ayf-product-grid">
           {list.map((h) => (

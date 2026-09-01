@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AyfleksKurumsalSubnav } from "@/components/ayfleks/AyfleksKurumsalSubnav";
 import { AyfleksPageHero, AyfleksShell } from "@/components/ayfleks/AyfleksShell";
 import { yayinHaberler } from "@/lib/haber-store";
 import { siteUrl } from "@/lib/site";
@@ -17,7 +18,11 @@ export default async function EnNewsPage() {
   const list = await yayinHaberler("en");
   return (
     <AyfleksShell inside locale="en">
-      <AyfleksPageHero title="News" crumbs={[{ label: "Home", href: "/en" }, { label: "News" }]} />
+      <AyfleksPageHero
+        title="News"
+        crumbs={[{ label: "Home", href: "/en" }, { label: "News" }]}
+        subnav={<AyfleksKurumsalSubnav activeSlug="en-news" locale="en" />}
+      />
       <div className="container content-page">
         <div className="ayf-product-grid">
           {list.map((h) => (

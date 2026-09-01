@@ -1,9 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { AyfleksHome } from "@/lib/ayfleks-home-store";
 import { AyfleksVideoLightbox } from "@/components/ayfleks/AyfleksVideoLightbox";
+
+const AUTOPLAY_MS = 8000;
+const SWIPE_THRESHOLD = 48;
 
 const COPY = {
   tr: {
@@ -24,26 +27,104 @@ const COPY = {
   },
 };
 
-export function AyfleksHomeSections({ home, locale = "tr" }: { home: AyfleksHome; locale?: "tr" | "en" }) {
+function AyfleksHeroSlider({ slides, locale }: { slides: AyfleksHome["slider"]; locale: "tr" | "en" }) {
   const [idx, setIdx] = useState(0);
-  const slides = home.slider;
+  const [dragPx, setDragPx] = useState(0);
+  const [animating, setAnimating] = useState(false);
+  const dragging = useRef(false);
+  const startX = useRef(0);
+  const widthRef = useRef(0);
+  const viewportRef = useRef<HTMLDivElement>(null);
+  const pauseUntil = useRef(0);
   const t = COPY[locale];
+
+  const go = useCallback(
+    (next: number) => {
+      if (slides.length < 2) return;
+      setAnimating(true);
+      setIdx(((next % slides.length) + slides.length) % slides.length);
+      setDragPx(0);
+      pauseUntil.current = Date.now() + AUTOPLAY_MS;
+    },
+    [slides.length],
+  );
+
+  const goNext = useCallback(() => go(idx + 1), [go, idx]);
+  const goPrev = useCallback(() => go(idx - 1), [go, idx]);
 
   useEffect(() => {
     if (slides.length < 2) return;
-    const timer = setInterval(() => setIdx((i) => (i + 1) % slides.length), 5500);
+    const timer = setInterval(() => {
+      if (Date.now() < pauseUntil.current || dragging.current) return;
+      goNext();
+    }, AUTOPLAY_MS);
     return () => clearInterval(timer);
-  }, [slides.length]);
+  }, [slides.length, goNext]);
+
+  useEffect(() => {
+    const el = viewportRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => {
+      widthRef.current = el.clientWidth;
+    });
+    ro.observe(el);
+    widthRef.current = el.clientWidth;
+    return () => ro.disconnect();
+  }, []);
+
+  const onPointerDown = (clientX: number) => {
+    dragging.current = true;
+    startX.current = clientX;
+    setAnimating(false);
+    pauseUntil.current = Date.now() + AUTOPLAY_MS * 2;
+  };
+
+  const onPointerMove = (clientX: number) => {
+    if (!dragging.current) return;
+    setDragPx(clientX - startX.current);
+  };
+
+  const onPointerUp = () => {
+    if (!dragging.current) return;
+    dragging.current = false;
+    const w = widthRef.current || 1;
+    if (dragPx <= -SWIPE_THRESHOLD) goNext();
+    else if (dragPx >= SWIPE_THRESHOLD) goPrev();
+    else {
+      setAnimating(true);
+      setDragPx(0);
+    }
+  };
+
+  const offsetPct = slides.length ? (dragPx / Math.max(widthRef.current, 1)) * 100 : 0;
 
   return (
-    <>
-      <section className="owl-manset ayf-hero">
-        <div className="owl-container">
-          <div className="ayf-hero-track">
+    <section className="owl-manset ayf-hero">
+      <div className="owl-container">
+        <div
+          ref={viewportRef}
+          className="ayf-hero-viewport"
+          onMouseDown={(e) => onPointerDown(e.clientX)}
+          onMouseMove={(e) => {
+            if (dragging.current) e.preventDefault();
+            onPointerMove(e.clientX);
+          }}
+          onMouseUp={onPointerUp}
+          onMouseLeave={() => {
+            if (dragging.current) onPointerUp();
+          }}
+          onTouchStart={(e) => onPointerDown(e.touches[0]?.clientX ?? 0)}
+          onTouchMove={(e) => onPointerMove(e.touches[0]?.clientX ?? 0)}
+          onTouchEnd={onPointerUp}
+          style={{ touchAction: "pan-y" }}
+        >
+          <div
+            className={`ayf-hero-track${animating ? " is-animating" : ""}`}
+            style={{ transform: `translateX(calc(-${idx * 100}% + ${offsetPct}%))` }}
+          >
             {slides.map((slide, i) => {
-              const active = i === idx;
               const inner = (
-                <div className={`item ayf-hero-item ${active ? "is-active" : ""}`} aria-hidden={!active}>
+                <div className="ayf-hero-item">
                   <div className="shadow" />
                   {slide.h1 ? (
                     <div className="owl-manset-text">
@@ -56,30 +137,49 @@ export function AyfleksHomeSections({ home, locale = "tr" }: { home: AyfleksHome
                     src={slide.image}
                     alt={slide.imageAlt || slide.h1 || "Ayfleks"}
                     width={1920}
-                    height={900}
+                    height={720}
                     decoding={i === 0 ? "sync" : "async"}
                     fetchPriority={i === 0 ? "high" : "low"}
+                    draggable={false}
                   />
                 </div>
               );
-              return slide.href ? (
-                <Link key={slide.id} href={slide.href} className="ayf-hero-link" tabIndex={active ? 0 : -1}>
-                  {inner}
-                </Link>
-              ) : (
-                <div key={slide.id} className="ayf-hero-link">
-                  {inner}
+              return (
+                <div key={slide.id} className="ayf-hero-slide">
+                  {slide.href ? (
+                    <Link href={slide.href} className="ayf-hero-link" tabIndex={i === idx ? 0 : -1}>
+                      {inner}
+                    </Link>
+                  ) : (
+                    <div className="ayf-hero-link">{inner}</div>
+                  )}
                 </div>
               );
             })}
           </div>
-          <div className="ayf-hero-dots">
-            {slides.map((s, i) => (
-              <button key={s.id} type="button" aria-label={t.slide(i)} className={i === idx ? "active" : ""} onClick={() => setIdx(i)} />
-            ))}
-          </div>
         </div>
-      </section>
+        <div className="ayf-hero-dots">
+          {slides.map((s, i) => (
+            <button
+              key={s.id}
+              type="button"
+              aria-label={t.slide(i)}
+              className={i === idx ? "active" : ""}
+              onClick={() => go(i)}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function AyfleksHomeSections({ home, locale = "tr" }: { home: AyfleksHome; locale?: "tr" | "en" }) {
+  const t = COPY[locale];
+
+  return (
+    <>
+      <AyfleksHeroSlider slides={home.slider} locale={locale} />
 
       <section className="about-us">
         <div className="container">

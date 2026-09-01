@@ -128,48 +128,9 @@ html.ayfleks-site body {
   text-decoration: none;
 }
 
-/* Footer üst blok — ayfleks.com boyutları (link + sosyal daha kompakt) */
-.footer-alt .footer-logo {
-  width: 128px;
-  max-width: 128px;
-  height: auto;
-}
-.footer-alt .footer-mul li {
-  padding-left: 32px;
-}
-.footer-alt .footer-mul a,
-.footer-alt .f-line2 a {
-  font-size: 14px;
-  font-weight: 400;
-  color: #818181;
-  text-decoration: none;
-}
-.footer-alt .copyright-text {
-  font-size: 14px;
-  color: #818181;
-}
-.footer-alt .f-social {
-  margin-top: 20px;
-}
-.footer-alt .f-social .col-md-4 {
-  width: auto;
-  max-width: none;
-  flex: 0 0 auto;
-}
-.footer-alt .f-social .col {
-  flex: 0 0 auto;
-  width: auto;
-  padding: 0 10px;
-}
-.footer-alt .f-social .fa-brands {
-  font-size: 22px;
-  color: #024b3d;
-}
-.footer-alt .f-line2 {
-  margin-top: 96px;
-}
+/* Footer üst blok — main.css ile aynı (önceki küçültme kaldırıldı) */
 
-/* Hero slider — siyah boşluk yok, owl-manset ile uyumlu */
+/* Hero slider — 1920x720 (37.5%), kaydırma + otomatik geçiş */
 .ayf-hero {
   position: relative;
   overflow: hidden;
@@ -179,27 +140,45 @@ html.ayfleks-site body {
   position: relative;
   width: 100%;
 }
-.ayf-hero-track {
+.ayf-hero-viewport {
   position: relative;
   width: 100%;
-  padding-top: 46.875%;
+  padding-top: 37.5%;
+  overflow: hidden;
+  cursor: grab;
+  user-select: none;
+}
+.ayf-hero-viewport:active {
+  cursor: grabbing;
+}
+.ayf-hero-track {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+.ayf-hero-track.is-animating {
+  transition: transform 0.5s ease;
+}
+.ayf-hero-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .ayf-hero-link {
   display: block;
+  width: 100%;
+  height: 100%;
   color: inherit;
   text-decoration: none;
 }
 .ayf-hero-item {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 0.55s ease;
-  pointer-events: none;
-}
-.ayf-hero-item.is-active {
-  opacity: 1;
-  z-index: 2;
-  pointer-events: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 .ayf-hero-item .shadow {
   position: absolute;
@@ -207,8 +186,6 @@ html.ayfleks-site body {
   z-index: 1;
 }
 .ayf-hero-item img {
-  position: absolute;
-  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -239,6 +216,26 @@ html.ayfleks-site body {
 .ayf-hero-dots button.active {
   background: #3ab54b;
   opacity: 1;
+}
+
+/* Mega menü — alt adres satırı menü sütunu ile hizalı */
+#myNav .overlay-content {
+  text-align: left;
+}
+#myNav .mega-menu .container {
+  max-width: 40%;
+  margin-left: 0;
+  margin-right: auto;
+}
+#myNav .main-menu-address.container {
+  max-width: 40%;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+#myNav .menu-adds {
+  width: 100%;
 }
 
 /* Taşan geniş görseller */
@@ -353,8 +350,8 @@ html.ayfleks-site body {
 }
 
 @media only screen and (max-width: 767px) {
-  .ayf-hero-track {
-    padding-top: 70vw;
+  .ayf-hero-viewport {
+    padding-top: 56vw;
   }
   .ayf-lightbox {
     padding: 12px;
@@ -370,6 +367,12 @@ html.ayfleks-site body {
   }
   .footer-alt .f-line2 {
     margin-top: 48px;
+  }
+  #myNav .mega-menu .container,
+  #myNav .main-menu-address.container {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   #myNav .d-flex.align-items-start {
     flex-direction: row;

@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CmsSayfaBody } from "@/components/CmsSayfaBody";
+import { AyfleksKurumsalSubnav } from "@/components/ayfleks/AyfleksKurumsalSubnav";
 import { AyfleksPageHero, AyfleksShell } from "@/components/ayfleks/AyfleksShell";
+import { isKurumsalSubnavPage } from "@/lib/kurumsal-nav";
 import { AyfleksJsonLd } from "@/components/ayfleks/AyfleksJsonLd";
 import { sayfaBySlug } from "@/lib/pages-store";
 import { ayarlarGetir } from "@/lib/settings-store";
@@ -36,7 +38,11 @@ export default async function CmsPage({ params }: Props) {
   return (
     <AyfleksShell inside>
       <AyfleksJsonLd ayar={ayar} />
-      <AyfleksPageHero title={s.baslik} crumbs={[{ label: "Anasayfa", href: "/" }, { label: s.baslik }]} />
+      <AyfleksPageHero
+        title={s.baslik}
+        crumbs={[{ label: "Anasayfa", href: "/" }, { label: s.baslik }]}
+        subnav={isKurumsalSubnavPage(slug, "tr") ? <AyfleksKurumsalSubnav activeSlug={slug} /> : undefined}
+      />
       <div className="container content-page inside-text corporate-about">
         <div className="row">
           <div className="col-md-10">
